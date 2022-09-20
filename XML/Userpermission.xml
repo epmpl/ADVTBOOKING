@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+	<table>
+		<tr>User Name&lt;font color=red&gt;*[F2]&lt;/Font&gt;</tr>
+		<tr1>Scheduling Head&lt;font color=red&gt;*&lt;/Font&gt;</tr1>
+    <tr2>Role</tr2>
+    <tr3>From O/S Balance</tr3>
+    <tr4>To O/S Balance</tr4>
+    <tr5>No. Of Times</tr5>
+    <tr6>Period</tr6>
+	</table>
+
+  <table1>
+    <tr>Scheduling Head</tr>
+    <tr1>Allow Block Agency</tr1>
+    <tr2>Allow Unblock Agency</tr2>
+    <tr3>Allow to change Insertion Fee</tr3>
+    <tr4>Allow to change Late Fee</tr4>
+    <tr5>Allow to change Incentives</tr5>
+    <tr6>Allow to Unfinalize Supply Orders</tr6>
+    <tr7>Allow to Mark Bills Undisputed</tr7>
+    <tr8>Allow  to change Expenses CN</tr8>
+    <tr9>Allow to Select Old Date Rates</tr9>
+    <td10>Allow Unsold Cancellation Before Approval</td10>
+    <td11>Allow Unsold Cancellation After Approval</td11>
+    <td12>Allow Editing Discount Item Line Wise In Transaction</td12>
+    <td13>Not Allow Reset Paid Insertion In Transaction</td13>
+    <td14>Enable Bill Hold In Transaction</td14>
+    <td15>Enable Adcat and Subcat After Billed</td15>
+	  <td16>Client Register Required in Transaction</td16>
+	  <td17>Do Not Give Alert to Super Users For Production Days In Transaction</td17>
+    <td18>Edit Agency to Super Users After Confirm In QBC</td18>
+    <td19>Online Ad Free With Print</td19>
+    <td20>Permission for changing Agency After Published</td20>
+    <td21>Allow FMG Booking</td21>
+    <tr22>Allow Copy Booking</tr22>
+  </table1>
+      
+      
+</newdata>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+	<table>
+		<td>Comp Name&lt;font color=red&gt;*&lt;/Font&gt;</td>
+		<td1>Comp Code &lt;font color=red&gt;*&lt;/Font&gt;</td1>
+		<td2>UserId&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td2>
+
+		<td3>UserId Code&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+		
+		
+		<td4>Machine Name &lt;font color=red&gt;*&lt;/Font&gt;</td4>
+		<td5>Machine IP&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+
+		<td6>MAC Address&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+		<td7>Remark</td7>
+		<td8>Location</td8>
+		<td9>First Name</td9>
+		<td10>Last Name</td10>
+		<td11>Branch Name</td11>
+
+
+	</table>
+
+
+	<table1>
+
+		<td>Sr.No.</td>
+		<td1>User ID</td1>
+		<td2>User Name</td2>
+		<td3>Machine Name</td3>
+		<td4>Machine IP</td4>
+		<td5>MAC ID</td5>
+		
+
+
+	</table1>
+
+</newdata>

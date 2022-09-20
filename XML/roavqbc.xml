@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<NewDataSet>
+	<table>
+		<td>Agency Name&lt;font color=red&gt;[F2]*&lt;/font&gt;</td>
+		<td1>Issue Date&lt;font color=red&gt;*&lt;/font&gt;</td1>
+		<td2>Issue No.&lt;font color=red&gt;*&lt;/font&gt;</td2>
+		<td3>From Ro No.&lt;font color=red&gt;*&lt;/font&gt;</td3>
+		<td4>Till Ro No.&lt;font color=red&gt;*&lt;/font&gt;</td4>
+		<td5>Status</td5>
+		<!--<td3>NAME$~$TV_AD_BANNER</td3>-->
+		<td6>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$CREATED_BY$~$CREATED_DT$~$basedon$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td6>
+		<td7>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$UPDATED_BY$~$UPDATED_DT$~$basedon$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td7>
+		<td8>COMP_CODE$~$ISSUE_NO</td8>
+		<td9>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$basedon$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td9>
+		<td10>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$CREATED_BY$~$CREATED_DT$~$basedon$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td10>
+    <td11>BasedOn</td11>
+    
+    <!--<td12>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$CREATED_BY$~$CREATED_DT$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td12>
+		<td13>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$UPDATED_BY$~$UPDATED_DT$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td13>
+		<td14>COMP_CODE$~$ISSUE_NO</td14>
+		<td15>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$ISSUE_NO$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td15>
+		<td16>COMP_CODE$~$TYP$~$CODE_SUBCODE$~$ISSUE_DT$~$RONO_FROM$~$RONO_TILL$~$STATUS$~$CREATED_BY$~$CREATED_DT$~$RO_BOOK_ALLOTMENT$~$INSERT#UPDATE#DELETE#</td16>-->
+    
+		<!--<td5>UNIT$~$COMP_CODE$~$BANNER$~$NAME$~$REMARK$~$TV_AD_BANNER$~$INSERT#UPDATE#DELETE#</td5>
+		<td6>COMP_CODE$~$BANNER</td6>
+		<td7>BANNER$~$TV_AD_BANNER$~$INSERT#UPDATE#DELETE#SELECT</td7>-->
+	</table>
+
+
+	<table1>
+
+		<td>Active</td>
+		<td1>A</td1>
+		<td2>Inactive</td2>
+		<td3>I</td3>
+
+	</table1>
+
+
+  <table2>
+
+    <td>Agency</td>
+    <td1>A</td1>
+    <td2>Executive</td2>
+    <td3>E</td3>
+
+  </table2>
+</NewDataSet>

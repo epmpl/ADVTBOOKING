@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+  <table>
+    <tr>Retina-B03</tr>
+    <!-- for font name-->
+    <tr1>5</tr1>
+    <!--0 for 1st word word and 1 for 1st line bold and 3 for 3 word bold-->
+    <tr2>7.5</tr2>
+    <!-- for font size-->
+    <tr3>2</tr3>
+    <!-- for dropcap length-->
+  </table>
+  <normal>
+    <!--for fone name for normal-->
+    <tr4>Retina-B03</tr4>
+    <!--for font size-->
+    <tr5>7</tr5>
+    <!--for font leader-->
+    <tr6>7.5</tr6>
+    <!--font height-->
+    <tr7>105%</tr7>
+    <!--font color-->
+    <tr8>cyan</tr8>
+
+
+
+  </normal>
+  <bold>
+
+    <!--for fone name for normal-->
+    <tr9>Retina-B09</tr9>
+    <!--for font size-->
+    <tr10>7</tr10>
+    <!--for font leader-->
+    <tr11>7.5</tr11>
+    <!--font height-->
+    <tr12>105%</tr12>
+    <!--font color-->
+    <tr13>cyan</tr13>
+
+  </bold>
+
+  <dropcap>
+    <!--font family-->
+    <tr14>Retina-B09</tr14>
+    <!--fontheight of dropcap-->
+    <tr15>3</tr15>
+
+
+  </dropcap>
+
+</newdata>

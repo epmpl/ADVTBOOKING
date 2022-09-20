@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+
+  <td1>Effective From&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+  <td2>Fixed Commission Rate %&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+  <td3>Effective To&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+  <td4>Commission Apply On&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+  <!--<td5>Effective From Date</td5>-->
+  <td6>Submit</td6>
+  <td7>Clear</td7>
+   <ff>Close</ff>
+  <mcgf>Delete</mcgf>
+  <td10>From Amount</td10>
+  <td11>To Amount</td11>
+	<td12>Additional Commission Rate</td12>
+</root>

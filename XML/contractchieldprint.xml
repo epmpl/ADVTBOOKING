@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Ad Type&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td>
+    <td1>Hue&lt;font color=red&gt;[F2]&lt;/Font&gt;</td1>
+    <td2>Uom&lt;font color=red&gt;[F2]&lt;/Font&gt;</td2>
+    <td3>Package&lt;font color=red&gt;&lt;/Font&gt;</td3>
+    <td5>Category&lt;font color=red&gt;[F2]&lt;/Font&gt;</td5>
+    <td6>Premium&lt;font color=red&gt;[F2]&lt;/Font&gt;</td6>
+    <td7>Card Prem</td7>
+    <td8>Contract Prem</td8>
+    <td9>Position Prem&lt;font color=red&gt;[F2]&lt;/Font&gt;</td9>
+    <td10>Card Pos Prem</td10>
+    <td11>Contract Pos Prem</td11>
+    <td12>Card Rate&lt;font color=red&gt;&lt;/Font&gt;</td12>
+    <td13>Deviation</td13>
+    <td14>Contract Amount&lt;font color=red&gt;&lt;/Font&gt;</td14>
+    <td15>Disc Type&lt;font color=red&gt;[F2]&lt;/Font&gt;</td15>
+    <td16>Disc. Per.</td16>
+    <td17>Disc On&lt;font color=red&gt;[F2]&lt;/Font&gt;</td17>
+    <td18>Min Size</td18>
+    <td19>Max Size</td19>
+    <td20>Value From</td20>
+    <td21>Value To</td21>
+    <td22>Day&lt;font color=red&gt;[F2]&lt;/Font&gt;</td22>
+    <td23>Insertion</td23>
+    <td24>Comm. Allow &lt;font color=red&gt;[F2]&lt;/Font&gt;</td24>
+    <td25>Deal Start&lt;font color=red&gt;[F2]&lt;/Font&gt;</td25>
+    <td26>Rate Code&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td26>
+    <td27>Total Rate</td27>
+    <td28>Incentive</td28>
+    <td29>Remarks</td29>
+    <td30>Currency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td30>
+    <td31>Status&lt;font color=red&gt;[F2]&lt;/Font&gt;</td31>
+    <td32>Contract rate</td32>
+	  <td33>To Insertion</td33>
+	  <td34>Barter&lt;font color=red&gt;[F2]&lt;/Font&gt;</td34>
+  </table>
+</database>

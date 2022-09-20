@@ -1,0 +1,273 @@
+CREATE OR REPLACE PACKAGE BODY websp_bindorderwise
+IS
+   PROCEDURE websp_bindorderwise_p (
+fromdate IN varchar2,
+todate IN varchar2,
+date1 IN varchar2,
+branch IN varchar2,
+adtype IN varchar2,
+publication in varchar2,
+pub_cent in varchar2,
+edition in varchar2,
+agency in varchar2,
+client in varchar2,
+branchnew in varchar,
+v_retainer in varchar,
+v_executive in varchar,
+v_supplement in varchar,
+v_insert_status in varchar,
+p_accounts   OUT      t_accounts_cursor
+   )
+
+
+
+
+IS
+
+
+
+query1 VARCHAR2(10000);
+VAR_DATE date;
+puom_code varchar2(200);
+
+
+
+
+
+BEGIN
+puom_code:='CD';
+
+
+
+SELECT  TO_CHAR(LAST_DAY(todate))  into VAR_DATE FROM DUAL;
+
+
+
+if(v_insert_status ='publish')
+then
+
+query1:='select distinct tbl_booking_insert."Cio_Booking_Id" as "cio_booking_id",
+nvl((select distinct cust_mast."Cust_Alias" from cust_mast  where  cust_mast."Cust_Code"=tbl_booking_mast."Client_code"),"Client_code") as "client",
+AGENCY_MAST."Agency_Name" as "Agency",
+tbl_booking_mast."Gross_amount" as "gross_amount",
+CASE '||''''||date1||''''|| '
+ WHEN ''mm/dd/yyyy'' THEN TO_CHAR("Insertion_date",''mm/dd/yyyy'')
+WHEN ''dd/mm/yyyy'' THEN TO_CHAR("Insertion_date",''dd/mm/yyyy'')
+WHEN ''yyyy/mm/dd'' THEN TO_CHAR("Insertion_date",''yyyy/mm/dd'')  END AS "Ins.date",
+tbl_booking_mast."RO_No",
+COL_MAST."Col_Alias" as "Col_Name",
+tbl_booking_MAST."Ad_size_type_code"    AS   "Size_Book",
+tbl_booking_MAST ."Agrred_rate"     AS "Agreed_Rate",
+tbl_booking_MAST . "Bill_amount"  AS   "Bill_Amt",
+"Ad_size_height" AS "Height", "Ad_size_width" AS "Width",
+
+(SELECT count(tbl_booking_insert."Insert_Id") FROM  tbl_booking_insert WHERE tbl_booking_mast."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id" AND
+"Insert_Date" between '||''''||fromdate||''''|| ' and '||''''||VAR_DATE||''''|| '   and  TBL_BOOKING_INSERT."Insert_Status" not in(''audit by rate'',''billed'',''cancel'')) as "TotalCount"
+
+
+,(SELECT count(tbl_booking_insert."Insert_Id") FROM  tbl_booking_insert WHERE tbl_booking_mast."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id" AND
+"Insert_Date" between '||''''||fromdate||''''|| ' and '||''''||VAR_DATE||''''|| ' and  TBL_BOOKING_INSERT."Insert_Status" =''publish''  and  TBL_BOOKING_INSERT."Insert_Status" ! =''cancel'' and  TBL_BOOKING_INSERT."Insert_Status" ! =''audit by rate'' )as "PublishCount"
+
+
+
+from tbl_booking_insert,
+tbl_booking_mast,
+COL_MAST,
+agency_mast where tbl_booking_mast ."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id"  and
+ TBL_BOOKING_MAST."Color_code"=COL_MAST."Col_Code"  AND
+ agency_mast."code_subcode"=tbl_booking_mast."Agency_sub_code"';
+
+end if;
+
+
+if(v_insert_status ='audit by rate')
+then
+
+query1:='select distinct tbl_booking_insert."Cio_Booking_Id" as "cio_booking_id",
+nvl((select distinct cust_mast."Cust_Alias" from cust_mast  where  cust_mast."Cust_Code"=tbl_booking_mast."Client_code"),"Client_code") as "client",
+AGENCY_MAST."Agency_Name" as "Agency",
+tbl_booking_mast."Gross_amount" as "gross_amount",
+CASE '||''''||date1||''''|| '
+ WHEN ''mm/dd/yyyy'' THEN TO_CHAR("Insertion_date",''mm/dd/yyyy'')
+WHEN ''dd/mm/yyyy'' THEN TO_CHAR("Insertion_date",''dd/mm/yyyy'')
+WHEN ''yyyy/mm/dd'' THEN TO_CHAR("Insertion_date",''yyyy/mm/dd'')  END AS "Ins.date",
+tbl_booking_mast."RO_No",
+COL_MAST."Col_Alias" as "Col_Name",
+tbl_booking_MAST."Ad_size_type_code"    AS   "Size_Book",
+tbl_booking_MAST ."Agrred_rate"     AS "Agreed_Rate",
+tbl_booking_MAST . "Bill_amount"  AS   "Bill_Amt",
+"Ad_size_height" AS "Height", "Ad_size_width" AS "Width",
+
+(SELECT count(tbl_booking_insert."Insert_Id") FROM  tbl_booking_insert WHERE tbl_booking_mast."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id" AND
+"Insert_Date" between '||''''||fromdate||''''|| ' and '||''''||VAR_DATE||''''|| '   and  TBL_BOOKING_INSERT."Insert_Status" ! =''cancel'' ) as "TotalCount"
+
+
+,(SELECT count(tbl_booking_insert."Insert_Id") FROM  tbl_booking_insert WHERE tbl_booking_mast."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id" AND
+"Insert_Date" between '||''''||fromdate||''''|| ' and '||''''||VAR_DATE||''''|| ' and  TBL_BOOKING_INSERT."Insert_Status" =''audit by rate''  and  TBL_BOOKING_INSERT."Insert_Status" ! =''cancel'' )as "PublishCount"
+
+
+
+from tbl_booking_insert,
+tbl_booking_mast,
+COL_MAST,
+agency_mast where tbl_booking_mast ."cio_booking_id"=tbl_booking_insert."Cio_Booking_Id"  and
+ TBL_BOOKING_MAST."Color_code"=COL_MAST."Col_Code"  AND
+ agency_mast."code_subcode"=tbl_booking_mast."Agency_sub_code"';
+
+end if;
+
+
+
+
+
+
+
+
+if(v_insert_status is not null)
+then
+query1:=query1 ||' AND TBL_BOOKING_insert. "Insert_Status" ='''||v_insert_status||''' ';
+end if;
+
+
+
+
+/*
+if(v_insert_status is  null)
+then
+query1:=query1 ||' AND TBL_BOOKING_insert. "Insert_Status" in (''publish'',''audit by rate'') ';
+end if;
+*/
+
+
+IF(v_retainer   IS NOT NULL)
+THEN
+query1:=query1||'  and tbl_booking_mast ."RETAINER"='''||v_retainer ||'''';
+END IF;
+
+
+IF(v_executive  IS NOT NULL)
+THEN
+query1:=query1||'  and tbl_booking_mast ."Executive_code"='''||v_executive||'''';
+END IF;
+
+
+
+
+
+
+
+
+
+
+
+IF(v_supplement  IS NOT NULL)
+THEN
+query1:=query1||'  and TBL_BOOKING_insert ."Supp_Code"='''||v_supplement||'''';
+END IF;
+
+
+
+
+
+IF(branchnew  IS NOT NULL)
+THEN
+query1:=query1||'  and tbl_booking_mast ."branch"='''||branchnew||'''';
+END IF;
+
+
+
+IF(client IS NOT NULL)
+THEN
+query1:=query1||'  and tbl_booking_mast ."Client_code"='''||client||'''';
+END IF;
+
+
+
+IF(pub_cent IS NOT NULL)
+THEN
+
+query1:=query1||'  and TBL_BOOKING_MAST   ."branch" IN (SELECT "Branch_Name" FROM BRANCH_MST WHERE TBL_BOOKING_MAST."branch"="Branch_Code" and "pub_center" in (SELECT "Pub_cent_Code" FROM PUB_CENT_MAST WHERE  branch_mst."pub_center"=pub_cent_mast."Pub_cent_Code" and "Pub_cent_Code"='''||pub_cent||'''))';
+--query1:=query1||'  and tbl_booking_insert."Pub_Cent_Code"='''||pub_cent||'''';
+END IF;
+
+
+IF(agency IS NOT NULL)
+THEN
+query1:=query1 ||'  AND  TBL_BOOKING_MAST  ."Agency_sub_code" ='''||agency ||'''';
+END IF;
+
+
+
+
+
+
+
+IF(publication IS NOT NULL)
+THEN
+query1:=query1||' and  TBL_BOOKING_insert."Publication_Code"='''||publication||'''';
+END IF;
+
+
+/*
+
+IF(adtype IS NOT NULL)
+THEN
+query1:=query1 || ' and TBL_BOOKING_MAST. "Ad_type_code" ='''||adtype||'''';
+END IF;
+*/
+
+
+IF(adtype='DI0')
+THEN
+query1:=query1||'  and (tbl_booking_mast."Uom_code" in (select UOM_MAST ."Uom_Code" FROM UOM_MAST  WHERE UOM_DESC ='||''''||puom_code||''''||') or '||''''||puom_code||''''||' is null)';
+
+END IF;
+
+IF(adtype ='CL0')
+THEN
+query1:=query1||'  and (tbl_booking_mast."Uom_code" in (select UOM_MAST ."Uom_Code" FROM UOM_MAST  WHERE UOM_DESC !='||''''||puom_code||''''||') or '||''''||puom_code||''''||' is null)';
+END IF;
+
+
+
+IF(fromdate IS NOT NULL AND todate IS NOT NULL )
+THEN
+    query1:=query1||' and "Insert_Date" between  '''||fromdate ||''' and  '''||todate||''' ';
+END IF;
+
+IF(edition IS NOT NULL)
+THEN
+query1:=query1||'  and tbl_booking_insert."Edition_Code"='''||edition||'''';
+END IF;
+
+
+
+
+
+--delete from ANK_SEARCH ;
+--iNSERT INTO ANK_SEARCH VALUES(query1);
+
+--COMMIT;
+
+
+
+
+OPEN p_accounts  FOR
+
+query1;
+
+
+
+
+
+
+  --and "branch"=branch
+
+
+
+
+
+
+   END websp_bindorderwise_p;
+END websp_bindorderwise;
+/

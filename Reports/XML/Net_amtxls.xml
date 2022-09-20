@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <!-->this is to bind the bill cycle drop down-->
+  <table>
+    <tr10>Agency</tr10>
+    <tr5>Branch</tr5>
+    <tr7>City</tr7>
+    <tr13>Client</tr13>
+    <tr4>District</tr4>
+    <tr9>Edition</tr9>
+
+    <tr11>Executive</tr11>
+    <tr15>Package</tr15>
+    <tr>Printing Center</tr>
+    <tr8>Publication</tr8>
+    <tr1>Region</tr1>
+    <tr12>Retainer</tr12>
+    <tr14>Revenue Center</tr14>
+    <tr2>State</tr2>
+    <tr6>Taluka</tr6>
+    <tr3>Zone</tr3>
+
+
+
+  </table>
+  <table1>
+    <tr5>Ad Category</tr5>
+    <tr6>Agency Type</tr6>
+    <tr9>Page Premium</tr9>
+    <tr10>Post. Premium</tr10>
+    <tr>Publication</tr>
+    <tr8>Scheme</tr8>
+    <!--<tr1>Edition</tr1>
+    <tr2>Sub Edition</tr2>-->
+    <tr3>Suppliment</tr3>
+    <!--<tr4>Package</tr4>-->
+
+
+    <!--<tr7>Rate Type</tr7>-->
+    
+   
+
+
+
+  </table1>
+  <table2>
+
+    <tr>Printing Center</tr>
+    <tr1>Region</tr1>
+    <tr2>State</tr2>
+    <tr3>Zone</tr3>
+    <tr4>District</tr4>
+    <tr5>Branch</tr5>
+    <tr6>Taluka</tr6>
+    <tr7>City</tr7>
+    <tr8>Publication</tr8>
+    <tr9>Main Edition</tr9>
+    <tr10>Sub Edition</tr10>
+    <tr11>Agency</tr11>
+    <tr12>Executive</tr12>
+    <tr13>Retainer</tr13>
+    <tr14>Client</tr14>
+    <tr15>Revenue Center</tr15>
+    <tr16>Package</tr16>
+
+
+  </table2>
+  <table3>
+
+    <tr>Net Amount Report</tr>
+    <tr1>Row Name&lt;font color=red&gt;*&lt;/font&gt;</tr1>
+    <tr2>Column Name&lt;font color=red&gt;*&lt;/font&gt;</tr2>
+    
+
+  </table3>
+  
+
+
+</newdata>
+

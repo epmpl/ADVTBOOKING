@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+  <td>Supplement Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+  <td1>Publication Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+  <td2>Editon Name&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+  <td3>Supplement Name&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+  <td4>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+  <td5>Volume Unit&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+  <td6>No Of Columns&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+  <td7>Page Area</td7>
+  <td8>Height&lt;font color=red&gt;*&lt;/Font&gt;</td8>
+  <td9>Width&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+  <td10>SELECT SUPPLEMENT DAY</td10>
+  <td11>SUN</td11>
+  <td12>MON</td12>
+  <td13>TUE</td13>
+  <td14>WED</td14>
+  <td15>THU</td15>
+  <td16>FRI</td16>
+  <td17>SAT</td17>
+  <td18>ALL</td18>
+  <td19>Supplement Issue Date</td19>
+  <td20>Periodicity&lt;font color=red&gt;*&lt;/Font&gt;</td20>
+  <td21>Supplement Type&lt;font color=red&gt;*&lt;/Font&gt;</td21>
+  <sdf>Gutter Space&lt;font color=red&gt;*&lt;/Font&gt;</sdf>
+  <sf>Column Space&lt;font color=red&gt;*&lt;/Font&gt;</sf>
+  <ksdhf>RO Time&lt;font color=red&gt;*&lt;/Font&gt;</ksdhf>
+  <djgf>Hr.</djgf>
+  <wklejr>Min.</wklejr>
+  <useghf>Production&lt;font color=red&gt;*&lt;/Font&gt;</useghf>
+  <jrgf>Days Before</jrgf>
+  <td29>Short Name&lt;font color=red&gt;*&lt;/Font&gt;</td29>
+  <td30>Epaper URL</td30>
+
+	<table1>
+		<uom>hide</uom>
+	</table1>
+
+</newdata>

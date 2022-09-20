@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Branch Name&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>Publication &lt;font color=red&gt;&lt;/Font&gt;</td3>
+    <td4>Report Type&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Run</td6>
+    <td7>Clear</td7>
+    <td8>Exit</td8>
+    <td9>Rate Type&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+  </table>
+
+  <table1>
+    <td1>1</td1>
+    <td2>Onscreen</td2>
+    <td3>2</td3>
+    <td4>Excel</td4>
+    <!--<td5>3</td5>-->
+    <!--<td6>PDF</td6>-->
+  </table1>
+  <table2>
+    <td1>1</td1>
+    <td2>Branch Wise</td2>
+    <td3>2</td3>
+    <td4>Printing center Wise</td4>
+  </table2>
+
+  <table3>
+    <td1>D</td1>
+    <td2>Local</td2>
+    <td3>C</td3>
+    <td4>Combined</td4>
+  </table3>
+
+
+
+
+</database>

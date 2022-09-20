@@ -1,0 +1,1 @@
+alter table pub_cent_mast ADD RNI_NUMBER VARCHAR2(50);

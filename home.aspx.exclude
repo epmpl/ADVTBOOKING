@@ -1,0 +1,127 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="home.aspx.cs" Inherits="home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home Page</title>
+</head>
+<%--<body>
+    <form id="form1" runat="server">
+        <div>
+            
+        </div>
+    </form>
+</body>--%>
+<body rightmargin="0" leftmargin="0" topmargin="0">
+    <%-- onload="javascript:return forfocus();javascript:tabvalue();"
+    onkeydown="javascript:return tabvalue('txtextrafocus');">--%>
+    <form id="Form2" method="post" runat="server">
+        <table width="1005" border="0" cellspacing="0" cellpadding="0" align="center" style="width: 1005px;
+            height: 358px">
+            <tr>
+                <td width="100%" bordercolor="#1">
+                    <img src="images/img_02A.jpg" width="1004" border="0"></td>
+            </tr>
+            <tr>
+                <td width="100%" bordercolor="#1">
+                    <img src="images/top.jpg" width="1004" border="0" /></td>
+            </tr>
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <asp:LinkButton ID="Homepage" runat="server" Text="Home"></asp:LinkButton>
+                            </td>
+                            <td>
+                                <span>||</span></td>
+                            <td>
+                                <asp:LinkButton ID="Templates" runat="server" Text="Templates"></asp:LinkButton>
+                            </td>
+                            <td>
+                                <span>||</span></td>
+                            <td>
+                                <asp:LinkButton ID="Compose_template" runat="server" Text="Compose Template"></asp:LinkButton>
+                            </td>
+                            <td>
+                                <span>||</span></td>
+                            <td>
+                                <%--<asp:LinkButton ID="LinkButton2" runat="server" Text="Home"></asp:LinkButton>--%>
+                                <asp:LinkButton ID="Compose_Ad" runat="server" Text="Create Ad"></asp:LinkButton>
+                            </td>
+                            <td>
+                                <span>||</span></td>
+                            <td>
+                                <asp:LinkButton ID="Post_Ad" runat="server" Text="Post Ad"></asp:LinkButton>
+                            </td>
+                            <td>
+                                <span>||</span></td>
+                            <td>
+                                <asp:LinkButton ID="gotoeditor" runat="server" Text="Editor" OnClick="gotoeditor_Click"></asp:LinkButton>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="985" border="0" cellspacing="0" cellpadding="0" style="width: 985px;
+                        height: 486px">
+                        <tr>
+                            <!---------left bar start--------->
+                            <td width="200" style="width: 200px">
+                                <img src="images/leftbar.jpg" style="width: 193px; height: 483px" height="483" width="193">
+                            </td>
+                            <!---------left bar end--------->
+                            <!---------middle start--------->
+                            <td>
+                                <table>
+                                <tr align="left" valign="top">
+					<td height="22" colspan="3"><span><strong>*</strong></span>Please select Category</td>
+
+				  </tr>
+                                    <tr>
+                                        <td>
+                                            <asp:Label ID="cate" Text="Choose Ad Category" runat="server"></asp:Label>
+                                        </td>
+                                        <td>
+                                            <asp:DropDownList ID="category" runat="server">
+                                                <asp:ListItem Selected="True">--Select Category--</asp:ListItem>
+                                            </asp:DropDownList>
+                                        </td>
+                                    </tr>
+                                    
+                                    
+                                    
+                                    
+                    <tr align="left" valign="top">
+					<td height="22" colspan="3"><span><strong>*</strong></span>Please select Zones</td>
+
+				  </tr>
+                                    <tr>
+                                        <td>
+                                            <asp:Label ID="Label1" Text="Choose Ad Category" runat="server"></asp:Label>
+                                        </td>
+                                        <td>
+                                            <asp:DropDownList ID="DropDownList1" runat="server">
+                                                <asp:ListItem Selected="True">--Select Category--</asp:ListItem>
+                                            </asp:DropDownList>
+                                        </td>
+                                    </tr>                
+                                    
+                                    <tr>
+
+					<td height="22" colspan="2" align="left" valign="bottom" ><span >*</span>Please select zone(s) and publication(s)<span class="redDots"><strong></strong></span></td>
+					<td width="32%" align="left" valign="bottom"><a href="#" class="leftNavigation" onclick="return openMap();">Click to Refer MAP</a></td>
+				  </tr>
+                                    
+                                </table>
+                                <!------middle end--------->
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

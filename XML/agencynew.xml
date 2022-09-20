@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+<table>
+  <td>Agency&lt;font color=red&gt;*[F2]&lt;/font&gt;</td>
+  <td1>Agency Name</td1>
+  <td2>Agency Main Code</td2>
+  <td3>Agency Sub Code</td3>
+	<td4>status</td4>
+</table>
+	<table1>
+		<td>Select Status</td>
+		<td1>0</td1>
+		<td2>Direct Cash Agency</td2>
+		<td3>D</td3>
+		<td4>Hold Billed Agency</td4>
+		<td5>H</td5>
+	</table1>
+	<table2>
+		<!--<td>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$CREATED_BY$~$CREATED_DT$~$FLAG_TYPE$~$AD_DIRECT_CLIENT_AGENCY$~$INSERT#UPDATE#DELETE#</td>-->
+		<td>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$CREATED_BY$~$FLAG_TYPE$~$AD_DIRECT_CLIENT_AGENCY$~$INSERT#UPDATE#DELETE#</td>
+		<td1>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$UPDATED_BY$~$UPDATED_DT$~$FLAG_TYPE$~$AD_DIRECT_CLIENT_AGENCY$~$INSERT#UPDATE#DELETE#</td1>
+		<td2>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$FLAG_TYPE$~$AD_DIRECT_CLIENT_AGENCY$~$INSERT#UPDATE#DELETE#</td2>
+		<td3>AG_MAIN_CODE$~$AG_SUB_CODE</td3>
+	</table2>
+	</NewDataSet>

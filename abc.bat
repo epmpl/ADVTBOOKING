@@ -1,0 +1,1 @@
+"D:\wwwroot\Adbooking\convert.exe" "D:\wwwroot\Adbooking\Temppdf\00196572-1-The-CHE-NSE VLR CHENNAI-2_0.pdf" "D:\wwwroot\Adbooking\Temppdf\00196572-1-The-CHE-NSE VLR CHENNAI-2_0.jpg"

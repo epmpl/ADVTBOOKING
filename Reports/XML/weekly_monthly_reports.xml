@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Printing Center&lt;font color=red&gt;&lt;/Font&gt;</td>
+    <td1>Branch&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Publication&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Date Based on&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Destination&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <td7>Run</td7>
+    <td8>Week wise and Publication wise Revenue</td8>
+    
+  </table>
+
+  <table1>
+    <td>Publish Date</td>
+    <td1>2</td1>
+    <td2>Bill Date</td2>
+    <td3>3</td3>
+  </table1>
+
+</database>

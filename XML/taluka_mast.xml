@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Newdataset>
+  <table>
+    <td>Comp Code</td>
+    <td1>Comp Name</td1>
+    <td2>District Name&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Taluka Code</td3>
+    <td4>Taluka Name&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Taluka Alias&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Taluka Oth. Name</td6>
+    <td7>Freeze Flag</td7>
+    <td8>COMP_CODE$~$DIST_CODE$~$TALU_CODE$~$TALU_NAME$~$TALU_ALIAS$~$TALU_ONAME$~$USERID$~$FREEZE_FLAG$~$CIR_TALUKA_MAST$~$INSERT#UPDATE#DELETE#SELECT</td8>
+    <td9>COMP_CODE$~$DIST_CODE$~$TALU_CODE$~$TALU_NAME$~$TALU_ALIAS$~$TALU_ONAME$~$FREEZE_FLAG$~$CIR_TALUKA_MAST$~$INSERT#UPDATE#DELETE#SELECT</td9>
+    <td10>TALU_CODE$~$COMP_CODE</td10>
+    <td11>TALUKA_MAST</td11>
+    <td12>COMP_CODE$~$TALU_NAME$~$TALU_ALIAS</td12>
+  </table>
+
+
+  <table1>
+    <td>Yes</td>
+    <td1>Y</td1>
+    <td2>No</td2>
+    <td3>N</td3>
+  </table1>
+
+  <table2>
+    <td>Sr.No.</td>
+    <td1>District Name</td1>
+    <td2>Taluka Code</td2>
+    <td3>Taluka Name</td3>
+    <td4>Taluka Alias</td4>
+    <td5>Taluka OName</td5>
+  </table2>
+
+  <table3>
+    <td>COMP CODE</td>
+    <td1>COMP NAME</td1>
+    <td2>DISTRICT Name</td2>
+    <td3>TALUKA CODE</td3>
+    <td4>TALUKA NAME</td4>
+    <td5>TALUKA ALIAS</td5>
+    <td6>TALUKA OTH. NAME</td6>
+    <td7>FREEZE FLAG</td7>
+  </table3>
+
+  <table4>
+    <tr>Please enter District name.$~$Please enter taluka name.$~$Please enter taluka alias.$~$There is no more data to be deleted.$~$Do you want to skip this page?$~$Data deleted successfully.$~$Data updated successfully.$~$Data Saved successfully with taluka code $~$Are you sure! Do you want to delete this entry?$~$There is not available any entry regarding your Query.</tr>
+  </table4>
+</Newdataset>

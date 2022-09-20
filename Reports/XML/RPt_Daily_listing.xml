@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdatatype>
+  <table>
+    
+      <tr>Unit&lt;font color=red&gt;*&lt;/Font&gt;</tr>
+      <tr1>From Date&lt;font color=red&gt;*&lt;/Font&gt;</tr1>
+      <tr2>To Date&lt;font color=red&gt;*&lt;/Font&gt;</tr2>
+      <tr3>Doctype&lt;font color=red&gt;*&lt;/Font&gt;</tr3>
+      <tr4>Paymode</tr4>
+      <tr5>Destination</tr5>
+      <tr6>Run</tr6>
+      <tr7>Exit</tr7>
+      <tr8>Print</tr8>
+	  <tr9>Agency Type</tr9>
+   
+  </table>
+
+
+  <table1>
+
+    <td>DAILY LISTING REPORT</td>
+    <td1>From Date :</td1>
+    <td2>To Date :</td2>
+    <td3>Unit :</td3>
+    <td4>Doctype :</td4>
+    <td5>Paymode :</td5>
+    <td6>Run Date :</td6>
+
+  </table1>
+
+  <table2>
+
+    <td>S.No.</td>
+    <td1>ReceiptDt</td1>
+    <td2>ReceiptNo</td2>
+    <td3>Agency Name</td3>
+    <td4>Chno/Rono</td4>
+    <td5>Bank/Client Name</td5>
+    <td6>Bill No</td6>
+    <td7>Bill Dt</td7>
+    <td8>Amt</td8>
+    <td9>Bill Amt</td9>
+    <td10>Amt_Adj</td10>
+    <td11>Amt_Left</td11>
+    
+    
+  </table2>
+  <table3>
+
+    <td>Printing Center</td>
+    <td1>Edition</td1>
+    <td2>Issue Wise Printing Center Wise Business Report</td2>
+    <td3>Plublication Center:</td3>
+    <td4>Edition:</td4>
+    <td5>Branch Based On</td5>
+    <td6>Transaction</td6>
+    <td7>T</td7>
+    <td8>Agency Master</td8>
+    <td9>A</td9>
+    <!--<td5>Bank/Client Name</td5>
+    <td6>Bill No</td6>
+    <td7>Bill Dt</td7>
+    <td8>Amt</td8>
+    <td9>Bill Amt</td9>
+    <td10>Amt_Adj</td10>
+    <td11>Amt_Left</td11>-->
+
+
+  </table3>
+</newdatatype>

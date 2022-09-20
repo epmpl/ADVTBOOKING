@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rootelement>
+  <table>
+    <td1>Scheme Code&lt;font color="red"&gt;*&lt;/font&gt;</td1>
+    <td2>From Insertion No.&lt;font color="red"&gt;*&lt;/font&gt;
+  </td2>
+    <td3>To Insertion No.&lt;font color="red"&gt;*&lt;/font&gt;
+  </td3>
+    <td4>
+      Valid From&lt;font color="red"&gt;*&lt;/font&gt;
+  </td4>
+  <td5>
+    Valid To
+    &lt;font color="red"&gt;*&lt;/font&gt;
+  </td5>
+  <td6>
+    Discount&lt;font color="red"&gt;*&lt;/font&gt;
+  </td6>
+    <df>Scheme Name&lt;font color="red"&gt;*&lt;/font&gt;</df>
+    <df1>Ad Cat</df1>
+	  <td7>Cont. Date</td7>
+    <td8>Alternate Date</td8>
+  </table>
+</rootelement>

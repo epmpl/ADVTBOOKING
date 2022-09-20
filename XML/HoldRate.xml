@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+	<table>
+		<td>RateCode&lt;font color=red&gt;*[F2]&lt;/font&gt;</td>
+		<td1>status</td1>
+	</table>
+	<table1>
+		<td>Select Status</td>
+		<td1>0</td1>
+		<td2>Hold Rate Code</td2>
+		<td3>H</td3>
+		<td4>Unhold Rate Code</td4>
+		<td5>U</td5>
+	</table1>
+	<table2>
+		<!--<td>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$CREATED_BY$~$CREATED_DT$~$FLAG_TYPE$~$AD_DIRECT_CLIENT_AGENCY$~$INSERT#UPDATE#DELETE#</td>-->
+		<td>COMP_CODE$~$RATE_CODE$~$CREATED_BY$~$FLAG_TYPE$~$AD_DIRECT_RATECODE$~$INSERT#UPDATE#DELETE#</td>
+		<td1>COMP_CODE$~$RATE_CODE$~$UPDATED_BY$~$UPDATED_DT$~$FLAG_TYPE$~$AD_DIRECT_RATECODE$~$INSERT#UPDATE#DELETE#</td1>
+		<td2>COMP_CODE$~$RATE_CODE$~$FLAG_TYPE$~$AD_DIRECT_RATECODE$~$INSERT#UPDATE#DELETE#</td2>
+		<td3>RATE_CODE</td3>
+	</table2>
+</NewDataSet>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td1>Box Code &lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Box Description&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>No.Of Dispatches</td4>
+    <td12>For National&lt;font color=red&gt;*&lt;/Font&gt;</td12>
+    <td13>For International&lt;font color=red&gt;*&lt;/Font&gt;</td13>
+    <td5>Box Charges &lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Valid From &lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td9> Valid To &lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Remarks</td10>
+    <td11>Pub Center&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+    <td14>Include Box Words With Matter</td14>
+  </Table>
+  <table1>
+    <PubCenter>show</PubCenter>
+    <Alias>show</Alias>
+    <NoOfDispatches>show</NoOfDispatches>
+    <ForInternational>show</ForInternational>
+    <td>Amount&lt;font color=red&gt;*&lt;/Font&gt;</td>
+  </table1>
+</NewDataSet>
+

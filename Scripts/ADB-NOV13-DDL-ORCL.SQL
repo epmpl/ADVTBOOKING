@@ -1,0 +1,7 @@
+//=========Add by Vibha===========//
+
+ALTER TABLE TBL_BOOKING_INSERT_q ADD (ROUND_VALUE  FLOAT);
+ALTER TABLE TBL_BOOKING_INSERT_q ADD (ROUND_VALUE  FLOAT);
+ALTER TABLE TBL_BOOKING_INSERT ADD (ROUND_VALUE  FLOAT);
+
+//=====================================//

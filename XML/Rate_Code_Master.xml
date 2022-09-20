@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<newdata>
+  <table>
+
+    <td>Record ID&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Rate Code&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Remarks</td2>
+    <td3>Status</td3>
+    <td4>RATE_CODE$~$RATE_DESC$~$REMARKS$~$STATUS$~$COMP_CODE$~$USERID$~$CREATE_DATE$~$MODIFY_USER$~$MODIFY_DATE$~$RATE_CODE_MAST$~$INSERT#UPDATE#DELETE#SELECT</td4>
+    <td5>RATE_CODE</td5>
+    <td6>RATE_CODE$~$RATE_DESC$~$RATE_CODE_MAST$~$INSERT#UPDATE#DELETE#SELECT</td6>
+
+
+
+
+  </table>
+
+</newdata>

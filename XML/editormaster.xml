@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdatarow>
+  <table>
+    <td>Edition Code&lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>Edition Name&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Alias&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Publication Name&lt;font color=red&gt;*&lt;/font&gt;</td3>
+    <td4>Publication Center&lt;font color=red&gt;*&lt;/font&gt;</td4>
+    <td5>Select Edition Day&lt;font color=red&gt;*&lt;/font&gt; </td5>
+    <td6>Country&lt;font color=red&gt;*&lt;/font&gt;</td6>
+    <td7>Circulation&lt;font color=red&gt;*&lt;/font&gt;</td7>
+    <td8>UOM&lt;font color=red&gt;*&lt;/font&gt;</td8>
+    <td9>No Of Columns&lt;font color=red&gt;*&lt;/font&gt;</td9>
+    <td10>Page Area </td10>
+    <td11>Height&lt;font color=red&gt;*&lt;/font&gt;</td11>
+    <td12>Width&lt;font color=red&gt;*&lt;/font&gt;</td12>
+    <td13>Edition Issue Date</td13>
+    <td14>Periodicity&lt;font color=red&gt;*&lt;/font&gt;</td14>
+    <td15>Gutter Width&lt;font color=red&gt;*&lt;/font&gt;</td15>
+    <td16>Column Width&lt;font color=red&gt;*&lt;/font&gt;</td16>
+    <td17>RO Time&lt;font color=red&gt;*&lt;/font&gt;</td17>
+    <td18>Hr.</td18>
+    <td19>Min.</td19>
+    <td20>Production&lt;font color=red&gt;*&lt;/font&gt;</td20>
+    <td21>Days Before</td21>
+    <td22>Edition Type&lt;font color=red&gt;*&lt;/font&gt;</td22>
+    <td23>Priority&lt;font color=red&gt;*&lt;/font&gt;</td23>
+    <td24>Segment&lt;font color=red&gt;[F2]&lt;/font&gt;</td24>
+	  <td25>Group Code</td25>
+    <td26>Short Name</td26>
+    <td27>Epaper URL</td27>
+    <td28>SpecialityName&lt;font color=red&gt;*&lt;/font&gt;</td28>
+  </table>
+
+  <table1>
+    <PrintingCenter>show</PrintingCenter>
+    <Priority>hide</Priority>
+    <Circulation>hide</Circulation>
+    <UOM>hide</UOM>
+    <EditionIssueDate>show</EditionIssueDate>
+  </table1>
+  
+</newdatarow>

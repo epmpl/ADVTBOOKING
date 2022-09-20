@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<datatable>
+  <table>
+    
+    <td>All Ads Of A Day</td>
+        <lim>18</lim>
+	  
+    <td1>All Ads Of The Agency</td1>
+        <lim1>32</lim1>
+	  
+    <td2>All Ads Of The Client</td2>
+       <lim2>34</lim2>
+	  
+    <td3>Status Based Ad List </td3>
+        <lim3>13</lim3>
+	  
+    <td4>Deviation Report</td4>
+        <lim4>13</lim4>
+	  
+    <td5>Page Premium Report</td5>
+        <lim5>13</lim5>
+	  
+    <td6>IssueWise Bussiness Report</td6>
+        <lim6>15</lim6>
+	  
+    <td7>Revenue Summary Report</td7>
+        <lim7>30</lim7>
+	  
+    <td8>Top Agency/Client Analysis Report</td8>
+        <lim8>15</lim8>
+	  
+    <td9>Executive Wise Report</td9>
+        <lim9>15</lim9>
+	  
+    <td10>Available Premium Date</td10>
+        <lim10>15</lim10>
+	  
+    <td11>Category Wise Report</td11>
+        <lim11>15</lim11>
+	  
+    <td12>Status Wise Daily Summarized Report</td12>
+        <lim12>15</lim12>
+	  
+    <td13>Pi Reports</td13>
+        <lim13>15</lim13>
+	  
+    <td14>Pi Contract Report</td14>
+        <lim14>15</lim14>
+	  
+    <td15>Executive/Retainer Wise Business Report</td15>
+        <lim15>15</lim15>
+	  
+    <td16>Issue Wise Printing Center Wise Business Report</td16>
+       <lim16>15</lim16>
+	  
+    <td17>Schedule Register Report</td17>
+        <lim17>15</lim17><!--35-->
+	  
+    <td18>Complete Report</td18>
+        <lim18>15</lim18>
+	  
+    <td19>Net Amount Report</td19>
+        <lim19>15</lim19>
+	  
+    <td20>Billing Register</td20>
+        <lim20>12</lim20><!--41-->
+	  
+    <td21>Booking Type Wise Report</td21>
+        <lim21>15</lim21>
+	  
+    <td22>Rebate Reports</td22>
+        <lim22>15</lim22>
+	  
+    <td23>Retainer Commision Report</td23>
+        <lim23>15</lim23>
+	  
+    <td24>Money Recieved Report</td24>
+        <lim24>25</lim24>
+	  
+	  <td25>RO. Detail Report</td25>
+	  <lim25>10</lim25>               	  <!--51-->
+
+	  <td26>RO. Summary Report</td26>
+	  <lim26>5</lim26>
+
+	  <td27>VTS REPORT</td27>
+	  <lim27>35</lim27>
+
+	  <td28>Booking Detail Report</td28>
+	  <lim28>20</lim28>
+  </table>
+  </datatable>

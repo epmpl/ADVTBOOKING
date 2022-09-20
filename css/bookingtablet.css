@@ -1,0 +1,93 @@
+﻿
+@media (min-width:321px) and (max-width:600px)
+{
+
+	body
+	{
+		font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+		margin: 0;
+		padding: 0;
+		color: #000;
+		width: 100%;
+	}
+
+
+	.RightTable
+	{
+		position: relative;
+		margin-top: -4px;
+		width: 100%;
+		float: left;
+	}
+
+	.addetail
+	{
+		float: left;
+	}
+
+	.divout
+	{
+		left: 48px !important;
+		display:none;
+		float: left;
+		height: 256px;
+		top: 0px !important;
+		width: 490px;
+		position: relative;
+		overflow: auto;
+	}
+
+	.bookingmaster
+	{
+		OVERFLOW: auto;
+		WIDTH: 578px;
+		HEIGHT: 160px;
+	}
+
+	.copyinsertion
+	{
+		OVERFLOW: auto;
+		WIDTH: 575px;
+		position: absolute;
+		top: 0px;
+		left: 0px !important;
+		display: none;
+		z-index: 1;
+	}
+
+	.deal
+	{
+		position: absolute;
+		top: 800px !important;
+		left: 60px !important;
+		border: none;
+		display: none;
+		z-index: 1000;
+	}
+
+	.list1
+	{
+		border: medium none;
+		display: none;
+		left: 107px !important;
+		overflow: scroll;
+		position: absolute;
+		top: 200px;
+		width: 470px;
+    	z-index: 1;
+	}
+	.products
+{
+	position: absolute;
+	 top: 500px !important; 
+	 left: 113px !important; 
+	 border: none;
+   display: none;
+    z-index: 1;
+}
+	.client
+	{
+		width:182px !important;
+		overflow:scroll;
+	}
+}

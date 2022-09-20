@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<NewDataSet>
+  <Table>
+    <td>Booking Date</td>
+    <td1>Branch</td1>
+    <td2>Booked By</td2>
+    <td3>Booking ID</td3>
+    <td4>App By</td4>
+    <td5>Audit</td5>
+    <td6>RO No.</td6>
+
+    <td7>RO Date</td7>
+    <td8>Caption</td8>
+    <td9>Bill Status</td9>
+    <td10>Ro Status</td10>
+    <td11>Agency&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td11>
+    <td12>Client&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td12>
+    <td13>Address</td13>
+
+    <td14>Agency Code&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>Dockit No.</td15>
+    <td16>Executive&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td16>
+    <td17>Executive Zone&lt;font color=red&gt;*&lt;/Font&gt;</td17>
+    <td18>Product&lt;font color=red&gt;[F2]&lt;/Font&gt;</td18>
+    <td19>Brand</td19>
+    <td20>Key No.</td20>
+
+    <td21>Bill Remark</td21>
+    <td22>Print Remark</td22>
+    <td23>Booking Type&lt;font color=red&gt;*&lt;/Font&gt;</td23>
+    <td24>Ad Category&lt;font color=red&gt;*&lt;/Font&gt;</td24>    
+    <td25>Ad Sub Category</td25>
+    <td26>Color&lt;font color=red&gt;*&lt;/Font&gt;</td26>
+    <td27>UOM&lt;font color=red&gt;*&lt;/Font&gt;</td27>
+
+    <td28>Position Premium</td28>
+    <td29>Page Type</td29>
+    <td30>Page No.</td30>
+    <td31>Ad Size Type</td31>
+    <td32>*</td32>
+    <td33>Ad Size&lt;font color=red&gt;*&lt;/Font&gt;</td33>
+    <td34>Rate Code&lt;font color=red&gt;*&lt;/Font&gt;</td34>
+
+    <td35>Scheme Type</td35>
+    <td36>Currency Type&lt;font color=red&gt;*&lt;/Font&gt;</td36>
+    <td37>Agreed Rate</td37>
+    <td38>Agreed Amount</td38>
+    <td39>Special Discount</td39>
+    <td40>Space Discount</td40>
+    <td41>Special Charges</td41>
+    <td42>Package&lt;font color=red&gt;*&lt;/Font&gt;</td42>
+    <td43>Booking Date&lt;font color=red&gt;*&lt;/Font&gt;</td43>
+    <td44>No. Of Insertion</td44>
+    <td45>Repeating Day</td45>
+
+
+
+    <td46>A&lt;U&gt;d&lt;/U&gt; Details |</td46>
+    <td47>Pa&lt;U&gt;g&lt;/U&gt;e Details |</td47>
+    <td48>Bill Detail&lt;U&gt;s&lt;/U&gt; |</td48>
+    <td49>Ra&lt;U&gt;t&lt;/U&gt;e Details |</td49>
+    <td50>Pac&lt;U&gt;k&lt;/U&gt;age Details |</td50>
+
+    <td51>Bill Cycle</td51>
+    <td52>Revenue Center</td52>
+    <td53>Payment Type&lt;font color=red&gt;*&lt;/Font&gt;</td53>
+    <td54>No. of invoices</td54>
+    <td55>Vts(No. of Copies)</td55>
+    <td56>Billable Size</td56>
+    <td57>Bill To</td57>
+    <td58>Trade Discount</td58>
+    <td59>Ag. Outstanding</td59>
+    <td60>Agency Type</td60>
+    <td61>Status</td61>
+    <td62>Paymode</td62>
+    <td63>Credit Period</td63>
+
+    <td64>Card Rate</td64>
+    <td65>Card Amount</td65>
+    
+    <td66>Discount</td66>
+    <td67>Discount(%)</td67>
+    <td68>Billing Address</td68>
+
+    <td69>Box Code</td69>
+    <td70>Box No.</td70>
+    <td71>Box Add.</td71>
+    <td72>Same as Agency</td72>
+    <td73>Same as Client</td73>
+    <td74>Bo&lt;U&gt;x&lt;/U&gt; Details |</td74>
+    <td75>TFN</td75>
+    <td76>Campaign</td76>
+    <td77>Bill Amount</td77>
+    <td78>Page Premium</td78>
+    <td79>Post Prem. Amt.</td79>
+    <td80>Page Prem.(%)</td80>
+    <td81>Gross Amount</td81>
+    <td82>No. of Column</td82>
+    <td83>Billable Area</td83>
+    <td84>Special Disc(%)</td84>
+    <td85>Space Disc(%)</td85>
+    <td86>Paid Ins.</td86>
+    <td87>Pre. Booking ID</td87>
+    <td88>Contract</td88>
+    <td89>Contract Rate</td89>
+    <td90>Deviation</td90>
+    <td91>Coupon Ad</td91>
+    <td92>Varient</td92>
+    <td93>Contract Name</td93>
+    <td94>Contract Type</td94>
+    <td95>Name On Card</td95>
+    <td96>Card Type</td96>
+    <td97>Expiry Date</td97>
+    <td98>Number On Card</td98>
+    <td99>Receipt No.</td99>
+    <td100>Print Receipt</td100>
+    <td101>Publish Date</td101>
+    <td102>Ad sub cat3</td102>
+    <td103>Ad sub cat4</td103>
+    <td104>Ad sub cat5</td104>
+    <td105>Bg Color</td105>
+    <td106>Eye Catcher</td106>
+    <td107>Eye Catcher Prem.</td107>
+    <td108>&lt;U&gt;V&lt;/U&gt;ts|</td108>
+    <td109>Material Status</td109>
+    <td110>Retainer&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td110>
+    <td111>CHQ/DD No.</td111>
+    <td112>CHQ/DD Amount</td112>
+    <td113>CHQ/DD Date</td113>
+    <td114>Bank Name</td114>
+	  <td115>Ad Sub Category</td115>
+	  <td116>Material Status</td116>
+	  <td117>Key No.</td117>
+	  <td118>Print Remark</td118>
+	  <td119>Cash Recieved</td119>
+	  <td120>Circulation Agency</td120>
+	  <td121>Rate</td121>
+	  <td122>Edition</td122>
+	  <td123>Barter Type&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td123>
+  </Table>
+</NewDataSet>

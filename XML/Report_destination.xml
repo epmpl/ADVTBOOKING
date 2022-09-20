@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <!-->this is to bind the destination drop down-->
+  <table>
+    <tr>On Screen</tr>
+    <tr1>1</tr1>
+    <!--<tr2>Print</tr2>
+    <tr3>2</tr3>-->
+    <tr4>PDF File</tr4>
+    <tr5>3</tr5>
+    <tr6>Excel Sheet</tr6>
+    <tr7>4</tr7>
+
+  </table>
+<table1>
+    <tr>Booked</tr>
+    <tr1>booked</tr1>
+    <tr2>Hold</tr2>
+    <tr3>hold</tr3>
+    <tr4>Cancel</tr4>
+    <tr5>cancel</tr5>
+    <tr6>Publish</tr6>
+    <tr7>publish</tr7>
+    <tr8>Billed</tr8>
+    <tr9>billed</tr9>
+    <tr10>Cancel</tr10>
+    <tr11>cancel</tr11>
+    <tr12>Reschedule</tr12>
+    <tr13>reschedule</tr13>
+    <tr14>Temp Booking</tr14>
+    <tr15>tempbooking</tr15>
+  </table1>
+  
+  <table2>
+
+    <tr>Region</tr>
+    <tr1>Publication</tr1>
+  </table2>
+  <table3>
+    <tr>Direct</tr>
+    <tr1>Agency</tr1>
+    <tr2>DAVP</tr2>
+    <tr3>DISP</tr3>
+    <tr4>AllCategory</tr4>
+  </table3>
+  <table4>
+    <tr>Ascending Order</tr>
+    <tr1>asc</tr1>
+    <tr2>Descending Order</tr2>
+    <tr3>desc</tr3>
+  </table4>
+  <table5>
+    <tr>Region</tr>
+    <tr1>region</tr1>
+    <tr2>Agency</tr2>
+    <tr3>agency</tr3>
+    <tr4>Client</tr4>
+    <tr5>client</tr5>
+    <tr6>Publication</tr6>
+    <tr7>publication</tr7>
+    <tr8>AdType</tr8>
+    <tr9></tr9>
+    <tr10>Payment Type</tr10>
+    <tr11>PaymentType</tr11>
+    <tr12>BillStatus</tr12>
+    <tr13>billstatus</tr13>
+  </table5>
+  <table6>
+    <tr>Agency</tr>
+    <tr1>Agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>Client</tr3>
+    <tr4>AdType</tr4>
+    <tr5>AdType</tr5>
+    <tr6>Category</tr6>
+    <tr7>AdCat</tr7>
+    <tr8>Publication</tr8>
+    <tr9>Pub</tr9>
+    <tr10>Package</tr10>
+    <tr11>Package</tr11>
+  </table6>
+  <table7>
+    <tr>Agency</tr>
+    <tr1>agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>client</tr3>
+    <tr4>Package</tr4>
+    <tr5>package</tr5>
+    <tr6>AdCategory</tr6>
+    <tr7>adcategory</tr7>
+    <tr8>Region</tr8>
+    <tr9>region</tr9>
+  </table7>
+  <table8>
+    <tr>Agency</tr>
+    <tr1>agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>client</tr3>
+    <tr4>Region</tr4>
+    <tr5>region</tr5>
+  </table8>
+
+  <table9>
+
+    <tr>Publication</tr>
+    <tr1>publication</tr1>
+    <tr2>Agency</tr2>
+    <tr3>agency</tr3>
+    <tr4>Client</tr4>
+    <tr5>client</tr5>
+    <tr6>Package</tr6>
+    <tr7>package</tr7>
+
+  </table9>
+  <table10>
+    <tr>Agency</tr>
+    <tr1>agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>client</tr3>
+    <tr4>Package</tr4>
+    <tr5>package</tr5>
+    <tr6>AdType</tr6>
+    <td7>adtype</td7>
+    <tr8>AdCategory</tr8>
+    <tr9>adcategory</tr9>
+    <tr10>Region</tr10>
+    <tr11>region</tr11>
+   
+  </table10>
+  <table11>
+    <tr>Agency</tr>
+    <tr1>agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>client</tr3>
+    <tr4>Publication</tr4>
+    <tr5>publication</tr5>
+    <tr6>AdType</tr6>
+    <tr7>adtype</tr7>
+    <tr8>PaymentType</tr8>
+    <tr9>paymenttype</tr9>
+    <tr10>RetainerCom</tr10>
+    <tr11>retainercom</tr11>
+    <tr12>BillStatus</tr12>
+    <tr13>billstatus</tr13>
+    <tr14>RevenueCenter</tr14>
+    <tr15>revenuecenter</tr15> 
+  </table11>
+  <table12>
+    <tr>Agency</tr>
+    <tr1>agency</tr1>
+    <tr2>Client</tr2>
+    <tr3>client</tr3>
+    <tr4>Package</tr4>
+    <tr5>package</tr5>
+    <tr6>Product</tr6>
+    <tr7>product</tr7>
+    <tr8>Brand</tr8>
+    <tr9>brand</tr9>
+    <tr10>Region</tr10>
+    <tr11>region</tr11>
+  </table12>
+  <!--ad by rinki-->
+  <table13>
+    <tr>YES</tr>
+    <tr1>1</tr1>
+    <tr2>NO</tr2>
+    <tr3>2</tr3>
+   </table13>
+
+
+  <table14>
+    <tr>Product</tr>
+    <tr1>Region</tr1>
+    <tr2>Publication</tr2>
+    <tr3>Agency Publication</tr3>
+  </table14>
+
+  <table15>
+    <tr>On Screen</tr>
+    <tr1>1</tr1>
+    <!--<tr2>Print</tr2>
+    <tr3>2</tr3>-->
+    <tr4>PDF File</tr4>
+    <tr5>3</tr5>
+    <tr6>Excel Sheet</tr6>
+    <tr7>4</tr7>
+    <tr8>Summary Excel</tr8>
+    <tr9>5</tr9>
+
+  </table15>
+  
+</newdata>

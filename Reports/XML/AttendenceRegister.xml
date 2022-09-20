@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdatarow>
+  <Headertable>
+    <td>S.No.</td>
+    <td1>Booking Id</td1>
+    <td2>Agency</td2>
+    <td3>Client</td3>
+    <td4>Edition</td4>
+    <td5>RONo.</td5>
+    <td6>Publish Date</td6>
+    <td7>Keyno</td7>
+    <td8>HT</td8>
+    <td9>WD</td9>
+    <td10>Area</td10>
+    <td11>Uom</td11>
+    <td12>Color</td12>
+    <td13>Premium</td13>
+    <td14>Pageno</td14>
+    <td15>Post Prem.</td15>
+    <td16>Adcat/Subcat</td16>
+    <td17>Caption</td17>
+    <td18>Ins. No</td18>
+    <td19>Card Rate</td19>
+    <td20>Agreed Rate/ Disc./TRAN</td20>
+    <td21>Bill Amt.</td21>
+    <td22>Page Prem Disc</td22>
+    <td23>Posi. Prem Disc</td23>
+    <td24>Insert</td24>
+    <td25>Rate Code</td25>
+    <td26>Booking Date</td26>
+    <td27>Publish date</td27>
+    <td28>Booking type</td28>
+    <td29>Package</td29>
+    <td30>RO NO</td30>
+    <td31>BILL NO</td31>
+    <td32>BILL DATE</td32>
+    <td33>Edition</td33>
+    <td34>Agency TD</td34>
+    <td35>Remark</td35>
+    <td36>Executive</td36>
+    <td37>Retainer</td37>
+    <td38>Page No</td38>
+  </Headertable>
+  <table1>
+    <td>Attendence Register Report</td>
+    <td1>Branch Name&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>All Ready Billed</td2>
+  </table1>
+  <table2>
+  <td>To be Billed:</td>
+  <td1>Booked by Others:</td1>
+  <td2>Already Billed:</td2>
+  <td3>DIRECT CASH:</td3>
+  <td4>SCHEME AdS:</td4>
+  <td5>COMBIN Ads:</td5>
+  <td6>Dummy Ads:</td6>
+   <td7>DAILY Ads:</td7>
+    <td8>Total Ads:</td8>
+
+  </table2>
+  <table3>
+    <td>Normal</td>
+    <td1>Barter</td1>
+    <td2>FMG</td2>
+    <td3>InHouse</td3>
+    <td4>Complimentary</td4>
+    <td5>Corrindom</td5>
+    <td6>Book For Dummy</td6>
+
+  </table3>
+  
+</newdatarow>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+	<table>
+		<td>Ad Type</td>
+		<td1>Rate Code</td1>
+		<td2>Category</td2>
+		<td3>Color</td3>
+		<td4>Uom</td4>
+		<td5>Valid From&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+		<td6>Valid To&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+		<td7>Package</td7>
+		<td8>Expiry Date</td8>
+		</table>
+	<table1>
+		<td>Rate Code</td>
+		<td1>Category</td1>
+		<td2>Color</td2>
+		<td3>Uom</td3>
+		<td4>Premium&lt;br&gt;Color&lt;/br&gt;</td4>
+		<td5>S/L/W From</td5>
+		<td6>S/L/W To</td6>
+		<td7>FromInsert</td7>
+		<td8>ToInsert</td8>
+		<td9>Weekday&lt;br&gt;Rate&lt;/br&gt;</td9>
+		<td10>Extra Rate</td10>
+		
+	</table1>
+
+
+
+</newdata>

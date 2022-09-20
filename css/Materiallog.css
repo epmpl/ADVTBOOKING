@@ -1,0 +1,53 @@
+﻿.middle31new
+{
+	/*font-size:smaller;*/
+	font-weight:bold;
+	font-family:Arial;
+	font-size:11px;
+	
+	
+	border-bottom:solid;
+	 border-bottom-color:Black;
+	 border-bottom-width:thin ;
+	  vertical-align:top;
+	  border-top:solid;
+	  border-top-color:Black;
+	  border-top-width:thin;
+	 
+}
+
+.rep_data
+{
+	/*font-size:x-small;*/
+	font-family:Arial;
+	font-size:10px;
+              vertical-align:top;
+	
+}
+
+.headingc
+{
+	font-family :Arial;
+	font-size :20px;
+	font-weight :bolder;
+	color :Black;
+}
+.headingp
+{
+	font-family :Arial;
+	font-size :14px;
+	font-weight :bolder;
+	color :Black;
+}
+
+.reporttext2
+{
+/*font-family:Verdana Arial;
+font-size:x-small;*/
+font-family:Arial;
+font-size:12px;
+text-align:left; 
+width: 100px; 
+height: 22px;
+
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<table>
+
+		<td>Center Name&lt;font color=red&gt;[F2]*&lt;/font&gt;</td>
+		<td1>Username&lt;font color=red&gt;[F2]*&lt;/font&gt;</td1>
+		<td2>Publish Date&lt;font color=red&gt;*&lt;/font&gt;</td2>
+		<td3>Run</td3>
+		<td4>Material Log</td4>
+		<td5>Destination</td5>
+		<td6>2</td6>
+	</table>
+
+	<table1>
+		<td>Publication&lt;/br&gt;center</td>
+		<td1>User</td1>
+		<td2>Publish Date</td2>
+	</table1>
+	<table2>
+		<td>On Screen</td>
+		<td1>1</td1>
+		<td2>Pdf</td2>
+		<td3>2</td3>
+		<td4>Excel</td4>
+		<td5>3</td5>
+	</table2>
+	
+
+
+</database>

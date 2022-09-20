@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>S.No</td>
+    <td1>CIOID</td1>
+    <td2>Agency</td2>
+    <td3>Client</td3>
+    <td4>City</td4>
+    <td5>Pub</td5>
+    <td6>Package</td6>
+    <td7>Depth</td7>
+    <td8>Width</td8>
+    <td9>Area</td9>
+    <td10>Hue</td10>
+    <td11>pageno</td11>
+    <td12>Ins.No</td12>
+    <td13>Ins.Date</td13>
+    <td14>BookDate</td14>
+    <td15>RoNo</td15>
+    <td16>RoStatus</td16>
+    <td17>AdType</td17>
+    <td18>AdCat</td18>
+    <td19>Area</td19>
+    <td20>RateCode</td20>
+    <td21>CardRate</td21>
+    <td22>AggRate</td22>
+    <td23>Disc</td23>
+    <td24>Status</td24>
+    <td25>MatStatus</td25>
+    <td26>Caption</td26>
+    <td27>Keyno</td27>
+    <td28>--------------------------------------------------------------------------------------------------------------------------------------------------------------------------- </td28>
+    <td29>FromDate</td29>
+    <td30>DateTo</td30>
+    <td31>RunDate</td31>
+    <td32>SubAg</td32>
+    <td33>Amt</td33>
+    <td34>Dev(%)</td34>
+    <td35>PagePremium</td35>
+    <td36>PosPremium</td36>
+    <td37>____________________________________________________________________________________________________________________</td37>
+    <td38>____________________________________________________________________________________________________________________________________________________________________________</td38>
+    <td39>Ro.Date</td39>
+    <td40>Region</td40>
+    <td41>Spl Instruction</td41>
+    <td42>SchemeName</td42>
+    <td43>SchemeType</td43>
+    <td44>SchemeDesc</td44>
+    <td45>ContractName</td45>
+    <td46>ContractType</td46>
+    <td47>FromInsNo</td47>
+    <td48>ToInsNo</td48>
+    <td49>Discount</td49>
+    <td50>PaymentType</td50>
+    <td51>RetainerName</td51>
+    <td52>RetainerCom</td52>
+    <td53>_____________________________________________________________________________________________________________________________________________________________________________</td53>
+    <td54>______________________________________________________________________________________________________________________________________</td54>
+    <td55>______________________________________________________________________________________________________________________________________________________________________________________________________________________________</td55>
+    <td56>Publication</td56>
+    <td57>ContractRate</td57>
+    <td58>Product</td58>
+    <td59>Brand</td59>
+    <td60>AdSubCat</td60>
+    <!--prachi-->
+    <td61>Rate</td61>
+    <td62>Premium</td62>
+    <td63>BillRemark</td63>
+
+    <td64>Color</td64>
+    <td65>Catg</td65>
+    <td66>SubCat</td66>
+    <td67>AgenComm</td67>
+    <td68>FMG:</td68>
+    <td69>HouseAD:</td69>
+        <td70>Retainer Comm Amount</td70>
+     <td71>Agreed Rate</td71>
+    <td72>Ins.Date</td72>
+    <td73>Contract Rate</td73>
+	 <td74>Code</td74>
+      <td75>Edition</td75>
+	    <td76>Deal Name</td76>
+		  <td77>BookedBy</td77>
+         <td78>AuditBy</td78>
+		  <td79>EyeCatPrem</td79>
+    <td80>Page</td80>
+	<td81>A_Place</td81>
+    <td82>C_Place</td82>
+    <td83>GrossAmt</td83>
+    <td84>Yield</td84>
+    <td85>Publish Date</td85>
+    <td86>Booking Id</td86>
+    <td87>Page Position</td87>
+    <td88>AgencyAdd</td88>
+    <td89>ClientAdd</td89>
+    <td90>Agency TD</td90>
+    <td91>AgencyTD(%)</td91>
+    <td92>AgencyTD(Amt)</td92>
+    <td93>AgencyAddlTD(%)</td93>
+    <td94>AgencyAddlTD(Amt)</td94>
+    <td95>RetComm(%)</td95>
+    <td96>RetComm(Amt)</td96>
+    <td97>ActualBusiness</td97>
+    <td98>Uom</td98>
+    <td99>MR.No.</td99>
+    <td100>Trade Disc.(%)</td100>
+  </table>
+    <!--bill reports-->
+    <table1>
+      <td>BillStatus</td>
+      <td1>BillableArea</td1>
+      <td2>RevenueCentre</td2>
+      <td3>PaymentType</td3>
+      <td4>BillAmt</td4>
+      <td5>SchemeName</td5>
+      <td6>SchemeValue</td6>
+      <td7>ContractName</td7>
+      <td8>ContractValue</td8>
+      <td9>SpecialDisc</td9>
+       <td10>SpaceDisc</td10>
+      <td11>SpecialDisc%</td11>
+      <td12>SpaceDisc%</td12>
+      <td13>TotalArea</td13>
+      <td14>TotalAmt</td14>
+      <td15>TotalAds</td15>
+      <td16>Totals :</td16>
+      <td17>Submit</td17>
+      <td18>Cancel</td18>
+      <td19>Reset</td19>
+      <!--<td2>Region&lt;font color=red &gt;&lt;/font&gt;</td2>-->
+      <td20>SortingOrder&lt;font color=red &gt;*&lt;/font&gt;</td20>
+      <td21>SortValue&lt;font color=red &gt;*&lt;/font&gt;</td21>
+      <td22>Range</td22>
+      
+    </table1>
+
+
+  <table2>
+
+    <td>Low</td>
+    <td1>0</td1>
+    <td2>Normal</td2>
+    <td3>100</td3>
+    <td4>High</td4>
+    <td5>200</td5>
+    
+    
+    
+    
+  </table2>
+    
+	 <table3>
+
+    <td>S.No</td>
+    <td1>Agency</td1>
+    <td2>BillNo</td2>
+    <td3>Publish Date</td3>
+    <td4>Package</td4>
+    <td5>Client</td5>
+    <td6>Executive</td6>
+    <td7>RoNo.</td7>
+    <td8>Ro.Date</td8>
+    <td9>Key</td9>
+    <td10>NetAmt</td10>
+    <td11>Adcat</td11>
+    <td12>Retainer</td12>
+    <td13>Region</td13>
+    <td14>Total NetAmt</td14>
+     <td15>Edition</td15>
+  </table3>
+    <!--bill reports-->
+  
+   
+    
+
+
+
+
+
+</database>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<table>
+	<td>Agency&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td>
+	<td1>Client&lt;font color=red&gt;[F2]&lt;/Font&gt;</td1>
+	<td2>Product&lt;font color=red&gt;[F2]&lt;/Font&gt;</td2>
+	<td3>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+	<td4>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+	<td5>Destination</td5>
+	<td6>Run</td6>
+	<td7>Exit</td7>
+	
+</table>
+<table1>
+	<td>--Select--</td>
+	<td1>0</td1>
+	<td2>Onscreen</td2>
+	<td3>1</td3>
+	<td4>Excel</td4>
+	<td5>2</td5>
+  <td6>Pdf</td6>
+  <td7>3</td7>
+	
+</table1>
+</root>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdataset>
+  <table>
+    <td>Bill Summary For The Period From-: </td>
+    <td1>  To-:</td1>
+    <td2>RAJASTHAN PATRIKA</td2>
+    <td3>Publication :</td3>
+    <td4>Date :</td4>
+    <td5>Date</td5>
+    <td6>From Bill No.</td6>
+    <td7>To Bill No.</td7>
+    <td8>No Of Bills</td8>
+    <td9>Amount</td9>
+    <td10>Cumulative Amount</td10>
+    <td11>Total</td11>
+    <td12>NPA Sales</td12>
+    <td13>S.No</td13>
+    <td14>Bill Register Summary</td14>
+    <td15>Daily Ads Report</td15>
+  </table>
+
+  <table1>
+    <td>Sno.</td>
+    <td1>FMG ADS</td1>
+    <td2>NORMAL ADS</td2>
+    <td3>SCHEME FREE ADS</td3>
+    <td4>IN HOUSE ADS</td4>
+    <td5>DATE</td5>
+    <td6>Ads Days Books</td6>
+    <td7>Direct Cash</td7>
+    <td8>Total</td8>
+    <td9>Daily Report Data</td9>
+    <td10>Dummy Ads</td10>
+
+
+  </table1>
+
+  <table2>
+    <td>S.No.</td>
+    <td1>Agency Name</td1>
+    <td2>Trade Dis</td2>
+    <td3>Client Name</td3>
+    <td4>Category</td4>
+    <td5>Industory</td5>
+    <td6>Brand</td6>
+    <td7>Product</td7>
+    <td8>Varient</td8>
+    <td9>Booking ID</td9>
+    <td10>Published Date</td10>
+    <td11>Bill No.</td11>
+    <td12>Bill Date</td12>
+    <td13>RO No.</td13>
+    <td14>RO Date</td14>
+    <td15>Height</td15>
+    <td16>Width</td16>
+    <td17>Space</td17>
+    <td18>H(CC)</td18>
+    <td19>W(CC)</td19>
+    <td20>CC</td20>
+    <td21>Word</td21>
+    <td22>Card Rate</td22>
+    <td23>Rate Code</td23>
+    <td24>Pos. Premia</td24>
+    <td25>Page Premia</td25>
+    <td26>Translation Charges</td26>
+    <td27>Billing Amt</td27>
+    <td28>Agreed Rate</td28>
+    <td29>Offer Page Premia</td29>
+    <td30>Offer Posi Premia</td30>
+    <td31>Tranlation</td31>
+    <td32>Agreed Amount</td32>
+    <td33>Package</td33>
+    <td34>RegionName</td34>
+    <td35>Location</td35>
+    <td36>Agency City</td36>
+    <td37>Executive</td37>
+    <td38>Retainer</td38>
+    <td39>Team Name</td39>
+    <td40>Color</td40>
+    <td41>pageno</td41>
+    <td42>Page Position</td42>
+    <td43>Uom</td43>
+    <td44>Executive City</td44>
+    <td45>Retainer City</td45>
+    <td46>Gross Amount</td46>
+    <td47>Eye Catcher</td47>
+    <td48>Agency Ledger</td48>
+    <td49>Special Discount</td49>
+    <td50>Insert Discount</td50>
+    <td51>Print Remark</td51>
+
+
+  </table2>
+</newdataset>

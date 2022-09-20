@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newcwrport>
+  <table>
+
+
+    <td>From Date&lt;font color=red&gt;*&lt;/font&gt;</td>
+
+    <td1>To Date&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Printing Center&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Branch</td3>
+    <td4>District&lt;font color=red&gt;[F2]&lt;/Font&gt;</td4>
+    <td5>Ad Type</td5>
+    <td6>Ad category</td6>
+    <td7>Ad Subcategory1</td7>
+    <td8>Ad Subcategory2</td8>
+    <td9>Destination</td9>
+    <td10>Run</td10>
+    <td11>Exit</td11>
+    <td12>Category Wise Report</td12>
+    <td13>Team</td13>
+    <td14>Executive</td14>
+    <td15>Publication</td15>
+    <td16>Edition</td16>
+    <td17>Report Type</td17>
+  </table>
+  <table1>
+    <tr1>On Screen</tr1>
+    <tr2>1</tr2>
+    <tr3>Excel</tr3>
+    <tr4>2</tr4>
+    <tr5>PDF</tr5>
+    <tr6>3</tr6>
+  </table1>
+
+  <table2>
+    <td0>Category Date Wise Report</td0>
+  </table2>
+</newcwrport>

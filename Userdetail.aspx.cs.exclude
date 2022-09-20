@@ -1,0 +1,110 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+
+    public partial class Userdetail : System.Web.UI.Page
+    {
+        //string user_type, user_id, user_login, password, repassword, first_name, last_name, question, answer, email_id, mobileno, contactno;
+
+        protected void Page_Load(object sender, EventArgs e)
+        {
+            Ajax.Utility.RegisterTypeForAjax(typeof(Userdetail));
+            txtloginid.Focus();
+            //form1.Attributes.Add("Onload", "javascript:return lblhidden();");
+            //lblmsgrepwd.Visible = false;
+            //
+
+            //lblmsg.Enabled=false;
+
+            if (!Page.IsPostBack)
+            {
+                txtpassword.Attributes.Add("OnBlur", "javascript:return pwdlength();");
+                //txtrepassword.Attributes.Add("OnBlur", "javascript:return chkpasswd();");
+                txtrepassword.Attributes.Add("OnChange", "javascript:return repassword();");
+                txtloginid.Attributes.Add("OnBlur", "javascript:return Autoornot();");
+                txtemailid.Attributes.Add("Onblur", "javascript:return chkvalid();");
+                submit_info.Attributes.Add("Onclick", "javascript:return login();");
+                cancel.Attributes.Add("onclick", "javascript:return cancel1();");
+                //cancel.Attributes.Add("OnClick", )
+                txtloginid.Text = "";
+                //txtuserid.Text="";
+                //txtuserlogin.Text="";            
+                txtfirstname.Text = "";
+                txtlastname.Text = "";
+                txtpassword.Text = "";
+                txtrepassword.Text = "";
+                txtquestion.Text = "";
+                txtanswer.Text = "";
+                txtemailid.Text = "";
+                txtmobileno.Text = "";
+                txtcontactno0.Text = "";
+                txtcontactno1.Text = "";
+                txtcontactno2.Text = "";
+
+            }
+        }
+
+        protected void submit_info_Click(object sender, EventArgs e)
+    {
+       // submit_info.Attributes.Add("Onclick", "javascript:return login();");
+        string user_type = "adcreater";
+        string user_id = Autocode.Value;
+        string user_login = txtloginid.Text;
+        string first_name = txtfirstname.Text;
+        string last_name = txtlastname.Text;
+        string password = txtpassword.Text;
+        string repassword = txtrepassword.Text;
+        string question = txtquestion.SelectedValue;
+        string answer = txtanswer.Text;
+        string email_id = txtemailid.Text;
+        string mobileno = txtmobileno.Text;
+        string contact_no0 = txtcontactno0.Text;
+        string contact_no1 = txtcontactno1.Text;
+        string contact_no2 = txtcontactno2.Text;
+
+
+        NewAdbooking.Classes.userdetail log = new NewAdbooking.Classes.userdetail();
+        
+         //Newadbooking.Classes.login log = new Newadbooking.Classes.login();
+         DataSet ds = new DataSet();
+         ds = log.user(user_type, user_id, user_login, first_name, last_name, password, repassword, question, answer, email_id, mobileno, contact_no0, contact_no1, contact_no2);
+         Response.Write("<script> alert('Your Account has been create succesfully !!!')</script>");
+        
+            txtloginid.Text = "";
+            txtfirstname.Text = "";
+            txtlastname.Text = "";
+            txtpassword.Text = "";
+            txtrepassword.Text = "";
+            txtquestion.Text = "";
+            txtanswer.Text = "";
+            txtemailid.Text = "";
+            txtmobileno.Text = "";
+            txtcontactno0.Text = "";
+            txtcontactno1.Text = "";
+            txtcontactno2.Text = "";
+        }
+        protected void cancel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        [Ajax.AjaxMethod]
+        public DataSet chkzonecodename(string str)
+        {
+            Newadbooking.Classes.userdetail log = new Newadbooking.Classes.userdetail();
+            DataSet ds = new DataSet();
+            ds = log.chkuserid(str);
+            return ds;
+        }
+
+    }
+
+

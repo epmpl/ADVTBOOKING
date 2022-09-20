@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<NewDataSet>
+	<Table>
+		<td>Contract No.&lt;font color=red&gt;*&lt;/Font&gt;</td>
+		<td1>Agency Name&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td1>
+		<td2>Sub Agency Name</td2>
+		<td3>Client Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td3>
+		<td4>Product</td4>
+		<td5>Representative</td5>
+		<td6>Valid From&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+		<td7>Valid To&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+		<td8>Total Contract Value</td8>
+		<td9>Total Contract Volume</td9>
+		<td10>Currency</td10>
+		<td11>Team Name</td11>
+		<td12>Contract Type&lt;font color=red&gt;*&lt;/Font&gt;</td12>
+		<td13>Submit</td13>
+		<td14>CYOP Name</td14>
+		<td15>Close</td15>
+		<thd>Contract Name&lt;font color=red&gt;*&lt;/Font&gt;</thd>
+		<t16>Ad Type&lt;font color=red&gt;*&lt;/Font&gt;</t16>
+		<t17>Contract Date&lt;font color=red&gt;*&lt;/Font&gt;</t17>
+		<t18>Close Date</t18>
+		<t19>Payment Type</t19>
+		<t20>Service Tax&lt;font color=red&gt;*&lt;/Font&gt;</t20>
+		<t21>Executive&lt;font color=red&gt;[F2]&lt;/Font&gt;</t21>
+		<t22>Retainer&lt;font color=red&gt;[F2]*&lt;/Font&gt;</t22>
+		<t23>Caption</t23>
+		<t24>Deal On</t24>
+		<t25>Deal From</t25>
+		<t26>Center</t26>
+		<t27>Add Translation Charges</t27>
+		<t28>Client Ref. No</t28>
+		<t29>Date</t29>
+		<t30>Status</t30>
+		<t31>Receipt No</t31>
+		<t32>Receipt Currency</t32>
+    <td33>Client Clear</td33>
+    <td34>Clear All</td34>
+	</Table>
+</NewDataSet>

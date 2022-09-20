@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newbillbook>
+<table>
+  <td>Printing Center</td>
+  <td1>Publication</td1>
+  <td2>Edition</td2>
+  <td3>Supplement</td3>
+  <td4>Zone</td4>
+  <td5>Branch</td5>
+  <td6>District</td6>
+  <td7>Region</td7>
+  <td8>City</td8>
+  <td9>State</td9>
+  <td10>Revenue Center</td10>
+  <td11>Ad Type</td11>
+  <td12>Agency Type</td12>
+  <td13>Rate Code</td13>
+  <td14>Ad Category</td14>
+  <td15>Ad Subcat</td15>
+  <td16>Ad Subcat3</td16>
+  <td17>Ad Subcat4</td17>
+  <td18>Ad Subcat5</td18>
+  <td19>Filter By</td19>
+  <td20>Package</td20>
+  <td21>Scheme</td21>
+  <td22>Agency&lt;font color=red&gt;[F2]&lt;/font&gt;</td22>
+  <td23>Client&lt;font color=red&gt;[F2]&lt;/font&gt;</td23>
+  <td24>Executive&lt;font color=red&gt;[F2]&lt;/font&gt;</td24>
+  <td25>Retainer&lt;font color=red&gt;[F2]&lt;/font&gt;</td25>
+  <td26>Product</td26>
+  <td27>Brand</td27>
+  <td28>Varient</td28>
+  <td29>Page Type</td29>
+  <td30>Page Premium</td30>
+  <td31>Position Premium</td31>
+  <td32>RO Status</td32>
+  <td33>Booking Type</td33>
+  <td34>Contract Name</td34>
+  <td35>From Date&lt;font color=red&gt;*&lt;/font&gt;</td35>
+  <td36>To Date&lt;font color=red&gt;*&lt;/font&gt;</td36>
+  <td37>Booking Wise</td37>
+  <td38>Bill Wise</td38>
+  <td39>All</td39>
+  <td40>Run</td40>
+  <td41>Complete Report</td41>
+  <td42>Available Fields</td42>
+  <td43>Selected Fields</td43>
+  <td44>State</td44>
+  <td45>Taluka</td45>
+  <td46>Based On</td46>
+ <td47>Booking Insertion/Publish Date Wise</td47>
+  <td48>Box Cycle</td48>
+	<td49>Billing Datewise</td49>
+	<td50>Caption</td50>
+	<td51>Bill No.</td51>
+  <td52>Include Hold</td52>
+  <td53>Fmg Region</td53>
+  <td54>Add Type&lt;font color=red&gt;*&lt;/font&gt;</td54>
+  </table>
+
+<table1>
+  <td>Booking Id</td>
+  <td1>Booking Date/Bill No</td1>
+  <td2>Agency Name</td2>
+  <td3>Client Name</td3>
+  <td4>RO No.</td4>
+  <td5>RO Date</td5>
+  <td6>Exe/Ret Name</td6>
+  <td7>Booking Type</td7>
+  <td8>Color</td8>
+  <td9>Ad Cat</td9>
+  <td10>Ad Subcat</td10>
+  <td11>Ad Subcat3</td11>
+  <td12>Ad Subcat4</td12>
+  <td13>Package</td13>
+  <td14>Publish Date/Bill Date</td14>
+  <td15>No of Ins.</td15>
+  <td16>Paid Ins.</td16>
+  <td17>AdSize(H*W)</td17>
+  <td18>Area</td18>
+  <td19>Page Prem.</td19>
+  <td20>Position Prem.</td20>
+  <td21>Scheme Type</td21>
+  <td22>Rate Code</td22>
+  <td23>Card Rate</td23>
+  <td24>Card Amt</td24>
+  <td25>Contract Rate</td25>
+  <td26>Deviation Amt</td26>
+  <td27>Deviation(%)</td27>
+  <td28>Agg Rate</td28>
+  <td29>Agg Amt</td29>
+  <td30>Disc Amt</td30>
+  <td31>Disc(%)</td31>
+  <td32>Post Prem Amt</td32>
+  <td33>Post Prem(%)</td33>
+  <td34>Sp. Disc Amt</td34>
+  <td35>Sp. Disc(%)</td35>
+  <td36>Space Disc Amt</td36>
+  <td37>Space Disc(%)</td37>
+  <td38>Special Charges</td38>
+  <td39>Ag. Addl. TD Amt</td39>
+  <td40>Ag. Addl. TD(%)</td40>
+  <td41>Gross Amt</td41>
+  <td42>Retainer TD Amt</td42>
+  <td43>Retainer TD(%)</td43>
+  <td44>Ag. TD Amt</td44>
+  <td45>Ag. TD(%)</td45>
+  <td46>Billing Amt</td46>
+  <td47>Ret. Comm. Amt</td47>
+  <td48>Ret. Comm(%)</td48>
+  <td49>Actual Business</td49>
+  <td50>Revenue Center</td50>
+</table1>
+  <table2>
+    <tr>Booking Date</tr>
+    <tr1>1</tr1>
+    <tr2>Publish Date</tr2>
+    <tr3>2</tr3>
+    </table2>
+
+  <table3>
+    <td>-Select Field-</td>
+    <td1>0</td1>
+    <td2>Booking Id</td2>
+    <td3>1</td3>
+    <td4>Booking Date/Bill No</td4>
+    <td5>2</td5>
+    <td6>Agency Name</td6>
+    <td7>3</td7>
+    <td8>Client Name</td8>
+    <td9>4</td9>
+    <td10>RO No.</td10>
+    <td11>5</td11>
+    <td12>RO Date</td12>
+    <td13>6</td13>
+    <td14>Exe/Ret Name</td14>
+    <td15>7</td15>
+    <td16>Booking Type</td16>
+    <td17>8</td17>
+    <td18>Color</td18>
+    <td19>9</td19>
+    <td20>Ad Cat</td20>
+    <td21>10</td21>
+    <td22>Ad Subcat</td22>
+    <td23>11</td23>
+    <td24>Ad Subcat3</td24>
+    <td25>12</td25>
+    <td26>Ad Subcat4</td26>
+    <td27>13</td27>
+
+    <td28>Package</td28>
+    <td29>14</td29>
+
+    <td30>Publish Date/Bill Date</td30>
+    <td31>15</td31>
+
+    <td32>No of Ins.</td32>
+    <td33>16</td33>
+
+    <td34>Paid Ins.</td34>
+    <td35>17</td35>
+
+    <td36>AdSize(H*W)</td36>
+    <td37>18</td37>
+    <td38>Area</td38>
+    <td39>19</td39>
+    <td40>Page Prem.</td40>
+    <td41>20</td41>
+    <td42>Position Prem.</td42>
+    <td43>21</td43>
+    <td44>Scheme Type</td44>
+    <td45>22</td45>
+    <td46>Rate Code</td46>
+    <td47>23</td47>
+    <td48>Card Rate</td48>
+    <td49>24</td49>
+    <td50>Card Amt</td50>
+    <td51>25</td51>
+    <td52>Contract Rate</td52>
+    <td53>26</td53>
+    <td54>Deviation Amt</td54>
+    <td55>27</td55>
+    <td56>Deviation(%)</td56>
+    <td57>28</td57>
+    <td58>Agg Rate</td58>
+    <td59>29</td59>
+    <td60>Agg Amt</td60>
+    <td61>30</td61>
+    <td62>Disc Amt</td62>
+    <td63>31</td63>
+    <td64>Disc(%)</td64>
+    <td65>32</td65>
+    <td66>Post Prem Amt</td66>
+    <td67>33</td67>
+    <td68>Post Prem(%)</td68>
+    <td69>34</td69>
+    <td70>Sp. Disc Amt</td70>
+    <td71>35</td71>
+    <td72>Sp. Disc(%)</td72>
+    <td73>36</td73>
+    <td74>Space Disc Amt</td74>
+    <td75>37</td75>
+    <td76>Space Disc(%)</td76>
+    <td77>38</td77>
+    <td78>Special Charges</td78>
+    <td79>39</td79>
+    <td80>Ag. Addl. TD Amt</td80>
+    <td81>40</td81>
+    <td82>Ag. Addl. TD(%)</td82>
+    <td83>41</td83>
+
+    <td84>Gross Amt</td84>
+    <td85>42</td85>
+    <td86>Retainer TD Amt</td86>
+    <td87>43</td87>
+    <td88>Retainer TD(%)</td88>
+    <td89>44</td89>
+    <td90>Ag. TD Amt</td90>
+    <td91>45</td91>
+    <td92>Ag. TD(%)</td92>
+    <td93>46</td93>
+    <td94>Billing Amt</td94>
+    <td95>47</td95>
+    <td96>Ret. Comm. Amt</td96>
+    <td97>48</td97>
+    <td98>Ret. Comm(%)</td98>
+    <td99>49</td99>
+    <td100>Actual Business</td100>
+    <td101>50</td101>
+    <td102>Revenue Center</td102>
+    <td103>51</td103>
+    <td104>Uom</td104>
+    <td105>52</td105>
+    <td106>Publication</td106>
+    <td107>53</td107>
+    <td108>Edition</td108>
+    <td109>54</td109>
+    <td110>Printing Center</td110>
+    <td111>55</td111>
+    <td112>Branch</td112>
+    <td113>56</td113>
+    <td114>District</td114>
+    <td115>57</td115>
+    <td116>Taluka</td116>
+    <td117>58</td117>
+	  <td118>Page No</td118>
+	  <td119>59</td119>
+	  <td120>Cash Disc</td120>
+	  <td121>60</td121>
+	  <td122>Box Code</td122>>
+	  <td123>61</td123>
+	  <td124>Status</td124>
+	  <td125>62</td125>
+	  <td126>User Id</td126>
+	  <td127>63</td127>
+	  <td128>User Name</td128>
+	  <td129>64</td129>
+    <td130>Bill Remark</td130>
+    <td131>65</td131>
+	  <td132>Product</td132>
+	  <td133>66</td133>
+	  <td134>Brand</td134>
+	  <td135>67</td135>
+	  <td136>Varient</td136>
+	  <td137>68</td137>
+	  <td138>Caption</td138>
+	  <td139>69</td139>
+    <td140>FMG Reason</td140>
+    <td141>70</td141>
+  </table3>
+
+  <table4>
+    <td>-Select Field-</td>
+    <td1>0</td1>
+    <td2>Booking Id</td2>
+    <td3>1</td3>
+    <td4>Bill No.</td4>
+    <td5>2</td5>
+    <td6>Agency Name</td6>
+    <td7>3</td7>
+    <td8>Client Name</td8>
+    <td9>4</td9>
+    <td10>RO No.</td10>
+    <td11>5</td11>
+    <td12>RO Date</td12>
+    <td13>6</td13>
+    <td14>Exe/Ret Name</td14>
+    <td15>7</td15>
+    <td16>Booking Type</td16>
+    <td17>8</td17>
+    <td18>Color</td18>
+    <td19>9</td19>
+    <td20>Ad Cat</td20>
+    <td21>10</td21>
+    <td22>Ad Subcat</td22>
+    <td23>11</td23>
+    <td24>Ad Subcat3</td24>
+    <td25>12</td25>
+    <td26>Ad Subcat4</td26>
+    <td27>13</td27>
+
+    <td28>Package</td28>
+    <td29>14</td29>
+
+    <td30>Bill Date</td30>
+    <td31>15</td31>
+
+    <td32>No of Ins.</td32>
+    <td33>16</td33>
+
+    <td34>Paid Ins.</td34>
+    <td35>17</td35>
+
+    <td36>AdSize(H*W)</td36>
+    <td37>18</td37>
+    <td38>Area</td38>
+    <td39>19</td39>
+    <td40>Page Prem.</td40>
+    <td41>20</td41>
+    <td42>Position Prem.</td42>
+    <td43>21</td43>
+    <td44>Scheme Type</td44>
+    <td45>22</td45>
+    <td46>Rate Code</td46>
+    <td47>23</td47>
+    <td48>Card Rate</td48>
+    <td49>24</td49>
+    <td50>Card Amt</td50>
+    <td51>25</td51>
+    <td52>Contract Rate</td52>
+    <td53>26</td53>
+    <td54>Deviation Amt</td54>
+    <td55>27</td55>
+    <td56>Deviation(%)</td56>
+    <td57>28</td57>
+    <td58>Agg Rate</td58>
+    <td59>29</td59>
+    <td60>Agg Amt</td60>
+    <td61>30</td61>
+    <td62>Disc Amt</td62>
+    <td63>31</td63>
+    <td64>Disc(%)</td64>
+    <td65>32</td65>
+    <td66>Post Prem Amt</td66>
+    <td67>33</td67>
+    <td68>Post Prem(%)</td68>
+    <td69>34</td69>
+    <td70>Sp. Disc Amt</td70>
+    <td71>35</td71>
+    <td72>Sp. Disc(%)</td72>
+    <td73>36</td73>
+    <td74>Space Disc Amt</td74>
+    <td75>37</td75>
+    <td76>Space Disc(%)</td76>
+    <td77>38</td77>
+    <td78>Special Charges</td78>
+    <td79>39</td79>
+    <td80>Ag. Addl. TD Amt</td80>
+    <td81>40</td81>
+    <td82>Ag. Addl. TD(%)</td82>
+    <td83>41</td83>
+
+    <td84>Gross Amt</td84>
+    <td85>42</td85>
+    <td86>Retainer TD Amt</td86>
+    <td87>43</td87>
+    <td88>Retainer TD(%)</td88>
+    <td89>44</td89>
+    <td90>Ag. TD Amt</td90>
+    <td91>45</td91>
+    <td92>Ag. TD(%)</td92>
+    <td93>46</td93>
+    <td94>Billing Amt</td94>
+    <td95>47</td95>
+    <td96>Ret. Comm. Amt</td96>
+    <td97>48</td97>
+    <td98>Ret. Comm(%)</td98>
+    <td99>49</td99>
+    <td100>Actual Business</td100>
+    <td101>50</td101>
+    <td102>Revenue Center</td102>
+    <td103>51</td103>
+  </table4>
+
+
+
+  <table5>
+    <td>-Select Field-</td>
+    <td1>0</td1>
+    <td0>Date</td0>
+    <td00>29</td00>
+   
+    <td2>No. Ins</td2>
+    <td3>1</td3>
+    <td4>Paid Ins</td4>
+    <td5>2</td5>
+    <td6>Area</td6>
+    <td7>3</td7>
+
+    <td10>Card Amt</td10>
+    <td11>5</td11>
+    <td12>Dvtn. Amt</td12>
+    <td13>6</td13>
+    <td14>Dvtn. (%)</td14>
+    <td15>7</td15>
+    <td16>Agrd. Amt</td16>
+    <td17>8</td17>
+    <td18>Disc Amt</td18>
+    <td19>9</td19>
+    <td20>Disc (%)</td20>
+    <td21>10</td21>
+    <td22>Post Prem. Amt.</td22>
+    <td23>11</td23>
+    <td24>Post Prem.(%)</td24>
+    <td25>12</td25>
+    <td26>Sp. Disc Amt</td26>
+    <td27>13</td27>
+
+    <td28>Sp. Disc (%)</td28>
+    <td29>14</td29>
+
+    <td30>Ex. Disc Amt</td30>
+    <td31>15</td31>
+
+    <td32>Ex. Disc (%)</td32>
+    <td33>16</td33>
+
+    <td34>Sp. Charges</td34>
+    <td35>17</td35>
+
+    <td36>Add. Age. Td.Amt</td36>
+    <td37>18</td37>
+    <td38>Add. Age. Td.(%)</td38>
+    <td39>19</td39>
+    <td40>Gr. Amt</td40>
+    <td41>20</td41>
+    <td42>Ret. Td.Amt</td42>
+    <td43>21</td43>
+    <td44>Ret. Td.(%)</td44>
+    <td45>22</td45>
+    <td46>Age. TD Amt</td46>
+    <td47>23</td47>
+    <td48>Age. TD (%)</td48>
+    <td49>24</td49>
+    <td50>BK.Amt</td50>
+    <td51>25</td51>
+    <td52>Ret. Comm Amt</td52>
+    <td53>26</td53>
+    <td54>Ret. Comm (%)</td54>
+    <td55>27</td55>
+    <td56>Actl. Bus.</td56>
+    <td57>28</td57>
+
+    
+    
+  </table5>
+
+ 
+  
+  
+  
+  </newbillbook>

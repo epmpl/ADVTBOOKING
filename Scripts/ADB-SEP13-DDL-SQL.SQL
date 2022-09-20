@@ -1,0 +1,1 @@
+alter table preferrences add  CREDIT_LIMIT_PRECENTAGE_ALERT numeric(3, 2) 

@@ -1,0 +1,51 @@
+﻿.insertiontxtclass1
+{
+	border-bottom :solid 1px black;
+	font-weight:bold;
+	border-right:solid 1px black;
+	font-size :xx-small;
+}
+.lable_textbox
+{
+	font-family:Arial;
+	font-size:11px;
+}
+
+.head
+{
+	font-family:Arial;
+   font-size  :58px;
+    font-weight:bold;
+   
+	}
+
+.subhead
+{
+	font-family:Arial;
+	font-size:20px;
+	font-weight:lighter;
+}
+
+.lable_textbox_bold
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	
+}
+
+.lable_textbox_bold_left
+{
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+}
+
+.head_second
+{
+	font-family:Arial;
+   font-size  :30px;
+    font-weight:bold;
+   
+	}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <!-->this is to bind the bill cycle drop down-->
+  <table>
+    <tr>Insertwise</tr>
+    <tr1>1</tr1>
+    <tr2>Combined</tr2>
+    <tr3>6</tr3>
+    
+  </table>
+  <!-->this is to bind the bill to drop down-->
+  <table1>
+    <tr>Client</tr>
+    <tr1>1</tr1>
+    <tr2>Agency</tr2>
+    <tr3>2</tr3>
+    
+  </table1>
+
+  <!-->this is to bind the bill status drop down-->
+  <table2>
+    <tr>Home Ad</tr>
+    <tr1>1</tr1>
+    <tr2>Billed</tr2>
+    <tr3>2</tr3>
+    <tr4>Not Billed</tr4>
+    <tr5>3</tr5>
+
+  </table2>
+
+  <!-->this is to bind the biiling type -->
+  <table3>
+	  <tr4>Normal</tr4>
+	  <tr5>3</tr5>
+	  <tr>Barter</tr>
+	  <tr1>1</tr1>
+	  <tr2>FMG</tr2>
+    <tr3>2</tr3>
+   
+	  <tr6>InHouse</tr6>
+	  <tr7>4</tr7>
+
+	  <tr8>Complimentary</tr8>
+	  <tr9>5</tr9>
+	  <tr10>Corrindom</tr10>
+	  <tr11>6</tr11>
+
+  </table3>
+ 
+
+  <!-->this is to bind the Inserts status -->
+  <table4>
+    <tr>Booked</tr>
+    <tr1>booked</tr1>
+    <tr2>Cancel</tr2>
+    <tr3>cancel</tr3>
+    <tr4>Hold</tr4>
+    <tr5>hold</tr5>
+   
+
+
+  </table4>
+
+  <table5>
+ 
+
+    <tr>HDFC</tr>
+    <tr1>hdfc</tr1>
+    <tr2>ICICI</tr2>
+    <tr3>icici</tr3>
+    <tr4>MASTER</tr4>
+    <tr5>master</tr5>
+    
+
+
+  </table5>
+
+  <table6>
+    <no>enable</no>
+    <edition>enable</edition>
+    <Date>enable</Date>
+    <Ad_Sub_Cat>enable</Ad_Sub_Cat>
+    <Color>enable</Color>
+    <Hei_Wid_Col>enable</Hei_Wid_Col>
+    <Insertion_Sta>enable</Insertion_Sta>
+    <Status_Material>denable</Status_Material>
+    <File_Name>enable</File_Name>
+    <Upload>enable</Upload>
+    <Page_Position>disable</Page_Position>
+    <Latest_By>denable</Latest_By>
+    <Repeating>denable</Repeating>
+    <Premium_1>denable</Premium_1>
+    <Pre_per>denable</Pre_per>
+    <Pre_Allowed>denable</Pre_Allowed>
+    <Adv_Cat>denable</Adv_Cat>
+    <Bill_Status>denable</Bill_Status>
+    <Paid_Ins>enable</Paid_Ins>
+    <Solo_Rate>enable</Solo_Rate>
+    <Gross_Amt>enable</Gross_Amt>
+    <Page_No>enable</Page_No>
+    <Remarks>Denable</Remarks>
+    <Bill_Amt>enable</Bill_Amt>
+    <Bill_Rate>enable</Bill_Rate>
+    <Card_Rate>enable</Card_Rate>
+    <Disc_Rate>enable</Disc_Rate>
+    <Agreed_Rate>enable</Agreed_Rate>
+    <Size>enable</Size>
+    <AD_SUBCAT3>denable</AD_SUBCAT3>
+    <AD_SUBCAT4>denable</AD_SUBCAT4>
+    <AD_SUBCAT5>denable</AD_SUBCAT5>
+    <Logo_Name>enable</Logo_Name>
+    <Logo_H>enable</Logo_H>
+    <Logo_W>enable</Logo_W>
+    <Logo_Upload>disable</Logo_Upload>
+	  <splitbutton>enable</splitbutton>
+	  <Detailbutton>enable</Detailbutton>
+	  <SECTIONCODE>enable</SECTIONCODE>
+	  <RESOURCENO>enable</RESOURCENO>
+	  <discount>enable</discount>
+    <Act_Insert_Sta>enable</Act_Insert_Sta>
+    
+  </table6>
+	<table7>
+		<Latest_By>hide</Latest_By>
+		<Repeating>hide</Repeating>
+		<Pre_Allowed>hide</Pre_Allowed>
+		<Bill_Status>hide</Bill_Status>
+		<Bill_Rate>unhide</Bill_Rate>
+		<Logo_H_W_NAME>hide</Logo_H_W_NAME>
+		<discount>unhide</discount>
+    <Agncyamnt>unhide</Agncyamnt>
+    <AdlAgncyamnt>unhide</AdlAgncyamnt>
+    <Spldisc>unhide</Spldisc>
+    <cashdisc>unhide</cashdisc>
+    <roundoff>unhide</roundoff>
+    <pdfhight>unhide</pdfhight>
+	</table7>
+
+
+
+
+ 
+  
+</newdata>
+

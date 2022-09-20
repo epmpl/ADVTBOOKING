@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+    <tr>Date</tr>
+    <tr1>Branch</tr1>
+    <tr2>Booked By</tr2>
+    <tr3>CIO Booking ID&lt;font color=red&gt;*&lt;/Font&gt;</tr3>
+    <tr4>Prev. BookingID</tr4>
+    <tr5>Agency&lt;font color=red&gt;[F2]*&lt;/Font&gt;</tr5>
+    <tr6>Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</tr6>
+    <tr7>Address</tr7>
+    <tr8>Ad Categories&lt;font color=red&gt;*&lt;/Font&gt;</tr8>
+    <tr9>RO No.&lt;font color=red&gt;&lt;/Font&gt;</tr9>
+    <tr10>RO Date&lt;font color=red&gt;*&lt;/Font&gt;</tr10>
+    <tr11>Ro Status</tr11>
+    <tr12>Color&lt;font color=red&gt;*&lt;/Font&gt;</tr12>
+    <tr13>Background Color</tr13>
+    <tr14>Eye Catcher</tr14>
+    <tr15>Packages Available&lt;font color=red&gt;*&lt;/Font&gt;</tr15>
+    <tr16>Paid Ins.</tr16>
+    <tr17>Material Status</tr17>
+    <tr18>UOM&lt;font color=red&gt;*&lt;/Font&gt;</tr18>
+    <tr19>Adv Size</tr19>
+    <tr20>H</tr20>
+    <tr21>W</tr21>
+    <tr22>No. of Columns</tr22>
+    <tr23>Page Position</tr23>
+    <tr24>Total Area</tr24>
+    <tr25>Payment Status</tr25>
+    <tr26>Contract Name</tr26>
+    <tr27>Contract Rate</tr27>
+    <tr28>Card Rate</tr28>
+    <tr29>Net Amount</tr29>
+    <tr30>Box Code</tr30>
+    <tr31>Box Rate</tr31>
+    <tr32>Start With&lt;font color=red&gt;*&lt;/Font&gt;</tr32>
+    <tr33>No. Of Insertion</tr33>
+    <tr34>Repeating Day</tr34>
+    <tr35>Receipt No</tr35>
+    <tr36>Receipt Date</tr36>
+    <tr37>Caption</tr37><!--print remarks-->
+    <tr38>Get Rate</tr38>
+    <tr39>Confirm Ad</tr39>
+    <tr40>Region</tr40>
+    <tr41>Variable</tr41>
+    <tr42>Bill To</tr42>
+    <tr43>Color Type</tr43>
+    <tr44>Ad Type</tr44>
+    <tr45>Select Logo</tr45>
+    <tr46>Upload </tr46>
+    <tr47>Logo Size</tr47>
+    <tr48>Logo Color</tr48>
+    <tr49>Logo Uom</tr49>
+    <tr50>Print receipt</tr50>
+    <tr51>Rate Code</tr51>
+    <tr52>Box Code</tr52>
+    <tr53>Box No</tr53>
+    <tr54>Box Address</tr54>
+    <tr55>Box Charges</tr55>
+	  <tr56>Ad Sub Categoty</tr56>
+	  <tr57>Ad Sub Categoty3</tr57>
+	  <tr58>Ad Sub Categoty4</tr58>
+	  <tr59>Ad Sub Categot5</tr59>
+	  <tr60>Customer Details</tr60>
+	  <tr61>Ad Details</tr61>
+    <tr62>Selected Package(s)</tr62>
+    <tr63>Add</tr63>
+    <tr64>Remove</tr64>
+    <tr65>Multi Packages</tr65>
+    <tr66>btimages/save.jpg</tr66><!--<tr66>Save &amp; Confirm</tr66>-->
+    <tr67>Agency Balance</tr67>
+	  <tr68>Rate Code</tr68>
+    <tr69>Contract</tr69>
+    <tr70>Key No.&lt;font color=red&gt;*&lt;/Font&gt;</tr70>
+    <tr71>Design Box</tr71>
+    <tr72>Logo Premium</tr72>
+    <tr73>Mobile No.&lt;font color=red&gt;*&lt;/Font&gt;</tr73>
+  </table>
+
+  <table1>
+    <btndiscount>ensbel</btndiscount>
+    <btnagreed>hide</btnagreed>
+    <specialdisc>hide</specialdisc>
+
+  </table1>
+</newdata>
+

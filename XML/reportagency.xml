@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Agency Name&lt;font color=red&gt;[f2]&lt;/Font&gt;</td>   
+    <td1>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Publication&lt;font color=red&gt;&lt;/Font&gt;</td3>
+    <td4>Publication Center&lt;font color=red&gt;&lt;/Font&gt;</td4>
+    <td5>Edition&lt;font color=red&gt;&lt;/Font&gt;</td5>
+    <td6>Destination&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td7>Run</td7>
+    <t8>All Ads Of The Agency</t8>
+      <t9>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</t9>
+      <t10>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</t10>
+
+
+
+  </table>
+
+
+
+</database>

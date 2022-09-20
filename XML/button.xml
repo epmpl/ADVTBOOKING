@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<NewDataSet>
+  <Table>
+    <td>btimages/new.jpg</td>
+    <td1>btimages/save.jpg</td1>
+    <td2>btimages/modify.jpg</td2>
+    <td3>btimages/query.jpg</td3>
+    <td4>btimages/execute.jpg</td4>
+    <td5>btimages/clear.jpg</td5>
+    <td6>btimages/first.jpg</td6>
+    <td7>btimages/previous.jpg</td7>
+    <td8>btimages/next.jpg</td8>
+    <td9>btimages/last.jpg</td9>
+    <td10>btimages/delete.jpg</td10>
+    <td11>btimages/exit.jpg</td11>
+    <td12>View</td12>
+    
+     </Table>
+  <Table1>
+    <td>btimages/new-off.jpg</td>
+    <td1>btimages/save-off.jpg</td1>
+    <td2>btimages/modify-off.jpg</td2>
+    <td3>btimages/query-off.jpg</td3>
+    <td4>btimages/execute-off.jpg</td4>
+    <td5>btimages/clear-off.jpg</td5>
+    <td6>btimages/first-off.jpg</td6>
+    <td7>btimages/previous-off.jpg</td7>
+    <td8>btimages/next-off.jpg</td8>
+    <td9>btimages/last-off.jpg</td9>
+    <td10>btimages/delete-off.jpg</td10>
+    <td11>btimages/exit-off.jpg</td11>
+  </Table1>
+</NewDataSet>
+

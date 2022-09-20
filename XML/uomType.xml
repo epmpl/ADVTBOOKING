@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+
+<newdata>
+  <!-->this is to bind the bill cycle drop down-->
+  <table>
+	  <tr8>CD</tr8>
+	  <tr9>CD</tr9>
+    <tr>ROL</tr>
+    <tr1>ROL</tr1>
+    <tr2>ROD</tr2>
+    <tr3>ROD</tr3>
+    <tr4>ROW</tr4>
+    <tr5>ROW</tr5>
+    <tr6>ROC</tr6>
+    <tr7>ROC</tr7>
+	  <tr10>FCT</tr10>
+	  <tr11>FCT</tr11>
+	  <tr12>NON FCT</tr12>
+	  <tr13>NON FCT</tr13>
+
+  </table>
+	<table1>
+		<tr>FCT</tr>
+		<tr1>FCT</tr1>
+		<tr2>NON FCT</tr2>
+		<tr3>NON FCT</tr3>
+	</table1>
+</newdata>

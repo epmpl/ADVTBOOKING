@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+	<table>
+		<tr>View/Delete Log&lt;font color=red&gt;*&lt;/Font&gt;</tr>
+		<tr1>From Date&lt;font color=red&gt;*&lt;/Font&gt;</tr1>
+		<tr2>To Date&lt;font color=red&gt;*&lt;/Font&gt;</tr2>
+		<tr3>User&lt;font color=red&gt;&lt;/Font&gt;</tr3>
+		<tr4>Process&lt;font color=red&gt;&lt;/Font&gt;</tr4>
+		<tr5>View</tr5>
+		<tr6>Delete</tr6>
+    <tr8>Exit</tr8>
+		<tr9>BookingId/ReceiptNo.</tr9>
+	</table>
+	<table2>
+    <form>QBC</form>
+    <tab>transac_log.aspx,tbl_booking_mast_log</tab>
+    <form3>QBC Inserts</form3>
+    <tab3>BookingInsertlog.aspx,tbl_booking_insert_log</tab3>
+    <form4>QBC Matter</form4>
+    <tab4>Matterlog.aspx,tbl_matter_log</tab4>
+		<form1>Client Master</form1>
+		<tab1>client_log.aspx,cust_mast_log</tab1>
+    <form2>Login Master</form2>
+    <tab2>login_log.aspx,login_log</tab2>
+	</table2>
+</newdata>

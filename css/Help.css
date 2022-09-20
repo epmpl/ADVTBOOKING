@@ -1,0 +1,119 @@
+﻿
+body {
+	margin:0px;
+}
+
+.main_container{
+	margin:0px auto 0px auto;
+	width:1000px;
+	}
+
+.header{
+	margin:0px;
+	width:1000px;
+	background-image:url(Images/header_img.jpg);
+	background-repeat:no-repeat;
+	height:127px;
+}
+
+.leftbar{
+	float:left;
+	display:inline;
+	margin:0px;
+	width:245px;
+	height:550px;
+	border:solid 2px #36F;
+	border-bottom-width:0px;
+	border-top-width:0px;
+	border-left-width:2px;
+	overflow:auto;
+	background-color:#e3e7e9;
+}
+
+.rightbar{
+	overflow:auto;
+	border:solid 2px #36F;
+	border-bottom-width:0px;
+	border-top-width:0px;
+	border-left-width:0px;
+	float:left;
+	display:inline;
+	margin:0px;
+	width:749px;
+	height:550px;
+	background-color:#ffffff;
+	}
+	
+	
+.text_main_container{	
+	float:left;
+	display:inline;
+	margin:0px;
+	width:710px;
+	background-color:#ffffff;
+}
+
+
+
+.text_head_container{	
+	float:left;
+	display:inline;
+	margin: 5px 0px 5px 5px;
+	padding:5px 0px 0px 5px;
+	width:710px;
+	height:25px;
+	background-color:#0971a4;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFF;
+}
+
+
+.text_subhead_container{	
+	float:left;
+	border:solid 1px #0971a4;
+	border-right-width:0px;
+	border-top-width:0px;
+	border-left-width:0px;
+	display:inline;
+	margin: 25px 0px 5px 5px;
+	padding:5px 0px 0px 0px;
+	width:710px;
+	height:23px;
+	background-color:#ffffff;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#292a2a;
+}
+
+.detailtext_container{
+	float:left;
+	display:inline;
+	width:710px;
+	margin: 2px 0px 5px 5px;
+	padding:0px 0px 0px 5px;
+	font-family:Arial, Helvetica, sans-serif
+	font-size:12px;
+	color:#5e6162;
+	line-height:18px;
+	}
+	
+	
+	
+	.footer{
+	float:left;
+	margin:0px;
+	width:1000px;
+	background-image:url(Images/footer.jpg);
+	background-repeat:no-repeat;
+	height:59px;
+	}
+	
+	
+	td, body {color:#000000; font-family:Tahoma, Arial, Helvetica; font-size:11px;}
+a {color:#006699; text-decoration:none; font-weight:bold; font-size:10px;}
+a:hover {color:#F00; text-decoration:none; font-weight:bold; font-size:10px;}
+a:active {color:#006699; text-decoration:none; font-weight:bold ; font-size:10px;}
+

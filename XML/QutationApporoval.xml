@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+    <tr>Agency</tr>
+    <tr1>Executive</tr1>
+    <tr2>Agency Name </tr2>
+    <tr3>UOM </tr3>
+    <tr4>Agreed Rate</tr4>
+    <tr5>Client Name</tr5>
+    <tr6>Package</tr6>
+    <tr7>Agreed Amount</tr7>
+    <tr8>Paymode Status</tr8>
+    <tr9>Publish Date</tr9>
+    <tr10>Disc. Amt(%)</tr10>
+    <tr11>RO No</tr11>
+    <tr12>No.Of Ins.</tr12>
+    <tr13>Pos.Prem.Amt(%)</tr13>
+    <tr14>Ro.Status</tr14>
+    <tr15>Paid Insertion</tr15>
+    <tr16>Special Disc.</tr16>
+    <tr17>Executive Name</tr17>
+    <tr18>Contract Name</tr18>
+    <tr19>Space Discount(%)</tr19>
+    <tr20>Ag Outstanding</tr20>
+    <tr21>Ad Size</tr21>
+    <tr22>Special Charges</tr22>
+    <tr23>Retainer Name</tr23>
+    <tr24>Lines</tr24>
+    <tr25>Addtional Ag.Td.(%)</tr25>
+    <tr26>Booking Type</tr26>
+    <tr27>Page Position</tr27>
+    <tr28>Gross Amount</tr28>
+    <tr29>Color Type</tr29>
+    <tr30>Position Prem</tr30>
+    <tr31>Retainer Td(%)</tr31>
+    <tr32>Ad Category</tr32>
+    <tr33>Area</tr33>
+    <tr34>Agency Td(%)</tr34>
+    <tr35>Ad Sub Category</tr35>
+    <tr36>Scheme Type</tr36>
+    <tr37>Bill Amount</tr37>
+    <tr38>Ad Sub Category3</tr38>
+
+    <tr39>Rate Type</tr39>
+    <tr40>Ad Sub Category4</tr40>
+    <tr41>Card Rate</tr41>
+    <tr42>Ad Sub Category5</tr42>
+    <tr43>Card Amount</tr43>
+    <tr44>Auditor Comments</tr44>
+    <tr45>Amt.</tr45>
+    <tr46>Page.Prem.(%)</tr46>
+    <tr47>StatusType&lt;font color=red&gt;*&lt;/Font&gt;</tr47>
+    <tr48>Bill Rec. Amt</tr48>
+    <tr49>Bill Balance Amt</tr49>
+    <tr50>RoComments</tr50>
+    <tr51>Client</tr51>
+    <tr52>From Date&lt;font color=red&gt;*&lt;/Font&gt;</tr52>
+    <tr53>To Date&lt;font color=red&gt;*&lt;/Font&gt;</tr53>
+    <tr54>Approve</tr54>
+    <tr55>Reject</tr55>
+    <tr56>Booking Id</tr56>
+    <tr57>Ad Type</tr57>
+    <tr58>Retainer</tr58>
+
+  </table>
+  <table1>
+    <!-- IF B is Selected Branch Wise Data Will show other All Data will Show. -->
+    <tr></tr>
+  </table1>
+</newdata>

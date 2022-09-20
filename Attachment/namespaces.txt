@@ -1,0 +1,30 @@
+
+
+
+ ACCESS/ORACLE 
+ 1) Using System.Data.OLEDB; ( object linking embedding data base)
+ 
+ SQL SERVER
+ 2) USing System.Data.SqlClient;
+ 
+ 
+ 
+ If using Access :
+ 
+         OLEDBConnection;
+         OLEDBCommand;
+         OLEDBAdapter;
+         
+If using SQL Server         
+
+
+         SqlClientConnection;
+         SqlClientCommand;
+         SqlClientAdapter;
+
+ 
+ 
+ 
+ 
+ 
+ 

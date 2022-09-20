@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <!-->this is to bind the bill cycle drop down-->
+  <table>
+  
+    <tr>Daily</tr>
+    <tr1>1</tr1>
+    <tr2>Weekly</tr2>
+    <tr3>2</tr3>
+    <tr4>Fortnight</tr4>
+    <tr5>3</tr5>
+    <tr6>Monthly</tr6>
+    <tr7>4</tr7>
+	  <tr8>Ro Wise</tr8>
+	  <tr9>5</tr9>
+    <tr10>Combined</tr10>
+    <tr11>6</tr11>
+  </table>
+  <!-->this is to bind the bill to drop down-->
+  <table1>
+    <tr>Client</tr>
+    <tr1>1</tr1>
+    <tr2>Agency</tr2>
+    <tr3>2</tr3>
+    
+  </table1>
+
+  <!-->this is to bind the bill status drop down-->
+  <table2>
+    <tr>Home Ad</tr>
+    <tr1>1</tr1>
+    <tr2>Billed</tr2>
+    <tr3>2</tr3>
+    <tr4>Not Billed</tr4>
+    <tr5>3</tr5>
+
+  </table2>
+
+  <!-->this is to bind the biiling type -->
+  <table3>
+    <tr>Barter</tr>
+    <tr1>1</tr1>
+    <tr2>FMG</tr2>
+    <tr3>2</tr3>
+    <tr4>Normal</tr4>
+    <tr5>3</tr5>
+    <tr6>In House</tr6>
+    <tr7>4</tr7>
+    <tr8>Complimentry</tr8>
+    <tr9>5</tr9>
+
+  </table3>
+
+  <!-->this is to bind the Inserts status -->
+  <table4>
+    <tr0>Select</tr0>
+    <tr00>0</tr00>
+
+    <tr>Booked</tr>
+    <tr1>booked</tr1>
+    <tr2>Hold</tr2>
+    <tr3>hold</tr3>
+    <tr4>Cancel</tr4>
+    <tr5>cancel</tr5>
+    <tr6>Publish</tr6>
+    <tr7>publish</tr7>
+    <tr8>Billed</tr8>
+    <tr9>billed</tr9>
+    <tr10>Cancel</tr10>
+    <tr11>cancel</tr11>
+    <tr12>Reschedule</tr12>
+    <tr13>reschedule</tr13>
+    <tr14>Temp Booking</tr14>
+    <tr15>tempbooking</tr15>
+
+
+  </table4>
+
+  <table5>
+ 
+
+    <tr>HDFC</tr>
+    <tr1>hdfc</tr1>
+    <tr2>ICICI</tr2>
+    <tr3>icici</tr3>
+    <tr4>MASTER</tr4>
+    <tr5>master</tr5>
+    
+
+
+  </table5>
+
+
+</newdata>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Contact Person&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Designation&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Date Of Birth</td2>
+    <td3>Phone No&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Extension</td4>
+    <td5>Fax No</td5>
+    <td6>Email-ID</td6>
+    <td7>Clear</td7>
+    <td8>Delete</td8>
+    <td9>Close</td9>
+    <td10>Submit</td10>
+	  <td11>Emp Code</td11>
+
+
+  </table>
+
+
+
+</database>

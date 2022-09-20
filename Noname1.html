@@ -1,0 +1,2408 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	Classified Booking
+</title><meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR" /><meta content="C#" name="CODE_LANGUAGE" /><meta content="JavaScript" name="vs_defaultClientScript" /><meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema" />
+    <script type="text/javascript" language="javascript" src="javascript/permission.js"></script>
+    <script language="javascript" src="javascript/givepermission.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/popupcalender_cl.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/datevalidation.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/datechkforcurrdate.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/Validations.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/entertotabclassified.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/classified.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/datevalidationforbook.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/receiptcumbill.js" type="text/javascript"></script>
+    <script language="javascript" src="javascript/classifiedLink.js" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+    
+		
+		
+
+
+function rateenter(event)
+{
+
+    if(document.all){
+   
+        if((event.keyCode>=46 && event.keyCode<=57)||(event.keyCode==127)||(event.keyCode==8)||(event.keyCode==9)  ||(event.keyCode==190))
+        {
+        return true;
+        }
+        else
+        {
+        return false;
+        }
+      }
+      else
+      {
+         if((event.which>=46 && event.which<=57)||(event.which==127)||(event.which==8)||(event.which==9) ||(event.which==190))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+      }
+}
+		
+		var popUpWin="";
+		function keyvalue()
+		{
+		
+		
+		}
+		function Hide()
+		{
+		    if(document.getElementById('divpopup').style.display=="block")
+		    {
+		        document.getElementById('divpopup').style.display="none";
+		        //alert(document.getElementById('hiddiv').innerHTML);
+		        //document.getElementById('hidehref').innerHTML="Show";
+		        document.getElementById('shodi').style.display="block";
+		        //alert(document.getElementById('hidehref').innerHTML)
+		        return false;
+		        
+		       // document.getElementById('tblinsert').style.display="block";
+		       
+		       
+		    }
+		    else
+		    {
+		        document.getElementById('divpopup').style.display="block";
+		        document.getElementById('hidehref').innerHTML="Hide";
+		        return false;
+		        //document.getElementById('tblinsert').style.display="none";
+		    }
+		}
+		
+		function openClient()
+		{
+        //		 alert("hi");
+            window.open('clientName.aspx','ClientName','resizable=0,toolbar=0,top=140,left=30,scrollbars=yes,width=340px,height=255px'); 
+        //popUpWin.focus();
+            return false;
+		}
+		
+		
+		
+		
+		/*function changediv()
+		{
+		if(document.getElementById('LinkButton1').disabled==false)
+		{
+		
+		if(document.getElementById('txtagency').value=="")
+		{
+		alert("Please fill the agency name");
+		document.getElementById('txtagency').focus();
+		return false;
+		}
+		else if(document.getElementById('drpagscode').value=="" || document.getElementById('drpagscode').value=="0")
+		{
+		alert("Please select the agency sub code");
+		document.getElementById('drpagscode').focus();
+		return false;
+		
+		}
+		if(document.getElementById('txtrono').value!="" && document.getElementById('txtrono').disabled==false)
+        {
+        if(document.getElementById('txtrodate').value=="")
+        {
+            alert("Please fill ro date");
+            document.getElementById('txtrodate').focus();
+            return false;
+            
+        }
+    
+        }
+		
+		document.getElementById('LinkButton1').style.fontWeight="bold";
+		document.getElementById('LinkButton1').style.color="#FFFF80";
+		document.getElementById('LinkButton3').style.fontWeight="normal";
+		document.getElementById('LinkButton3').style.color="White";
+		document.getElementById('LinkButton2').style.fontWeight="normal";
+		document.getElementById('LinkButton2').style.color="White";
+		document.getElementById('LinkButton5').style.fontWeight="normal";
+		document.getElementById('LinkButton5').style.color="White";
+		document.getElementById('LinkButton4').style.fontWeight="normal";
+		document.getElementById('LinkButton4').style.color="White";
+		document.getElementById('LinkButton6').style.fontWeight="normal";
+		document.getElementById('LinkButton6').style.color="White";
+		document.getElementById('LinkButton7').style.fontWeight="normal";
+		document.getElementById('LinkButton7').style.color="White";
+		document.getElementById('tbvts').style.display="none";
+		document.getElementById('tblrate').style.display="none";
+		document.getElementById('tblbill').style.display="none";
+		//alert(document.getElementById('LinkButton1').click);
+		document.getElementById('addetails').style.display="block";
+		if(document.getElementById('drpbooktype').disabled==false)
+		{
+		document.getElementById('drpbooktype').focus();
+		}
+		document.getElementById('pagedetail').style.display="none";
+		//document.getElementById('tblsize').style.display="none";
+		document.getElementById('tblpackage').style.display="none";
+		document.getElementById('tbbox').style.display="none";
+		return false;
+		}
+		}*/
+		
+		
+		function changedivbill()
+		{
+		//alert(document.getElementById('LinkButton1').click);
+		if(document.getElementById('LinkButton1').disabled==true)
+        return false;
+        if(document.getElementById('drpbooktype').value=="0")
+{
+    alert("Please Select Booking Type");
+    return false;
+}    
+if(document.getElementById('drpcolor').value=="0")
+{
+    alert("Please Select Color");
+    return false;
+}   
+if(document.getElementById('drpadcategory').value=="0")
+{
+    alert("Please Select Ad Category");
+    return false;
+}   
+if(document.getElementById('drpuom').value=="0")
+{
+    alert("Please Select UOM");
+    return false;
+}  
+if(document.getElementById('drppackagecopy').options.length==0)
+{
+    alert("Please Select Package");
+    return false;
+}  
+if(document.getElementById('txtdummydate').value=="")
+{
+    alert("Please Enter Date");
+    return false;
+} 
+if(document.getElementById('drpcurrency').value=="0")
+{
+    alert("Please Select Currency");
+    return false;
+}  
+if(document.getElementById('txttotalarea').value=="")
+{
+    alert("Please Enter Size/Lines");
+    return false;
+}  
+if(document.getElementById('txtratecode').value=="0")
+{
+    alert("Please Select Rate Code");
+    return false;
+}  
+		    document.getElementById('tblrate').style.display="none";
+		    document.getElementById('tblbill').style.display="block";
+		    document.getElementById('addetails').style.display="none";
+		    document.getElementById('pagedetail').style.display="none";
+		//document.getElementById('tblsize').style.display="none";
+		    document.getElementById('tblpackage').style.display="none";		    
+		    return false;
+		}
+		
+		function changediv1()
+		{
+		    //*25Aug* check for retainer or Executive
+		    if(document.getElementById('LinkButton1').disabled==true)
+        return false;
+            if(document.getElementById('drpretainer').value=="" && document.getElementById('txtexecname').value=="")
+            {
+                alert('Please fill Executive Name or Retainer.');
+                if(document.getElementById('drpretainer').disabled==false)
+                    document.getElementById('drpretainer').focus();
+                return false;
+            }
+		
+		    if(enLink=="1")
+            {
+                document.getElementById('LinkButton1').disabled=false;
+                document.getElementById('LinkButton2').disabled=false;
+                document.getElementById('LinkButton3').disabled=false;
+                document.getElementById('LinkButton4').disabled=false;
+                document.getElementById('LinkButton5').disabled=false;
+                document.getElementById('LinkButton6').disabled=false;
+                document.getElementById('LinkButton7').disabled=false;
+            }
+		    if(document.getElementById('LinkButton2').disabled==false)
+		    {
+		
+		        if(document.getElementById('txtagency').value=="")
+		        {
+		            alert("Please fill the Agency Sub Code");
+		            document.getElementById('txtagency').focus();
+		            return false;
+		        }
+		        else if(document.getElementById('drpagscode').value=="" || document.getElementById('drpagscode').value=="0")
+		        {
+		            alert("Please select the agency sub code");
+		            document.getElementById('drpagscode').focus();
+		            return false;		
+		        }
+		        if(document.getElementById('txtrono').value!="" && document.getElementById('txtrono').disabled==false)
+                {
+                    if(document.getElementById('txtrodate').value=="")
+                    {
+                        alert("Please fill ro date");
+                        document.getElementById('txtrodate').focus();
+                        return false;            
+                    }
+        
+                }
+    			if(document.getElementById('drpbooktype').value=="0")
+{
+    alert("Please Select Booking Type");
+    return false;
+}    
+if(document.getElementById('drpcolor').value=="0")
+{
+    alert("Please Select Color");
+    return false;
+}   
+if(document.getElementById('drpadcategory').value=="0")
+{
+    alert("Please Select Ad Category");
+    return false;
+}   
+if(document.getElementById('drpuom').value=="0")
+{
+    alert("Please Select UOM");
+    return false;
+}  
+if(document.getElementById('drppackagecopy').options.length==0)
+{
+    alert("Please Select Package");
+    return false;
+}  
+if(document.getElementById('txtdummydate').value=="")
+{
+    alert("Please Enter Date");
+    return false;
+} 
+if(document.getElementById('drpcurrency').value=="0")
+{
+    alert("Please Select Currency");
+    return false;
+} 
+		        document.getElementById('LinkButton2').style.fontWeight="bold";
+		        document.getElementById('LinkButton2').style.color="#FFFF80";
+        		
+		        document.getElementById('LinkButton3').style.fontWeight="normal";
+		        document.getElementById('LinkButton3').style.color="White";
+		        document.getElementById('LinkButton4').style.fontWeight="normal";
+		        document.getElementById('LinkButton4').style.color="White";
+		        document.getElementById('LinkButton5').style.fontWeight="normal";
+		        document.getElementById('LinkButton5').style.color="White";
+		        document.getElementById('LinkButton1').style.fontWeight="normal";
+		        document.getElementById('LinkButton1').style.color="White";
+		        document.getElementById('LinkButton6').style.fontWeight="normal";
+		        document.getElementById('LinkButton6').style.color="White";
+		        document.getElementById('LinkButton7').style.fontWeight="normal";
+		        document.getElementById('LinkButton7').style.color="White";
+		        document.getElementById('tbvts').style.display="none";
+		        document.getElementById('tblrate').style.display="none";
+		        document.getElementById('tblbill').style.display="none";
+		        //alert(document.getElementById('LinkButton1').click);
+		        document.getElementById('pagedetail').style.display="block";
+		        if(document.getElementById('drppageposition').disabled==false)
+		        {
+		            document.getElementById('drppageposition').focus();
+		        }
+		        document.getElementById('addetails').style.display="none";
+		        //document.getElementById('tblsize').style.display="none";
+		        document.getElementById('tblpackage').style.display="none";
+		        document.getElementById('tbbox').style.display="none";
+        		
+		        return false;
+		    }
+		}
+		
+		function openboxpopup()
+		{
+		 if(document.getElementById('LinkButton6').disabled==true)
+        return false;
+		    if(enLink=="1")
+            {
+                document.getElementById('LinkButton1').disabled=false;
+                document.getElementById('LinkButton2').disabled=false;
+                document.getElementById('LinkButton3').disabled=false;
+                document.getElementById('LinkButton4').disabled=false;
+                document.getElementById('LinkButton5').disabled=false;
+                document.getElementById('LinkButton6').disabled=false;
+                document.getElementById('LinkButton7').disabled=false;
+            }
+		    if(document.getElementById('LinkButton6').disabled==false)
+		    {
+		
+		        if(document.getElementById('txtagency').value=="")
+		        {
+		            alert("Please fill the agency name");
+		            document.getElementById('txtagency').focus();
+		            return false;
+		        }
+		        else if(document.getElementById('drpagscode').value=="" || document.getElementById('drpagscode').value=="0")
+		        {
+		            alert("Please select the agency sub code");
+		            document.getElementById('drpagscode').focus();
+		            return false;
+		
+		        }
+		        if(document.getElementById('txtrono').value!="" && document.getElementById('txtrono').disabled==false)
+                {
+                    if(document.getElementById('txtrodate').value=="")
+                    {
+                        alert("Please fill ro date");
+                        document.getElementById('txtrodate').focus();
+                        return false;
+            
+                    }
+    
+                }
+		        if(document.getElementById('LinkButton1').disabled==false)
+        {
+          if(document.getElementById('drpretainer').disabled==false)
+          {
+            if(document.getElementById('drpretainer').value=="" && document.getElementById('txtexecname').value=="")
+            {
+                alert('Please fill Executive Name or Retainer.');
+              
+                    document.getElementById('drpretainer').focus();
+                return false;
+            }
+           }       
+          }      
+		        document.getElementById('LinkButton6').style.fontWeight="bold";
+		        document.getElementById('LinkButton6').style.color="#FFFF80";
+		        document.getElementById('LinkButton3').style.fontWeight="normal";
+		        document.getElementById('LinkButton3').style.color="White";
+		        document.getElementById('LinkButton4').style.fontWeight="normal";
+		        document.getElementById('LinkButton4').style.color="White";
+		        document.getElementById('LinkButton5').style.fontWeight="normal";
+		        document.getElementById('LinkButton5').style.color="White";
+		        document.getElementById('LinkButton1').style.fontWeight="normal";
+		        document.getElementById('LinkButton1').style.color="White";
+		        document.getElementById('LinkButton2').style.fontWeight="normal";
+		        document.getElementById('LinkButton2').style.color="White";
+		        document.getElementById('LinkButton7').style.fontWeight="normal";
+		        document.getElementById('LinkButton7').style.color="White";
+		        document.getElementById('tbvts').style.display="none";
+		        document.getElementById('tblrate').style.display="none";
+		        document.getElementById('tblbill').style.display="none";
+		        //alert(document.getElementById('LinkButton1').click);
+		        document.getElementById('pagedetail').style.display="none";
+		        document.getElementById('addetails').style.display="none";
+		        //document.getElementById('tblsize').style.display="none";
+		        document.getElementById('tblpackage').style.display="none";
+		        document.getElementById('tblpackage').style.display="none";
+		        document.getElementById('tbbox').style.display="block";
+		        if(document.getElementById('drpboxcode').disabled==false)
+		        {
+		            document.getElementById('drpboxcode').focus();
+		        }
+		        return false;
+		    }
+		}
+		
+		
+		function openvts()
+		{
+		 if(document.getElementById('LinkButton7').disabled==true)
+        return false;
+		    if(enLink=="1")
+            {
+                document.getElementById('LinkButton1').disabled=false;
+                document.getElementById('LinkButton2').disabled=false;
+                document.getElementById('LinkButton3').disabled=false;
+                document.getElementById('LinkButton4').disabled=false;
+                document.getElementById('LinkButton5').disabled=false;
+                document.getElementById('LinkButton6').disabled=false;
+                document.getElementById('LinkButton7').disabled=false;
+            }
+		if(document.getElementById('LinkButton7').disabled==false)
+		{
+		
+		if(document.getElementById('txtagency').value=="")
+		{
+		alert("Please fill the Agency Sub Code");
+		document.getElementById('txtagency').focus();
+		return false;
+		}
+		else if(document.getElementById('drpagscode').value=="" || document.getElementById('drpagscode').value=="0")
+		{
+		alert("Please select the agency sub code");
+		document.getElementById('drpagscode').focus();
+		return false;
+		
+		}
+		if(document.getElementById('txtrono').value!="" && document.getElementById('txtrono').disabled==false)
+        {
+        if(document.getElementById('txtrodate').value=="")
+        {
+            alert("Please fill ro date");
+            document.getElementById('txtrodate').focus();
+            return false;
+            
+        }
+    
+        }
+		if(document.getElementById('LinkButton1').disabled==false)
+        {
+      if(document.getElementById('drpretainer').disabled==false)
+      {
+        if(document.getElementById('drpretainer').value=="" && document.getElementById('txtexecname').value=="")
+        {
+            alert('Please fill Executive Name or Retainer.');
+          
+                document.getElementById('drpretainer').focus();
+            return false;
+        }
+       }       
+      }      
+		document.getElementById('LinkButton6').style.fontWeight="normal";
+		document.getElementById('LinkButton6').style.color="White";
+		document.getElementById('LinkButton3').style.fontWeight="normal";
+		document.getElementById('LinkButton3').style.color="White";
+		document.getElementById('LinkButton4').style.fontWeight="normal";
+		document.getElementById('LinkButton4').style.color="White";
+		document.getElementById('LinkButton5').style.fontWeight="normal";
+		document.getElementById('LinkButton5').style.color="White";
+		document.getElementById('LinkButton1').style.fontWeight="normal";
+		document.getElementById('LinkButton1').style.color="White";
+		document.getElementById('LinkButton2').style.fontWeight="normal";
+		document.getElementById('LinkButton2').style.color="White";
+		document.getElementById('LinkButton7').style.fontWeight="bold";
+		document.getElementById('LinkButton7').style.color="#FFFF80";
+		document.getElementById('tblrate').style.display="none";
+		document.getElementById('tblbill').style.display="none";
+		//alert(document.getElementById('LinkButton1').click); tbvts
+		document.getElementById('pagedetail').style.display="none";
+		document.getElementById('addetails').style.display="none";
+		//document.getElementById('tblsize').style.display="none";
+		document.getElementById('tblpackage').style.display="none";
+		document.getElementById('tblpackage').style.display="none";
+		document.getElementById('tbbox').style.display="none";
+		document.getElementById('tbvts').style.display="block";
+		if(document.getElementById('txtciragency').disabled==false)
+		{
+		document.getElementById('txtciragency').focus();
+		}
+		return false;
+		}
+		
+		
+		}
+		
+
+
+function showstrip()
+{
+     document.getElementById('divpopup').style.display="block";
+     document.getElementById('shodi').style.display="none";
+     return false;
+}
+    </script>
+
+    <link href="css/booking.css" type="text/css" rel="stylesheet" /></head>
+<body onload="document.getElementById('chkattach').disabled=true;javascript:return givebuttonpermission('Classified_Booking');document.getElementById('btnnew').focus();" onkeydown="javascript:return tabvalue(event);"
+    onkeypress="eventcalling(event);" onclick="documentClick(event);"  >
+    <form name="Form1" method="post" action="Classified_Booking.aspx" id="Form1" autocomplete="off">
+<div>
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTYxODM4ODkzM2QYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgUFBmNoa3RmbgULY2hrY29udHJhY3QFCWNoa2F0dGFjaAUGY2hrYWdlBQdjaGtjbGll5FaKryjLF4dL66J+IqaL5ws2M7I=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form1'];
+if (!theForm) {
+    theForm = document.Form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/webdir/WebResource.axd?d=Pv858eH603KtZ37I7gtkVA2&amp;t=634006386157968750" type="text/javascript"></script>
+
+<script type="text/javascript" src="/webdir/ajax/common.ashx"></script><script type="text/javascript" src="/webdir/ajax/Classified_Booking,App_Web_8wir77ru.ashx"></script>
+<script src="/webdir/WebResource.axd?d=UblMjW1J8Q5NuMK9_Mad1w2&amp;t=634006386157968750" type="text/javascript"></script>
+          
+        <div id="div1" style="position: absolute; top: 0px; left: 0px; border: none; display: none;
+            z-index: 1; " >
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        <select size="4" name="lstagency" id="lstagency" class="btextlist" onclick="javascript:return insertagency();" onkeypress="return keySort(this);" style="height:105px;width:350px;">
+
+</select></td>
+                </tr>
+            </table>
+        </div>
+        <div id="divclient" style="position: absolute; top: 0px; left: 0px; border: none;
+            display: none; z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                       
+                                <select size="4" name="lstclient" id="lstclient" class="btextlist" onclick="javascript:return insertagency();" onkeypress="return keySort(this);" style="height:65px;width:350px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+         <div id="divciragency" style="position: absolute; top: 0px; left: 0px; border: none;
+            display: none; z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        
+                                <select size="4" name="lstciragency" id="lstciragency" class="btextlist" onclick="javascript:return insertagency();" style="height:65px;width:354px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divcirrate" style="position: absolute; top: 0px; left: 0px; border: none;
+            display: none; z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        
+                                <select size="4" name="lstcirrate" id="lstcirrate" class="btextlist" onclick="javascript:return insertagency();" style="height:65px;width:354px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divretainer" style="position: absolute; top: 0px; left: 0px; border: none;
+            display: none; z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                      
+                                <select size="4" name="lstretainer" id="lstretainer" class="btextlist" onclick="javascript:return showretainervalue(this);" style="height:65px;width:254px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divproduct" style="position: absolute; top: 0px; left: 0px; border: none;
+            display: none; z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                       
+                                <select size="4" name="lstproduct" id="lstproduct" class="btextlist" onclick="javascript:return insertagency();" onkeypress="return keySort(this);" style="height:65px;width:254px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divexec" style="position: absolute; top: 0px; left: 0px; border: none; display: none;
+            z-index: 1;">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td>
+                        
+                                <select size="4" name="lstexec" id="lstexec" class="btextlist" onclick="javascript:return insertagency();" onkeypress="return keySort(this);" style="height:65px;width:254px;">
+
+</select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="divdeal" style="position: absolute; top: 0px; left: 0px; border: none; display: none;
+            z-index: +999;">
+        </div>
+       <div id="divpkg" style="position: absolute; top: 0px; left: 0px; height:90px;width:200px; border:1; display: none; background-color:White;
+            z-index: +999;"></div>
+        
+        
+        <table id="OuterTable" cellspacing="0" cellpadding="0" width="1000" align="LEFT"
+            border="0">
+            <tr valign="top">
+                <td colspan="2">
+                    
+
+<script language="javascript" src="javascript/tree.js"></script>
+
+<script language="javascript" src="javascript/TreeLibrary.js"></script>
+<script language="javascript">
+
+</script>
+<table align="left" border="0" cellpadding="0" cellspacing="0" width="964">
+    <tr valign="top">
+        <td valign="top">
+            <img src="Images/ht_logo.gif" id="Topbar1_imglogo" width="188" />
+             
+            
+            <img align="top" alt="Ad Booking" height="17" src="images/top.jpg" width="964" />
+            <div id="1" class="Ads" style="visibility: visible">
+                <table border="0" width="100%">
+                    <tr>
+                        <td>
+                            <span id="Topbar1_lbldisplay" class="newDAMS" onclick="javascript:return EnableAdBooking('Booking_master');" style="color:#5050A4;">Display Ad. |</span><span id="Topbar1_Label2" class="ClassifiedAd" onclick="javascript:return EnableAdBooking('Classified_Booking');" style="color:#5050A4;"> Classified Ad. |</span></td>
+                                    <td >
+                            </td>
+                        <td >
+                            <span id="Topbar1_Label3" class="Layout-X" style="color:#5050A4;"> <span onclick="openlayout();">Layout-X |</span></span></td>
+                        <td STYLE="display:none;">
+                            <span id="Topbar1_Label4" class="News-Wrap" style="color:#5050A4;"> News-Wrap |</span></td>
+                        <td>
+                            <span id="Topbar1_Label5" class="newDAMS" style="color:#5050A4;"> 4C-DAMS |</span></td>
+                             <td >
+                            <span id="Topbar1_Label1" class="newDAMS" style="color:#5050A4;"> <span onclick="openadaccount();">Ad-Accounts |</span></span></td>
+                             <td>
+                            </td>
+                            <td ></td>
+                                <td class="DisplayName" align="right" style="color:#5050A4;  padding-left:20px;" id="_lbuser" class="userinfo" >.</td>
+                               <td class="DisplayName" align="left" style=" color:#5050A4;" id="_user" class="userinfo" >
+                            </td>
+                            <td align="right" class="DisplayName" style="color:#5050A4;padding-left:20px" id="_lbcom" class="userinfo" ></td>
+                            <td class="DisplayName" style="color:#5050A4;" ID="_com" class="userinfo" align="left">
+                            </td>
+                            <td align="right" class="DisplayName" style="width:20px;color:#5050A4; padding-left:20px" id="_lbadmin" class="userinfo" ></td>
+                            <td class="DisplayName" style="color:#5050A4;" id="_admin" class="userinfo" align="left">
+                           
+                            </td>
+                       
+                    </tr>
+                </table>
+              
+            </div>
+           
+            <div id="2" class="middlediv" style="visibility: hidden">
+                <a id="book" class="bookingandscheduling" href="#">Booking &amp; Sheduling </a><a
+                    class="billing" href="#">| Billing</a> <a class="services" href="#">| Services</a></div>
+            <table width="920" style="top:0;">
+                <tr>
+                <td style="width:184px"></td>
+                    <td id="td1" align="left" style="width:auto">
+                        <div id="Formname" class="FormLabel">
+                            Classified Booking Master
+                        </div>
+                    </td>
+                    <td id="td2" align="right">
+                        <div id="Formnamezz" style="cursor:pointer;" class="FormLabellog" onclick="javascript:return logoutpage();">
+                            Logout</div>
+                    </td>
+                </tr>
+            </table>
+            
+        </td>
+    </tr>
+</table>
+<input name="Topbar1$hidcompcode" type="hidden" id="Topbar1_hidcompcode" value="HT001" />
+<input name="Topbar1$hidcenter" type="hidden" id="Topbar1_hidcenter" value="TEST" />
+<input name="Topbar1$hidcompname" type="hidden" id="Topbar1_hidcompname" value="TEST" />
+<input name="Topbar1$hidusername" type="hidden" id="Topbar1_hidusername" value="admin" />
+<input name="Topbar1$hiduserid" type="hidden" id="Topbar1_hiduserid" value="A01" />
+<input name="Topbar1$hidauto" type="hidden" id="Topbar1_hidauto" value="dd/mm/yyyy" />
+<input name="Topbar1$hidautogenerated" type="hidden" id="Topbar1_hidautogenerated" value="0" />
+<input name="Topbar1$hidunitname" type="hidden" id="Topbar1_hidunitname" value="TEST" />
+<input name="Topbar1$hiddenreveneue" type="hidden" id="Topbar1_hiddenreveneue" value="TEST" />
+<input name="Topbar1$hiddencenter" type="hidden" id="Topbar1_hiddencenter" value="TEST" />
+
+
+<script language="javascript">
+function opendiv(q)
+{
+	document.getElementById(q).style.visibility = "visible"; 
+	document.getElementById('book').style.color = "red";
+}
+
+</script>
+
+                </td>
+                <td style="width: 9px">
+                </td>
+            </tr>
+            <tr valign="top">
+                <td valign="top" id="sectd">
+                    <table class="RightTable" id="RightTable" cellspacing="0" cellpadding="0" border="0"
+                        >
+                        <tr valign="top">
+                            <td>
+                               
+                                        <input type="submit" name="btnNew" value="New" onclick="javascript:return newclick();" id="btnNew" class="topbutton" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnSave" value="Save" id="btnSave" accesskey="s" disabled="disabled" OnClick="javascript:return checkValidation();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnModify" value="Modify" id="btnModify" disabled="disabled" OnClick="javascript:return modifyClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnQuery" value="Query" onclick="javascript:return queryClick();" id="btnQuery" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnExecute" value="Execute" id="btnExecute" disabled="disabled" OnClick="javascript:return executeClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnCancel" value="Clear" onclick="javascript:return clearClick();" id="btnCancel" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnfirst" value="First" id="btnfirst" disabled="disabled" OnClick="javascript:return firstClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnprevious" value="Previous" id="btnprevious" disabled="disabled" OnClick="javascript:return previousClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnnext" value="Next" id="btnnext" disabled="disabled" OnClick="javascript:return nextClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnlast" value="Last" id="btnlast" disabled="disabled" OnClick="javascript:return lastClick();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnDelete" value="Delete" id="btnDelete" disabled="disabled" onclick="javascript:return deleteCheck();" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" /><input type="submit" name="btnExit" value="Exit" onclick="javascript:return exitbook();" id="btnExit" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:60px;" />
+                                  
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tbl3">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="tbl1">
+                                <table align="left" cellpadding="0" cellspacing="0" border="0" width="80%">
+                                    <tr>
+                                        <td colspan="9" id="tbl2">
+                                            <table width="100%" border="0">
+                                                <tr>
+                                                    <td>
+                                                        <span id="lbdatetime" class="TextField">Booking Date</span></td>
+                                                         <td style="width:5px;"></td>
+                                                    <td>
+                                                        <span id="lbbranch" class="TextField">Branch</span></td>
+                                                        <td style="width:5px;"></td>
+                                                    <td>
+                                                        <span id="lbbookedby" class="TextField">Booked By</span></td>
+                                                        <td style="width:5px;"></td>
+                                                    <td>
+                                                        <span id="lbcioid" class="TextField">Booking ID</span></td>
+                                                        <td style="width:5px;"></td>
+                                                    <td>
+                                                        <span id="lbpreid" class="TextField">Pre. Booking ID</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                       
+                                                                <input name="txtdatetime" type="text" value="31/8/2010" id="txtdatetime" disabled="disabled" class="btext3" OnChange="javascript:return checkdateforDatetime(this);" />
+                                                    </td>
+                                                    <td style="width:10px;"></td>
+                                                    <td>
+                                                        
+                                                                <input name="txtbranch" type="text" value="TEST" id="txtbranch" disabled="disabled" class="btext3" />
+                                                    </td>
+                                                     <td style="width:10px;"></td>
+                                                    <td>
+                                                      
+                                                                <input name="txtbookedby" type="text" value="admin" readonly="readonly" id="txtbookedby" disabled="disabled" class="btext3" />
+                                                    </td>
+                                                     <td style="width:10px;"></td>
+                                                    <td>
+                                                       
+                                                                <input name="txtciobookid" type="text" id="txtciobookid" disabled="disabled" class="btext3" />
+                                                    </td>
+                                                     <td style="width:10px;"></td>
+                                                    <td>
+                                                       
+                                                                <input name="txtprevbook" type="text" value="TES2010A0100000840" id="txtprevbook" disabled="disabled" class="btext3" />
+                                                    </td>
+                                                    <td>
+                                                    </td>
+													<TD VALIGN="TOP"><!--For Preview -->                                  
+
+                              <div style="position:absolute;left:644px;top:50px;height:70px;width:300px" id="divOuter" >
+                                <font class="TextField"> Page No</font>
+                                <input name="TextBox1" type="text" id="TextBox1" class="btextforbooksmall" onkeypress="return notchar2();" style="width:50px;" />
+                   <font class="TextField">Select Edition</font><select id="drpedition" class="btextforbook" style="width:79px;height:17px;">
+                    <option>--Select--</option></select>
+                   <input type="submit" name="btnShow" value="Show Preview" onclick="javascript:return ShowClassified_Page();" id="btnShow" disabled="" style="background-color:buttonface;border-color:DarkGray;border-style:Outset;font-size:XX-Small;font-weight:bold;height:24px;width:78px;" /> 
+        </div>
+        <!--end-->    
+	
+        <!--end-->  </TD>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbagency" class="TextField">Agency Code<font color=red>*</Font></span></td>
+                                        <td valign="top" id="tdagen" colspan="">
+                                          
+                                                    <input name="txtagency" type="text" maxlength="50" id="txtagency" disabled="disabled" class="btextforbook" onchange="javascript:return chkagency();" onfocus="javascript:return changebackcolor(this);" />
+                                              
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top" style="width:100px;">
+                                            <span id="lbclient" class="TextField">Client<font color=red>*</Font></span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top" id="tdclient">
+                                          
+                                                    <input name="txtclient" type="text" maxlength="50" id="txtclient" disabled="disabled" class="btextforbook" onblur="javascript:return chkcasualclient();" onfocus="javascript:return changebackcolor(this);" />
+                                              
+                                        </td>
+                                        <td valign="top" align="left">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbaaddress" class="TextField">Address</span></td>
+                                        <td>
+                                            
+                                                    <textarea name="txtagencyaddress" rows="2" cols="20" id="txtagencyaddress" disabled="disabled" class="btext1forbooknew"></textarea>
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lbcaddress" class="TextField">Address</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td>
+                                          
+                                                    <textarea name="txtclientadd" rows="2" cols="20" id="txtclientadd" disabled="disabled" class="btext1forbooknew" onfocus="javascript:return changebackcolor(this);"></textarea>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbagescode" class="TextField">Agency<font color=red>*</Font></span></td>
+                                        <td valign="top">
+                                         
+                                                    <select name="drpagscode" id="drpagscode" disabled="disabled" class="dropdownforbook">
+
+</select>
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lblagencytype" class="TextField">Agency Type</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                           
+                                                    <input name="txtagencytype" type="text" id="txtagencytype" disabled="disabled" class="btextforbook" />
+                                             
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <!--ageny-->
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lblagencystatus" class="TextField">Status</span></td>
+                                        <td valign="top">
+                                          
+                                                    <input name="txtagencystatus" type="text" readonly="readonly" id="txtagencystatus" disabled="disabled" class="btextforbook" />
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lblagencypaymode" class="TextField">Paymode</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                           <select name="txtagencypaymode" id="txtagencypaymode" disabled="disabled" class="dropdownforbook" onchange="javascript:return getintohidden();" onfocus="javascript:return changebackcolor(this);">
+
+</select>
+                                                
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lblagencycreditperiod" class="TextField">Credit Period</span></td>
+                                        <td valign="top">
+                                           
+                                                    <input name="txtcreditperiod" type="text" id="txtcreditperiod" disabled="disabled" class="btextforbook" />
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lbrono" class="TextField">RO No.</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                          
+                                                    <input name="txtrono" type="text" maxlength="20" id="txtrono" disabled="disabled" class="btextforbook" onchange="javascript:return disabledokit();" onfocus="javascript:return changebackcolor(this);" onblur="javascript:return checkro();" />
+                                             
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbrodate" class="TextField">RO Date</span></td>
+                                        <td valign="top">
+                                          
+                                                    <input name="txtrodate" type="text" id="txtrodate" disabled="disabled" class="btextforbook" onkeypress="return dateenter(event);" OnChange="javascript:return checkdateforcurr(this);  " onfocus="javascript:return changebackcolor(this);" /><img
+                                                        src='Images/cal1.gif' id="Img2" onclick='popUpCalendar(this, Form1.txtrodate, "mm/dd/yyyy")'
+                                                        onfocus="abc()" height="11" width="14" />
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lbrostatus" class="TextField">Ro Status</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                           
+                                                    <select name="drprostatus" id="drprostatus" disabled="disabled" class="dropdownforbook" onchange="javascript:return chkrodate();" onfocus="javascript:return changebackcolor(this);">
+	<option value="0">Select RO Status</option>
+	<option value="2">Reservation</option>
+	<option selected="selected" value="1">Confirm</option>
+
+</select>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbdockit" class="TextField">Dockit No.</span></td>
+                                        <td valign="top">
+                                           
+                                                    <input name="txtdockitno1" type="text" id="txtdockitno1" disabled="disabled" class="btextforbook" onchange="javascript:return disablerono();" onfocus="javascript:return changebackcolor(this);" />
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lbkey" class="TextField">Key No.</span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                           
+                                                    <input name="txtkeyno" type="text" maxlength="50" id="txtkeyno" disabled="disabled" class="btextforbook" onfocus="javascript:return changebackcolor(this);" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                            <span id="lbececname" class="TextField">Executive Name<font color=red>*</Font></span></td>
+                                        <td valign="top" id="tdexec">
+                                          
+                                                    <input name="txtexecname" type="text" maxlength="50" id="txtexecname" disabled="disabled" class="btextforbook" onchange="javascript:return chkagency();" onfocus="javascript:return changebackcolor(this);" />
+                                              
+                                        </td>
+                                        <td style="width: 1px">
+                                        </td>
+                                        <td valign="top">
+                                            <span id="lbexeczone" class="TextField" style="width:180px;">Executive Zone<font color=red>*</Font></span></td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top">
+                                           
+                                                    <input name="txtexeczone" type="text" readonly="readonly" id="txtexeczone" disabled="disabled" class="btextforbook" onchange="javascript:return getzone();" onfocus="javascript:return changebackcolor(this);" />
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td valign="top">
+                                                <span id="lblagencyoutstand" class="TextField">Ag. Outstanding</span></td>
+                                        <td colspan="2" valign="top">
+                                              
+                                                        <input name="txtagencyoutstand" type="text" maxlength="50" id="txtagencyoutstand" disabled="disabled" class="btextforbook" onfocus="javascript:return changebackcolor(this);" />
+                                        </td>
+                                        <td style="width: 1px">
+                                            <span id="lblretainer" class="TextField">Retainer<font color=red>*</Font></span></td>
+                                        </td>
+                                        <td valign="top">
+                                        </td>
+                                        <td valign="top" id="tdretainer">
+                                           
+                                                    <input name="drpretainer" type="text" maxlength="50" id="drpretainer" disabled="disabled" class="btextforbook" onblur="javascript:return chkExecutive();" onchange="javascript:return chkagency();" onfocus="javascript:return changebackcolor(this);" />
+                                              
+                                        </td>
+                                        
+                                        <td valign="top">
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                        <td>
+                                        </td>
+                                    </tr>
+                                    <tr><td><div id="shodi" style="display:none;"><table><tr><td><a onclick="javascript:return showstrip();" id="showdiv" class="TextField" href="javascript:__doPostBack('showdiv','')">Show</a></td></tr></table></div>    </td></tr>
+                                    <!--ageny-->
+                                    </table>
+                                    </td></tr>
+                                    
+                                </table>
+                                
+                     
+              
+            
+            
+                <table>
+          
+            
+            <tr>
+                <td colspan="5" valign="top">
+                    <div style="display: block" id="divpopup">
+                        <table border="1" id="tdpck" cellpadding="0" cellspacing="0" width="100% ">
+                            <tr>
+                                <td bgcolor="#7daae3">
+                                   
+                                            <a onclick="javascript:return changediv();" id="LinkButton1" disabled="disabled" class="btnlink">A<U>d</U> Details |</a>
+                                            <a onclick="javascript:return changepackage();" id="LinkButton5" disabled="disabled" class="btnlink">Pac<U>k</U>age Details |</a>
+                                            <a onclick="javascript:return changediv1();" id="LinkButton2" disabled="disabled" class="btnlink">Pa<U>g</U>e Details |</a>
+                                            <a onclick="javascript:return changedivrate();" id="LinkButton4" disabled="disabled" class="btnlink">Ra<U>t</U>e Details |</a>
+                                            <a onclick="javascript:return changebilldiv();" id="LinkButton3" disabled="disabled" class="btnlink">Bill Detail<U>s</U> |</a>
+                                            <a onclick="javascript:return openboxpopup();" id="LinkButton6" disabled="disabled" class="btnlink">Bo<U>x</U> Details |</a>
+                                            <a onclick="javascript:return openvts();" id="LinkButton7" disabled="disabled" class="btnlink"><U>V</U>ts|</a>
+                                            
+                                       
+                                </td>
+                                <td align="right" bgcolor="#7daae3"><a onclick="javascript:return Hide();" id="hidehref" class="btnlinkhide" href="javascript:__doPostBack('hidehref','')">Hide</a></td>
+                            </tr>
+                            <tr>
+                                <td colspan="5" >
+                                    <table width=" 100% " cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td>
+                                                <table id="tblpackage" width=" 100% " style="display: none" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td valign="top">
+                                                <span id="lbcurrency" class="TextField">Currency Type<font color=red>*</Font></span></td>
+                                                        <td valign="top">
+                                               
+                                                        <select name="drpcurrency" id="drpcurrency" disabled="disabled" class="dropdownforbooksmall" onchange="javascript:return getrateonchangecurr();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Currency</option>
+	<option value="DOO1">DOLLAR</option>
+	<option value="PE1">PESO</option>
+	<option value="PE2">PESO</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="ROHIT7">ROHITR</option>
+	<option value="RT1">PESO</option>
+	<option value="RU0">RUPEESSSSSSS</option>
+	<option value="RU1">RUPEES</option>
+	<option value="TA1">TAKA</option>
+
+</select>
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td valign="top">
+                                                </td>
+                                                        <td valign="top">
+                                                            &nbsp;</td>
+                                                        <td valign="top">
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <span id="lbpackage" class="TextField">Package<font color=red>*</Font></span></td>
+                                                        <td valign="top">
+                                                           
+                                                                    <select size="4" name="drppackage" id="drppackage" class="btextlistpacksmall" onkeypress="return keySort(this);" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Package</option>
+	<option value="@%0@HT-LUC-MATRO">@%$$*&amp;^*</option>
+	<option value="~!@#$%@HT-MEE + HT-LUC-MATRO">~!@#$%</option>
+	<option value="AL0@HT-MEE + HT-LUC + HT-KAN + HH-PUN + HH-MEE + HH-LUC + HH-GHA">ALL EDITION</option>
+	<option value="AL03@HT-MEE + HT-LUC + HT-KAN">ALL EDITION</option>
+	<option value="BP1@BP-HIN">BP-HIN</option>
+	<option value="BP3@BP-MEE">BP-MEE</option>
+	<option value="DU0@HT-MEE + HT-LUC + HT-KAN">dummy</option>
+	<option value="H63@HH-MEE + HH-LUC + HH-GHA">H</option>
+	<option value="HH11@HH-GHA">HH-GHA</option>
+	<option value="HH25@HH-GHA-HFGH">HH-GHA-HFGH</option>
+	<option value="HH17@HH-INF">HH-INF</option>
+	<option value="HH1@HH-LUC">HH-LUC</option>
+	<option value="HH3@HH-LUC-LATE NIGHTFKNVKJDSNKVSDSDNNVSDVNSDNVNDSKJVNSDNVOLD">HH-LUC-LATE NIGHTFKNVKJDSNKVSDSDNNVSDVNSDNVNDSKJVNSDNVOLD</option>
+	<option value="HH27@HH-MAT">HH-MAT</option>
+	<option value="HH5@HH-MEE">HH-MEE</option>
+	<option value="HH19@HH-MEE-BGTHYTJNHEDMJNYMJYFMJYFRMJURFJMRMJNJMN M NMJ URNJU">HH-MEE-BGTHYTJNHEDMJNYMJYFMJYFRMJURFJMRMJNJMN M NMJ URNJU</option>
+	<option value="HH7@HH-MUM">HH-MUM</option>
+	<option value="HH13@HH-MUM-DELHI TIMES">HH-MUM-DELHI TIMES</option>
+	<option value="HH9@HH-PUN">HH-PUN</option>
+	<option value="HH15@HH-PUN-MATRO">HH-PUN-MATRO</option>
+	<option value="HH21@HH-TES">HH-TES</option>
+	<option value="HH23@HH-TES-SD">HH-TES-SD</option>
+	<option value="HLM1@HT-LUC-MATRO + HT-LUC">HLMHL</option>
+	<option value="RD6@HT-LUC-MATRO">HRA</option>
+	<option value="HT25@HT-~!@-LUC-MATRO">HT-~!@-LUC-MATRO</option>
+	<option value="HT29@HT-34-LUC-MATRO">HT-34-LUC-MATRO</option>
+	<option value="HT37@HT-345-LUC-MATRO">HT-345-LUC-MATRO</option>
+	<option value="HT57@HT-56-LUC-MATRO">HT-56-LUC-MATRO</option>
+	<option value="HT31@HT-78-LUC-MATRO">HT-78-LUC-MATRO</option>
+	<option value="HT33@HT-87-LUC-MATRO">HT-87-LUC-MATRO</option>
+	<option value="HT27@HT-AA-LUC-MATRO">HT-AA-LUC-MATRO</option>
+	<option value="HT11@HT-DDD-LUC-MATRO">HT-DDD-LUC-MATRO</option>
+	<option value="HT72@HT-DF-INF-DELHI">HT-DF-INF-DELHI</option>
+	<option value="HT70@HT-DFD-INF-DEL">HT-DFD-INF-DEL</option>
+	<option value="HT51@HT-DFG-LUC-MATRO">HT-DFG-LUC-MATRO</option>
+	<option value="HT35@HT-DSD-LUC-MATRO">HT-DSD-LUC-MATRO</option>
+	<option value="HT55@HT-ER-LUC-MATRO">HT-ER-LUC-MATRO</option>
+	<option value="HT74@HT-F-INF-DELHI">HT-F-INF-DELHI</option>
+	<option value="HT43@HT-FAD-MEE-PROPERTY">HT-FAD-MEE-PROPERTY</option>
+	<option value="HT15@HT-GHF-LUC-MATRO">HT-GHF-LUC-MATRO</option>
+	<option value="HT62@HT-HIN">HT-HIN</option>
+	<option value="HT5@HT-KAN">HT-KAN</option>
+	<option value="HT1@HT-LUC">HT-LUC</option>
+	<option value="HT7@HT-LUC-MATRO">HT-LUC-MATRO</option>
+	<option value="HT49@HT-MAC-MEE-PROPERTY">HT-MAC-MEE-PROPERTY</option>
+	<option value="HT60@HT-MAI-LUC-MATRO">HT-MAI-LUC-MATRO</option>
+	<option value="HT66@HT-MAT">HT-MAT</option>
+	<option value="HT3@HT-MEE">HT-MEE</option>
+	<option value="HT13@HT-MEE-PROPERTY">HT-MEE-PROPERTY</option>
+	<option value="HT64@HT-PER-LUC-MATRO">HT-PER-LUC-MATRO</option>
+	<option value="HT9@HT-POW-LUC-MATRO">HT-POW-LUC-MATRO</option>
+	<option value="HT41@HT-RD-LUC-MATRO">HT-RD-LUC-MATRO</option>
+	<option value="HT53@HT-RD1-LUC-MATRO">HT-RD1-LUC-MATRO</option>
+	<option value="HT23@HT-ROL-LUC-MATRO">HT-ROL-LUC-MATRO</option>
+	<option value="HT19@HT-ROY-LUC-MATRO">HT-ROY-LUC-MATRO</option>
+	<option value="HT21@HT-ROY-MEE-PROPERTY">HT-ROY-MEE-PROPERTY</option>
+	<option value="HT47@HT-SDF-MEE-PROPERTY">HT-SDF-MEE-PROPERTY</option>
+	<option value="HT17@HT-TES">HT-TES</option>
+	<option value="HT68@HT-TIM-MEE-PROPERTY">HT-TIM-MEE-PROPERTY</option>
+	<option value="HT45@HT-WEE-LUC-MATRO">HT-WEE-LUC-MATRO</option>
+	<option value="HT39@HT-YT-MEE-PROPERTY">HT-YT-MEE-PROPERTY</option>
+	<option value="RD5@HT-LUC">HTML</option>
+	<option value="IE1@IE-BJI">IE-BJI</option>
+	<option value="IE5@IE-BJI-DEL">IE-BJI-DEL</option>
+	<option value="IE3@IE-BJI-LUC">IE-BJI-LUC</option>
+	<option value="IE7@IE-BJI-NES">IE-BJI-NES</option>
+	<option value="IE9@IE-BJI-PAN">IE-BJI-PAN</option>
+	<option value="LK0@HT-LUC + HT-KAN">LKO + KNP</option>
+	<option value="MA1@HH-LUC + BP-MEE">MATRO PKG</option>
+	<option value="MA21@HH-LUC + BP-MEE">MATRO PKG-2</option>
+	<option value="MU0@HT-KAN + HH-LUC + BP-MEE">MULTI PKG</option>
+	<option value="NT11@NT-LL-TES-RDEL">NT-LL-TES-RDEL</option>
+	<option value="NT5@NT-PUN">NT-PUN</option>
+	<option value="NT9@NT-RT-TES-RDEL">NT-RT-TES-RDEL</option>
+	<option value="NT1@NT-TES">NT-TES</option>
+	<option value="NT3@NT-TES-RDEL">NT-TES-RDEL</option>
+	<option value="NT7@NT-TES-TES-RDEL">NT-TES-TES-RDEL</option>
+	<option value="SU1@HH-GHA">SUPER PKG</option>
+	<option value="SU2@SUPER PKG">SUPER PKGS</option>
+	<option value="TO1@TOI-LUC">TOI-LUC</option>
+	<option value="TO3@TOI-RE-TES-HT LUCK">TOI-RE-TES-HT LUCK</option>
+
+</select>
+                                                              
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                           
+                                                                    <input type="submit" name="btncopy" value=">>>" id="btncopy" disabled="disabled" class="buttcopy" onclick="javascript:return addpkgname();" />
+                                                                <input type="submit" name="btndel" value="&lt;&lt;&lt;" id="btndel" disabled="disabled" class="buttcopy" onclick="javascript:return removepkgname();" /></td>
+                                                        <td>
+                                                           
+                                                                    <select size="4" name="drppackagecopy" id="drppackagecopy" class="btextlistpacksmall">
+
+</select>
+                                                              
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <span id="lbselectdate" class="TextField">Booking Date<font color=red>*</Font></span></td>
+                                                        <td valign="top">
+                                                            
+                                                                    <input name="txtdummydate" type="text" id="txtdummydate" class="btextforbooksmall" onkeypress="return dateenter(event);" OnChange="javascript:return hideCalendar1();  " /><img
+                                                                        src='Images/cal1.gif' id="Img3" onclick='popUpCalendar(this, Form1.txtdummydate, "mm/dd/yyyy")'
+                                                                        onfocus="abc()" height="11" width="14" />
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                            <span id="lbad" class="TextField">TFN</span></td>
+                                                        <td>
+                                                           
+                                                                    <span class="TextField"><input id="chktfn" type="checkbox" name="chktfn" onclick="javascript:return disbledinsertion();" /></span>&nbsp;
+                                                               
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <span id="lbnoofins" class="TextField">No. Of Insertion</span></td>
+                                                        <td valign="top">
+                                                           
+                                                                    <input name="txtinsertion" type="text" maxlength="6" onchange="javascript:return onInsertionChange();setTimeout('__doPostBack(\'txtinsertion\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return notchar2();" id="txtinsertion" disabled="disabled" class="btextforbookrightsmall" onfocus="javascript:return changebackcolor(this);" />
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                            <span id="lbrepdate" class="TextField">Repeating Day</span></td>
+                                                        <td>
+                                                           
+                                                                    <input name="txtrepeatingdate" type="text" maxlength="10" id="txtrepeatingdate" class="btextforbookrightsmall" onkeypress="javascript:return checkdateInsert();" onfocus="javascript:return changebackcolor(this);" OnKeydown="javascript:return checknumeric();" OnChange="javascript:return onRepeatingDate();" />
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <span id="lbpaid" class="TextField">Paid Ins.</span></td>
+                                                        <td valign="top">
+                                                           
+                                                                    <input name="txtpaid" type="text" maxlength="10" onchange="javascript:setTimeout('__doPostBack(\'txtpaid\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return notchar2();" id="txtpaid" disabled="disabled" class="btextforbookrightsmall" />
+                                                               
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                            </td>
+                                                        <td>
+                                                            &nbsp;</td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                            <span id="lbcontractname" class="TextField">Contract Name</span></td>
+                                                        <td valign="top">
+                                                            
+                                                                    <input name="txtcontractname" type="text" maxlength="10" onchange="javascript:setTimeout('__doPostBack(\'txtcontractname\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return notchar2();" id="txtcontractname" disabled="disabled" class="btextforbookrightsmall" />
+                                                                    <span class="TextField"><input id="chkcontract" type="checkbox" name="chkcontract" onclick="javascript:return contractapply();" /></span>
+                                                                
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                            <span id="lbcontracttype" class="TextField">Contract Type</span></td>
+                                                        <td>
+                                                           
+                                                                    <input name="txtcontracttype" type="text" maxlength="10" onchange="javascript:setTimeout('__doPostBack(\'txtcontracttype\',\'\')', 0)" onkeypress="if (WebForm_TextBoxKeyHandler(event) == false) return false;return notchar2();" id="txtcontracttype" disabled="disabled" class="btextforbookrightsmall" />
+                                                               
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign="top">
+                                                <span id="lbprintremark" class="TextField">Print Remark</span></td>
+                                                        <td colspan="4" valign="top">
+                                              
+                                                        <textarea name="txtprintremark" rows="2" cols="20" id="txtprintremark" disabled="disabled" class="btextcapaddsmall" onfocus="javascript:return changebackcolor(this);"></textarea><input type="submit" name="btndeal" value="Contract" id="btndeal" disabled="disabled" class="buttonsmall" onclick="javascript:return showdealvalue();" />
+                                                        </td>
+                                                       
+                                                        <td>
+                                                        </td>
+                                                        <td>
+                                                        </td>
+                                                        <td id="tdpaid">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                               </td></tr>
+                                               
+                                    </table>
+                                 
+                                    
+                                    <table id="addetails" style="display: none" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <span id="lbadtype" class="TextField">Booking Type</span></td>
+                                            <td>
+                                               
+                                                        <select name="drpbooktype" id="drpbooktype" disabled="disabled" class="dropdownforbook" onchange="javascript:return getbillzero();" onfocus="javascript:return changebackcolor(this);">
+	<option value="0">Select Booking Type</option>
+	<option value="3">Normal</option>
+	<option value="1">Barter</option>
+	<option value="2">FMG</option>
+	<option value="4">InHouse</option>
+	<option value="5">Complimentary</option>
+
+</select>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbcolor" class="TextField">Color<font color=red>*</Font></span></td>
+                                            <td>
+                                            
+                                                        <select name="drpcolor" id="drpcolor" disabled="disabled" class="dropdownforbook" onchange="javascript:return fillcoloringrid();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Color</option>
+	<option value="~!@">~!@#$%</option>
+	<option value="~!@#$%^&amp;">~!@#$%^&amp;</option>
+	<option value="AA">~!@#$%^&amp;</option>
+	<option value="FD">~!@#$%^&amp;1</option>
+	<option value="~!@#$%">~!@#$%^&amp;1</option>
+	<option value="~!@#">~!@#$%^&amp;1~!@#$%^&amp;1</option>
+	<option value="~!@#$%9">~!@#$%5</option>
+	<option value="~!">~!@#$%FGGGGGGGGGGGGG</option>
+	<option value="B">BLACK &amp; WHITE</option>
+	<option value="EE">BLACK AND WHITE</option>
+	<option value="BL0">BLUE</option>
+	<option value="BR0">BROWN</option>
+	<option value="CO0">COLOR</option>
+	<option value="DD1">DDD</option>
+	<option value="HB4">FDG</option>
+	<option value="GG">G</option>
+	<option value="GG0">GGGGGG</option>
+	<option value="GGGGGGGG">GGGGGGGGGGGGGGGGGGGG</option>
+	<option value="I">IIIIIIIIIIIIIIIIIIII</option>
+	<option value="JJ">JJJJJJJJJJJJJJJJJJJJ</option>
+	<option value="L">KKKKKKKKKKKKKKKKKKKK</option>
+	<option value="LO0">LOCAL</option>
+	<option value="NA0">NAVY BLUE</option>
+	<option value="PI0">PINK</option>
+	<option value="QQ">QQ</option>
+	<option value="QQ1">QQQ</option>
+	<option value="RE0">RED</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="ROHIT9">ROHIT9</option>
+	<option value="33">RR</option>
+	<option value="34">RRR</option>
+	<option value="RRR">RRRRR</option>
+	<option value="YE0">YELLOW</option>
+
+</select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbadcat" class="TextField">Ad Category<font color=red>*</Font></span></td>
+                                            <td>
+                                               
+                                                        <select name="drpadcategory" onchange="javascript:return filladsubcatmain();setTimeout('__doPostBack(\'drpadcategory\',\'\')', 0)" id="drpadcategory" disabled="disabled" class="dropdownforbook" onkeypress="return keySort(this);" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Ad Category</option>
+	<option value="ALL">ALL</option>
+	<option value="ALLS">ALL</option>
+	<option value="22">ALL MATRIMONIAL PACKAGES FOR ALL DAYS INCLUDING FD</option>
+	<option value="A1">ALL12</option>
+	<option value="ALL2">ALL2</option>
+	<option value="BUS">BUS</option>
+	<option value="BU1">BUSINESS</option>
+	<option value="BU2">BUSINESS CLASS</option>
+	<option value="GENERAL">GENERAL</option>
+	<option value="GG1">GG</option>
+	<option value="KJ0">KJHKJ</option>
+	<option value="LI1">LINTAGE</option>
+	<option value="MA0">MATRIMONIAL</option>
+	<option value="MO1">MOTAR</option>
+	<option value="MO0">MOTARbbf</option>
+	<option value="NO2">NORMAL4</option>
+	<option value="NO3">NORMAL45</option>
+	<option value="RA1">RANCHI</option>
+	<option value="RI1">RINKI</option>
+	<option value="RT6">RT</option>
+	<option value="SHADI">SHADI</option>
+	<option value="TE0">TEST</option>
+	<option value="TRETERT">TU</option>
+	<option value="RSTRET">TU</option>
+
+</select>
+                                                    
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbadscat" class="TextField">Ad Sub Category</span></td>
+                                            <td>
+                                              
+                                                        <select name="drpadsubcategory" id="drpadsubcategory" disabled="disabled" class="dropdownforbook" onkeypress="return keySort(this);" onfocus="javascript:return changebackcolor(this);" onBlur="javascript:return bindadscat3();">
+	<option selected="selected" value="0">--Select Ads Cat--</option>
+
+</select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbadcat3" class="TextField">Ad sub cat3</span></td>
+                                            <td>
+                                               
+                                                        <select name="drpadcat3" id="drpadcat3" disabled="disabled" class="dropdownforbook" onkeypress="return keySort(this);" onBlur="javascript:return bindadscat4();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">--Select Ads Cat--</option>
+
+</select>
+                                                   
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbcat4" class="TextField">Ad sub cat4</span></td>
+                                            <td>
+                                               
+                                                        <select name="drpadcat4" id="drpadcat4" disabled="disabled" class="dropdownforbook" onkeypress="return keySort(this);" onBlur="javascript:return bindadcat5();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">--Select Ads Cat--</option>
+
+</select>
+                                                   
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbadscat5" class="TextField">Ad sub cat5</span></td>
+                                            <td>
+                                              
+                                                        <select name="drpadcat5" id="drpadcat5" disabled="disabled" class="dropdownforbook" onkeypress="return keySort(this);" onchange="javascript:return getcat5val();" onfocus="javascript:return changebackcolor(this);">
+
+</select>
+                                                    
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbbgcolor" class="TextField">Bg Color</span></td>
+                                            <td>
+                                              
+                                                        <select name="drpbgcolor" id="drpbgcolor" disabled="disabled" class="dropdownforbook">
+	<option selected="selected" value="0">-Select Bg Color-</option>
+	<option value="AW0">AWS</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="~!@#$%^&amp;">~!@#$%^</option>
+	<option value="BR0">BROWN</option>
+	<option value="%#$%">%#$%</option>
+	<option value="BL0">BLACK</option>
+	<option value="">RED</option>
+	<option value="%#$">%#$%</option>
+	<option value="VO0">VOILET</option>
+	<option value="RE2">RED</option>
+	<option value="WH0">WHITE</option>
+	<option value="DG0">DGFDG</option>
+	<option value="YTR">UTYUTYUT</option>
+	<option value="%#$%%#$%">%#$%%#$%%#$%</option>
+	<option value="~!@#$%">~!@#$%</option>
+	<option value="#$">%#$%%#$%%#$%</option>
+	<option value="~!">~!@#$%^&amp;*</option>
+	<option value="~!@#$%~!">~!@#$%~!@#$%</option>
+	<option value="~!@#">~!@#$%~!@#$%</option>
+	<option value="AA">AA</option>
+	<option value="66">TTTTTTJJJJJJJJJJJJJJJJJJJJJJJJ</option>
+	<option value="AAA">AAW</option>
+	<option value="~!@">~!@#$%^</option>
+	<option value="55">~!@#$%^56565</option>
+	<option value="~!@#$%8">~!@#$%^&amp;*(</option>
+	<option value="UYUY">6766</option>
+	<option value="QQ">QQ</option>
+	<option value="222">QQ</option>
+	<option value="QQQQ">QQQ</option>
+	<option value="~!10">~!@#$%^4</option>
+	<option value="ROHIT7">ROHITR</option>
+
+</select>
+                                                    
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbappby" class="TextField">App  By</span></td>
+                                            <td>
+                                             
+                                                        <input name="txtappby" type="text" id="txtappby" disabled="disabled" class="btextforbook" />
+                                                    
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbaudit" class="TextField">Audit</span></td>
+                                            <td>
+                                              
+                                                        <input name="txtaudit" type="text" id="txtaudit" disabled="disabled" class="btextforbook" />
+                                                   
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                        <span id="lbproduct" class="TextField">Product</span></td>
+                                            <td colspan="4">
+                                                      
+                                                                <input name="txtproduct" type="text" maxlength="50" id="txtproduct" class="btextadtype" onchange="javascript:return chkagency();" onfocus="javascript:return changebackcolor(this);" />
+                                                           
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                        <span id="lbbrand" class="TextField">Brand</span></td>
+                                            <td>
+                                                       
+                                                                <select name="drpbrand" id="drpbrand" disabled="disabled" class="dropdownforbook" onchange="javascript:return getbrand();" onfocus="javascript:return changebackcolor(this);">
+
+</select>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                            <span id="lbmat" class="TextField">Material Status</span></td>
+                                            <td>
+                                            
+                                                                <select name="drpmatstat" id="drpmatstat" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);" onchange="javascript:return setmatstatus();">
+	<option selected="selected" value="0">Select</option>
+	<option value="hardcopy">Hard Copy</option>
+	<option value="softcopy">Soft Copy</option>
+	<option value="cd">CD</option>
+	<option value="asonmatter">As on Matter</option>
+	<option value="other">Others</option>
+
+</select>
+                                                         
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td >
+                                                <span id="lbuom" class="TextField">UOM<font color=red>*</Font></span></td>
+                                            <td >
+                                               
+                                                        <select name="drpuom" id="drpuom" disabled="disabled" class="dropdownforbook" onchange="javascript:return gettheuomdesc();">
+	<option selected="selected" value="0">Select UOM</option>
+	<option value="AS0">ASDDF</option>
+	<option value="CD">CD</option>
+	<option value="DA0">DASS</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="RU0">RUN ON LINE</option>
+
+</select>
+                                            </td>
+                                            <td >
+                                            </td>
+                                            <td >
+                                            <span id="Label2" class="TextField">Attachment</span>
+                                                            <span class="TextField"><input id="chkattach" type="checkbox" name="chkattach" checked="checked" /></span>
+                                                </td>
+                                            <td >
+                                            </td>
+                                        </tr>
+                                    </table>
+                                      
+                                    <table id="tblbill" style="display: none;" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <span id="lblbillcycle" class="TextField">Bill Cycle</span></td>
+                                            <td>
+                                               
+                                                        <select name="drpbillcycle" id="drpbillcycle" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Bill</option>
+	<option value="1">Daily</option>
+	<option value="2">Weekly</option>
+	<option value="3">Fortnight</option>
+	<option value="4">Monthly</option>
+
+</select>
+                                                
+                                            </td>
+                                            <td>
+                                                <span id="lblrevenuecenter" class="TextField">Revenue Center</span></td>
+                                            <td>
+                                               
+                                                        <select name="drprevenue" id="drprevenue" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);">
+	<option value="0">Select Revenue Center</option>
+	<option selected="selected" value="TEST">TEST</option>
+	<option value="TE2">TESTING</option>
+	<option value="TE3">TEST1</option>
+	<option value="RT1">TEST4</option>
+	<option value="WA0">WADF</option>
+	<option value="BH0">BHATI</option>
+	<option value="AS1">DSADASDSA</option>
+
+</select>
+                                            </td>
+                                            <td>
+                                                &nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lblpaymenttype" class="TextField">Payment Type<font color=red>*</Font></span></td>
+                                            <td>
+                                              
+                                                        <select name="drppaymenttype" id="drppaymenttype" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);" onchange="javascript:return showcreditdetail();">
+
+</select>
+                                            </td>
+                                            <td>
+                                                <span id="lbbillstatus" class="TextField">Bill Status</span></td>
+                                            <td>
+                                               
+                                                        <select name="drpbillstatus" id="drpbillstatus" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Status</option>
+	<option value="AA3">AAAAAAAAAAAAAAA</option>
+	<option value="AA4">AAJ</option>
+	<option value="RO0">ROHIT SINGH  BHANU</option>
+	<option value="HH0">HNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</option>
+	<option value="BC0">BCVBCV</option>
+	<option value="CRADIT">CRADIT</option>
+	<option value="CRADIT1">CRADIT</option>
+	<option value="CRADIT2">CRADIT1</option>
+	<option value="CRADIT3">CRADIT1</option>
+	<option value="FSD">CREDIT1</option>
+	<option value="CH0">CHECK</option>
+	<option value="JH0">JHHHGJ</option>
+	<option value="VC0">VCBCVBNCVBNVBNVBNVBNVBNVBNVBNB</option>
+	<option value="AC1">ACTIVEN</option>
+	<option value="AC2">ACTIVE</option>
+	<option value="FGDGDFG">GDFGDFGFDGDFGDFGDFGDFGDFGDFGDF</option>
+	<option value="FHFGH">GFHFGHFGHFGH GH FG HFGH FGH HG</option>
+	<option value="AS1">ASDF</option>
+	<option value="GD1">GDFHGFDGH</option>
+	<option value="FH1">FHGFJHF</option>
+	<option value="FG7">FGDGDH</option>
+	<option value="AS2">ASDFG</option>
+	<option value="DO1">DONE</option>
+	<option value="DO1">DONE</option>
+	<option value="((1">(((****</option>
+	<option value="NO0">NORMAL4</option>
+	<option value="NO1">NORMAL45</option>
+	<option value="*^0">*^(%^**&amp;*</option>
+	<option value="*^1">*^(%^**&amp;*1</option>
+	<option value="53">YY</option>
+	<option value="76">YY</option>
+	<option value="T5EYRT">YRTYTR</option>
+	<option value="EQWEQW">YRTYTR</option>
+	<option value="EQWE">YRTYTR</option>
+	<option value="DFG">YRTYTR</option>
+	<option value="AAA">YRTYTR</option>
+	<option value="QWR">YRTYTR</option>
+	<option value="AA2">AAAA</option>
+	<option value="Z0">Z</option>
+	<option value="QQ0">QQQ</option>
+	<option value="AS3">ASD</option>
+	<option value="A4">A</option>
+	<option value="ZA0">ZA</option>
+	<option value="Q1">Q</option>
+
+</select>
+                                            </td>
+                                            <td>
+                                                &nbsp;</td>
+                                        </tr>
+                                          <tr>
+                                       <td id="cashrecvd" style="display:none"> 
+                                       <span id="lblcashrecieved" class="TextField">Cash Recieved</span></td>
+
+                                       <td id="tdcashrecvd" style="display:none"><input name="drpcashrecieved" type="text" id="drpcashrecieved" class="btextforbookright" onkeypress="return notchar2();" /></td>
+
+                                         
+                                 </tr>
+                                         <tr>
+                                            <td id="tdcarname" style="display:none" valign="top">
+                                                <span id="lbcardname" class="TextField">Name On Card</span></td>
+                                            <td align="left" valign="top" id="tdtxtcarname" style="display:none">
+                                                <input name="txtcardname" type="text" id="txtcardname" class="btextforbook" />
+                                            </td>
+                                            <td id="tdtype" style="display:none" valign="top">
+                                                <span id="lbtype" class="TextField">Card Type</span></td>
+                                            <td id="tddrptyp" style="display:none">
+                                                <select name="drptype" id="drptype" class="dropdownforbook">
+	<option value="0">Select Card Type</option>
+	<option value="hdfc">HDFC</option>
+	<option value="icici">ICICI</option>
+	<option value="master">MASTER</option>
+
+</select>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td id="tdexdat" style="display:none" valign="top">
+                                                <span id="lbexdate" class="TextField">Expiry Date</span></td>
+                                            <td align="left" valign="top" id="tdtxtexdat" style="display:none; ">
+                                                <select name="drpmonth" id="drpmonth" class="drpsmall" onchange="javascript:return chkyear();">
+	<option selected="selected" value="0">Month</option>
+	<option value="1">Jan</option>
+	<option value="2">Feb</option>
+	<option value="3">Mar</option>
+	<option value="4">Apr</option>
+	<option value="5">May</option>
+	<option value="6">Jun</option>
+	<option value="7">Jul</option>
+	<option value="8">Aug</option>
+	<option value="9">Sep</option>
+	<option value="10">Oct</option>
+	<option value="11">Nov</option>
+	<option value="12">Dec</option>
+
+</select><select name="drpyear" id="drpyear" class="drpsmall" onchange="javascript:return chkyear();">
+	<option selected="selected" value="0">Year</option>
+	<option value="2008">08</option>
+	<option value="2009">09</option>
+	<option value="2010">10</option>
+	<option value="2011">11</option>
+	<option value="2012">12</option>
+
+</select>
+                                            </td>
+                                            <td id="tdcardno" style="display:none" valign="top">
+                                                <span id="lbcardno" class="TextField">Number On Card</span></td>
+                                            <td id="tdtxtcarno" style="display:none"  valign="top">
+                                            <input name="txtcardno" type="text" maxlength="20" id="txtcardno" class="btextforbookright" onkeypress="return rateenter(event)" />
+                                            </td>
+                                        </tr>
+                                          <tr>
+                                    <td id="tdchqno" style="display:none">
+                                        <span id="lbchqno" class="TextField">CHQ/DD No.</span></td>
+
+                                    <td id="tdtextchqno" style="display:none">
+                                        <input name="ttextchqno" type="text" maxlength="20" id="ttextchqno" class="btextforbook" onkeypress="return rateenter(event)" /></td>
+
+                                    <td id="tdchqamt" style="display:none">
+                                        <span id="lbchqamt" class="TextField">CHQ/DD Amount</span></td>
+
+                                    <td align="left" valign="top" id="tdtextchqamt" style="display:none">                        
+                                        <input name="ttextchqamt" type="text" id="ttextchqamt" class="btextforbook" onkeypress="return rateenter(event)" /></td>
+                                  </tr>
+                                  <tr>
+                                    <td id="tdchqdate" style="display:none">
+                                        <span id="lbchqdate" class="TextField">CHQ/DD Date</span></td>
+                                    <td id="tdtextchqdate" style="display:none">
+                                        <input name="ttextchqdate" type="text" id="ttextchqdate" class="btextforbook" onchange="javascript:return checkdate(this);" /></td>
+                                    <td id="tdbankname" style="display:none"> 
+                                        <span id="lbbankname" class="TextField">Bank Name</span></td>
+                                    <td id="tdtextbankname" style="display:none">                    
+                                        <input name="ttextbankname" type="text" id="ttextbankname" class="btextforbook" /></td>
+                                    <td></td>
+                                 </tr>
+                                    <tr>  <td id="tdourbank" style="display:none">
+                                        <span id="lbourbank" class="TextField">Our Bank</span></td>
+                                       <td id="tdtextourbank" style="display:none">
+                                         <select name="drpourbank" id="drpourbank" class="dropdownforbook">
+	<option selected="selected" value="0">-Select Bank-</option>
+	<option value="ACD0005">The DMC Mum</option>
+	<option value="ACD0005">The DMC  Mum</option>
+	<option value="ACD0001">SBI BANK</option>
+	<option value="ACD0002">HDFC BANK</option>
+	<option value="ACD0003">The MCB Mum</option>
+	<option value="ACD0004">PMC Mum </option>
+	<option value="ACD0006">Nagpur HDFC </option>
+	<option value="ACD0007">Yawatmal S.B.I</option>
+	<option value="ACD0008">Warda S.B.I</option>
+	<option value="ACD0009">Butibori S.B.I</option>
+	<option value="ACD0010">Chandrapur S.B.I</option>
+	<option value="ACD0011">Amaravati S.B.I</option>
+	<option value="ACD0012">Dhule S.B.I</option>
+	<option value="ACD0013">Waluj S.B.I</option>
+	<option value="ACD0014">Osmanabad S.B.I</option>
+	<option value="ACD0015">Prabhani S.B.I</option>
+	<option value="ACD0016">Beed S.B.I</option>
+	<option value="ACD0017">Buldhana</option>
+	<option value="ACD0018">Nanded S.B.I</option>
+	<option value="ACD0019">Shrirampur S.B.I</option>
+	<option value="ACD0020">SCRS ABD</option>
+	<option value="ACD0021">Kolhapur S.B.I</option>
+	<option value="ACD0022">Kolhapur HDFC</option>
+	<option value="ACD0023">Kolhapur BOI</option>
+	<option value="ACD0024">A.NAGAR HDFC </option>
+	<option value="ACD0001">SBI BANK</option>
+	<option value="ACD0002">HDFC BANK</option>
+	<option value="ACD0003">The MCB Mum</option>
+	<option value="ACD0004">PMC Mum</option>
+	<option value="ACD0006">Nagpur HDFC</option>
+	<option value="ACD0007">Yawatmal S.B.I</option>
+	<option value="ACD0008">Vardha S.B.I</option>
+	<option value="ACD0009">Butibori S.B.I</option>
+	<option value="ACD0010">Chandrapur S.B.I</option>
+	<option value="ACD0011">Amaravati S.B.I</option>
+	<option value="ACD0012">Dhule S.B.I</option>
+	<option value="ACD0013">Waluj S.B.I</option>
+	<option value="ACD0014">Osmanabad S.B.I</option>
+	<option value="ACD0015">Prabhani S.B.I</option>
+	<option value="ACD0016">Beed S.B.I</option>
+	<option value="ACD0017">Buldhana S.B.I</option>
+	<option value="ACD0018">Nanded S.B.I</option>
+	<option value="ACD0019">Shrirampur S.B.I</option>
+	<option value="ACD0020">SCRS ABD</option>
+	<option value="ACD0021">Kolhapur S.B.I</option>
+	<option value="ACD0022">Kolhapur HDFC</option>
+	<option value="ACD0023">Kolhapur BOI</option>
+	<option value="ACD0024">A.NAGAR HDFC</option>
+
+</select></td>
+                                 </tr>
+                                        
+                                        <tr>
+                                            <td>
+                                                <span id="lblbillsize" class="TextField">Billable Size</span></td>
+                                            <td valign="top" align="left">
+                                                <input name="txtbillheight" type="text" maxlength="4" id="txtbillheight" disabled="disabled" class="btextsmallsizerig" onchange="javascript:return getbiilablearea();" onfocus="javascript:return changebackcolor(this);" />&nbsp;&nbsp;*&nbsp;&nbsp;
+                                                        <input name="txtbillwidth" type="text" maxlength="4" id="txtbillwidth" disabled="disabled" class="btextsmallsizerig" onchange="javascript:return getbiilablearea();" onfocus="javascript:return changebackcolor(this);" />
+                                                      
+                                                        <span id="lbbilluom" class="TextFielduom"></span>
+                                                   
+                                            </td>
+                                            <td>
+                                                <span id="lblbillto" class="TextField">Bill To</span></td>
+                                            <td>
+                                              
+                                                        <select name="drpbillto" id="drpbillto" disabled="disabled" class="dropdownforbook" onfocus="javascript:return changebackcolor(this);" onchange="javascript:return getvalueintohidden();">
+
+</select>
+                                            </td>
+                                            <td>
+                                                &nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td id="tdrec" style="display:none">
+                                                <span id="lbreceipt" class="TextField" onclick="javascript:return printreceipt();">Receipt No.</span></td>
+                                            <td align="left" valign="top" id="receipt" style="display:none">
+                                               
+                                                        <input name="txtreceipt" type="text" maxlength="4" id="txtreceipt" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" />
+                                                   
+                                            </td>
+                                            <td colspan="2" id="print" style="display:none">
+                                                <span id="lbprint" class="TextFieldprint" onclick="javascript:return printreceipt();">Print Receipt</span></td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbltradedisc" class="TextField">Trade Discount</span></td>
+                                            <td>
+                                             
+                                                        <input name="txttradedisc" type="text" id="txttradedisc" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" Onblur="javascript:return checkTrade();" />
+                                            </td>
+                                            <td>
+                                                <span id="lbbillamt" class="TextField">Bill Amount</span></td>
+                                            <td>
+                                                
+                                                        <input name="txtbillamt" type="text" id="txtbillamt" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" />
+                                                  
+                                            </td>
+                                            <td>
+                                                &nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbbillremark" class="TextField">Bill Remark</span></td>
+                                            <td colspan="4">
+                                              
+                                                        <textarea name="txtbillremark" rows="2" cols="20" id="txtbillremark" disabled="disabled" class="btextcapadd" onfocus="javascript:return changebackcolor(this);"></textarea>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                    <table id="pagedetail" style="display: none;" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <span id="lbpagepost" class="TextField">Position Premium</span></td>
+                                            <td>
+                                              
+                                                        <select name="drppageposition" id="drppageposition" disabled="disabled" class="dropdownforbook" onchange="javascript:return getpageamt();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">Select Page Position</option>
+	<option value="66">BOTTOM</option>
+	<option value="BO0">BOTTOM</option>
+	<option value="SP0">CENTER SPREAD</option>
+	<option value="EEEEEEEE">EEE</option>
+	<option value="GG">GG</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="ROHIT4">ROHITTTTTTTTTTTTTTTTTTTTTTTTTT</option>
+	<option value="TO0">TOP</option>
+	<option value="TO1">TOP LEFT</option>
+
+</select>
+                                            </td>
+                                            <td style="width: 15px">
+                                            </td>
+                                            <td>
+                                                <span id="lbadsize" class="TextField">Ad Size<font color=red>*</Font></span></td>
+                                            <td>
+                                               
+                                                        <span id="h" class="TextField">H</span>
+                                                        <input name="txtadsize1" type="text" maxlength="5" id="txtadsize1" disabled="disabled" class="btextsmallsizerig" onkeypress="return rateenter(event);" onchange="javascript:return chkheight();" onfocus="javascript:return changebackcolor(this);" />
+                                                        <span id="w" class="TextField">W</span>
+                                                        <input name="txtadsize2" type="text" maxlength="5" id="txtadsize2" disabled="disabled" class="btextsmallsizerig" onkeypress="return rateenter(event);" onchange="javascript:return chkwidth();" onfocus="javascript:return changebackcolor(this);" />
+                                                        <span id="lbmeasure" class="TextFielduom"></span>
+                                                  
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbbullet" class="TextField">Eye Catcher</span></td>
+                                            <td>
+                                                    <select name="drpbullet" id="drpbullet" disabled="disabled" class="dropdownforbook" onchange="javascript:return getbullpremium();" onBlur="javascript:return focusN();">
+	<option selected="selected" value="0">-Select-</option>
+	<option value="AR0">ARROW</option>
+	<option value="ROHIT">ROHIT</option>
+
+</select>
+                                               
+                                            </td>
+                                              <td style="width:15px">
+                                            </td>
+                                            <td>
+                                                <span id="lbcolumn" class="TextField">No. of Column</span></td>
+                                            <td>
+                                             
+                                                        <input name="txtcolum" type="text" maxlength="4" id="txtcolum" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" onfocus="javascript:return changebackcolor(this);" onchange="javascript:return getwidth();" />
+                                                 
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbbullprem" class="TextField">Eye Catcher Prem.</span></td>
+                                            <td>
+                                              
+                                                        <input name="txtbullprem" type="text" id="txtbullprem" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" />
+                                                    
+                                            </td>
+                                            <td style="width: 15px">
+                                            </td>
+                                            <td>
+                                          
+                                                <span id="Label1" class="TextField">Total Area</span>
+                                             
+                                                
+                                                </td>
+                                            <td>
+                                               
+                                                        <input name="txttotalarea" type="text" maxlength="8" id="txttotalarea" disabled="disabled" class="btextforbookright" onkeypress="return notchar2Area();" onfocus="javascript:return changebackcolor(this);" onchange="javascript:return fillnooflineintogrid();" />
+                                                        <span id="lbmeasuretotal" class="TextFielduom"></span>
+                                                 
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table id="tblrate" style="display: none" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <span id="lbscheme" class="TextField">Scheme Type</span></td>
+                                            <td>
+                                             
+                                                        <input name="drpscheme" type="text" id="drpscheme" disabled="disabled" class="btextforbookrightsmall" />
+                                                   
+                                            </td>
+                                              <td style="width:15px">
+                                            </td>
+                                            <td>
+                                                <span id="lbratecode" class="TextField">Rate Code<font color=red>*</Font></span></td>
+                                            <td>
+                                             
+                                                        <select name="txtratecode" id="txtratecode" disabled="disabled" class="dropdownforbooksmall" onchange="javascript:return rateRefresh();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">-Select Rate Code-</option>
+
+</select>
+                                                 
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lblcardrate" class="TextField">Card Rate</span>
+                                            </td>
+                                            <td>
+                                             
+                                                        <input name="txtcardrate" type="text" id="txtcardrate" disabled="disabled" class="btextforbookrightsmall" onfocus="javascript:return changebackcolor(this);" />
+                                            </td>
+                                              <td>
+                                            </td>
+                                            <td>
+                                                <span id="lblcardamt" class="TextField">Card Amount</span>
+                                            </td>
+                                            <td>
+                                              
+                                                        <input name="txtcardamt" type="text" id="txtcardamt" disabled="disabled" class="btextforbookrightsmall" />
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbdealtype" class="TextField">Contract Rate</span></td>
+                                            <td>
+                                               
+                                                        <input name="txtdealrate" type="text" id="txtdealrate" disabled="disabled" class="btextforbookrightsmall" />
+                                                   
+                                            </td>
+                                              <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbdeviation" class="TextField">Deviation</span></td>
+                                            <td>
+                                               
+                                                        <input name="txtdeviation" type="text" id="txtdeviation" disabled="disabled" class="btextforbookrightsmall" />
+                                                   
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbagreed" class="TextField">Agreed Rate</span>
+                                            </td>
+                                            <td>
+                                               
+                                                        <input name="txtagreedrate" type="text" maxlength="10" id="txtagreedrate" disabled="disabled" class="btextforbookrightsmall" onpaste="return false;" onkeypress="return notchar2();" onchange="javascript:return getagreedamt();" onfocus="javascript:return changebackcolor(this);" />
+                                            </td>
+                                              <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbagreamo" class="TextField">Agreed Amount</span>
+                                            </td>
+                                            <td>
+                                              
+                                                        <input name="txtagreedamt" type="text" maxlength="10" id="txtagreedamt" disabled="disabled" class="btextforbookrightsmall" onpaste="return false;" onkeypress="return notchar2();" onchange="javascript:return getagreedamt();" onfocus="javascript:return changebackcolor(this);" />
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbldiscount" class="TextField">Discount</span>
+                                            </td>
+                                            <td>
+                                                
+                                                        <input name="txtdiscount" type="text" id="txtdiscount" disabled="disabled" class="btextforbookrightsmall" />
+                                            </td>
+                                              <td>
+                                            </td>
+                                            <td>
+                                                <span id="lbldiscpre" class="TextField">Discount(%)</span>
+                                            </td>
+                                            <td>
+                                               
+                                                        <input name="txtdiscpre" type="text" id="txtdiscpre" disabled="disabled" class="btextforbookrightsmall" />
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbpagepostamt" class="TextField">Post Prem. Amt.</span></td>
+                                            <td>
+                                               
+                                                        <input name="txtpageamt" type="text" id="txtpageamt" disabled="disabled" class="btextforbookrightsmall" />
+                                                    
+                                            </td>
+                                              <td>
+                                            </td>
+                                           <td>
+                                            <div id="addagency">
+                                             <span id="lblagencyaddcomm" class="TextField">Addl Agency Comm.</span></div>
+                                                </td>
+                                            <td>
+                                           <div id="addagencycomm">
+                                             
+                                                        <input name="txtaddagencycommrate" type="text" maxlength="10" id="txtaddagencycommrate" disabled="disabled" class="btextforbookrightsmall_comm" onkeypress="return rateenter(event);" OnChange="javascript:return addagencycomm();" style="width:30px" /><font class="TextField">%</font><input name="txtaddagencycommrateamt" type="text" maxlength="10" id="txtaddagencycommrateamt" disabled="disabled" class="btextforbookrightsmall_comm" onkeypress="return rateenter(event);" OnChange="javascript:return getAddlAgencyComm();" />
+                                                            
+                                                            </div>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                         <tr>
+                                            <td>
+                                                <span id="lbspechar" class="TextField">Special Charges</span></td>
+                                            <td>
+                                               
+                                                        <input name="txtextracharges" type="text" maxlength="10" id="txtextracharges" disabled="disabled" class="btextforbookrightsmall" onkeypress="return notchar2();" onchange="javascript:return getsplchargeBlank();" onfocus="javascript:return changebackcolor(this);" />
+                                            </td>
+                                            <!-- put text box for retainer comm>-->
+                                            <td></td>
+                                            <td>
+                                                <span id="lblRetainercomm" class="TextField">Retainer Comm.(%)</span></td>
+                                            <td>
+                                              
+                                                        <input name="txtRetainercomm" type="text" maxlength="10" id="txtRetainercomm" disabled="disabled" class="btextforbookrightsmall_comm" OnChange="javascript:return getRetainerCommAmt();" style="width:30px" /><font class="TextField">%</font><input name="txtRetainercommamt" type="text" maxlength="10" id="txtRetainercommamt" disabled="disabled" class="btextforbookrightsmall_comm" />
+                                            </td>
+                                            <!--end of box>-->
+                                         </tr>
+                                        <tr>
+                                            <td valign="top">
+                                                <span id="lbgrossamt" class="TextField">Gross Amount</span></td>
+                                            <td>
+                                            
+                                                        <input name="txtgrossamt" type="text" id="txtgrossamt" disabled="disabled" class="btextforbookrightsmall" />
+                                                
+                                                &nbsp;</td>
+                                              <td>
+                                            </td>
+                                            <td valign="top">
+                                            
+                                                        <input type="submit" name="btnshgrid" value="Get Rate" id="btnshgrid" disabled="disabled" class="buttonsmall" onclick="javascript:return checkGridDate_Validation();" />
+                                                       
+                                                        </td>
+                                            <td>
+                                                &nbsp;</td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                       
+                                    </table>
+                                    
+                                    <table id="tbbox" style="display: none" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td>
+                                                <span id="lbboxcode" class="TextField">Box Code</span></td>
+                                            <td valign="top">
+                                              
+                                                        <select name="drpboxcode" id="drpboxcode" disabled="disabled" class="dropdownforbook" onchange="javascript:return getboxno();" onfocus="javascript:return changebackcolor(this);">
+	<option selected="selected" value="0">-Select Box-</option>
+	<option value="CO0">COURIER</option>
+	<option value="ERW">ROHIT</option>
+	<option value="FG">COURIER</option>
+	<option value="ROHIT">ROHIT</option>
+	<option value="ROHIT7">ROHIT</option>
+	<option value="ROHIT9">ROHIY0</option>
+
+</select>
+                                            </td>
+                                            <td>
+                                                <span id="lbboxno" class="TextField">Box No.</span></td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                              
+                                                        <input name="txtboxno" type="text" id="txtboxno" disabled="disabled" class="btextforbook" />
+                                               
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td colspan="2">
+                                              
+                                                        <span class="TextField"><input id="chkage" type="checkbox" name="chkage" onclick="javascript:return agencychk();" /><label for="chkage">Same as Agency</label></span>
+                                                        <span class="TextField"><input id="chkclie" type="checkbox" name="chkclie" onclick="javascript:return clientchk();" /><label for="chkclie">Same as Client</label></span>
+                                                   
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lbboxadd" class="TextField">Box Add.</span></td>
+                                            <td colspan="4">
+                                               
+                                                        <textarea name="txtboxaddress" rows="2" cols="20" id="txtboxaddress" disabled="disabled" class="btextcapadd" onkeypress="return notchar2();" onfocus="javascript:return changebackcolor(this);"></textarea>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                     <table id="tbvts" style="display: none" border="0" cellpadding="0" cellspacing="0">
+                                      <tr>
+                                     <td>
+                                                <span id="lblciragency" class="TextField">Circulation Agency</span></td>
+                                            <td valign="top" colspan="4">
+                                                
+                                                        <input name="txtciragency" type="text" maxlength="50" id="txtciragency" disabled="disabled" class="btextadtype" />     
+                                                
+                                            </td>
+                                    </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lblvts" class="TextField">Vts(No. of Copies)</span></td>
+                                            <td valign="top">
+                                               
+                                                        <input name="txtvts" type="text" maxlength="4" id="txtvts" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" onfocus="javascript:return changebackcolor(this);" />
+                                            </td>
+                                            <td>
+                                                <span id="lblinvoice" class="TextField">No. of invoices</span></td>
+                                          
+                                            <td>
+                                               
+                                                        <input name="txtinvoice" type="text" maxlength="4" id="txtinvoice" disabled="disabled" class="btextforbookright" onkeypress="return notchar2();" onfocus="javascript:return changebackcolor(this);" />&nbsp;
+                                                   
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                          
+                                            <td>
+                                                <span id="lblciredition" class="TextField">Edition</span></td>
+                                            
+                                            <td>
+                                                
+                                                        <input name="txtciredition" type="text" id="txtciredition" disabled="disabled" class="btextforbookright" />&nbsp;
+                                                    
+                                            </td>
+                                              <td>
+                                                <span id="lblcirrate" class="TextField">Rate</span></td>
+                                            <td valign="top">
+                                                
+                                                        <input name="txtcirrate" type="text" id="txtcirrate" disabled="disabled" class="btextforbookright" />
+                                                
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <span id="lblbilladdress" class="TextField">Billing Address</span></td>
+                                            <td colspan="4">
+                                               
+                                                        <textarea name="txtbilladdress" rows="2" cols="20" id="txtbilladdress" disabled="disabled" class="btextadtype" onfocus="javascript:return changebackcolor(this);"></textarea>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                     </td>
+                                    </tr>
+                                    </table>
+
+                     </div></td></tr></table>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td id="tblinsert" align="left">
+                </td>
+
+            </tr>
+        </table>
+        <div id="showselectedition" style=" z-index:0;background-color:#e1e1e1;border-right: thin groove; border-top: thin groove; border-left: thin groove; border-bottom: thin groove;font-size: 8pt;position:absolute;display:none;height:100px;width:109px;top:200px;left:100px;"></div>
+        <table cellpadding="0" cellspacing="0"><tr><td>
+     
+                <input name="hiddencomcode" type="hidden" id="hiddencomcode" size="1" />
+                <input name="hiddenuserid" type="hidden" id="hiddenuserid" size="1" value="A01" />
+                <input name="hiddendateformat" type="hidden" id="hiddendateformat" size="1" value="dd/mm/yyyy" />
+                <input name="hiddencompcode" type="hidden" id="hiddencompcode" size="1" value="HT001" />
+                <input name="hiddenbackdatebook" type="hidden" id="hiddenbackdatebook" size="1" value="Y" />
+                <input name="hiddenusername" type="hidden" id="hiddenusername" />
+                <input name="hiddenrowcount" type="hidden" id="hiddenrowcount" />
+                <input name="hiddensubcode" type="hidden" id="hiddensubcode" />
+                <input name="hiddentfn" type="hidden" id="hiddentfn" value="20" />
+                <input name="hiddenstatus" type="hidden" id="hiddenstatus" />
+                <input name="hiddenpay" type="hidden" id="hiddenpay" />
+                <input name="hiddenpackage" type="hidden" id="hiddenpackage" />
+                <input name="hiddensavemod" type="hidden" id="hiddensavemod" />
+                <input name="hiddenbranch" type="hidden" id="hiddenbranch" />
+                <input name="hiddencurrency" type="hidden" id="hiddencurrency" value="RU1" />
+                <input name="hiddenpremtype" type="hidden" id="hiddenpremtype" value="fixed" />
+                <input name="hiddentype" type="hidden" id="hiddentype" value="Y" />
+                <input name="hiddenbrand" type="hidden" id="hiddenbrand" />
+                <input name="hiddenzone" type="hidden" id="hiddenzone" />
+                <input name="hiddenclickdate" type="hidden" id="hiddenclickdate" size="1" />
+                <input name="hiddeninserts" type="hidden" id="hiddeninserts" size="1" value="0" />
+                <input name="hiddenagency" type="hidden" id="hiddenagency" size="1" />
+                <input name="hiddencioid" type="hidden" id="hiddencioid" size="1" />
+                <input name="hiddenvar" type="hidden" id="hiddenvar" size="1" />
+                <input name="hiddenbillto" type="hidden" id="hiddenbillto" size="1" />
+                <input name="hiddenbillpay" type="hidden" id="hiddenbillpay" size="1" />
+                <input name="hiddenprefix" type="hidden" id="hiddenprefix" size="1" value="P" />
+                <input name="hiddensufix" type="hidden" id="hiddensufix" size="1" value="S" />
+                <input name="hiddenreceiptno" type="hidden" id="hiddenreceiptno" size="1" />
+                <input name="hiddenadscat3" type="hidden" id="hiddenadscat3" size="1" />
+                <input name="hiddenadscat4" type="hidden" id="hiddenadscat4" size="1" />
+                <input name="hiddenadscat5" type="hidden" id="hiddenadscat5" size="1" />
+                <input name="hiddenbgcolor" type="hidden" id="hiddenbgcolor" size="1" />
+                <input name="hiddenbullprem" type="hidden" id="hiddenbullprem" size="1" />
+                <input name="hiddenratecode" type="hidden" id="hiddenratecode" size="1" />
+                <input name="hiddenuom" type="hidden" id="hiddenuom" size="1" />
+                <input name="hiddenvat" type="hidden" id="hiddenvat" size="1" value="no" />
+                <input name="hiddencirculation" type="hidden" id="hiddencirculation" size="1" value="circulation" />
+                <input name="hiddenscheme" type="hidden" id="hiddenscheme" size="1" />
+                <input name="hiddenprereceipt" type="hidden" id="hiddenprereceipt" size="1" value="1" />
+                
+                 <input name="hiddenroadcat" type="hidden" id="hiddenroadcat" size="1" value="0" />
+                <input name="hiddenrodatetime" type="hidden" id="hiddenrodatetime" size="1" value="yes" />
+                <input name="hiddenroperm" type="hidden" id="hiddenroperm" size="1" />
+                     <input type="hidden" id="pkgname" />
+               <input type="hidden" id="hidval" />
+               <input type="hidden" id="hidcount" />
+                <input type="hidden" id="hiddenboxno" />
+                
+                <input name="hiddeninsertion" type="hidden" id="hiddeninsertion" />
+                <input name="hiddenadtype" type="hidden" id="hiddenadtype" value="CL0" />
+                <input name="hiddencalendar" type="hidden" id="hiddencalendar" value="1" />
+                <input name="hiddenprevamt" type="hidden" id="hiddenprevamt" />
+               
+                <input name="hiddenuomdesc" type="hidden" id="hiddenuomdesc" />
+                <input name="hiddenlogocode" type="hidden" id="hiddenlogocode" />
+                <input name="hiddenuomstylesheet" type="hidden" id="hiddenuomstylesheet" />
+                <input name="hiddenuomcode" type="hidden" id="hiddenuomcode" />
+                
+                <input name="hiddenLineCount" type="hidden" id="hiddenLineCount" />
+                <input name="hiddenagencyrate" type="hidden" id="hiddenagencyrate" />
+                <input name="hiddentypedatabase" type="hidden" id="hiddentypedatabase" />
+                <input name="hiddenafency_retainer" type="hidden" id="hiddenafency_retainer" value="monthly" />
+                <input name="hiddenclientname" type="hidden" id="hiddenclientname" />
+                <input name="hiddenpaymode" type="hidden" id="hiddenpaymode" />
+                <input name="hiddenclientaddress" type="hidden" id="hiddenclientaddress" />
+                <input name="hiddenprint_rec" type="hidden" id="hiddenprint_rec" />
+                <input name="hiddenratecheckdate" type="hidden" id="hiddenratecheckdate" value="b" />
+                <input name="hiddenratepremtype" type="hidden" id="hiddenratepremtype" value="per" />
+                <input name="hiddenbulletpremtype" type="hidden" id="hiddenbulletpremtype" />
+                <input name="hiddenbuttonidcheck" type="hidden" id="hiddenbuttonidcheck" value="15" />
+                 <input name="hiddencioidformat" type="hidden" id="hiddencioidformat" value="2" />
+                  <input name="hiddencenter" type="hidden" id="hiddencenter" value="TEST" />
+                  <input name="hiddenhidReceipt" type="hidden" id="hiddenhidReceipt" />
+                  <input name="hiddenaudit" type="hidden" id="hiddenaudit" />
+                  <input name="hiddenrostatus" type="hidden" id="hiddenrostatus" value="0" />
+                  <input name="hiddenboxchrgtype" type="hidden" id="hiddenboxchrgtype" />
+                   <input name="hiddenvaliddate" type="hidden" id="hiddenvaliddate" value="yes" />
+                   <input name="hiddenauditsession" type="hidden" id="hiddenauditsession" value="y" />
+                   <input name="hiddenpkgedition" type="hidden" id="hiddenpkgedition" />
+                     <input name="hiddenschemetype" type="hidden" id="hiddenschemetype" value="2" />
+                      <input name="hiddenconnect" type="hidden" id="hiddenconnect" value="sql" />
+                      <input name="hiddeninsertwise" type="hidden" id="hiddeninsertwise" value="yes" />
+                       <input name="hiddenuserdisc" type="hidden" id="hiddenuserdisc" value="0" />
+                     <input name="hiddentradedisc" type="hidden" id="hiddentradedisc" />
+                      <input name="retcommtype" type="hidden" id="retcommtype" />
+                      <input name="retcomm" type="hidden" id="retcomm" />
+                          <input name="currdate" type="hidden" id="currdate" value="31/8/2010" />             
+                           <input name="agncomm_seq_com" type="hidden" id="agncomm_seq_com" value="C" />
+                            <input name="creditreceipt_allow" type="hidden" id="creditreceipt_allow" value="Y" />
+                              <input name="hidcash" type="hidden" id="hidcash" value="Y" />
+                               <input name="hidbackdatereceipt" type="hidden" id="hidbackdatereceipt" value="n" />
+                                    <input name="tempinsert" type="hidden" id="tempinsert" />
+                                     <input name="configclient" type="hidden" id="configclient" value="BHASKAR" />
+                                      <input name="hiddockit" type="hidden" id="hiddockit" />
+                                        <input name="hidlineedit" type="hidden" id="hidlineedit" />
+                                        <input name="hiddenregClient" type="hidden" id="hiddenregClient" value="no" />
+                                        <input name="hiddencashrecieved" type="hidden" id="hiddencashrecieved" />
+                                         <input name="hiddencirpub" type="hidden" id="hiddencirpub" />
+                                  <input name="hiddenciredi" type="hidden" id="hiddenciredi" />
+                                  <input name="hiddenserverip" type="hidden" id="hiddenserverip" value="127.0.0.1" />
+        </td></tr></table>
+        
+        
+        
+    
+
+        
+        
+        
+        
+        
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('btnNew');//]]>
+</script>
+</form>
+</body>
+</html>

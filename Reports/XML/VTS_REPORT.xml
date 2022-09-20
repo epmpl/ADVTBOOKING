@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<database>
+  <table>
+
+    <td>Client Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td>
+    <td1>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>Agency Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td3>
+    <td4>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Publication&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <td7>Publication Center&lt;font color=red&gt;&lt;/Font&gt;</td7>
+    <td8>Edition&lt;font color=red&gt;&lt;/Font&gt;</td8>
+    <td9>Branch&lt;font color=red&gt;&lt;/Font&gt;</td9>
+    <td10>Destination&lt;font color=red&gt;&lt;/Font&gt;</td10>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td11>Run</td11>
+    <td12>VTS REPORT</td12>
+    <td13>Report Type</td13>
+    <td14>State Exclude</td14>
+  </table>
+	
+ <table1>		
+	<td>Select Client Type</td>
+	<td1>Regular Client</td1>
+	<td2>R</td2>
+	<td3>Non Regular Client</td3>
+	<td4>N</td4>
+	<td5>All Client</td5>
+	<td6>A</td6>
+ </table1>
+	
+</database>

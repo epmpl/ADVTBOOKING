@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+
+<NewDataSet>
+  <Table>
+    <td>Agency Type Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Agency Type Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Effective From&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Effective To&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Commission Rate %&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Commission Apply On&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>Credit Days&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>Ad Category</td8>
+    <td9>MRV Ref No Required</td9>
+<td10>PAM Target Table Name</td10>
+    <td11>Month End Bill Date Required</td11>
+    <td12>Commission Required</td12>
+    
+    
+
+  </Table>
+</NewDataSet>

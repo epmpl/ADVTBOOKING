@@ -1,0 +1,55 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="savead.aspx.cs" ValidateRequest="false"
+    Inherits="savead" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Save ::Admaking</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script type="text/javascript" src="js/enterortab.js"></script>
+
+    <script type="text/javascript" src="js/ctrl.js"></script>
+
+</head>
+<body onkeydown="javascript:tabvalue();" style="background-color: ButtonFace" onload="document.getElementById('savexml').value = opener.document.getElementById('editordivxml').value;document.getElementById('savehtml').value = opener.document.getElementById('editordivhtml').value;document.getElementById('completehtml').value=opener.document.getElementById('editordivfullhtml').value">
+    <form id="form1" method="post" runat="server">
+        <div>
+            <table>
+                <tr>
+                    <td style="width: 153px">
+                        <asp:Label ID="mylabel" runat="server" CssClass="proplbl" Width="155px">Name of your Ad :-</asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 153px">
+                        <asp:TextBox ID="filename" runat="server" Width="149px" CssClass="btext" ToolTip="Name of template"></asp:TextBox>&nbsp;
+                    </td>
+                    <td>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="*" ControlToValidate="filename"></asp:RequiredFieldValidator></tr>
+                <tr>
+                    <td align="right">
+                       <asp:Button ID="saveT" runat="server" Text="Save" CssClass="button1" TabIndex="1"  OnClick="saveT_Click1"  />
+                        <input type="hidden" id="xmlval" runat="server" />
+                         <%--<asp:TextBox ID=temp_id runat=server Width="149px" CssClass="btext" ></asp:TextBox>--%>
+                        <input type="hidden" id="temp_id" runat="server" />
+                        <input type="hidden" id="completehtml" runat="server" />
+                        <input id="savehtml" runat="server" type="hidden" />
+                        <input id="savexml" runat="server" type="hidden" />
+                      
+                        <%--<input type="button" value="Save" class="button1" id="savesT" style="width: 77px"
+                            onserverclick="saveT_Click1" runat="server" tabindex="1" />--%>
+                    </td>
+                    <td>
+                        <input type="button" id="cancelT" value="Cancel" class="button1" style="width: 77px;"
+                            onclick="javascript:closeme();" tabindex="2" />
+                    </td>
+                </tr>
+            </table>
+            <input type="hidden" id="uom" runat="server" />
+            <input type="hidden" id="adwidth" runat="server" />
+            <input type="hidden" id="adheight" runat="server" />
+        </div>
+    </form>
+</body>
+</html>

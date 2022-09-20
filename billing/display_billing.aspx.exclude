@@ -1,0 +1,682 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="display_billing.aspx.cs" Inherits="billing_display_billing" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>display_billing</title>
+ <link href="css/main.css" type="text/css" rel="stylesheet"/>
+		<link href="css/booking.css" type="text/css" rel="stylesheet"/>
+		<link href="css/report.css" type="text/css" rel="stylesheet"/>
+				<script type="text/javascript"  language="javascript" src="javascript/popupcalender.js"></script>
+				<script type="text/javascript"  language="javascript" src="javascript/entertotab.js"></script>
+				  <script language="javascript" src="javascript/billing.js" type="text/javascript"></script>
+				  <style type="text/css">
+    .hiddencol
+    {
+        display:none;
+    }
+   
+</style>
+
+      
+</head>
+<body onkeydown="javascript:return ttttt(event);">
+     <form id="form1" runat="server" >
+     
+  
+    			<table width="1005" border="0" cellspacing="0" cellpadding="0" align="center" style="WIDTH: 1005px; HEIGHT: 358px">
+				<tr>
+					<td width="100%" bordercolor="#1"><img src="images/img_02A.jpg" width="1004" border="0" />
+                        <asp:ScriptManager ID="ScriptManager1" runat="server">
+                        </asp:ScriptManager>
+                        
+                        
+                                                      
+
+                    </td>
+				</tr>
+				<tr>
+					<td width="100%" bordercolor="#1"><img src="images/top.jpg" width="1004" border="0" /></td>
+				</tr>
+				<tr>
+					<td style="height: 505px"><table width="985" border="0" cellspacing="0" cellpadding="0" style="WIDTH: 985px; HEIGHT: 486px">
+							<tr>
+								
+								<td width="200" style="WIDTH: 200px"><img src="images/leftbar.jpg" style="WIDTH: 193px; HEIGHT: 483px" height="483" width="193" /></td>
+								
+								<td valign="top" style="width: 78%">
+								
+								
+								<table cellpadding="0" cellspacing="0" width="100%" style ="top :100px; vertical-align:top"><tr><td align="center">
+     <div id="divgrid1"  runat="server" style="display:block;OVERFLOW: auto; vertical-align:top; WIDTH: 800px;height:150px;" >
+     <table id="Table3" align="center">
+     <tr>
+       
+     <td align="center">
+     <asp:UpdatePanel ID="UpdatePanel12" runat="server"><ContentTemplate>
+     <asp:DataGrid ID="DataGrid1" runat="server" CssClass="dtGrid" Width="770px"  AutoGenerateColumns="False"  OnItemDataBound="DataGrid1_ItemDataBound"  >
+     <SelectedItemStyle Font-Size="XX-Small" BackColor="#046791"></SelectedItemStyle>
+     <HeaderStyle HorizontalAlign="Center" Height="20px" ForeColor="White" CssClass="dtGridHd12" BackColor="#7DAAE3"></HeaderStyle>
+     <Columns>
+         <%--<asp:TemplateColumn HeaderText="Audit"></asp:TemplateColumn>--%>
+     <asp:BoundColumn DataField="cio_booking_id" HeaderText="Booking Id" SortExpression="Edition_Alias">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+         
+         
+              <asp:BoundColumn  HeaderText="Invoice_No" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+         
+         
+         
+          <asp:BoundColumn DataField="Agency" HeaderText="Agency" SortExpression="Date_Edition">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+             Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+			<asp:BoundColumn DataField="no_of_insertion" HeaderText="Insertions" SortExpression="Date_Edition">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+              Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+			
+			<asp:BoundColumn DataField="edition" HeaderText="Edition" SortExpression="Date_Edition">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+              Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+      <asp:BoundColumn SortExpression="Client" DataField="client" HeaderText="Client" ReadOnly="True" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+             <asp:BoundColumn SortExpression="Gross Amount" DataField="gross_rate" HeaderText="GrossAmount" ReadOnly="True" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+               <asp:BoundColumn SortExpression="Commission" DataField="Commission" HeaderText="Commission" ReadOnly="True" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+               <asp:BoundColumn SortExpression="NetAmount" HeaderText="Net_Amount" ReadOnly="True" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+          
+             <asp:BoundColumn SortExpression="Bill_remarks"  ReadOnly="True" DataField="Bill_remarks" HeaderText="Bill.Ins." Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+          <asp:BoundColumn SortExpression="Status" DataField="status" ReadOnly="True" HeaderText="Status" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+        
+      
+            <asp:BoundColumn SortExpression="Totalinsertion" DataField="total" ReadOnly="True" HeaderText="Status" Visible="false">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+              <asp:BoundColumn  ReadOnly="True" HeaderText="PrintNo" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+            
+            
+            <asp:TemplateColumn  >
+            
+            <HeaderTemplate>
+<input id="Checkbox4"  type="checkbox" name="Checkbox4" runat="server" onclick="SelectHi('DataGrid1',this,'Checkbox4');" />                    </HeaderTemplate>
+           
+            
+																<HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"   > 
+																
+																</HeaderStyle>
+																<ItemStyle HorizontalAlign="Center" Width="20px" VerticalAlign="Middle" ></ItemStyle>
+																<ItemTemplate >
+																	<asp:CheckBox ID="CheckBox1" CssClass="TextField1" Runat="server"   />
+																</ItemTemplate>
+															</asp:TemplateColumn>
+															
+															
+															
+															
+															
+															
+															
+										
+
+          
+          
+                           
+                     
+                 
+
+          
+          
+     </Columns>
+     </asp:DataGrid>
+     </ContentTemplate></asp:UpdatePanel>
+     </td>
+     </tr>
+     </table>
+    </div>
+     </td>
+    
+     </tr></table>
+     
+     
+     
+     
+     <%--garima--%>
+     
+     
+     						<table cellpadding="0" cellspacing="0" width="100%" style ="vertical-align :top ;"><tr><td align="center" style="height: 228px">
+     <div id="div1"  runat="server" style="display:block;OVERFLOW: auto; WIDTH: 800px;height: 220px; top :100px;">
+     <table id="Table1" align="center">
+     <tr>
+       
+     <td align="center">
+     <asp:UpdatePanel ID="UpdatePanel17" runat="server"><ContentTemplate>
+     <asp:DataGrid ID="DataGrid2" runat="server" CssClass="dtGrid" Width="770px" AutoGenerateColumns="False" OnItemDataBound="DataGrid2_ItemDataBound" OnSelectedIndexChanged="dpdadtype_SelectedIndexChanged"  >
+     <SelectedItemStyle Font-Size="XX-Small" BackColor="#046791"></SelectedItemStyle>
+     <HeaderStyle HorizontalAlign="Center" Height="20px" ForeColor="White" CssClass="dtGridHd12" BackColor="#7DAAE3"></HeaderStyle>
+     <Columns>
+         <%--<asp:TemplateColumn HeaderText="Audit"></asp:TemplateColumn>--%>
+         
+           <asp:BoundColumn DataField="cio_booking_id" HeaderText="Cio_Booking_Id" SortExpression="cio_booking_id">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+            <asp:BoundColumn  HeaderText="Invoice_No" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+     <asp:BoundColumn DataField="Agency" HeaderText="Agency" SortExpression="Agency">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+             <asp:BoundColumn DataField="Client" HeaderText="Client" SortExpression="Client">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+         
+         
+        <asp:BoundColumn DataField="Publication" HeaderText="Publication" SortExpression="Publication">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+         
+         
+         
+          <asp:BoundColumn DataField="NoOfAds" HeaderText="NoOfAds" SortExpression="NoOfAds">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+             Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+			<asp:BoundColumn DataField="TotalAmount" HeaderText="GrossAmount" SortExpression="TotalAmount">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+              Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+			
+			<asp:BoundColumn DataField="Commission" HeaderText="Commission" SortExpression="Commission">
+			<ItemStyle HorizontalAlign="Center"></ItemStyle>
+            <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+              Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+			</asp:BoundColumn>
+			
+			    
+              <asp:BoundColumn  HeaderText="NetAmount" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+    
+           
+          
+          <asp:BoundColumn SortExpression="Status" DataField="Status" ReadOnly="True" HeaderText="Status" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+        
+            
+        <asp:BoundColumn SortExpression="agency_sub_code" ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol" DataField="Agency_sub_code" ReadOnly="True"  Visible="true" >
+     <ItemStyle HorizontalAlign="Center" Width ="0px"></ItemStyle>
+     <%-- <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False" Width ="0"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />--%>
+          </asp:BoundColumn>
+          
+                <asp:BoundColumn  ReadOnly="True" HeaderText="PrintNo" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+        
+         
+            
+            
+            <asp:TemplateColumn  >
+            
+            <HeaderTemplate>
+<input id="Checkbox4"  type="checkbox" name="Checkbox4" runat="server" onclick="SelectHiclass('DataGrid2',this,'Checkbox4');" />                    </HeaderTemplate>
+           
+            
+																<HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"   > 
+																
+																</HeaderStyle>
+																<ItemStyle HorizontalAlign="Center" Width="20px" VerticalAlign="Middle" ></ItemStyle>
+																<ItemTemplate >
+																	<asp:CheckBox ID="CheckBox1" CssClass="TextField1" Runat="server"   />
+																</ItemTemplate>
+															</asp:TemplateColumn>
+															
+															
+															
+															
+															
+															
+															
+										
+
+          
+          
+                           
+                     
+                 
+
+          
+          
+     </Columns>
+     </asp:DataGrid>
+     </ContentTemplate></asp:UpdatePanel>
+     </td>
+     </tr>
+     </table>
+    </div>
+     </td>
+    
+     </tr></table>
+     
+     
+     
+        						<table cellpadding="0" cellspacing="0" width="100%" style ="vertical-align:top;"><tr><td align="center">
+     <div id="div3"  runat="server" style="display:block;OVERFLOW: auto; vertical-align :top; WIDTH: 800px;height: 220px; top :100px;">
+     <table id="Table2" align="center">
+     <tr>
+       
+    <td align="center" style="height: 205px">
+     <asp:UpdatePanel ID="UpdatePanel21" runat="server"><ContentTemplate>
+     <asp:DataGrid ID="DataGrid3" runat="server" CssClass="dtGrid" Width="770px" AutoGenerateColumns="False"  OnItemDataBound="DataGrid3_ItemDataBound"    >
+     <SelectedItemStyle Font-Size="XX-Small" BackColor="#046791"></SelectedItemStyle>
+     <HeaderStyle HorizontalAlign="Center" Height="20px" ForeColor="White" CssClass="dtGridHd12" BackColor="#7DAAE3"></HeaderStyle>
+     <Columns>
+         <%--<asp:TemplateColumn HeaderText="Audit"></asp:TemplateColumn>--%>
+        
+           <asp:BoundColumn DataField="booking_id" HeaderText="Cio_Booking_Id" SortExpression="cio_booking_id">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+            <asp:BoundColumn  HeaderText="Invoice_No" DataField="invoice_no" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+      
+     <asp:BoundColumn DataField="agency_v" HeaderText="Agency" SortExpression="Agency">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+             <asp:BoundColumn DataField="client_na_v" HeaderText="Client" SortExpression="Client">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+              <asp:BoundColumn  HeaderText="RoNo" DataField="ro_no_v" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+              <asp:BoundColumn  HeaderText="TotalIns" DataField="tot_ins" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+              <asp:BoundColumn  HeaderText="Booking_dt" DataField="bkdate" >
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+          
+          
+          
+              <asp:BoundColumn DataField="checkstatus" HeaderText="Bill_status" SortExpression="Client">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+          
+                 <asp:BoundColumn  HeaderText="Audited"  Visible ="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+         
+          
+         
+        
+            
+            
+            <asp:TemplateColumn  >
+            
+            <HeaderTemplate>
+<input id="Checkbox4"  type="checkbox" name="Checkbox4" runat="server" onclick="SelectHILAST('DataGrid3',this,'Checkbox4');" />                    </HeaderTemplate>
+           
+            
+																<HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"   > 
+																
+																</HeaderStyle>
+																<ItemStyle HorizontalAlign="Center" Width="20px" VerticalAlign="Middle" ></ItemStyle>
+																<ItemTemplate >
+																	<asp:CheckBox ID="CheckBox1" CssClass="TextField1" Runat="server"   />
+																</ItemTemplate>
+															</asp:TemplateColumn>										
+															
+															
+															
+										
+
+          
+          
+                           
+                     
+                 
+
+          
+          
+     </Columns>
+     </asp:DataGrid>
+     </ContentTemplate></asp:UpdatePanel>
+     </td>
+     </tr>
+     </table>
+     
+     
+    </div>
+     </td>
+    
+     </tr></table>
+     
+       							<table cellpadding="0" cellspacing="0" width="100%" style ="vertical-align:top"><tr><td align="center">
+     <div id="div2"  runat="server" style="display:block;OVERFLOW: auto; vertical-align:top; WIDTH: 800px;height:150px;" >
+     <table id="Table4" align="center">
+     <tr>
+       
+     <td align="center">
+     <asp:UpdatePanel ID="UpdatePanel3" runat="server"><ContentTemplate>
+     <asp:DataGrid ID="DataGrid4" runat="server" CssClass="dtGrid" Width="770px" AutoGenerateColumns="False" OnItemDataBound="DataGrid2_ItemDataBound" OnSelectedIndexChanged="dpdadtype_SelectedIndexChanged"  >
+     <SelectedItemStyle Font-Size="XX-Small" BackColor="#046791"></SelectedItemStyle>
+     <HeaderStyle HorizontalAlign="Center" Height="20px" ForeColor="White" CssClass="dtGridHd12" BackColor="#7DAAE3"></HeaderStyle>
+     <Columns> 
+                 
+    
+         
+         
+         
+         
+         
+     
+          
+            <asp:BoundColumn  HeaderText="Invoice_No" DataField="invoice_no" ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol"   Visible="true" >
+     <ItemStyle HorizontalAlign="Center" Width ="0px"></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+    
+          
+          
+          
+          
+                 
+        <asp:BoundColumn SortExpression="temp_agency" ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol" DataField="temp_agency" ReadOnly="True"  Visible="true" >
+     <ItemStyle HorizontalAlign="Center" Width ="0px"></ItemStyle>
+       </asp:BoundColumn>
+  
+         
+         
+     
+		
+    
+           
+     
+            
+
+          
+       
+            
+          <asp:BoundColumn SortExpression="Status" DataField="Audited" ReadOnly="True" HeaderText="Audited" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+                   <asp:BoundColumn SortExpression="Status" DataField="Unaudited" ReadOnly="True" HeaderText="Unaudited" Visible="true">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+        
+        
+                 <asp:BoundColumn  ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol"  DataField="booking_A" ReadOnly="True" Visible="true">
+     <ItemStyle HorizontalAlign="Center" Width ="0px" ></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+                   <asp:BoundColumn  ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol" DataField="booking_UA" ReadOnly="True"  Visible="true">
+     <ItemStyle HorizontalAlign="Center" Width ="0px"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+                   <asp:BoundColumn SortExpression="Status" DataField="billed" ReadOnly="True"  Visible="true" HeaderText="bill_count">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+         
+         
+                   <asp:BoundColumn  DataField="booking_bl" ReadOnly="True"  Visible="true" HeaderText="bill_bookings" ItemStyle-CssClass="hiddencol" HeaderStyle-CssClass="hiddencol" >
+     <ItemStyle HorizontalAlign="Center" Width ="0px"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+         
+         
+             <asp:BoundColumn DataField="temp_agency_name" ReadOnly="True"  Visible="true" HeaderText="Agency_Name">
+     <ItemStyle HorizontalAlign="Center"></ItemStyle>
+      <HeaderStyle Font-Bold="True" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+          
+          
+           
+            <asp:BoundColumn SortExpression="invoice"  HeaderText="Invoice_No"   DataField="invoice_no"   Visible="true"   ReadOnly="True">
+     <ItemStyle HorizontalAlign="Center" ></ItemStyle>
+      <HeaderStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
+         Font-Underline="False" ForeColor="White" HorizontalAlign="Center" />
+          </asp:BoundColumn>
+         
+            
+            
+            <asp:TemplateColumn  >
+            
+            <HeaderTemplate>
+<input id="Checkbox4"  type="checkbox" name="Checkbox4" runat="server" onclick="SelectHiclass('DataGrid2',this,'Checkbox4');" />                    </HeaderTemplate>
+           
+            
+																<HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle"   > 
+																
+																</HeaderStyle>
+																<ItemStyle HorizontalAlign="Center" Width="20px" VerticalAlign="Middle" ></ItemStyle>
+																<ItemTemplate >
+																	<asp:CheckBox ID="CheckBox1" CssClass="TextField1" Runat="server"   />
+																</ItemTemplate>
+															</asp:TemplateColumn>
+															
+															
+															
+															
+															
+															
+															
+										
+
+          
+          
+                           
+                     
+                 
+
+          
+          
+     </Columns>
+     </asp:DataGrid>
+     </ContentTemplate></asp:UpdatePanel>
+     </td>
+     </tr>
+     </table>
+    </div>
+     </td>
+    
+     </tr></table>
+     
+     
+     
+     
+     
+     <table >
+     <tr align ="center" >
+     
+     <td align="center"><asp:UpdatePanel  ID="UpdatePanel18" runat="server">
+                 <ContentTemplate >
+          <asp:Button ID="btnprv" runat="server" Text ="BillPreview" CssClass="buttonnew" />
+           </ContentTemplate>
+           </asp:UpdatePanel></td>
+     <td align="center">
+     
+                 <asp:UpdatePanel  ID="UpdatePane29" runat="server">
+                 <ContentTemplate >
+     <asp:Button ID="btngenrate" runat="server" Text ="BillGenerate"  CssClass="buttonnew"  />
+      </ContentTemplate>
+           </asp:UpdatePanel></td>
+            
+            <td align="center"><asp:UpdatePanel  ID="UpdatePanel19" runat="server">
+                 <ContentTemplate >
+          <asp:Button ID="btnprint" runat="server" Text ="BillPrint" CssClass="buttonnew"  /></ContentTemplate>
+           </asp:UpdatePanel></td>
+          
+           
+           
+           
+            
+                                                        
+
+     </tr>
+
+       
+					
+						
+						
+								
+							
+                                            
+											
+								
+							
+						
+                        <input id="hiddendateformat" type="hidden" runat="server" />
+                       <input id="hiddendateformat1" type="hidden" runat="server" />
+			
+				
+		
+		
+			
+			<input id="hiddenascdesc" type="hidden" runat="server" />
+   <input id="hiddencioid" type="hidden" runat="server" />
+   <td><input id="hiddenolddate" type="hidden" name="hiddenolddate" runat="server" /></td>
+   
+    <input id="hiddencompcode" type="hidden" size="1" name="hiddencompcode" runat="server" />
+      <input id="hidden1" type="hidden" size="1" name="hiddencompcode" runat="server" />
+       <input id="hiddenradio" type="hidden" size="1" name="hiddencompcode" runat="server" />
+        <input id="hiddenrowcount" type="hidden" size="1"  runat="server" />
+        
+         <asp:UpdatePanel ID="updatehidden" runat="server"><ContentTemplate><input id="hiddenbooking" type="hidden"   runat="server" />
+          <input id="hiddeninsertion" type="hidden"   runat="server" />
+          
+          <input id="hiddenfromdate" type="hidden"   runat="server" />
+          <input id="hiddendateto" type="hidden"   runat="server" />
+          <input id="hiddenclient" type="hidden"   runat="server" />
+           <input id="hiddencheck" type="hidden"   runat="server" />
+           <input id="hiddenbillstatus" type="hidden"   runat="server" />
+                <input id="hiddendisplaybill" type="hidden"  runat="server" />
+             <input id="hiddenclsbill" type="hidden"   runat="server" />
+              <input id="hiddenclsbillnew" type="hidden"   runat="server" />
+               <input id="hiddenadtype" type="hidden"   runat="server" />
+       
+          
+          
+          </ContentTemplate></asp:UpdatePanel>
+                    </td>
+                </tr>
+                </table>
+       
+    
+    </form>
+</body>
+</html>

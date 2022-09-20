@@ -1,0 +1,120 @@
+
+<NewDataSet>
+  <Table>
+    <td>Agency Type&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Agency Code&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Agency Category</td2>
+    <td3>Sub Agency Code&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Agency Sub Category</td4>
+    <td5>Service Tax No.</td5>
+    <td6>Agency Name&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+
+    <td7>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>Address1</td8>
+    <td9>Street</td9>
+    <td10>Email ID</td10>
+    <td11>City&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+    <td12>Pin/Zip</td12>
+    <td13>District</td13>
+
+    <td14>State</td14>
+    <td15>Country&lt;font color=red&gt;*&lt;/Font&gt;</td15>
+    <td16>Region</td16>
+    <td17>Phone</td17>
+    <td18>Fax</td18>
+    <td19>MRV Region&lt;font color=red&gt;[F2]&lt;/Font&gt;</td19>
+    <td20>Url</td20>
+
+    <td21>Business Start Date</td21>
+    <td22>Enrolment Date</td22>
+    <td23>MRV Reference No.</td23>
+    <td24>No of VTS</td24>
+    <td25>Credit Days</td25>
+    <td26>Credit limit</td26>
+    <td27>Pan No.</td27>
+
+    <td28>Tan No.</td28>
+    <td29>Bill TO</td29>
+    <td30>Agency HO</td30>
+    <td31>Representative</td31>
+    <td32>Sub Agency HO</td32>
+    <td33>Status</td33>
+    <td34>Status Date</td34>
+
+    <td35>Status Reason</td35>
+    <td36>Alert</td36>
+    <td37>Remarks</td37>
+    <td38>Type&lt;font color=red&gt;*&lt;/Font&gt;</td38>
+    <td39>Zone</td39>
+    <td40>Address2</td40>
+    <td41>Address3</td41>
+    <td42>Bill Point</td42>
+    <td43>A/c Agency </td43>
+    <td44>A/c Sub agency </td44>
+    <td45>Rate Group</td45>
+    <td46>Depo Code</td46>
+    <td47>Taluka</td47>
+    <td48>Branch Name&lt;font color=red&gt;*&lt;/Font&gt;</td48>
+	<td49>Bill-Frequency</td49>
+	<td50>Old Agency</td50>
+	<td51>Booking Type</td51>
+	<td52>Vat Applicable</td52>
+	<td53>Rate Revised</td53>
+	  <td54>Remark History</td54>
+    <td55>Edition Wise Billing</td55>
+    <td56>Executive</td56>
+    <td57>Bill Email</td57>
+    <td58>Agency Designation</td58>
+    <td59>Credit Limit Days</td59>
+    <td60>Cr.Limit From Date</td60>
+    <td61>Recovery Limit %</td61>
+    <td62>Email Id CC</td62>
+    <td63>Intrest Calc. Flag</td63>
+    <td64>Bill Flag</td64>
+    <td65>Extra code</td65>
+    <td66>Sap Code</td66>
+    <td67>Security</td67>
+    <td68>Gst Status &lt;font color=red&gt;*&lt;/Font&gt;</td68>
+    <td69>Gst Date &lt;font color=red&gt;*&lt;/Font&gt;</td69>
+    <td70>Gst No &lt;font color=red&gt;*&lt;/Font&gt;</td70>
+    <td71>Retainer</td71>
+    <td72>Blank Cheque</td72>
+    <td73>Security Bond</td73>
+    <td74>KYC</td74>
+    <td75>Adress Proof</td75>
+    <td76>Gst Client Type&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td76>
+    <td77>Gst ARN No.</td77>
+    <td78>Gst Prov Id</td78>
+    <td79>Gst Effective Date</td79>
+  </Table>
+<Table1>
+    <tdagencycat>0</tdagencycat>
+    <tdsagencycatdrp>0</tdsagencycatdrp>
+  </Table1>
+  <Table2>
+    <RateGroup>dhide</RateGroup>
+    <DepoCode>hide</DepoCode>
+    <AcAgency>dhide</AcAgency>
+    <AcSubagency>hide</AcSubagency>
+    <AgencyHO>hide</AgencyHO>
+    <SubAgencyHO>hide</SubAgencyHO>
+    <!--<Agency_Category>hide</Agency_Category>-->
+    <Agency_Sub_Category>hide</Agency_Sub_Category>
+  </Table2>
+
+  <Table3>
+    <td1>Yes</td1>
+    <td2>Y</td2>
+    <td3>No</td3>
+    <td4>N</td4>
+  </Table3>
+
+
+
+
+  <table4>
+    <td>Parent Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td>
+    
+  </table4>
+
+</NewDataSet>

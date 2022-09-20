@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>Bank Name&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Branch&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Country&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Bank No.&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>City&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Account No.&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Submit</td6>
+    <td7>Clear</td7>
+    <td8>Delete</td8>
+    <td9>Close</td9>
+  </Table>
+</NewDataSet>

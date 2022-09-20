@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+	<table>
+		<td>Date</td>
+		<td1>Client Name</td1>
+		<td2>Company Name</td2>
+		<td3>Subject</td3>
+		<td4>Contact Detail</td4>
+
+		<td5>Tel:</td5>
+		<td6>Fax</td6>
+		<td7>Email</td7>
+		<td8>Quotation for Adverts</td8>
+		<td9>Thank you for yoru interest in program</td9>
+		<td10>Insertion</td10>
+		<td11>Color</td11>
+		<td12>Card Rate</td12>
+		<td13>Total Amount</td13>
+		<td14>Booking/Order/Payment/Cancellation Deadline:</td14>
+		<td15>Client conformation by signature:</td15>
+		<td16>Thank you </td16>
+		<td17>4cplus</td17>
+		<td18>BANKING DETAILS</td18>
+		<td19>Account Name:</td19>
+		<td20>Bankers:</td20>
+		<td21>Account Number</td21>
+		<td22>Branch Code:</td22>
+		<td23>Account Type:</td23>
+		<td24>Total Value</td24>
+		<td25>4cplus</td25>
+		<td26>Aniket Kumar</td26>
+		<td27>First National</td27>
+		<td28>245001200011</td28>
+		<td29>320-320</td29>
+		<td30>Corporate Chque</td30>
+    <td31>adsonline@newindianexpress.com</td31>
+    <td32>203.197.142.35</td32>
+    <td33>Thank you for Advertising in The New Indian Express. Your Booking No: "</td33>
+    <!--<attachopenlink>http://172.16.1.241/attachfileprevordown/Default.aspx</attachopenlink>
+    <insert_mat_attachopenlink>http://172.16.1.241/insert_mat_attachfileprevordown/Default.aspx</insert_mat_attachopenlink>-->
+    <attachopenlink>http://202.54.139.23/attachfileprevordown/Default.aspx</attachopenlink>
+    <insert_mat_attachopenlink>http://202.54.139.23/insert_mat_attachfileprevordown/Default.aspx</insert_mat_attachopenlink>
+    <insert_mat_orignalopenlink>http://202.54.139.23/disorignalfile/Default.aspx</insert_mat_orignalopenlink>
+	</table>
+</NewDataSet>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <table>
+    <td>Ad Type </td>
+    <td1>Valid From &lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Valid To &lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Agency Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td3>
+    <td4>Client Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td4>
+
+    <td5>Audit Type  &lt;font color=red&gt;*&lt;/font&gt;</td5>
+    <td6>Deal No.&lt;font color=red&gt;[F2]&lt;/Font&gt;</td6>
+    <td7>Remarks</td7>
+    <td8>Approved by</td8>
+    <td9>Rate Type &lt;font color=red&gt;*&lt;/font&gt;</td9>
+    <td10>AMT/LVL.</td10>
+  </table>
+
+  <table1>
+    <td>Approved</td>
+    <td1>Y</td1>
+    <td2>Unapproved</td2>
+    <td3>N</td3>
+  </table1>
+</NewDataSet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<table>
+
+		<td>User Id</td>
+		<td1>Username&lt;font color=red&gt;[F2]&lt;/font&gt;</td1>
+		<td2>From Date&lt;font color=red&gt;*&lt;/font&gt;</td2>
+		<td3>To Date&lt;font color=red&gt;*&lt;/font&gt;</td3>
+		<td4>Main Log</td4>
+		<td5>Booking Id</td5>
+    <td6>Printing Center</td6>
+    <td7>Branch</td7>
+	</table>
+
+	<table1>
+		<td>Select Log</td>
+		<td1>0</td1>
+		<td2>Matter</td2>
+		<td3>TBL_MATTER_HISTORY</td3>
+	</table1>
+
+	</database>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<newdataset>
+  <table>
+    <td> From Date &lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>To Date&lt;font color=red &gt;*&lt;/font&gt;</td1>
+    <td2>Publication</td2>
+    <td3>Branch</td3>
+    <td4>Edition</td4>
+    <td5>Region</td5>
+    <td6>Ad Type</td6>
+    <td7>Agency Type</td7>
+    <td8>Agency Category</td8>
+    <td9>Executive</td9>
+    <td10>Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td10>
+    <td11>Client&lt;font color=red&gt;[F2]&lt;/Font&gt;</td11>
+    <td12>Ad category</td12>
+    <td13>District</td13>
+    <td14>Insert Status</td14>
+    <td15>Break On</td15>
+    <td16>Destination</td16>
+    <td17>Ad Subcategory</td17>
+    <td18>Scheduled</td18>
+    <td19>Product</td19>
+  </table>
+
+  <table1>
+    <!--<tr>Date Wise</tr>
+    <tr1>D</tr1>-->
+    <tr2>Agency</tr2>
+    <tr3>A</tr3>
+    <tr4>Client</tr4>
+    <tr5>C</tr5>
+    <tr6>Region</tr6>
+    <tr7>R</tr7>
+    <tr8>Product</tr8>
+    <tr9>5</tr9>
+    <td10>Category</td10>
+    <td11>CA</td11>
+    <td12>Category Wise Summary</td12>
+    <td13>CS</td13>
+  </table1>
+
+</newdataset>

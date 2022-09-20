@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td>
+    <td1>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Publication&lt;font color=red&gt;&lt;/Font&gt;</td4>
+    <td5>Branch&lt;font color=red&gt;&lt;/Font&gt;</td5>
+    <td6>Printing Center&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <td7>Destination&lt;font color=red&gt;&lt;/Font&gt;</td7>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td8>Run</td8>
+    <td9>Date Wise Publication Wise Billing Report</td9>
+    <td10>Report</td10>
+    <td11>Publication Tie Up</td11>
+
+  </table>
+
+  <table1>
+    <td1>Categorywise Revenue</td1>
+    <td2>C</td2>
+    <td3>Publication-Editionwise Revenue</td3>
+    <td4>P</td4>
+  </table1>
+
+</database>

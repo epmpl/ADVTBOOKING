@@ -1,0 +1,37 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+
+public partial class home : System.Web.UI.Page
+{
+    NewAdbooking.Classes.adbooking objbooking = new NewAdbooking.Classes.adbooking();
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        DataSet ds = new DataSet();
+        ////ds = objbooking.getlistad_cat();
+        //if (ds.Tables[0].Rows.Count > 0)
+        //{
+        //    for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+        //    {
+        //        ListItem list;
+        //        list = new ListItem();
+        //        list.Text = ds.Tables[0].Rows[i].ItemArray[1].ToString();
+        //        list.Value = ds.Tables[0].Rows[i].ItemArray[0].ToString();
+        //        category.Items.Add(list);
+        //    }
+        //}
+
+    }
+    protected void gotoeditor_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("Default.aspx");
+    }
+   
+}

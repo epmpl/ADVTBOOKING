@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+  <table>
+    <td>Company Code</td>
+    <td1>Company Name</td1>
+    <td2>Unit Code&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td2>
+    <td3>Unit Name&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Voucher Type&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Bill Date&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Bill No&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td6>
+    <td7>Receipt No&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td7>
+    <td8>Remark</td8>
+    <td9>Receipt No</td9>
+    <td10>Receipt Date</td10>
+    <td11>Voucher No</td11>
+    <td12>Bill Date</td12>
+    <td13>Ro No</td13>
+    <td14>Voucher Type</td14>
+    <td15>Receipt To</td15>
+    <td16>Agency</td16>
+    <td17>GL Code</td17>
+    <td18>Credit Days</td18>
+    <td19>Opposite A/C</td19>
+    <td20>Net Amount</td20>
+    <td21>Account Type</td21>
+    <td22>Query</td22>
+    <td23>Bill Delete</td23>
+    <td24>Clear</td24>
+    <td25>Exit</td25>
+    <td26>Bill No.</td26>
+    <td27>Bill Date</td27>
+    <td28>Unit</td28>
+    <td29>BK Date</td29>
+    <td30>Ro Date</td30>
+    <td31>Client</td31>
+  </table>
+</newdata>

@@ -1,0 +1,57 @@
+﻿.insertiontxtclass1
+{
+	border-bottom :solid 1px black;
+	font-weight:bold;
+	font-size :8px;
+	border-right:solid 1px black;
+}
+
+.insertiontxtclass
+{
+	border-bottom :solid 1px black;
+	font-size :8px;
+	border-right:solid 1px black;
+}
+
+.insertiontxtclasslast
+{
+	border-bottom :solid 1px black;
+	font-size :8px;
+}
+.insertiontxtclasslast1
+{
+	border-bottom :solid 1px black;
+	font-size :8px;
+	font-weight:bold;
+}
+
+/*For receipt */
+.agecnycodeclasspunehead
+{
+	font-size :9px;
+	font-family :Verdana;
+	color:Black ;
+	font-weight:bold;	
+}
+.dateclasspune
+{
+	font-family:Verdana;
+	color:Black;
+	font-size:9px;
+}
+
+
+.agecnycodeclasspunerec1
+{
+	font-size :9px;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;	
+}
+.agecnycodeclasspunerec
+{
+	font-size :9px;
+	font-family :Verdana ;
+	color:Black ;
+		
+}

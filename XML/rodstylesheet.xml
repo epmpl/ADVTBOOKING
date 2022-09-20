@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+  <normal>
+    <!--for fone name for normal-->
+    <tr4>helvetica</tr4>
+    <!--for font size-->
+    <tr5>6.2</tr5>
+    <!--for font leader-->
+    <tr6>7.5</tr6>
+    <!--font height-->
+    <tr7>105%</tr7>
+    <!--font color-->
+    <tr8>black</tr8>
+    <!--background-->
+    <tr9>lime/rose/Lavender/Gold</tr9>
+    <tr91>HINDBODY</tr91>
+    <fontsizen>8</fontsizen>
+
+
+  </normal>
+  <bold>
+
+    <!--for fone name for normal-->
+    <tr9>helvetica</tr9>
+    <!--for font size-->
+    <tr10>6.2</tr10>
+    <!--for font leader-->
+    <tr11>7.5</tr11>
+    <!--font height-->
+    <tr12>105%</tr12>
+    <!--font color-->
+    <tr13>black</tr13>
+    <tr14>7</tr14>
+  <!-- 1 one line bold  3 three word bold 5 five word bold 7 one line bold & underline-->
+    <tr911>HINDBODY</tr911>
+    <fontsizeb>8</fontsizeb>
+  </bold>
+  <!-- both tag for English and Hindi both for HT -->
+  <both>
+    <fontsize_eng>6</fontsize_eng>
+    <fontsize_hin>7</fontsize_hin>    
+  </both>
+
+
+</newdata>

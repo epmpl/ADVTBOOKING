@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+ 
+  <normal>
+    <!--for fone name for normal-->
+    <tr4>Retina-B03</tr4>
+    <!--for font size-->
+    <tr5>7</tr5>
+    <!--for font leader-->
+    <tr6>7.5</tr6>
+    <!--font height-->
+    <tr7>105%</tr7>
+    <!--font color-->
+    <tr8>black</tr8>
+    <!--bgcolor-->
+    <tr9>White</tr9>
+
+
+
+  </normal>
+  <bold>
+
+    <!--for fone name for normal-->
+    <tr9>Retina-B09</tr9>
+    <!--for font size-->
+    <tr10>7</tr10>
+    <!--for font leader-->
+    <tr11>7.5</tr11>
+    <!--font height-->
+    <tr12>105%</tr12>
+    <!--font color-->
+    <tr13>black</tr13>
+    <tr14>5</tr14>
+    <!--0 means centered alligned 1 one word bold 2 two word bold 3 three word bold 5 five word bold-->
+
+  </bold>
+
+  <dropcap>
+    <!--font family-->
+    <tr14>Retina-B09</tr14>
+    <!--fontheight of dropcap-->
+    <tr15>3</tr15>
+    
+    
+  </dropcap>
+
+</newdata>

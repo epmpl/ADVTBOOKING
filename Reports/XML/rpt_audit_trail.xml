@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <table>
+
+    <td0>Unit Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td0>
+    <td1>Log Selection</td1>
+    <td2>Type</td2>
+  </table>
+  <table1>
+    <td>Booking(Transaction)</td>
+    <td1>TBL_BOOKING_MAST,TBL_BOOKING_INSERT</td1>
+    <td2>Rate Master</td2>
+    <td3>RATE_MAST</td3>
+   
+
+  </table1>
+</NewDataSet>

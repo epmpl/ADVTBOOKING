@@ -1,0 +1,344 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Userdetail.aspx.cs" Inherits="Userdetail" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>User Details</title>
+
+    <script type="text/javascript" src="js/userdetail.js"></script>
+ <script language="javascript" type="text/javascript">
+ function notchar2()
+{
+//alert(event.keyCode);
+
+if((event.keyCode>=48 && event.keyCode<=57)||(event.keyCode==127)||(event.keyCode==8)||(event.keyCode==9))
+{
+return true;
+}
+else
+{
+return false;
+}
+
+}
+</script>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body onload="javascript:lblhidden()">
+<%--document.getElementById('lblmsgrepwd').style.visibility='hidden';--%>
+    <form id="form1" runat="server">
+        <div>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" style="width: 100%;">
+                <tr>
+                    <td width="100%" bordercolor="#1">
+                        <img src="images/img_02A.jpg" width="100%" border="0" alt="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td width="100%" bordercolor="#1">
+                        <img src="images/top.jpg" width="100%" border="0" alt="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <table border="0" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <!---------left bar start--------->
+                                <td width="200" style="width: 200px">
+                                    <img src="images/leftbar.jpg" style="width: 193px; height: 483px" height="483" width="193"
+                                        alt=""/></td>
+                                <%--<td style="width: 191px"><img src="images/leftbar.jpg" height="100%">
+                  </td>--%>
+                                <!---------left bar end--------->
+                                <!---------middle start--------->
+                                <td>
+                                    <table>
+                                        <tr>
+                                            <td bgcolor="#cccccc" colspan="2" height="22">
+                                                <asp:Label ID="Lblnewuser" CssClass="proplbl" runat="server" Text="New Users Register Here"></asp:Label>
+                                                <asp:Label ID="Lblmandatory" CssClass="proplbl" runat="server" Text="(All fields are mandatory)"></asp:Label>
+                                            </td>
+                                        </tr>
+                                        <%--<tr>
+                <td colspan="2" style="height: 115px">
+                 As a registered user, you can:
+                <ol>
+               <li>
+               Book Print Ads.
+              <li>
+                 Send &amp; Receive queries/responses to Ads.
+               <li>
+                Search &amp; Save Ads.
+                <li>Avail special discounts. </li>
+                  </ol>
+                     </td>
+                       </tr>--%>
+                                        <%-- <tr>
+                         <td colspan="2" style="height: 5px">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="lblregiester" CssClass="proplbl" runat="server" Text="Please Register *(All Fields are
+                                                MandatoryLabel)"></asp:Label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="height: 19px; width: 74px;">
+                                                <asp:Label ID="lblloginid" CssClass="proplbl" runat="server" Text='Desired Login ID:<font color="red">*</font>'
+                                                    Font-Bold="True" Width="275px"></asp:Label>
+                                                <%--<input type id="lblmsg" class="proplbl" readonly="readonly" runat="server"
+                                                    value="This Login ID has already Exits" />--%>
+                                            </td>
+                                            <td style="width: 499px; height: 19px;">
+                                                <asp:TextBox ID="txtloginid" CssClass="Textbox1" MaxLength="20" runat="server" Width="142px"></asp:TextBox>
+                                                <asp:Label ID="lblmsg" runat="server" CssClass="validaterlbl" Text="This Login ID has already Exits"></asp:Label>
+                                            </td>
+                                            <td>
+                                                <input type="hidden" id="Autocode" runat="server" />
+                                            </td>
+                                            <td style="height: 19px">
+                                                <%-- <input onclick="javascript: return newCheckAvailability()" class="button1" type="button"
+                                                    value="Check Availability" name="Check Availability" style="width: 150px">--%>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <div align="right" style="width: 95%; height: 20px;" class="proplbl">
+                                                    User ID should be 4-20 characters long. It can be a combination of alphabets (A-Z,
+                                                    a-z), numbers (0-9) or the underscore (_). No spaces or special characters (!, $,
+                                                    %, ^ etc.) are allowed.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblfirstname" CssClass="proplbl" runat="server" Text='First Name:<font color="red">*</font>'
+                                                    Font-Bold="True" Width="167px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtfirstname" runat="server" CssClass="Textbox1" MaxLength="20"
+                                                    Width="145px"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lbllastname" CssClass="proplbl" runat="server" Text="Last Name:" Font-Bold="True"
+                                                    Width="165px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtlastname" runat="server" CssClass="Textbox1" MaxLength="20" Width="145px"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <%--<tr>
+                                          <td align="left"><asp:Label ID="lbldateofbirth" runat="server" Text="Date of Birth"  Font-Bold="true"></asp:Label></td>
+                                          <td><asp:DropDownList ID="txtdropdownmonth" runat="server" Width="20%" Font-Bold="true">
+                                          
+                                          </asp:DropDownList></td>
+                                          <td><asp:DropDownList ID="txtdropdownday" runat="server" Width="20%" Font-Bold="true">
+                                          
+                                          </asp:DropDownList>
+                                          </td>
+                                          <td><asp:DropDownList ID="dropdownyear" runat="server" Width="20%" Font-Bold="true">
+                                          
+                                          </asp:DropDownList>
+                                          </td>            
+                                          
+                                          </tr>--%>
+                                        <tr>
+                                            <td colspan="2">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 74px; height: 22px;">
+                                                <asp:Label ID="lblpassword" CssClass="proplbl" runat="server" Text='Password:<font color="red">*</font>'
+                                                    Font-Bold="True" Width="164px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px; height: 22px;">
+                                                <asp:TextBox ID="txtpassword" CssClass="Textbox1" MaxLength="100" runat="server"
+                                                    TextMode="Password" Width="146px"></asp:TextBox>
+                                                    <asp:Label ID="lblpwdlen" runat="server" CssClass="validaterlbl" Text="Password Should Be Morthen Six Digits"></asp:Label>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td>
+                                                <div align="justify" style="width: 95%" class="proplbl">
+                                                    Must be at least four characters long, may contain numbers (0-9), upper and lowercase
+                                                    letters (A-Z, a-z) and underscore (_). No spaces or special characters are allowed.
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <%--<tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblrepassword" CssClass="proplbl" runat="server" Text='Re-enter Password:<font color="red">*</font>'
+                                                    Font-Bold="True" Width="159px"></asp:Label>
+                                                <%--<strong><span class="BlueHeader"><span class="redDots"><strong>*</strong></span></span></strong>--%>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtrepassword" CssClass="Textbox1" MaxLength="100" runat="server"
+                                                    TextMode="Password" Width="146px"></asp:TextBox>
+                                                   <%-- <asp:Label ID="lblrepwd" runat="server" CssClass="validaterlbl" Text="Please Enter The Re-Password"></asp:Label>--%>
+                                                    <%--<asp:CompareValidator ID="comparerepwd" runat="server" ControlToCompare="txtpassword" ControlToValidate="txtrepassword" Operator="NotEqual"></asp:CompareValidator>--%>
+                                                    <asp:Label ID="lblmsgrepwd" runat="server" CssClass="validaterlbl" Text="Your Password Do Not Match"></asp:Label>
+                                                <%-- <input type="password" size="35" name="">--%>
+                                            </td>
+                                        </tr>
+                                        <%--<tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblquestion" CssClass="proplbl" runat="server" Text='Reminder Question:<font color="red">*</font>'
+                                                    Font-Bold="True" Width="160px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:DropDownList ID="txtquestion" CssClass="Textbox1" runat="server" Width="151px">
+                                                <asp:ListItem Selected="True" Value="0">Choose a Question</asp:ListItem>
+                                                <asp:ListItem Text="What is your primary frequent flyer number" Value="1"></asp:ListItem>
+                                                <asp:ListItem Text="What is your library card number" Value="2"></asp:ListItem>
+                                                <asp:ListItem Text="What is your first phone number" Value="3"></asp:ListItem>
+                                                <asp:ListItem Text="What is your first teacher name" Value="4"></asp:ListItem>
+                                                <asp:ListItem Text="Write my own question" Value="5"></asp:ListItem>
+                                                </asp:DropDownList>
+                                                <%--<asp:TextBox ID="txtquestion" CssClass="Textbox1" MaxLength="100" runat="server"></asp:TextBox>--%>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td style="height: 33px">
+                                                <div align="justify" class="proplbl">
+                                                    Reminder question and its answer will be required if in case you forgot your password.</div>
+                                            </td>
+                                        </tr>
+                                        <%-- <tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                               <asp:Label ID="lblanswer" CssClass="proplbl" runat="server" Text='Reminder Answer:<font color="red">*</font>'
+                                                Font-Bold="True" Width="160px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtanswer" CssClass="Textbox1" MaxLength="100" runat="server"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <%-- <tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblemailid" CssClass="proplbl" runat="server" Text='Email ID:<font color="red">*</font>' Font-Bold="True"
+                                                    Width="160px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtemailid" CssClass="Textbox1" MaxLength="40" runat="server"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td class="proplbl">
+                                                The email ID can be changed to another valid ID at a later stage as desired</td>
+                                        </tr>
+                                        <%--<tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblmobileno" CssClass="proplbl" runat="server" Text="Mobile No:" Font-Bold="True"
+                                                    Width="155px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtmobileno" CssClass="Textbox1" MaxLength="10" runat="server" onkeypress="return notchar2();" ></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                            </td>
+                                            <td class="proplbl">
+                                                Please provide your accurate 10 digit Mobile No.to avail SMS &amp; other value added
+                                                services. ( <a>View Details</a> )
+                                            </td>
+                                        </tr>
+                                        <%-- <tr>
+                                            <td colspan="2" height="8">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td style="width: 74px">
+                                                <asp:Label ID="lblcontactno" CssClass="proplbl" runat="server" Text="Contact No :"
+                                                    Font-Bold="True" Width="152px"></asp:Label>
+                                            </td>
+                                            <td style="width: 499px">
+                                                <asp:TextBox ID="txtcontactno0" CssClass="Textbox1" MaxLength="2" runat="server" onkeypress="return notchar2();"></asp:TextBox>
+                                                <asp:TextBox ID="txtcontactno1" CssClass="Textbox1" MaxLength="5" runat="server" onkeypress="return notchar2();"></asp:TextBox>
+                                                <asp:TextBox ID="txtcontactno2" CssClass="Textbox1" MaxLength="25" runat="server" onkeypress="return notchar2();"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <%-- <tr>
+                                            <td colspan="2" height="6">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td colspan="2" style="height: 47px">
+                                                <table cellspacing="0" cellpadding="3" bgcolor="#ffffff" border="0" style="width: 650px">
+                                                    <tbody>
+                                                        <tr bgcolor="#ffdea8">
+                                                            <td valign="top" bgcolor="#cccccc" style="width: 21px">
+                                                                <input type="checkbox" id="checkbox1" value="1" name="terms" /></td>
+                                                            <td align="left" bgcolor="#cccccc" colspan="4" class="proplbl" style="width: 800px">
+                                                                I have read the <a onclick="return condition();">Disclaimer - Terms &amp; Conditions</a>.
+                                                                I agree to abide by its contents and the Terms of Use.
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                        <%--<tr>
+                                            <td colspan="2" height="6">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" height="6">
+                                            </td>
+                                        </tr>--%>
+                                        <tr>
+                                            <td colspan="2" align="center">
+                                                <asp:Button ID="submit_info" CssClass="button1" Width="20%" runat="server" Text="Create MY Account"
+                                                    OnClick="submit_info_Click" />
+                                                <asp:Button ID="cancel" CssClass="button1" Width="10%" runat="server" Text="Cancel"
+                                                    OnClick="cancel_Click" /></td>
+                                        </tr>
+                                        <%--<tr>
+                                            <td colspan="2" height="6">
+                                            </td>
+                                        </tr>--%>
+                                        <%--<tr>
+                                            <td colspan="2" height="6">
+                                            </td>
+                                        </tr>--%>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>

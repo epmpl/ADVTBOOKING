@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>Branch Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Branch Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Address 1&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Street</td4>
+    <td5>City&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Pin Code</td6>
+    <td7>District</td7>
+    <td8>State</td8>
+    <td9>Country&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Phone</td10>
+    <td11>Fax</td11>
+    <td12>Email Id</td12>
+    <td13>Zone</td13>
+    <td14>Region</td14>
+    <td15>Unit &lt;font color=red&gt;*&lt;/Font&gt;</td15>
+    <td16>Box Address&lt;font color=red&gt;*&lt;/Font&gt;</td16>
+    <td17>Branch Nick</td17>
+    <td18>ADBOOKING</td18>
+    <td19>FINANCE</td19>
+    <td20>COLLECTION</td20>
+    <td21>CIRCULATION</td21>
+    <td22>NEWS PRINT</td22>
+    <td23>STORE</td23>
+    <td24>GSTIN</td24>
+    <td25>Account Holder</td25>
+    <td26>Bank Name</td26>
+    <td27>Bank Account</td27>
+    <td28>Bank Branch</td28>
+    <td29>Bank City</td29>
+    <td30>Bank IFSC</td30>
+
+  </Table>
+</NewDataSet>
+

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table0>
+    <td0>Date From&lt;font color=red&gt;*&lt;/Font&gt;</td0>
+    <td1>TO Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Uom</td2>
+    <td3>Center</td3>
+    <td4>Report Type</td4>
+    <td5>Bullet</td5>
+    <td6>Destination</td6>
+    <td7>Run</td7>
+    <td8>Clear</td8>
+    <td9>Eyecather wise business Report</td9>
+    <td10>Ad Type</td10>
+    <td11>Category</td11>
+    <td12>Report For</td12>
+    <td13>Branch</td13>
+    <td14>Rate Code</td14>
+  </table0>
+
+  <table1>
+    <td0>--Select UOM--</td0>
+    <td1>--Select Report Type--</td1>
+    <td2>--Select Uom Name--</td2>
+  </table1>
+
+  <table2>
+    <td0>0</td0>
+    <td1>--Select Report Type--</td1>
+    <td2>B</td2>
+    <td3>Branch Wise</td3>
+    <td4>C</td4>
+    <td5>Center Wise</td5>
+  </table2>
+
+
+  <table3>
+    <td1>1</td1>
+    <td2>Onscreen</td2>
+    <td3>2</td3>
+    <td4>Excel</td4>
+    <!--<td5>3</td5>
+    <td6>Pdf</td6>-->
+  </table3>
+  <table4>
+    <td0>0</td0>
+    <td1>--Select Report For--</td1>
+    <td2>E</td2>
+    <td3>Eyecather Wise</td3>
+    <td4>C</td4>
+    <td5>Category Wise</td5>
+    <td6>S</td6>
+    <td7>Sub Category Wise</td7>
+  </table4>
+</database>

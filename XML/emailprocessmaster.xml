@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+<td>Branch Name&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Process type</td1>
+    <td2>Email</td2>
+    <td3>BRANCH_CODE$~$PROCESS_TYPE$~$PROCESS_EMAIL$~$CREATED_BY$~$CREATED_DT$~$process_type_email$~$INSERT#UPDATE#DELETE#</td3>
+    <td4>BRANCH_CODE$~$PROCESS_TYPE$~$PROCESS_EMAIL$~$process_type_email$~$INSERT#UPDATE#DELETE#</td4>
+    <td5>BRANCH_CODE$~$PROCESS_TYPE$~$PROCESS_EMAIL$~$UPDATED_BY$~$UPDATED_DT$~$process_type_email$~$INSERT#UPDATE#DELETE#</td5>
+    <td6>BRANCH_CODE</td6>
+  </Table>
+
+
+  <table1>
+    <tr>RO APPROVED MAIL</tr>
+    <tr1>1</tr1>
+    
+    <tr2>RO REJECTED MAIL</tr2>
+    <tr3>3</tr3>
+   
+
+  </table1>
+  
+</NewDataSet>

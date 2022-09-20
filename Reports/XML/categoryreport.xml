@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<database>
+  <table>
+
+    <!--<td>Client Name&lt;font color=red&gt;&lt;/Font&gt;</td>-->
+    <!--<td1>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>Agency Name&lt;font color=red&gt;&lt;/Font&gt;</td3>-->
+    <td>Page</td>
+    <td1>Position</td1>
+    <td2>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Publication&lt;font color=red&gt;&lt;/Font&gt;</td4>
+    <td5>PublicationCenter&lt;font color=red&gt;&lt;/Font&gt;</td5>
+    <td6>Edition&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <!--td9>Status-&lt;font color=red&gt;&lt;/Font&gt;</td9>-->
+    <td7>Destination&lt;font color=red&gt;&lt;/Font&gt;</td7>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td8>Run</td8>
+
+    <td9>Category Wise Report</td9>
+
+
+    <td10>Ad Type</td10>
+    <td11>Representative</td11>
+    <td12>Region</td12>
+    <td13>Place</td13>
+    
+    <td14>Group</td14>
+    <td15>Page</td15>
+    <td16>Team&lt;font color=red&gt;*&lt;/Font&gt;</td16>
+    <td17>Executive Wise Report</td17>
+    <td18>Category</td18>
+    <td19>Executive</td19>
+    <td20>PublicationCenter</td20>
+    <td21>Currency</td21>
+  </table>
+
+
+  <table1>
+    <td>S.No</td>
+    <td1>BookingID</td1>
+    <td2>Agency</td2>
+    <td3>A_Place</td3>
+    <td4>Client</td4>
+    <td5>C_Place</td5>
+    <td6>RoNo</td6>
+    <td7>RoDate</td7>
+    <td8>BillableArea</td8>
+    <td9>Edition</td9>
+    <td10>Hue</td10>
+    <td11>BillStatus</td11>
+    <td12>PaymentType</td12>
+    <td13>SpecialDisc</td13>
+    <td14>SpaceDisc</td14>
+    <td15>revenuecenter</td15>
+    <td16>AgreedRate</td16>
+    <td17>GrossAmt</td17>
+    <td18>Disc</td18>
+    <td19>BillAmt</td19>
+    <td20>BillNo</td20>
+    <td21>Bill Date</td21>
+    
+    <td22>AggRate</td22>
+    <td23>Disc</td23>
+    <td24>Status</td24>
+    <td25>Material</td25>
+    <td26>Cap</td26>
+    <td27>Key</td27>
+    <td28>-----------------------------------------------------------------------------  for official use only  ----------------------------------------------------------------------------- </td28>
+    <td29>FromDate</td29>
+    <td30>DateTo</td30>
+    <td31>RunDate</td31>
+    <td32>SubAg</td32>
+    <td33>Amt</td33>
+    <td34>Dev(%)</td34>
+    <td35>PagePrem</td35>
+    <td36>PosPrem</td36>
+    <td37>____________________________________________________________________________________________________________________</td37>
+    <td38>____________________________________________________________________________________________________________________________________________________________________________</td38>
+    <td39>Ro.Date</td39>
+    <td40>Region</td40>
+    <td41>Spl Instruction</td41>
+    <td42>SchemeName</td42>
+    <td43>SchemeType</td43>
+    <td44>SchemeDesc</td44>
+    <td45>ContractName</td45>
+    <td46>ContractType</td46>
+    <td47>FromInsNo</td47>
+    <td48>ToInsNo</td48>
+    <td49>Discount</td49>
+    <td50>PaymentType</td50>
+    <td51>RetainerName</td51>
+    <td52>RetainerCom</td52>
+    <td53>_____________________________________________________________________________________________________________________________________________________</td53>
+    <td54>______________________________________________________________________________________________________________________________________</td54>
+    <td55>______________________________________________________________________________________________________________________________________________________________________________________________________________________________</td55>
+    <td56>Publication</td56>
+    <td57>ContractRate</td57>
+    <td58>Product</td58>
+    <td59>Brand</td59>
+    <td60>Page</td60>
+    <td61>Amount</td61>
+    <td62>Place</td62>
+    <td63>Area(Words)</td63>
+    <td64>Heading</td64>
+    <td65>TotalAds</td65>
+    <td66>Totals :</td66>
+	  <td67>Ad Type</td67>
+	  <td68>Pubcent</td68>
+	  <td69>City</td69>
+	  <td70>Executive</td70>
+  </table1>
+  
+  
+
+</database>

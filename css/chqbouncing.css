@@ -1,0 +1,59 @@
+﻿.chqbouncing
+{
+border: 1px solid #929292;
+background-color: #ffffff;
+font-family: verdana;
+font-size: 10px;
+color: #000000;
+width:120px;
+text-align:right;
+}
+
+.CHQ_head_large
+{
+border: 1px solid #929292;
+background-color: aqua;
+font-family: verdana;
+font-size: 10px;
+font-weight:bold;
+color: #000000;
+width:100px;
+}
+
+.chqbouncing_RECIPTNO
+{
+border: 1px solid #929292;
+background-color: #ffffff;
+font-family: verdana;
+font-size: 10px;
+color: #000000;
+width:170px;
+text-align:left;
+}
+
+
+.chqbouncing_RECIPTNO1
+{
+border: 1px solid #929292;
+background-color: #ffffff;
+font-family: verdana;
+font-size: 10px;
+color: #000000;
+width:100px;
+text-align:left;
+}
+
+
+.btnlink_LINKBUTTON
+{
+	font-family: verdana;
+	font-size: XX-Small;
+	color: White;
+	text-decoration:none;
+	position:relative;
+    right:20px;
+    left:0px;
+    text-align:justify;
+    height:10px;
+    cursor:pointer;
+}

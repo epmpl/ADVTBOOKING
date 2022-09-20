@@ -1,0 +1,21 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageadbooking.master.cs" Inherits="MasterPageadbooking" %>
+<%@ register TagPrefix="uc1" TagName="Topbar" Src="~/Topbarnew.ascx"%>
+<%@ register TagPrefix="uc2" TagName="Leftbar" Src="~/Leftbar.ascx"%>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <uc1:topbar id="topbar" runat="server" Text="Agency master"></uc1:topbar>
+    <uc2:leftbar id="leftbar" runat="server" Text="Agency master"></uc2:leftbar>
+    <div>
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+    </div>
+    </form>
+</body>
+</html>

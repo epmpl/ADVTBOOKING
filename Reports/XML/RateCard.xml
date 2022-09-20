@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Ad Type&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Ad Category</td3>
+    <td4>Rate Card Report</td4>
+    <td5>Package</td5>
+    <td6>Center</td6>
+    <td7>Rate Code</td7>
+    <td8>Uom</td8>
+    <td9>Run</td9>
+    <td10>Destination</td10>
+  </table>
+  <table1>
+    <td>Centre</td>
+    <td1>Rate Code</td1>
+    <td2>Ad Category</td2>
+    <td3>Ad Sub Category</td3>
+    <td4>Package</td4>
+    <td5>UOM</td5>
+    <td6>Size From</td6>
+    <td7>Size TO</td7>
+    <td8>Max Size</td8>
+    <td9>Valid From</td9>
+    <td10>Valid To</td10>
+    <td11>Color</td11>
+    <td12>Scheme</td12>
+    <td13>Week Rate</td13>
+    <td14>Week Extra Rate</td14>
+    <td15>S.N0</td15>
+    <maxlimit>50</maxlimit>
+    <td16>Premium</td16>
+  </table1>
+  </newdata>

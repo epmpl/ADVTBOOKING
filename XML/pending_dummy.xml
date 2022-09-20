@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<newdatarow>
+  <table>
+    <tr>Ad Type&lt;font color=red&gt;*&lt;/Font&gt;</tr>
+    <tr1>From Publish Date&lt;font color=red&gt;*&lt;/Font&gt;</tr1>
+    <tr2>Publication Center&lt;font color=red&gt;*&lt;/Font&gt;</tr2>
+    <tr3>Publication</tr3>
+    <tr4>Edition</tr4>
+    <tr5>Supplement</tr5>
+    <tr6>Reason</tr6>
+    <tr7>Submit</tr7>
+    <tr8>Exit</tr8>
+    <tr9>Report</tr9>
+    <tr10>To Publish Date&lt;font color=red&gt;*&lt;/Font&gt;</tr10>
+  </table>
+
+  <table1>
+    <td>UnApproval</td>
+    <td1>1</td1>
+    <td2>UnAudited</td2>
+    <td3>2</td3>
+    <td4>Material not Upload</td4>
+    <td5>3</td5>
+    </table1>
+  </newdatarow>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<database>
+	<tabel>
+		<td0>Booking</td0>
+		<td1>Agency</td1>
+		<td2>Client</td2>
+		<td3>Cap/
+      Key.</td3>
+		<td4>HT</td4>
+		<td5>Wd</td5>
+		<td6>Area</td6>
+		<td7>Color</td7>
+		<td8>Page
+      No.</td8>
+		<td9>Exe/
+     Ret</td9>
+		<td10>Card 
+     Rate</td10>
+		<td11>Agreed 
+     Rate</td11>
+		<td12>Gross 
+              Amt</td12>
+		<td13>Trade 
+     Disc</td13>
+		<td14>Adll 
+     Comm</td14>
+		<td15>Cash Disc</td15>
+		<td16>Bill</td16>
+    <td17>S.No</td17>
+    <td18>Booking Detail Report</td18>
+    <td19>PAGE.NO:</td19>
+    <td20></td20>
+    <td21>Amt</td21>
+    <td22>Id</td22>
+    <td23>Name</td23>
+		<td24>Client Type</td24>
+
+	</tabel>
+</database>

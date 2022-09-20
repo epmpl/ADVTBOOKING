@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<databaset>
+  <table>
+    <td>Printing Center&lt;font color=red&gt;[F2]&lt;/Font&gt;</td>
+    <td1>Coupon ID</td1>
+    <td2>Coupon Amount</td2>
+    <td3>Submit</td3>
+    <td4>COUPAN_NAME$~$COUPAN_AMT$~$COUPAN_CODE$~$CREATED_BY$~$CREATED_DATE$~$CHANGED_BY$~$CHANGED_DATE$~$COMP_CODE$~$UNIT_CODE$~$Ad_Coupan_Mast$~$INSERT#UPDATE#DELETE#SELECT</td4>
+    <td5>COUPAN_NAME$~$COUPAN_AMT$~$COUPAN_CODE$~$CREATED_BY$~$CREATED_DATE$~$CHANGED_BY$~$CHANGED_DATE$~$COMP_CODE$~$UNIT_CODE$~$Ad_Coupan_Mast$~$INSERT#UPDATE#DELETE#SELECT</td5>
+    <td6>COMP_CODE$~$UNIT_CODE$~$COUPAN_CODE$~$</td6>
+    <td7>UNIT_CODE$~$COUPAN_NAME$~$</td7>
+    <td8>AD_COUPAN_MAST</td8>
+    
+  </table>
+  </databaset>

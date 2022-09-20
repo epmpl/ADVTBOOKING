@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+<table>
+  <td>Booking ID</td>
+  <td1>Agency&lt;font color=red &gt;[F2]&lt;/font&gt;</td1>
+  <td2>Client&lt;font color=red &gt;[F2]&lt;/font&gt;</td2>
+  <td3>Booking Center</td3>
+  <td4>From Date&lt;font color=red&gt;*&lt;/font&gt;</td4>
+  <td5>To Date&lt;font color=red&gt;*&lt;/font&gt;</td5>
+  <td6>Branch</td6>
+  <td7>Adtype</td7>
+  <td8>UOM</td8>
+
+</table>
+
+  <table1>
+    <td>Rate Audit Log</td>
+    <td1>Booking Id</td1>
+    <td2>Agency</td2>
+    <td3>Client</td3>
+    <td4>Client Address</td4>
+    <td5>RO number</td5>
+    <td6>RO Date</td6>
+    <td7>Executive</td7>
+    <td8>Retainer</td8>
+    <td9>Booking Type</td9>
+    <td10>Package</td10>
+    <td11>Translation</td11>
+    <td12>Rate Code</td12>
+    <td13>Agreed Rate</td13>
+    <td14>Agreed Amt</td14>
+    <td15>Page Prem</td15>
+    <td16>Page Prem %</td16>
+    <td17>Disc on Page Prem</td17>
+    <td18>Position Prem</td18>
+    <td19>Position Prem %</td19>
+    <td20>Disc on Page Prem</td20>
+    <td21>Translation Charges</td21>
+    <td22>Disc on Trans charge</td22>
+    <td23>Eye Catcher</td23>
+    <td24>Spl Disc(%)</td24>
+    <td25>Spl Disc rate</td25>
+    <td26>Spl Charges</td26>
+    <td27>Bill Cycle</td27>
+    <td28>Payment Type</td28>
+    <td29>Insert No</td29>
+    <td30>Insert Date</td30>
+    <td31>Edition</td31>
+    <td32>Insert Cat</td32>
+    <td33>Insert Sub cat</td33>
+    <td34>Insert Color</td34>
+    <td35>Insert_Height</td35>
+    <td36>Insert_Width</td36>
+    <td37>Insert Status</td37>
+    <td38>Insert_Page No</td38>
+    <td39>Insert Pos Prem</td39>
+    <td40>Premium</td40>
+    <td41>Paid Ins</td41>
+    <td42>User IP</td42>
+    <td43>Updated by</td43>
+    <td44>Old/New</td44>
+    
+  </table1> 
+  </database>

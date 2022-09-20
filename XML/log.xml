@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdatarow>
+
+  <Proces>
+    <ID>ALL</ID>
+    <Name>ALL</Name>
+  </Proces>
+
+	<Proces>
+		<ID>Ad Account Receipt</ID>
+		<Name>Ad Account Receipt</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>Agency</ID>
+    <Name>Agency</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Agency Discount</ID>
+    <Name>Agency Discount</Name>
+  </Proces>
+
+  <Proces>
+    <ID>AgencyType</ID>
+    <Name>AgencyType</Name>
+  </Proces>
+
+  <Proces>
+    <ID>BgColor</ID>
+    <Name>BgColor</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Branch</ID>
+    <Name>Branch</Name>
+  </Proces>
+
+	<Proces>
+		<ID>Booking Audit</ID>
+		<Name>Booking Audit</Name>
+	</Proces>
+
+	<Proces>
+		<ID>CD Bill</ID>
+		<Name>CD Bill</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>City</ID>
+    <Name>City</Name>
+  </Proces>
+  
+  <Proces>
+    <ID>Client Master</ID>
+    <Name>Client Master</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Color</ID>
+    <Name>Color</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Country</ID>
+    <Name>Country</Name>
+  </Proces>
+
+	<Proces>
+		<ID>Classified Ad Booking</ID>
+		<Name>Classified Ad Booking</Name>
+	</Proces>
+
+	<Proces>
+		<ID>Display Ad Booking</ID>
+		<Name>Display Ad Booking</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>Edition</ID>
+    <Name>Edition</Name>
+  </Proces>
+  
+  <Proces>
+    <ID>Login</ID>
+    <Name>Login</Name>
+  </Proces>
+
+	<Proces>
+		<ID>NOT CD Bill</ID>
+		<Name>NOT CD Bill</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>Order</ID>
+    <Name>Order</Name>
+
+  </Proces>
+
+  <Proces>
+    <ID>Order Print Receipt</ID>
+    <Name>Order Print Receipt</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Priveledge Master</ID>
+    <Name>Priveledge Master</Name>
+  </Proces>   
+  
+  <Proces>
+    <ID>Publication</ID>
+    <Name>Publication</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Publication Center</ID>
+    <Name>Publication Center</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Publication Type</ID>
+    <Name>Publication Type</Name>
+  </Proces>
+
+	<Proces>
+		<ID>publish Audit</ID>
+		<Name>publish Audit</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>Rate</ID>
+    <Name>Rate</Name>
+
+  </Proces>
+	<Proces>
+		<ID>Rate Audit</ID>
+		<Name>Rate Audit</Name>
+	</Proces>
+	
+  <Proces>
+    <ID>Retainer Master</ID>
+    <Name>Retainer Master</Name>
+
+  </Proces>
+
+	<Proces>
+		<ID>RO Comment</ID>
+		<Name>RO Comment</Name>
+	</Proces>
+
+  <Proces>
+    <ID>State</ID>
+    <Name>State</Name>
+  </Proces>
+
+  <Proces>
+    <ID>Supplement</ID>
+    <Name>Supplement</Name>
+  </Proces> 
+  
+  <Proces>
+    <ID>SupplementType</ID>
+    <Name>SupplementType</Name>
+  </Proces>
+
+  <Proces>
+          <ID>UOM</ID>
+        <Name>UOM</Name>
+    </Proces>
+  
+  <Proces>
+  <ID>User</ID>
+    <Name>User</Name>
+      </Proces>
+
+	
+  </newdatarow>
+

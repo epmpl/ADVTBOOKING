@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<database>
+  <table>
+
+    <!--<td>Client Name&lt;font color=red&gt;&lt;/Font&gt;</td>-->
+    <!--<td1>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>Agency Name&lt;font color=red&gt;&lt;/Font&gt;</td3>-->
+    <td>Page</td>
+    <td1>Position</td1>
+    <td2>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Publication&lt;font color=red&gt;&lt;/Font&gt;</td4>
+    <td5>PublicationCenter&lt;font color=red&gt;&lt;/Font&gt;</td5>
+    <td6>Edition&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <!--td9>Status-&lt;font color=red&gt;&lt;/Font&gt;</td9>-->
+    <td7>Destination&lt;font color=red&gt;&lt;/Font&gt;</td7>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td8>Run</td8>
+    
+    <td9>Page Premium Report</td9>
+
+    <td10>Available Premium Date</td10>
+    <td11>Yes</td11>
+    <td12>No</td12>
+
+
+  </table>
+
+
+
+</database>

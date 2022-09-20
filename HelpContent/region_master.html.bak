@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Region Master</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="text_main_container">
+<div class="text_head_container">Region Master</div>
+<div class="text_subhead_container">Region Code</div>
+<div class="detailtext_container">This field is a text box which accept an unique code for each Region from an user.Whether this code is Auto generated or User defined. In Auto generated,First 2 characters are allotted for Region Code Prefix and next 1 for alphabetically numeric SL. No. of Region Code (i.e. RE0) etc.And the User define mode-Code generate itself from the user.
+
+</div>
+
+<div class="text_subhead_container">Region Name</div>
+<div class="detailtext_container">This field specifies the name of the Region like as (East-west,West-north,North-south,South-east).To define the Actual location of the Country,State,City or District.Where it is..-	Check mandatory while save
+-	Duplicate entry not allowed
+-	Should accept values Capital Letters by default
+</div>
+
+
+<div class="text_subhead_container">Alias</div>
+<div class="detailtext_container"> This field specifies the short name of the Region.  
+</div>
+</div>
+</div>
+</body>
+</html>

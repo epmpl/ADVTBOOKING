@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<database>
+  <table>
+
+    <td>Client Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td>
+    <td1>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td2>
+    <td3>Agency Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td3>
+    <td4>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Publication</td6>
+    <td7>Printing Center</td7>
+    <td8>Edition</td8>
+    <td9>Status-&lt;font color=red&gt;&lt;/Font&gt;</td9>
+    <td10>Destination</td10>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td11>Run</td11>
+    <td12>ISSUE EDITION WISE REPORT</td12>
+    <td13>Page Premium Report</td13>
+    <td14>Branch</td14>
+    <td15>District&lt;font color=red&gt;[F2]&lt;/Font&gt;</td15>
+<td16> Exit</td16>
+    <td17>Issue Edition Wise Report</td17>
+<td18>Page No.</td18>
+  </table>
+
+
+
+</database>

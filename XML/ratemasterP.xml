@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<NewDataSet>
+  <Table>
+    <td>Rate Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Ad Type&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Ad Sub Category</td3>
+    <td4>Rate Group Code&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Currency&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Package&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+
+    <td7>Package Description&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>Size From</td8>
+    <td9>Size To</td9>
+    <td10>Valid From&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+    <td11>Valid To&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+    <td12>Consumption Period</td12>
+
+
+    <td14>Color&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>Color Charges Type</td15>
+    <fu>Floor Amount</fu>
+    <f>Floor Discount</f>
+    <td16>Week Day Rate&lt;font color=red&gt;*&lt;/Font&gt;</td16>
+    <td17>Min Rate</td17>
+    <td18>Extra Rate</td18>
+    <td19>Focus Day Rate</td19>
+    <td20>Min Rate</td20>
+    <td21>Extra Rate</td21>
+    <td22>Remarks</td22>
+    <td23>UOM&lt;font color=red&gt;*&lt;/Font&gt;</td23>
+    <td24>Premium</td24>
+    <td25>Bold Charges</td25>
+    <td26>Go</td26>
+    <td27>Weekend Rate</td27>
+    <td28>Min Rate</td28>
+    <td29>Extra Rate</td29>
+    <td30>Min</td30>
+    <td31>Lines From</td31>
+    <td32>Lines To</td32>
+    <td33>Words From</td33>
+    <td34>Words To</td34>
+    <td35>Min Words</td35>
+    <td36>Min Lines</td36>
+
+    <td37>Edition From</td37>
+    <td38>Edition To</td38>
+    <tmhjv>Scheme</tmhjv>
+    <td39>Ad Sub Cat3</td39>
+    <t40>Ad Sub Cat4</t40>
+    <td41>Ad Sub Cat5</td41>
+    <t42>From Insert&lt;font color=red&gt;*&lt;/Font&gt;</t42>
+    <td43>To Insert&lt;font color=red&gt;*&lt;/Font&gt;</td43>
+    <t44>Agency Type</t44>
+    <td45>Client Cat</td45>
+    <td46>Max Size</td46>
+
+
+    <td47>Rate For Hindustan</td47>
+    <t48>Rate For Agency</t48>
+    <td49>Agency Code</td49>
+    <td50>Agency Sub Code</td50>
+
+    <td51>Center</td51>
+
+    <td52>Sunday&lt;font color=red&gt;*&lt;/Font&gt;</td52>
+    <td53>Monday&lt;font color=red&gt;*&lt;/Font&gt;</td53>
+    <td54>Tuesday&lt;font color=red&gt;*&lt;/Font&gt;</td54>
+    <td55>Wednesday&lt;font color=red&gt;*&lt;/Font&gt;</td55>
+    <td56>Thursday&lt;font color=red&gt;*&lt;/Font&gt;</td56>
+    <td57>Friday&lt;font color=red&gt;*&lt;/Font&gt;</td57>
+    <td58>Saturday&lt;font color=red&gt;*&lt;/Font&gt;</td58>
+
+    <td59>Sunday</td59>
+    <td60>Monday</td60>
+    <td61>Tuesday</td61>
+    <td62>Wednesday</td62>
+    <td63>Thursday</td63>
+    <td64>Friday</td64>
+    <td65>Saturday</td65>
+
+    <td66>Day Wise Rate Premium</td66>
+    <td67>Day Wise Extra Rate Premium</td67>
+    <td68>Width</td68>
+
+    <td69>Min Size</td69>
+
+    <td70>Min Lines</td70>
+    <td71>Max Lines</td71>
+    <td72>Min Words</td72>
+    <td73>Max Words</td73>
+
+    <td74>Min Char</td74>
+    <td75>Max Char</td75>
+    <td76>Char From</td76>
+    <td77>Char To</td77>
+    <td78>Max Priority</td78>
+    <td79>Priority Rates</td79>
+    <td80>Inclusive of VAT. </td80>
+    <td81>Ad On</td81>
+    <td82>Reference Id</td82>
+    <td83>Cancellation Charges</td83>
+    <td84>Position Premium</td84>
+    <td85>Min Width</td85>
+    <td86>Max Width</td86>
+  </Table>
+
+  <Table2>
+    <tr>Local</tr>
+    <tr1>Corporate</tr1>
+    <tr2>Dgipr</tr2>
+    <tr3>Davp</tr3>
+
+
+  </Table2>
+
+
+</NewDataSet>

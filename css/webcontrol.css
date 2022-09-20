@@ -1,0 +1,851 @@
+﻿
+@media  (min-width:321px) and (max-width:600px)
+{
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif  !important ;
+	margin: 0;
+	padding: 0;
+	color: #000;  width:80%;
+}
+
+.agfield
+{
+	 width:auto;
+	 margin:40px 05px;
+	 cellpadding:0;
+	 cellspacing:0;
+}
+
+.n_topbar div.n_logo {
+    float: left;
+    height: 68px;
+    margin: 0 auto;
+    padding: 0 0 0 10px;
+	width:18%;
+    
+}
+	.n_topbar div.n_logo img{
+    width:100%;
+    
+}
+	.n_topbar div.n_overlap {
+    height: 44px;
+    left: 476px;
+    position: absolute;
+    top: 0;
+	width:11%
+    
+}
+	.n_topbar div.n_overlap img{
+    
+    width: 100px;
+}
+
+	
+.n_topbar div.n_top {
+    float:left;
+    height: 68px;
+    margin: 0 auto;
+    padding: 0;
+    width: 73%;
+}
+.n_topbar div.n_t_inside2 {
+    float: left;
+    font-family: Verdana;
+    font-size: 14px;
+    height: 20px;
+    margin: 0px 0 0 2px;
+    padding: 0;
+    text-align:left;
+    width: 100%;
+}
+.n_t_inside2 ul {
+    float: left;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+	.rel
+	{
+		width: 30%;
+	}
+
+	.topbarclock1 {
+    background-image: url("../btimages/bg.jpg");
+    color: #000000;
+    font-family: verdana;
+    font-size: 11px;
+    height: 27px;
+    margin-top: -1px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: top;
+    width: 100%;
+}
+	
+	.n_top div.n_t_inside {
+    color: #000000;
+    font-family: Verdana;
+    font-size: 11px;
+    height: 15px;
+    margin: 0;
+    padding: 5px 0 0;
+    text-align: right;
+    width: 100%;
+}
+	.n_topbar {
+    background-image: url("../Images/top-bg.jpg");
+    background-repeat: repeat-x;
+    float: left;
+    height: 68px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+	.pagen
+{
+		   margin: 15px 0;
+	width:100%;
+	cellpadding:0;
+	cellspacing:0;
+}
+	.tableentry
+{
+	cellpadding:0;
+	cellspacing:0;
+	width:100%;
+	margin:10px 0;
+	   
+}
+.feilds
+{
+	width: 100%;
+	margin: 20px 0;
+	cellpadding: 0;
+	cellspacing: 0;
+}
+
+	.listwidth
+	{ 	width:50%;
+	   height:75px;
+	   left: 258px!important;
+	}
+	.btextlist
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:158px;*/
+
+    border: 0px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	margin-left: 140px;
+    width: 63%;
+    
+}
+	.ontable
+{ width:70%;
+  margin:0 0;
+ cellpadding:0;
+ cellspacing:0;
+
+}
+		.intable
+{
+	width:92%;
+	margin:10px;
+}
+.btextlistdouble {
+border: 0px solid #929292;
+background-color: #ffffff;
+font-family: verdana;
+font-size: 10px;
+color: #000000;
+Width: 105%;
+Height: 80px;
+}
+.btext1double {
+    border: 1px solid #929292;
+    background-color: #ffffff;
+    font-family: verdana;
+    font-size: 10px;
+    color: #000000;
+    height: 13px;
+     /*width: 138px;*/
+    text-transform: uppercase;
+    width: 50%;
+}
+.btext1tripple {
+    border: 1px solid #929292;
+    background-color: #ffffff;
+    font-family: verdana;
+    font-size: 10px;
+    color: #000000;
+    height: 13px;
+    /*width: 138px;*/
+    text-transform: uppercase;
+    width:80%;
+}
+		.btext
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	/*height:13px;*/
+	width:250px;
+	text-transform:uppercase;
+	
+}
+		.btnlink_n {
+    
+    font-size: 10px;
+   
+}
+.toptext
+{width:100%;
+ margin:0 0px;
+ cellpadding:0;
+cellspacing:0;
+}
+
+.tablein
+{cellpadding:0;
+  cellspacing:0 ;
+  width:99%;
+  margin:0 0;
+}
+.btext_client
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:95.5%;
+}
+.dropdown
+	{
+	
+	 border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	/*height:200px;*/
+	width:94%;
+		
+}
+.styl1
+{width:98%;
+margin:0 0;
+}
+.styl2
+{width:98%;
+ margin:0 0;
+}
+
+.styl3
+{ width:98%;
+  margin:0 10px;
+}
+.barcss
+{width:98%;
+ margin:30px 0;
+}
+.sty4
+{width:98%;
+ margin:0 10px;
+}
+.styl4
+{width:98%;
+ margin:0 10px;
+}
+.styl5
+{width:98%;
+ margin:40px 10px;
+}
+.headcss
+{ width:98%;
+  margin:-25px 10px;
+}
+.styl6
+{
+	width:98%;
+	 margin:40px 5px;
+}
+.styl7
+{margin:0 10px
+}
+.headtext
+{width:98%;
+ margin:0 0px;
+}
+.styl8
+{width:53%;
+ margin:30px 0;
+}
+.styl9
+{width:auto; 
+ margin-left:0;
+  margin-top:0;
+}
+.styl12
+{width:98%;
+}
+.styl13
+{margin:10px 20px
+}
+	.sty14
+{
+	width:auto;
+	margin:0 20px;
+}
+	.sty15
+{
+	width:auto;
+	margin:0 20px;
+}
+.styl15
+{
+	width:auto;
+	margin:0 20px;
+}
+.styl16
+{
+	width:auto;
+	margin:0 20px;
+}
+.styl17
+{
+	width:65%;
+	margin:0 20px;
+}
+.styl18
+{
+	width:78%;
+	margin:0 20px;
+}
+.barcssst
+{
+	width:100%;
+	margin:0 230px
+}
+.styl19
+{
+	width:65%;
+	margin:0 20px;
+}
+.gridstyle
+{
+ width:auto;
+ height:78%;
+ margin:0 20px;
+
+}
+   .styl20 {
+        width: auto;
+        margin: 0 40px;
+    }
+    .styl21 {
+        width: 50%;
+    }
+    .styl22 {
+        height: 60%;
+    }
+    .styl23 {
+    height: 85px;
+    width: 70%;
+}
+    .styl24 {
+        width: auto;
+        margin: 10px 0px;
+    }
+styl25 {
+    OVERFLOW: auto;
+    WIDTH: 60%;
+    HEIGHT: 60%;
+}
+    .styl27 {
+        width: auto;
+        margin:0 20px;
+    }
+
+
+    .styl28 {
+        width: auto;
+        margin:0 20px;
+    }
+    .bar1css {
+    width: auto;
+    margin: 15px 40px;
+}
+    .styl29 {
+    width: 60%;
+    margin:10px 40px;
+}
+    .styl30 {
+    width: 98%;
+    margin: 0 10px;
+}
+    .btext1 
+    {width :70%;
+     /*width="480px'*/
+    }
+    .TextField 
+    {width :100%;
+    }
+    
+    .styl31 {
+        width: auto;
+        margin:0 70px;
+    }
+      .bar2css {
+    width: auto;
+    margin: 15px 10px;
+}
+      .styl32 {
+    width: auto;
+    margin: 30px 80px;
+}
+       .bar3css {
+    width: auto;
+    margin: 15px 40px;
+}
+       .bar4css {
+    width: auto;
+    margin: 15px 10px;
+}
+       .styl33 {
+    width: 98%;
+    margin: -20px 10px;
+}
+       .styl34 {
+    width: 65%;
+    margin: 50px 40px;
+}
+       .textfield3 {
+	/*/height:13px;	
+	font-family: Trebuchet MS;
+	font-size: 13px;
+	/*color:#336699;*/
+	color:black;
+	text-align:center;
+    width:20%;
+	
+	
+}
+       .texttable {
+    /*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:158px;*/
+    border: 1px solid #929292;
+    background-color: #ffffff;
+    font-family: verdana;
+    font-size: 10px;
+    color: #000000;
+    height: 43px;
+    width:80%;
+
+   /*width: 100px;*/ 
+}
+    
+    
+.dropdown1
+	{
+	
+	/* border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;*/
+	/*height:200px;*/
+	width:100%;
+    height:200px;
+		
+}
+.styl35 {
+    /*width="100%"*/
+    width: auto;
+    margin: 2px 20px;
+}
+.styl36 {
+  /* width: 100%;*/ 
+    margin: 0 70px;
+     width:50%;
+}
+    .styl37 {
+        WIDTH: 40%;
+    }
+.styl38 {
+    width: 640px;
+    height: 100px;
+}
+.styl39 {
+    WIDTH: 50%;
+    margin: 5px 40px;
+}
+.addon {
+font-family: verdana;
+	font-size:12px;
+	color:Blue;
+	font-weight:bold;
+	position:relative;
+    right:20px;
+    left:0px;
+    text-align:justify;
+    height:10%;
+    cursor:hand;
+}
+.styl40 {
+   /*width: 100%;*/ 
+    width: auto;
+    margin: 10px 40px;
+}
+.styl41 {
+    width: 65%;
+}
+.styl42 {
+    border: 2px solid #0066FF;
+    margin-top: 10px;
+    caption-side: top;
+}
+.styl43 {
+    width: auto;
+    margin: 15px 30px;
+     /*width:100%;*/
+}
+.styl44 {
+    width: auto;
+    margin: 20px 100px;
+}
+.textfieldrate {
+    
+	height:5px;	
+	font-family: Trebuchet MS;
+	font-size: 5px;
+	/*color:#336699;*/
+	color:black;
+	text-align:center;
+	
+	
+}
+.btext10 {
+    
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:158px;*/
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50%;
+		text-transform:uppercase;
+    
+}
+.styl45 {
+    width: auto;
+    margin: 15px 30px;
+     /*width:100%;*/
+}
+.styl46 {
+    width: auto;
+    margin: 20px 100px;
+}
+.styl47 {
+    width: 76%;
+}
+.styl48 {
+    width:76%;
+}
+.styl49 {
+    width: auto;
+    margin: 20px 5px;
+}
+.styl50 {
+    margin: -10px 100px;
+}
+.styl51 {
+    width: 76%;
+}
+.styl52 {
+    width: auto;
+    margin: 5px 0px;
+}
+.sstyl53 {
+    width: 100%;
+    margin: -15px 200px;
+}
+.styl54 {
+    width: 796px;
+}
+.styl55 {
+    width:77%;
+}
+.styl56 {
+    width: 76%;
+}
+.styl57 {
+    width: 74.6%;
+}
+.styl58 {
+    width: 74.8%;
+}
+.RightTable
+{
+	POSITION: relative;
+	/*margin-top:-10px;*/
+	margin-left:0px;
+}
+
+.btextsau
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:410px;
+		
+}
+}
+
+
+
+@media (min-width:10px) and (max-width:320px) {
+
+    body {
+        font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #000;
+        width: 100%;
+    }
+
+    .agfield {
+        width: auto;
+        margin: 40px 05px;
+        cellpadding: 0;
+        cellspacing: 0;
+    }
+
+    .n_topbar div.n_logo {
+        float: left;
+        height: 68px;
+        margin: 0 auto;
+        padding: 0 0 0 10px;
+        width: 18%;
+    }
+
+        .n_topbar div.n_logo img {
+            width: 100%;
+        }
+
+    .n_topbar div.n_overlap {
+        height: 44px;
+        left: 432px;
+        position: absolute;
+        top: 0;
+    }
+
+        .n_topbar div.n_overlap img {
+            width: 100px;
+        }
+
+    .n_topbar div.n_top {
+        float: left;
+        height: 68px;
+        margin: 0 auto;
+        padding: 0;
+        width: 73.6%;
+    }
+
+    .n_topbar div.n_t_inside2 {
+        float: left;
+        font-family: Verdana;
+        font-size: 14px;
+        height: 20px;
+        margin: -43px 0 0 138px;
+        padding: 0;
+        text-align: left;
+        width: 700px;
+    }
+
+    .n_t_inside2 ul {
+        float: left;
+        margin: 0 auto;
+        padding: 0;
+        width: 595px;
+    }
+
+    .n_topbar {
+        background-image: url("../Images/top-bg.jpg");
+        background-repeat: repeat-x;
+        float: left;
+        height: 68px;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        width: 100%;
+    }
+
+    .rel {
+        width: 23%;
+    }
+   
+
+
+    .topbarclock1 {
+        background-image: url("../btimages/bg.jpg");
+        color: #000000;
+        font-family: verdana;
+        font-size: 14px;
+        height: 27px;
+        margin-top: -1px;
+        position: relative;
+        text-decoration: none;
+        vertical-align: top;
+        width: 100%;
+    }
+
+
+
+    .n_top div.n_t_inside {
+        color: #000000;
+        font-family: Verdana;
+        font-size: 11px;
+        height: 15px;
+        margin: 0;
+        padding: 5px 0 0;
+        text-align: right;
+        width: 100%;
+    }
+
+    .pagen {
+        margin: 15px 0;
+        width: 100%;
+        cellpadding: 0;
+        cellspacing: 0;
+    }
+
+    .tableentry {
+        cellpadding: 0;
+        cellspacing: 0;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .feilds {
+        width: 100%;
+        margin: 20px 0;
+        cellpadding: 0;
+        cellspacing: 0;
+    }
+
+
+    .listwidth {
+        width: 50%;
+        height: 75px;
+        left: 258px!important;
+    }
+
+    .btextlist {
+        /*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:158px;*/
+        border: 0px solid #929292;
+        background-color: #ffffff;
+        font-family: verdana;
+        font-size: 10px;
+        color: #000000;
+        margin-left: 140px;
+        width: 200px;
+    }
+
+    .ontable {
+        width: 20%;
+        margin: 0 -30px;
+        cellpadding: 0;
+        cellspacing: 0;
+    }
+
+    .intable {
+        width: 5%;
+        margin: 0;
+    }
+
+    .btext {
+        /*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+        border: 1px solid #929292;
+        background-color: #ffffff;
+        font-family: verdana;
+        font-size: 10px;
+        color: #000000;
+        /*height:13px;*/
+        width: 250px;
+        text-transform: uppercase;
+    }
+
+    .btnlink_n {
+        font-size: 10px;
+    }
+
+    .styl1 {
+        width: 98%;
+        margin: 0 0;
+    }
+
+    .styl2 {
+        width: 98%;
+        margin: 0 0;
+    }
+
+    .styl3 {
+        width: 98%;
+        margin: 0 10px;
+    }
+
+    .barcss {
+        width: 98%;
+        margin: 30px 0;
+    }
+
+    .sty4 {
+        width: 98%;
+        margin: 0 0;
+    }
+
+    .styl4 {
+        width: 98%;
+        margin: 0 0;
+    }
+
+ 
+}
+
+
+
+
+
+

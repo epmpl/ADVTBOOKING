@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<NewDataSet>
+  <Table>
+    <td>Ad. Category</td>
+    <td1>Publication&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Suppliment&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Package Description</td3>
+    <td4>Hue<!--&lt;font color=red&gt;*&lt;/Font&gt;--></td4>
+    <td5>Card Rate&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Contract Rate&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>Premium Name</td7>
+    <td8>Card Premium</td8>
+    <td9>Contract Premium</td9>
+    <td10>Volume Billed&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+    <td11>Volume Disc.(%)&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+    <td12>Value From</td12>
+    <td13>Value To</td13>
+    <td14>Volume Unit&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>Package Name<!--&lt;font color=red&gt;*&lt;/Font&gt;--></td15>
+    <td16>Edition</td16>
+    <td17>Currency Type</td17>
+    <td18>Total Rate</td18>
+    <td19>Rate Code</td19>
+    <td20>Approved</td20>
+    <td21>Quantity</td21>
+    <td22>Weight</td22>
+    <td23>Discount</td23>
+    <td24>CYOP</td24>
+    <td25>Deviation</td25>
+	  <td26>Incentive</td26>
+	  <td27>Ad Type</td27>
+    </Table>
+	<Table1>
+		<td>Ad. Category</td>
+		<td1>Publication&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+		<td2>Suppliment&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+		<td3>Package Description</td3>
+		<td4>
+			Hue<!--&lt;font color=red&gt;*&lt;/Font&gt;-->
+		</td4>
+		<td5>Card Rate&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+		<td6>Contract Rate&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+		<td7>Premium Name</td7>
+		<td8>Card Premium</td8>
+		<td9>Contract Premium</td9>
+		<td10>Volume Billed&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+		<td11>Volume Disc.(%)&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+		<td12>Value From</td12>
+		<td13>Value To</td13>
+		<td14>Volume Unit&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+		<td15>
+			Package Name<!--&lt;font color=red&gt;*&lt;/Font&gt;-->
+		</td15>
+		<td16>Edition</td16>
+		<td17>Currency Type</td17>
+		<td18>Total Rate</td18>
+		<td19>Rate Code</td19>
+		<td20>Approved</td20>
+		<td21>Quantity</td21>
+		<td22>Weight</td22>
+		<td23>Discount</td23>
+		<td24>CYOP</td24>
+		<td25>Deviation</td25>
+		<td26>Incentive</td26>
+		<td27>Channel</td27>
+		<td28>Location</td28>
+		<td29>Paid/Bonus</td29>
+		<td30>BTB</td30>
+		<td31>ROS</td31>
+		<td32>Program Code</td32>
+		<td33>Consumed</td33>
+		<td34>Balance</td34>
+		<td35>From Date</td35>
+		<td36>To Date</td36>
+		<td37>Program Type</td37>
+	</Table1>
+</NewDataSet>
+

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdataset>
+
+  <table>
+    <td>Reservation ID</td>
+    <td1>Booked By</td1>
+    <td2>Schedule Date</td2>
+    <td3>Ad Size(W*H)</td3>
+    <td4>Client</td4>
+    <td5>Page Premium</td5>
+    <td6>Publ</td6>
+    <td7>Edition</td7>
+    <td8>Status</td8>
+    <td9>Remark</td9>
+  </table>
+  <table1>
+    <td>Scheduling Date From</td>
+    <td1>Scheduling Date To</td1>
+    <td2>Destination</td2>
+    
+  </table1>
+</newdataset>

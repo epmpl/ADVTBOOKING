@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdataset>
+
+  <table>
+    <td> From Date &lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>To Date&lt;font color=red &gt;*&lt;/font&gt;</td1>
+    <td2>Ad Type&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Ad Category</td3>
+    <td4>Catogery</td4>
+    <td5>Edition </td5>
+    <td6>Sub Sub Cat&lt;font color=red &gt;&lt;/font&gt;</td6>
+    <td7>Agency &lt;font color=red &gt;[F2]&lt;/font&gt;</td7>
+    <td8>Client &lt;font color=red &gt;[F2]&lt;/font&gt;</td8>
+    <td9>Publication &lt;font color=red&gt;*&lt;/font&gt;</td9>
+    <td10>Publication Center </td10>
+    <td11>Variant</td11>
+    
+    <td12>Run</td12>
+    <td13>Schedule Register Report</td13>
+    <td14>Destination</td14>
+    <td15>Address</td15>
+    <td16>Address</td16>
+    <td17>PI Report Product Wise</td17>
+    <td18>PI Report Region Wise</td18>
+    <td19>PI Report Publication Wise</td19>
+    <td20>PI Report UpCountry </td20>
+    <td21>Language</td21>
+  
+    <td22>Published/not</td22>
+    <td23>PI Report Product Wise</td23>
+    <td24>Advance Display Schedule Report</td24>
+    <td25>PI Report Schedule Wise</td25>
+    <td26>Advance Display Schedule Report</td26>
+    <td27>Client Details For Particular Industry</td27>
+    <td28>Bill Register</td28>
+    <td29>Booking Type Wise Report</td29>
+    <td30>Billing Register</td30>
+    <td31>Category Wise Bill Report</td31>
+    <td32>Control Of Agencies Publication Wise</td32>
+    <td33>Rebate Report Region Wise</td33>
+    <td34>Rebate Report Publication Wise</td34>
+    <td35>Extra Rebate Report</td35>
+    <td36>Control Of Agencies Region Wise</td36>
+    <td37>Product/Publication</td37>
+    <td38>Value Report Region Wise</td38>
+    <td39>PI Scheme Report</td39>
+    <td40>PI Contract Report</td40>
+    <td41> Retainer Commission Report</td41>
+	 <td42>Package</td42>
+    <td43>Ad Category</td43>
+    <td44>Pub Center</td44>
+    <td45>Edition</td45>
+    <td46>All Ads of A Day</td46>
+    <td47>All Ads of The Agency</td47>
+    <td48>Status Based AD List</td48>
+    <td49>Deviation Report</td49>
+    <td50>Page Premium Report</td50>
+    <td51>Advance Display Schedule Report</td51>
+    <td52>Client Details For Particular Industry</td52>
+    <td53>City</td53>
+    <td54>Ad Type</td54>
+    <td55>All Ads Of The Client</td55>
+    <td56>Status</td56>
+    <td57>Page</td57>
+    <td58>Position</td58>
+    <!--<td59>EditionDetail</td59>-->
+    <!--<td13>Pin Code</td13>
+    <td14>Region</td14>
+    <td15> Fax</td15>
+    <td16>Email Id</td16>
+    <td17>Status Date</td17>
+    <td18>Contact Details |</td18>
+    <td19>Status Details</td19>-->
+
+    <td59>Agency Type</td59>
+    <td60>Agency Category</td60>
+    <td61>Ad Type</td61>
+    <td62>Publication</td62>
+    <td63>Order By&lt;font color=red&gt;*&lt;/font&gt;</td63>
+    <td64>EditionDetail</td64>
+     <td65>Ads&lt;font color=red&gt;*&lt;/font&gt;</td65>
+   <td66>Billed</td66>
+   <td67>Scheduled</td67>
+    <td68>Region</td68>
+  <td69>Booking Type&lt;font color=red&gt;*&lt;/font&gt;</td69>
+<!--changed-->
+  <td70>Product</td70>
+    <td71>PI Report Agency Publication Wise</td71>
+    <td72>Executive&lt;font color=red&gt;[F2]&lt;/font&gt;</td72>
+    <td73>Pi Reports</td73>
+    <td74>Rebate Reports</td74>
+    <td75>Rebate Report Agency Region Wise</td75>
+
+	 <!-- for Issue Wise Bussiness Report   ad by Rinki -->
+    <td76>RegionWise</td76>
+    <td77>CategoryWise</td77>
+    <td78>ProductWise</td78>
+    <td79>ExecutiveWise</td79>
+    <td80>RatecodeWise</td80>
+    <td81>PackageWise</td81>
+    <td82>Issue Wise Business Report</td82>
+    <td83>Revenue Summary Report</td83>
+	<td84>Revenue Center</td84>
+    <td85>Team</td85>
+    <td86>Representative Ledger</td86>
+    <td87>Category Wise Report</td87>
+ <td88>Executive Wise</td88>
+ <td89>Retainer Wise</td89>
+    <td90>Money Recieved Report</td90>
+    <td91>Payment Mode</td91>
+    <td92>Package Wise Report</td92>
+    <td93>Branch</td93>
+    <td94>District&lt;font color=red&gt;[F2]&lt;/font&gt;</td94>
+    <td95>Break On</td95>
+	  <td96>District</td96>
+	  <td97>Ro Status</td97>
+    <td98>Insert Status</td98>
+    <td99>Incluede Cancel</td99>
+  </table>
+
+  <table1>
+    <td>Booked</td>
+    <td1>booked</td1>
+    <td2>Publish</td2>
+    <td3>publish</td3>
+    <td4>Audit By Rate</td4>
+    <td5>audit by rate</td5>
+    <td6>Billed</td6>
+    <td7>billed</td7>
+    <td8>Hold</td8>
+    <td9>hold</td9>
+    <td10>Cancel</td10>
+    <td11>cancel</td11>
+
+  </table1>
+  
+  
+</newdataset>

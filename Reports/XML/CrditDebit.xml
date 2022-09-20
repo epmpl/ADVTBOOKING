@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<table>
+		<td>FromDate&lt;font color=red&gt;*&lt;/Font&gt;</td>
+		<td1>ToDate&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+		<td2>PublicationCenter</td2>
+		<td3>Branch&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+		<td4>ReportType</td4>
+		<td5>Destination</td5>
+		<td6>Run</td6>
+		<td7>Statement For Credit And Debit </td7>
+		
+
+	</table>
+
+
+	<table1>
+		<td>Onscreen</td>
+		<td1>0</td1>
+		<td2>Excel</td2>
+		<td3>1</td3>
+
+	</table1>
+
+  <table2>
+    <td>Credit</td>
+    <td1>C</td1>
+    <td2>Debit</td2>
+    <td3>D</td3>
+
+  </table2>
+
+
+</database>

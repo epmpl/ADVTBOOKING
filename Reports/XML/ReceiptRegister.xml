@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdatarow>
+<Headertable>
+  <td>S.No.</td>
+  <td1>Booking Id</td1>
+  <td2>Receipt No.</td2>
+  <td3>Agency</td3>
+  <td4>Client</td4>
+  <td5>Branch</td5>
+  <td6>Bill Amt.</td6>
+  <td7>USER :</td7>
+</Headertable>
+  <table1>
+    <ReportName>RECEIPT REGISTER</ReportName>
+    <Maxlimit>20</Maxlimit>
+  </table1>
+ </newdatarow>

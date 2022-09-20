@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newrow>
+  <table>
+    <td>Publication Code&lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>Publication Name&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Alias&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Language&lt;font color=red&gt;*&lt;/font&gt;</td3>
+    <td4>Contact Person</td4>
+    <td5>Fax No.</td5>
+    <td6>Priority&lt;font color=red&gt;*&lt;/font&gt;</td6>
+    <td7>Start Date</td7>
+    <td8>Phone No.</td8>
+    <td9>Email ID</td9>
+    <td10>Select Publication Day</td10>
+    <td11>Publication Type&lt;font color=red&gt;*&lt;/font&gt;</td11>
+    <td12>Periodicity&lt;font color=red&gt;*&lt;/font&gt;</td12>
+    <!-- <td13>Start Date</td13>-->
+    <td13>Gutter Width&lt;font color=red&gt;*&lt;/font&gt;</td13>
+    <td14>Column Width&lt;font color=red&gt;*&lt;/font&gt;</td14>
+    <td15>RO Acceptance Time&lt;font color=red&gt;*&lt;/font&gt;</td15>
+    <td16> Hr.</td16>
+    <td17> Min.</td17>
+    <td18>Production&lt;font color=red&gt;*&lt;/font&gt;</td18>
+    <td19> Day(s) Before</td19>
+    <td20>No Of Column</td20>
+    <td21>Publisher Name</td21>
+    <td22>Bill Prefix </td22>
+    <td23>Mrv Based On</td23>
+    <td24>Mobile No.</td24>
+    <td25>Service Accounting Code&lt;font color=red&gt;[F2]&lt;/Font&gt;</td25>
+    <td26>Sub Service Accounting Code&lt;font color=red&gt;[F2]&lt;/Font&gt;</td26>
+  </table>
+  <table1>
+    <PublicationType>visible</PublicationType>
+    <StartDate>visible</StartDate>
+    <ContactPerson>visible</ContactPerson>
+    <PhoneNo>visible</PhoneNo>
+    <FaxNo>visible</FaxNo>
+    <EmailID>visible</EmailID>
+    <Priority>visible</Priority>
+    <GutterWidth>visible</GutterWidth>
+    <ColumnWidth>visible</ColumnWidth>
+    <ROAcceptanceTime>visible</ROAcceptanceTime>
+    <NoOfColumn>visible</NoOfColumn>
+    <PublisherName>visible</PublisherName>
+  </table1>
+  
+
+</newrow>
+

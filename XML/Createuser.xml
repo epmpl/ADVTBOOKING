@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+    <tr>User Name&lt;font color=red&gt;*&lt;/Font&gt;</tr>
+    <tr1>Password&lt;font color=red&gt;*&lt;/Font&gt;</tr1>
+    <tr2>User Id&lt;font color=red&gt;*&lt;/Font&gt;</tr2>
+    <tr3>Branch Name&lt;font color=red&gt;*&lt;/Font&gt;</tr3>
+    <tr4>Currency Name&lt;font color=red&gt;*&lt;/Font&gt;</tr4>
+    <tr5>Date Format&lt;font color=red&gt;*&lt;/Font&gt;</tr5>
+    <tr6>Default Company Name&lt;font color=red&gt;*&lt;/Font&gt;</tr6>
+    <tr7>Company Code&lt;font color=red&gt;*&lt;/Font&gt;</tr7>
+    <tr8>Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</tr8>
+	  <tr9>Company Name</tr9>
+    <tr10>Email&lt;font color=red&gt;*&lt;/Font&gt;</tr10>
+    <tr11>First Name&lt;font color=red&gt;*&lt;/Font&gt;</tr11>
+    <tr12>Last Name&lt;font color=red&gt;*&lt;/Font&gt;</tr12>
+    <tr13>Admin</tr13>
+    <tr14>User</tr14>
+	  <tr15>Status</tr15>
+    <td16>Emp Code &lt;font color=red&gt;[F2]&lt;/font&gt;</td16>
+    <tr17>Printing Center</tr17>
+    <tr18>Cashier Account Head &lt;font color=red&gt;[F2]&lt;/font&gt;</tr18>
+    <tr19>Permission</tr19>
+    <tr20>IP</tr20>
+    <tr21>Mac Address</tr21>
+    <tr22>Computer Name</tr22>
+	  <tr23>Executive</tr23>
+    <tr24>Get Rate</tr24>
+    <tr25>Date Status</tr25>
+  </table>
+</newdata>

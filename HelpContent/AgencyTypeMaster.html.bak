@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Agency Type</title>
+<link href="..//CSS/Help.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="text_main_container">
+<div class="text_head_container">Agency Type Master </div>
+<div class="detailtext_container">This form is used to define the various "Types" of Agencies. There can be different types of agencies e.g. Accredited, Non Accredited, Govermenent etc. Commission Rate and Credit Days also can be different for each Type. We define the commission Rate and Credit days for each type here. 
+</div>
+<div class="text_subhead_container">Agency Type Code</div>
+<div class="detailtext_container">Agency Type Code is a unique id and is automatically if the [Code Generate Type] is set to "Auto Generated" in PREFERENCES MASTER or code can be entered manually if the [Code Generate Type] is set to "User Defined"
+</div>
+</div>
+<div class="text_subhead_container">Ad Category</div>
+<div class="detailtext_container">You can select the Ad Category if "Agency Type" to be created Ad Category wise otherwise you can leave this blank. This is not the mandatory information which needs to be mentioned here.
+</div>
+</div>
+<div class="text_subhead_container">Agency Type Name</div>
+<div class="detailtext_container">This field is used to define the description of the "Types" of Agencies e.g. Acccredited, Non-Accredited or Government etc. 
+</div>
+</div>
+<div class="text_subhead_container">Alias</div>
+<div class="detailtext_container">This field is used to put the short name of "Agency Type Name"
+</div>
+<div class="text_subhead_container">Effective From </div>
+<div class="detailtext_container">Here you can define the "Effective From (Date)" from when the Agency Type and Commission Rate will apply. 
+</div>
+
+<div class="text_subhead_container">Effective To </div>
+<div class="detailtext_container">Here you can define the "Effective To (Date)" uptill when the Agency Type and Commission Rate will be applicable. 
+</div>
+
+<div class="text_subhead_container">Commission Rate </div>
+<div class="detailtext_container">Please enter the commission rate to be given for the selected "Type" and after selecting the "Agency Type" in Agency Master Commission Rate mentioned for the selected "Type" will be automatically picked up in Commission Details Tab.
+</div>
+
+<div class="text_subhead_container">Commission Apply On </div>
+<div class="detailtext_container">This field is used to specify whether the commission amount to be calculated on Gross Amount or Net Amount for selected type of agencies while booking. Please select 'Net' or 'Gross' from the drop down list of values.
+</div>
+
+<div class="text_subhead_container">Credit Days</div>
+<div class="detailtext_container">Here user can define the No. of Credit Days for payment from its agencies. Accredited or Non-Accredited agencies can have different credit days. Credit Days are picked up automatically when you select the Agency Type in Agency Master.
+</div>
+
+
+</div>
+</body>
+</html>

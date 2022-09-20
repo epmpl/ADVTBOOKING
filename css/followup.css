@@ -1,0 +1,62 @@
+﻿.headingc
+{
+	font-family :Arial;
+	font-size :20px;
+	font-weight :bolder;
+	color :Black;
+}
+.middle33
+{
+	font-size:12px;
+font-weight :bold;
+color:Black;
+	
+
+}
+.rep_data
+{
+	/*font-size:x-small;*/
+	font-family:Arial;
+	font-size:10px;
+              vertical-align:top;
+	
+}
+
+.middle31new
+{
+	/*font-size:smaller;*/
+	font-weight:bold;
+	font-family:Arial;
+	font-size:11px;
+	
+	
+	border-bottom:solid;
+	 border-bottom-color:Black;
+	 border-bottom-width:thin ;
+	  vertical-align:top;
+	  border-top:solid;
+	  border-top-color:Black;
+	  border-top-width:thin;
+	 
+}
+.middle4
+{
+	font-size:smaller;
+	/*color:White;*/
+	
+	font-weight:bold;
+	/*border-bottom:dashed;*/
+	border-bottom:solid;
+	 border-bottom-color:Black;
+	 border-bottom-width:thin;
+	/* visibility:hidden;*/
+}
+
+.rep_mail
+{
+	/*font-size:x-small;*/
+	font-family:Arial;
+	font-size:14px;
+              vertical-align:top;
+	
+}

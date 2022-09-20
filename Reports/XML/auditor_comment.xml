@@ -1,0 +1,36 @@
+﻿<newdataset>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Report Destination</td2>
+    <td3>Auditor Comment</td3>
+    <td4>Run</td4>
+    <td5>Exit</td5>
+    <td6>Center</td6>
+    <td7>Branch</td7>
+    <td8>Ad Type</td8>
+    <td9>Booking Type</td9>
+
+
+
+
+  </table>
+  <table1>
+    <td>On Screen</td>
+    <td1>ons</td1>
+    <td2>Excel File</td2>
+    <td3>exc</td3>
+    <td4>Pdf File</td4>
+    <td5>pdf</td5>
+
+
+  </table1>
+  <table2>
+    <td>Booking date</td>
+    <td1>B</td1>
+    <td2>Publish date</td2>
+    <td3>P</td3>
+
+
+  </table2>
+</newdataset>

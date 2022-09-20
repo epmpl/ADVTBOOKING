@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdatarow>
+  <table>
+    <td>Ad Type&lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>Charge Code</td1>
+    <td2>Charge Name&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Charge Alias&lt;font color=red&gt;*&lt;/font&gt;</td3>
+    <td4>Charges Type&lt;font color=red&gt;*&lt;/font&gt;</td4>
+    <!--<td5>Charge Amt</td5>-->
+    <td5>Valid From Date&lt;font color=red&gt;*&lt;/font&gt;</td5>
+    <td6>Valid To Date&lt;font color=red&gt;*&lt;/font&gt;</td6>
+    <td7>Charge Active&lt;font color=red&gt;*&lt;/font&gt;</td7>    
+    <td8>CHARGE_NAME$~$AD_CHARGE_MAST</td8>
+    <td9>COMP_CODE$~$AD_TYPE$~$CHARGE_CODE$~$CHARGE_NAME$~$CHARGE_ALIAS$~$CHARGES_TYPE$~$CHARGE_AMT$~$VALID_FROM_DATE$~$VALID_TILL_DATE$~$CHARGE_ACTIVE$~$USERID$~$CREATION_DATETIME$~$UPDATED_BY$~$UPDATED_DATE$~$CHARGE_ON$~$AD_CHARGE_MAST$~$INSERT#UPDATE#DELETE#SELECT</td9>
+    <td10>COMP_CODE$~$AD_TYPE$~$CHARGE_CODE$~$CHARGE_NAME$~$CHARGE_ALIAS$~$CHARGES_TYPE$~$CHARGE_AMT$~$VALID_FROM_DATE$~$VALID_TILL_DATE$~$CHARGE_ACTIVE$~$CHARGE_ON$~$AD_CHARGE_MAST$~$INSERT#UPDATE#DELETE#SELECT</td10>
+    <td11>CHARGE_CODE$~$AD_CHARGE_MAST</td11>
+    <td12>Charge Amount&lt;font color=red&gt;*&lt;/font&gt;</td12>
+    <td13>Charge On&lt;font color=red&gt;*&lt;/font&gt;</td13>
+    
+  </table>
+
+</newdatarow>

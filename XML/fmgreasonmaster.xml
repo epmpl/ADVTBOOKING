@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>FMG Reason Code</td>
+    <td1>FMG Reason Description</td1>
+    <td2>COMP_CODE$~$REASON_CODE$~$REASON_DESC$~$CREATED_BY$~$CREATED_DT$~$AD_FMG_REASON_MAST$~$INSERT#UPDATE#DELETE#</td2>
+    <td3>COMP_CODE$~$REASON_CODE$~$REASON_DESC$~$AD_FMG_REASON_MAST$~$INSERT#UPDATE#DELETE#</td3>
+    <td4>COMP_CODE$~$REASON_CODE$~$REASON_DESC$~$UPDATED_BY$~$UPDATED_DT$~$AD_FMG_REASON_MAST$~$INSERT#UPDATE#DELETE#</td4>
+    <td5>COMP_CODE$~$REASON_CODE</td5>
+    </table>
+
+
+  </database>
+

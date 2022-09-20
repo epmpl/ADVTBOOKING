@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+<table>
+	
+
+
+
+	<td>User Id &lt;font color=red&gt;&lt;/font&gt;</td>
+	<td1>User Name &lt;font color=red&gt;[F2]&lt;/Font&gt;</td1>
+	<td2>First Name &lt;font color=red&gt;&lt;/font&gt;</td2>
+	<td3>Last Name &lt;font color=red&gt;&lt;/font&gt;</td3>
+	<td4>Agency Name &lt;font color=red&gt;[F2]&lt;/font&gt;</td4>
+	<td5>Branch Name </td5>
+	<td6>Employee Code &lt;font color=red&gt;&lt;/font&gt;</td6>
+	<td7>Company Name &lt;font color=red&gt;&lt;/font&gt;</td7>
+	<td8>Email &lt;font color=red&gt;&lt;/font&gt;</td8>
+	<td9>Discount Allowed</td9>
+	<td10>Branch Permission</td10>
+	<td11>Role Name&lt;font color=red&gt;&lt;/font&gt;</td11>
+	<td12>Edit Line In Booking</td12>
+	<td13>Status</td13>
+	<td14>Destination</td14>
+	<td15>RUN</td15>
+	<td16>Hindustan Times</td16>
+</table>
+	
+	<table1>
+		<td>Select Status</td>
+    <td1>Active</td1>
+		<td2>A</td2>
+		<td3>InActive</td3>
+		<td4>I</td4>
+		<td5>All</td5>
+		<td6>1</td6>
+		
+	</table1>
+
+	<table2>
+		<td>Select</td>
+		<td1>On Screen</td1>
+		<td2>1</td2>
+		<td3>Excel</td3>
+		<td4>2</td4>
+		<td5>Pdf</td5>
+		<td6>3</td6>
+		
+	</table2>
+	
+</database>

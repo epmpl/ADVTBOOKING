@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<newdata>
+	<normal>
+		<!--for fone name for normal-->
+		<tr4>Helvetica</tr4>
+		<!--for font size-->
+		<tr5>6.2</tr5>
+		<!--for font leader-->
+		<tr6>8.5</tr6>
+		<!--font height-->
+		<tr7>105%</tr7>
+		<!--font color-->
+		<tr8>black</tr8>
+		<!--background-->
+		<tr9>0</tr9>
+		<!--<tr91>HINDBODY</tr91>-->
+		<fontsizen>8.5</fontsizen>
+		<leading1>8.5</leading1>
+
+		<fontsizen2>5.75</fontsizen2>
+
+		<leading2>6.5</leading2>
+
+	</normal>
+	<bold>
+
+		<!--for fone name for normal-->
+		<tr9>Helvetica</tr9>
+		<!--for font size-->
+		<tr10>6.2</tr10>
+		<!--for font leader-->
+		<tr11>7.5</tr11>
+		<!--font height-->
+		<tr12>105%</tr12>
+		<!--font color-->
+		<tr13>black</tr13>
+		<tr14>0</tr14>
+		<!-- 1 one line bold  3 three word bold 5 five word bold-->
+		<tr911>Bhaskar</tr911>
+		<fontsizeb>8.5</fontsizeb>
+	</bold>
+	<!-- both tag for English and Hindi both for HT -->
+	<both>
+		<fontsize_eng>6</fontsize_eng>
+		<fontsize_hin>8.5</fontsize_hin>
+		<mix_leading>8.5</mix_leading>
+	</both>
+	<logo>
+		<logoheight>2</logoheight>
+		<logowidth>4.5</logowidth>
+	</logo>
+
+</newdata>

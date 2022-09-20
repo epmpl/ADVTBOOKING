@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Ad Type&lt;font color=red&gt;&lt;/Font&gt;</td>
+    <td1>Ad Category&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Publication&lt;font color=red&gt;&lt;/Font&gt;</td4>
+    <td5>Publication Center&lt;font color=red&gt;&lt;/Font&gt;</td5>
+    <td6>Edition&lt;font color=red&gt;&lt;/Font&gt;</td6>
+    <td7>Destination&lt;font color=red&gt;&lt;/Font&gt;</td7>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td8>Run</td8>
+    <t9>All Ads of A Day</t9>
+    <t10>Docket Booking</t10>
+    <t11>Searching criteria</t11>
+    <t12>UOM</t12>
+    <t13>User</t13>
+    <t14>State</t14>
+    <t15>Districts</t15>
+    <t16>City</t16>
+
+    <t17>Summary</t17>
+    <t18>Exit</t18>
+	  <td19>Booking Id</td19>
+	  <td20>Include Hold</td20>
+    <td21>Currency</td21>
+    <td22>Report Type</td22>
+    <td23>Page No</td23>
+  </table>
+	<table1>
+		<td>Yes</td>
+		<td1>Y</td1>
+	</table1>
+
+
+</database>

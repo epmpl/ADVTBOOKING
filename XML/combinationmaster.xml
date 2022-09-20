@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+
+    <td>Ad Type&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Ad Category</td1>
+    <td2>Ad Sub Category</td2>
+    <td3>Package Code&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Alias&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Package Name&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Combination Name&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>No Of Edition</td7>
+    <td8>Submit</td8>
+    <td9>Clear</td9>
+    <td10>Share Distribution</td10>
+    <td11>No Of Inserts</td11>
+    <td12>Center</td12>
+	  <td13>Split</td13>
+	  <td14>Consumption Period</td14>
+
+    <td15>Valid From&lt;font color=red&gt;*&lt;/Font&gt;</td15>
+    <td16>Valid To&lt;font color=red&gt;*&lt;/Font&gt;</td16>
+    <td17>Old Pkg. Code&lt;font color=red&gt;*&lt;/Font&gt;</td17>
+
+
+  </table>
+  <table1>
+    <ShareDistribution>hide</ShareDistribution>
+  </table1>
+
+
+</newdata>
+  
+  

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Printing Center</td2>
+    <td3>Branch</td3>
+    <td4>Publication</td4>
+    <td5>Main Edition</td5>
+    <td6>Sub Edition</td6>
+    <td7>Supplement</td7>
+    <td10>Run</td10>
+	<td9>Destination</td9>
+	<td8>District</td8>
+	<td11>Issue Billwise Report</td11>
+	<td12>From Date:</td12>
+	<td13>To Date:</td13>
+	<td14>Printing Center:</td14>
+	<td15>Branch:</td15>
+	<td16>Publication:</td16>
+	<td17>Main Edition:</td17>
+	<td18>Suppliment:</td18>
+	<td19>District:</td19>
+</table>
+  <table1>
+    <td>Xerox</td>
+  </table1>  
+
+
+
+</database>

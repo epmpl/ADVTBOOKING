@@ -1,0 +1,335 @@
+﻿.middle312
+{
+	font-size:11px;
+	font-weight:bold;
+	font-family:Verdana;
+	
+	
+	vertical-align:top;
+	
+}
+.middle31
+{
+	font-size:11px;
+	font-weight:bold;
+	font-family:Verdana;
+	border-top:solid;
+	border-top:Black;
+	border-top-width: thin ;
+	border-bottom:solid;
+	border-bottom-color:Black;
+	border-bottom-width: thin ;
+	vertical-align:top;
+	
+}
+
+middle3111
+{
+	font-size:11px;
+	font-weight:bold;
+	font-family:Verdana;
+}
+
+.tdforcolnam21
+ {
+ 	 
+background-color:#f8f9fd;
+font-family:Arial;
+font-size:16px;
+background-color:#f3f6fd;
+color: #000000;
+font-weight:normal;
+border-top:solid 2px black; 
+border-bottom :solid 2px black; 
+text-align:left;
+vertical-align:top;
+}
+
+.tdrdm11
+{
+	 border: 1px solid #929292;
+	/*background-color: #ffffff;*/
+	font-family: Verdana;
+	font-size: 10px;
+	color: #000000;
+	/*height:200px;*/
+	width:50px;
+
+	
+}
+
+
+.demo
+{
+			
+		 color:black;
+		  padding-right:300px;
+		 font-weight:normal;
+		 font-size: 12px;
+		 vertical-align :text-top ;
+		font-weight:bold;
+		font-family: Verdana ;
+		border-top:solid;
+		border-top:Black;
+	    border-top-width: thin ;
+		border-bottom-width: thin ;
+		border-bottom-color:Black;
+	
+}
+
+
+.naman
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+vertical-align:top;
+		
+}
+
+
+
+
+
+.middle310
+{
+	font-size:11px;
+	font-weight:bold;
+	font-family:Verdana;
+	border-top:solid;
+	border-top:Black;
+	border-top-width: thin ;
+	border-bottom:solid;
+	border-bottom-color:Black;
+	border-bottom-width: thin ;	
+	width:20%;
+	
+}
+.newfont1
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 10px;
+ vertical-align :text-top ;
+ padding-right:10px;
+ 
+
+}
+
+.newfont1_r
+{
+ font-family: Verdana ;
+ color:black;
+ font-size: 10px;
+ vertical-align :text-top ;
+ padding-right:10px;
+ 
+
+}
+
+
+
+.newfontww
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 10px;
+ vertical-align :text-top ;
+
+ 
+
+}
+
+
+.newfont134
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 12px;
+ vertical-align :text-top ;
+ padding-left:10px;
+ 
+
+}
+
+.newfont11
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 12px;
+ vertical-align :text-top ;
+ padding-right:8px;
+ text-align:center;
+ 
+}
+.heading_l
+{
+	
+	 height:0px;
+	 border-left-width:thin;
+	 
+	 width:500px;
+	 text-align:left;
+	 font-size:20px;
+	 
+	
+	 border-bottom-color:Black;
+	 font-weight:bolder;
+}
+
+.heading
+{
+
+	 text-align:center;
+	 font-size:22px;
+
+	 border-bottom-color:Black;
+	 font-weight:bolder;
+}
+
+.break
+{
+	page-break-before :always; 
+	/*page-break-before :always ;*/
+	position :fixed ;
+	vertical-align:top;
+}
+
+
+
+
+.header111
+{
+	 font-family: Verdana ;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+
+
+.header11122
+{
+	 font-family: Verdana ;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+}
+
+
+
+.newfont11111
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 14px;
+ vertical-align :text-top ;
+ padding-right:8px;
+ font-weight:bold;
+
+ 
+}
+
+
+
+.newfont11112
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:normal;
+ font-size: 16px;
+ vertical-align :text-top ;
+ padding-right:8px;
+ font-weight:bold;
+
+ 
+}
+
+
+
+
+
+
+.newfont222
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:bold;
+ font-size: 13px;
+ vertical-align :text-top ;
+
+
+ 
+}
+
+
+
+.newfont2223
+{
+ font-family: Verdana ;
+ color:black;
+ font-weight:bold;
+ font-size: 11px;
+ vertical-align :text-top ;
+
+
+ 
+}
+
+
+.newfont222311
+{
+ font-family: Verdana ;
+ color:black;
+
+ font-size: 11px;
+ vertical-align :text-top ;
+
+
+ 
+}
+
+
+
+
+.newfont2221
+{
+ font-family:Verdana ;
+ font-weight:bold;
+ font-size: 12px;
+ vertical-align :text-top ;
+
+
+ 
+}
+
+
+
+.newfontjj1
+{
+ font-family: Verdana ;
+ color:black;
+
+ font-size: 13px;
+ vertical-align :text-top ;
+
+
+ 
+}
+
+
+.newfontlabellistprint 
+{
+ font-family: Verdana ;
+ color:black;
+
+ font-size: 12px;
+ vertical-align :text-top ;
+
+
+ 
+}

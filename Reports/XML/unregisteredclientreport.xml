@@ -1,0 +1,62 @@
+﻿<newdataset>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+       <td2>Branch</td2>
+    
+    <td3>Report Destination</td3>
+    <td4>Unregistered Client Report</td4>
+    <td5>Run</td5>
+    <td6>Exit</td6>
+    <td7>Ad Type</td7>
+    <td8>UOM</td8>
+    <td9>Date Wise</td9>
+    <td10>Run Report</td10>
+
+    <td11>Register Type</td11>
+  </table>
+  <table1>
+    <td>On Screen</td>
+    <td1>ons</td1>
+    <td2>Excel File</td2>
+    <td3>exc</td3>
+    
+
+  </table1>
+  <table2>
+    <td>S.No</td>
+    <td1>Booking Id</td1>
+    <td2>Client Name</td2>
+    <td3>Client Address</td3>
+    <td4>Agency Name</td4>
+    <td5>Ad category</td5>
+    <td6>Package</td6>
+    <td7>Area (H*W)</td7>
+    <td8>Card Rate</td8>
+    <td9>Gross Amount</td9>
+    <td10>Bill Amount</td10>
+    <td11>Ad Type</td11>
+    <td12>Rate_code</td12>
+
+
+
+  </table2>
+  <table3>
+    <td>Booking Date</td>
+    <td1>B</td1>
+    <td2>Publish Date</td2>
+    <td3>P</td3>
+
+
+  </table3>
+  <table4>
+    <td>Unregistered</td>
+    <td1>URC</td1>
+    <td2>Not To Register</td2>
+    <td3>NRC</td3>
+    <td4>All</td4>
+    <td5></td5>
+    
+    
+  </table4>
+</newdataset>

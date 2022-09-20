@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>Premium Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Ad Type&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Publication</td3>
+    <td4>Edition</td4>
+    <td5>Color<!--&lt;font color=red&gt;*&lt;/Font&gt;--></td5>
+    <td6>Ad Size Description</td6>
+    <td7>Page No<!--&lt;font color=red&gt;*&lt;/Font&gt;--></td7>
+    <td8>Rate Group</td8>
+    <td9>Special Position<!--&lt;font color=red&gt;*&lt;/Font&gt;--></td9>
+    <td10>Premium&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+      <td11>Valid From&lt;font color=red&gt;*&lt;/Font&gt;</td11>
+    <td12>Valid To&lt;font color=red&gt;*&lt;/Font&gt;</td12>
+    <td13>Premium Name&lt;font color=red&gt;*&lt;/Font&gt;</td13>
+    <td14>Supplement</td14>
+    <td15>PREMIUM APPLICABLE FOR</td15>
+    <td16>SUN</td16>
+    <td17>MON</td17>
+    <td18>TUE</td18>
+    <td19>WED</td19>
+    <td20>THU</td20>
+    <td21>FRI</td21>
+    <td22>SAT</td22>
+    <td23>ALL</td23>
+    <td24>Page Heading&lt;font color=red&gt;*&lt;/Font&gt;</td24>
+
+
+  </Table>
+
+  <table1>
+    <AdType>show</AdType>
+    <AdCategory>show</AdCategory>
+    <Color>show</Color>
+    <Supplement>show</Supplement>
+    <RateGroup>show</RateGroup>
+    <AdSizeDescription>show</AdSizeDescription>
+    <SpecialPosition>show</SpecialPosition>
+    <PREMIUMAPPLICABLEFOR>show</PREMIUMAPPLICABLEFOR>
+  </table1>
+</NewDataSet>
+

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+	<table>
+		<Mail_From>kuldeepbhati93@gmail.com</Mail_From>
+		<Mail_CC>abhilashksingh@gmail.com</Mail_CC>
+		<Mail_Subject>Rejection of Ro Booking..</Mail_Subject>
+    <Mail_Subject_App>Approval Pending for RO Booking</Mail_Subject_App>
+		<SmtpServer_IP>10.10.31.11</SmtpServer_IP>
+    <BothAppRej>Y</BothAppRej><!--If 'Y' them mail will send at Approval and Rejection to Executive or Retainer -->
+	</table>
+	<table1>
+		<tr>Respected Sir/Mam,</tr>
+		<tr1>This Booking Id has been Rejected</tr1>
+		<tr2>Regards</tr2>
+		<tr3>RAJASTHAN PATRIKA PVT LTD</tr3>
+    <tr4>This Booking Id has been Approved</tr4>
+	</table1>
+  <table2>
+    <tr>Respected Sir/Mam,</tr>
+    <tr1>Please Review the Discounted RO, Details mention Below :-</tr1>
+    <tr2>Regards</tr2>
+    <tr3>RAJASTHAN PATRIKA PVT LTD</tr3>
+  </table2>
+</newdata>

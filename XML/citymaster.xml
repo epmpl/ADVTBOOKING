@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>City Code</td>
+    <td1>City Name</td1>
+    <td2>City Alias</td2>
+    <td3>Country Name</td3>
+    <td4>State Name</td4>
+    <td5>District Name</td5>
+    <td6>Zone Name</td6>
+    <td7>Region</td7>
+    <td8>City STD Code</td8>
+    <!-- for Hindustan as they dont need region,zone,district in city master-->
+    <td9>Hindustan</td9>
+    <td10>BranchName</td10>
+  </Table>
+</NewDataSet>

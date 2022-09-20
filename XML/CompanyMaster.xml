@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+  <table>
+    <td>Company Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Company Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Company Alias&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Company Address&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Street</td4>
+    <td5>City&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Zip</td6>
+    <td7>District</td7>
+    <td8>State&lt;font color=red&gt;*&lt;/Font&gt;</td8>
+    <td9>Country&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Phone1</td10>
+    <td88>Phone2</td88>
+    <td11>Fax</td11>
+    <td21>Email Id</td21>
+    <td31>St_Acc_No</td31>
+    <td41>Pan No.</td41>
+    <td51>Tan No.</td51>
+    <td61>Service tax registration No.&lt;font color=red&gt;*&lt;/Font&gt;</td61>
+    <td71>Registration Date&lt;font color=red&gt;*&lt;/Font&gt;</td71>
+    <td81>Remarks</td81>
+    <td91>Box</td91>
+    <tdb1>Vat In No.</tdb1>
+   
+  </table>
+
+  <table1>
+    <td>Director Name</td>
+    <td1>Address1</td1>
+    <td2>Street</td2>
+    <td3>City Name</td3>
+    <td4>ZIP</td4>
+    <td5>District Name</td5>
+    <td6>State Code</td6>
+    <td7>Country Name</td7>
+    <td8>Phone1</td8>
+    <td9>Phone2</td9>
+    <td10>Fax</td10>
+    <td11>Email Id</td11>
+    <td12>State Zip</td12>
+    <td13>Country Zip</td13>
+  </table1>
+
+  <table2>
+    <td>COMP_CODE$~$DIRECTOR_NAME$~$ADD1$~$STREET$~$CITY_CODE$~$ZIP$~$DIST_CODE$~$STATE_CODE$~$COUNTRY_CODE$~$PHONE1$~$PHONE2$~$FAX$~$EMAILID$~$STATE_ZIP$~$COUNTRY_ZIP$~$COMP_DIRECTOR_MST$~$INSERT#UPDATE#DELETE#SELECT</td>
+    <td1>COMP_DIRECTOR_MST</td1>    
+    <td2>COMP_CODE$~$DIRECTOR_NAME$~$ADD1$~$STREET$~$CITY_CODE$~$ZIP$~$DIST_CODE$~$STATE_CODE$~$COUNTRY_CODE$~$PHONE1$~$PHONE2$~$FAX$~$EMAILID$~$STATE_ZIP$~$COUNTRY_ZIP$~$UPDATED_BY$~$UPDATED_DT$~$ABC_INVOICE_PYT$~$INSERT#UPDATE#DELETE#SELECT</td2>
+    <td3>COMP_CODE$~$DIRECTOR_NAME$~$ADD1$~$STREET$~$CITY_CODE$~$ZIP$~$DIST_CODE$~$STATE_CODE$~$COUNTRY_CODE$~$PHONE1$~$PHONE2$~$FAX$~$EMAILID$~$STATE_ZIP$~$COUNTRY_ZIP$~$COMP_DIRECTOR_MST$~$INSERT#UPDATE#DELETE#SELECT</td3>
+  </table2>
+  
+</dataset>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Company Name</td>
+    <td1>Unit Name</td1>
+    <td2>Destination</td2>
+    <td3>Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td3>
+    <td4>District</td4>
+    <td5>Taluka</td5>
+    <td6>City</td6>
+    <td7>Zone</td7>
+    <td8>Branch</td8>
+    <td9>Region</td9>
+    <td10>State</td10>
+    <td11>Agency Type</td11>
+    <td12>Client&lt;font color=red&gt;[F2]&lt;/Font&gt;</td12>
+    <td13>Executive&lt;font color=red&gt;[F2]&lt;/Font&gt;</td13>
+    <td14>Report Type</td14>
+  </table>
+
+
+
+</database>

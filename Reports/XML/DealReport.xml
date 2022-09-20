@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dataset>
+	<table>
+		<td>Deal Report</td>
+		<td1>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+		<td2>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+		<td3>Ad Type</td3>
+		<td4>Ad Category</td4>
+		<td5>Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td5>
+		<td6>Client&lt;font color=red&gt;[F2]&lt;/Font&gt;</td6>
+		<td7>Deal Type</td7>
+		<td8>Package</td8>
+		<td9>Rate Code</td9>
+		<td10>Status</td10>
+		<td11>Destination</td11>
+		<td12>Run</td12>
+		<td13>Deal Report</td13>
+	</table>
+	<table1>
+		<td>S.No.</td>
+		<td1>Deal Code</td1>
+		<td2>Deal name</td2>
+		<td3>Deal Date</td3>
+		<td4>Deal Type</td4>
+		<td5>Valid From</td5>
+		<td6>Valid To</td6>
+		<td7>Total Deal Value</td7>
+		<td8>Total Deal Volume</td8>
+		<td9>Agency</td9>
+		<td10>Client</td10>
+		<td11>Package</td11>
+		<td12>Card Rate</td12>
+		<td13>Premium</td13>
+		<td14>Contract Rate</td14>
+		<td15>Discount Percentage</td15>
+		<td16>Disc on</td16>
+		<td17>Insertion</td17>
+		<td18>Min size</td18>
+		<td19>Mix size</td19>
+		<td20>value from</td20>
+		<td21>value to</td21>
+		<td22>rate code</td22>
+		<td23>Remark</td23>
+		<td24>Approved(Y/N)</td24>
+	</table1>
+  <table2>
+    <tr>On Screen</tr>
+    <tr1>1</tr1>
+    <!--<tr2>Print</tr2>
+    <tr3>2</tr3>-->
+     <tr6>Excel Sheet</tr6>
+    <tr7>4</tr7>
+
+  </table2>
+
+</dataset>
+

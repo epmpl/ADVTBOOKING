@@ -1,0 +1,361 @@
+﻿.newhead
+{
+	font-family:Verdana;
+	font-size:small ;
+	font-weight:normal ;
+	}
+	.insertiontxtclass1
+{
+	border-bottom :dashed 1px black;
+	font-weight:bold;
+	border-right:dashed 1px black;
+}
+	
+	.newhead1
+{
+	font-family:Verdana;
+	font-size:small ;
+	font-weight:bold;
+	}
+.heading1
+{
+	
+	
+	font-weight:bold
+}
+.table1
+{
+    font-size:smaller;
+    font-family :Verdana ;
+   
+   /* border-color:Gray;*/
+    
+}
+.table2
+{
+	  font-size:smaller;
+	    font-family :Verdana ;
+	    /*border-color:Gray;*/
+	  
+}
+.table
+{
+	font-weight:bold;
+	  font-family :Verdana ;
+	/* border-color:Gray;*/
+}
+.while1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.agecnycodeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+}
+.agecnycodeclass1
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	
+}
+.invoicenoclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.invoicenoclass111
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+}
+.dateclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.typeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.standardclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.adtypeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.positionclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.packageclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.schemeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.avertiserclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.formatproposalclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.numberclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.ordernumberclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.insertionnumberclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.weidthclass
+{
+	
+	
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+	
+	
+	
+}
+.heightclass
+{
+	text-align:center;
+	color:Black ;
+}
+.volumeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.extrasizeclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.colorclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.packagerateclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.extrachargesclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.discountclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.amountclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.weidthclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.heitextclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.voltxtclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.extratxtclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.colortxtclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.packtxtclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.extrclass
+{
+	font-weight:bold
+}
+.discounttxtclass
+{
+	color:Black ;
+}
+.amtxtclass
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.amount1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.amount2class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+}
+
+.trade1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.total1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	
+}
+.total1class1
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+}
+.box1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.net1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+}
+.netpayable1class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	
+}
+.netpayable6class
+{
+	font-size :smaller;
+	font-family :Verdana ;
+	color:Black ;
+	font-weight:bold;
+}
+.agencycod1class
+{
+}
+.invoiceclass
+{
+}
+.Label1class
+{
+}
+.adcatclass
+{
+}
+.position11class
+{
+}
+.packagetclass
+{
+}
+.scheme11class
+{
+}
+.advertsr11class
+{
+}
+.formatclass
+{
+}
+.ronoclass
+{
+}
+.ordernoclass
+{
+}
+.insertiontxtclass
+{
+}
+.border1
+{
+	
+	
+}	

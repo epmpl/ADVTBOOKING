@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> New Document </TITLE>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<script language="javascript" src="javascript/popupcalender_cl.js" type="text/javascript"></script>
+<script language=javascript>
+function check()
+{
+	alert('test');
+	return false;
+}
+	function makeGridDynamically()
+	{
+		 var Make_Row;
+        var make_td;
+		 Make_Row=document.createElement("tr");
+         make_td=document.createElement("td");
+         make_td.align="center";
+         make_td.innerHTML='1';
+         make_td.id='ins1';
+         Make_Row.appendChild(make_td);
+
+		      make_td=document.createElement("td");
+             make_td.align="center";
+             //make_td.class="";
+			make_td.style.display="none";
+            var str="<input  type=\"text\" id='cal1' ><img src=\"Images/cal1.gif\"  onclick=\"popUpCalendar(Form1.cal1, Form1.cal1, 'dd/mm/yyyy');\" height=\"14\" width=\"14\" />";
+            make_td.innerHTML=str;
+             Make_Row.appendChild(make_td);
+			
+			  document.getElementById('gridtab').getElementsByTagName("tbody")[0].appendChild(Make_Row);
+	}
+</script>
+</HEAD>
+
+<BODY>
+<form id="Form1">
+<table id="gridtab"><tbody></tbody></table>
+<table><tr><td><input type="button" onclick="makeGridDynamically();"></td></tr></table>
+</form>
+</BODY>
+</HTML>

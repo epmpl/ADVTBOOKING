@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdataset>
+  <table>
+    <td>User id&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Company Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Printing Center Name</td2>
+    <td3>Report Destinatiion</td3>
+    <td4>Language</td4>
+    <td5>User Form Wise Rights</td5>
+    <td6>Run Date</td6>
+    <td7>Module Name</td7>
+    <td8>Module Name&lt;font color=red&gt;*&lt;/Font&gt;</td8>
+    <td9>User Name</td9>
+    
+  </table>
+  <table1>
+    <td>Form ID</td>
+    <td1>Form Name</td1>
+    <tdt2>Form Menu Name</tdt2>
+    <td3>Form Type Name</td3>
+    <td4>Permission</td4>
+    <td5>Page No.</td5>
+   
+  </table1>
+</newdataset>

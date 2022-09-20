@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>Booking Date</td>
+    <td1>Branch</td1>
+    <td2>Booked By</td2>
+    <td3>Booking ID</td3>
+    <td4>Pre. Booking ID</td4>
+    <td5>Client&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td5>
+    <td6>Deal No.&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td6>
+    <td7>Agency Name&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td7>
+    <td8>Ag. Address</td8>
+    <td9>Agency&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Mobile No </td10>
+    <td11>Status</td11>
+    <td12>Paymode </td12>
+    <td13>Credit Period</td13>
+    <td14>RO No.&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>RO Date&lt;font color=red&gt;*&lt;/Font&gt;</td15>
+    <td16>Ro Status </td16>
+    <td17>Dockit No.</td17>
+    <td18>Key No.</td18>
+    <td19>Executive&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td19>
+    <td20>Executive Zone&lt;font color=red&gt;*&lt;/Font&nbsp;&nbsp;&nbsp;</td20>
+    <td21>Ag. Outstanding</td21>
+    <td22>Retainer&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td22>
+    <td23>Booking Type&lt;font color=red&gt;*&lt;/Font&gt;</td23>
+    <td24>Color&lt;font color=red&gt;*&lt;/Font&gt;</td24>
+    <td25>Ad Category&lt;font color=red&gt;*&lt;/Font&gt;</td25>
+    <td26>Ad Sub Category</td26>
+    <td28>Ad Sub Category 3</td28>
+    <td29>Ad Sub Category 4</td29>
+    <td30>Ad Sub Category 5</td30>
+    <td31>App By</td31>
+    <td32>Audit</td32>
+    <td33>Product&lt;font color=red&gt;[F2]&lt;/Font&gt;</td33>
+    <td34>Brand</td34>
+    <td35>Varient</td35>
+    <td36>Campaign</td36>
+    <td37>Caption</td37>
+    <td38>Material Status</td38>
+    <td39>Barter Type&lt;font color=red&gt;*[F2]&lt;/Font&gt;</td39>
+    <td40>Rate Code&lt;font color=red&gt;*&lt;/Font&gt;</td40>
+    <td41>Card Rate</td41>
+    <td42>Contract Rate</td42>
+    <td43>Deviation</td43>
+    <td44>Agreed Rate</td44>
+    <td45>Agreed Amount</td45>
+    <td46>Discount</td46>
+    <td47>Discount(%)</td47>
+    <td48>Post Prem. Amt.</td48>
+    <td49>Page Prem.(%)</td49>
+    <td50>Special Discount</td50>
+    <td51>Special Disc(%)</td51>
+    <td52>Space Discount</td52>
+    <td53>Space Disc(%)</td53>
+    <td54>Special Charges</td54>
+    <td55>Addl Agency Comm.</td55>
+    <td56>Gross Amount</td56>
+    <td57>Retainer Comm.</td57>
+    <td58>Bill Cycle</td58>
+    <td59>Revenue Center</td59>
+    <td60>Payment Type&lt;font color=red&gt;*&lt;/Font&gt;</td60>
+    <td61>Bill Status</td61>
+    <td62>Bill To</td62>
+    <td63>Receipt No.</td63>
+    <td64>Trade Discount</td64>
+    <td65>Bill Amount</td65>
+    <td66>Bill Remark</td66>
+    <td67>Card Amount</td67>
+    <td68>Images/schedule.jpg</td68>
+    <td69>Cli. Address</td69>
+   </Table>
+</NewDataSet>

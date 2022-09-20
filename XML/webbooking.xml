@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdatarow>
+<table>
+  <td>Booking Date</td>
+  <td1>Branch</td1>
+  <td2>Booked By</td2>
+  <td3>Booking ID</td3>
+  <td4>Pre. Booking ID</td4>
+  <td5>Agency Name&lt;font color=red&gt;*[F2]&lt;/font&gt;</td5>
+  <td6>Address</td6>
+  <td7>Agency&lt;font color=red&gt;*&lt;/font&gt;</td7>
+  <td8>Status</td8>
+  <td9>Credit Period</td9>
+  <td10>RO Date</td10>
+  <td11>Dockit No.</td11>
+  <td12>Executive&lt;font color=red&gt;*[F2]&lt;/font&gt;</td12>
+  <td13>Client&lt;font color=red&gt;*[F2]&lt;/font&gt;</td13>
+  <td14>Address</td14>
+  <td15>Mobile No &lt;font color=red&gt;*&lt;/font&gt;</td15>
+  <td16>Paymode</td16>
+  <td17>RO No.&lt;font color=red&gt;*&lt;/font&gt;</td17>
+  <td18>Ro Status</td18>
+  <td19>Key No.&lt;font color=red&gt;*&lt;/font&gt;</td19>
+  <td20>Executive Zone</td20>
+  <td21>Retainer&lt;font color=red&gt;*[F2]&lt;/font&gt;</td21>
+  <td22>Ag. Outstanding</td22>
+
+  
+  
+  
+  <td23>Ad Details |</td23>
+  <td24>Package |</td24>
+  <td25>Page Details |</td25>
+  <td26>Rate Details |</td26>
+  <td27>Bill Details |</td27>
+  <td28>Box Details |</td28>
+  <td29>Vts |</td29>
+  <td30>Hide</td30>
+  <td31>Ad Category&lt;font color=red&gt;*[F2]&lt;/font&gt;</td31>
+  
+  
+</table>
+
+  <table1>
+    <td1>Confirm</td1>
+    <td2>1</td2>
+    <td3>Reservation</td3>
+    <td4>2</td4>
+  </table1>
+
+
+  <table2>
+    <td1>Booking Type&lt;font color=red&gt;*&lt;/font&gt;</td1>
+    <td2>Ad Category&lt;font color=red&gt;*[F2]&lt;/font&gt;</td2>
+    <td3>App By</td3>
+    <td4>Audit</td4>
+    <td5>UOM&lt;font color=red&gt;*&lt;/font&gt;</td5>
+    <td6>Material Status</td6>
+    <td7>Currency Type&lt;font color=red&gt;*&lt;/font&gt;</td7>
+    <td8>Ad On</td8>
+    <td9>Package&lt;font color=red&gt;*&lt;/font&gt;</td9>
+    <td10>Booking Date&lt;font color=red&gt;*&lt;/font&gt;</td10>
+    <td11>TFN</td11>
+    <td12>No. Of Insertion</td12>
+    <td13>Repeating Day</td13>
+    <td14>Paid Ins</td14>
+    <td15>Receipt Currency&lt;font color=red&gt;*&lt;/font&gt;</td15>
+    <td16>Contract Name</td16>
+    <td17>Contract Type</td17>
+    <td18>Print Remark</td18>
+    <td19>Contract</td19>
+    
+    
+  </table2>
+
+  <table3>
+    <td1>Page Premium</td1>
+    <td2>Position Premium</td2>
+    <td3>Total Area&lt;font color=red&gt;*&lt;/font&gt;</td3>
+
+    <td4>No of click</td4>
+    <td5>No of Days</td5>
+    <td6>No of Impression</td6>
+  </table3>
+  <table4>
+    <td1>Scheme Type</td1>
+    <td2>Rate Code&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Card Rate </td3>
+    <td4>Card Amount </td4>
+    <td5>Contract Rate</td5>
+    <td6>Deviation</td6>
+    <td7>Agreed Rate</td7>
+    <td8>Agreed Amount</td8>
+    <td9>Discount</td9>
+    <td10>Discount(%)</td10>
+    <td11>Trans. Disc(%)</td11>
+    <td12>PosPrem. Disc.(%)</td12>
+    <td13>Special Discount </td13>
+    <td14>Special Disc(%)</td14>
+    <td15>Space Discount</td15>
+    <td16>Space Disc(%)</td16>
+    <td17>Post Prem. Amt.</td17>
+    <td18>Addl Agency T.Dis</td18>
+    <td19>Special Charges</td19>
+    <td20>Retainer T.Dis</td20>
+    <td21>Gross Amount</td21>
+    <td22>Local Curr. Amount</td22>
+   
+    
+    
+    
+  </table4>
+
+
+  <table5>
+    <td1>Bill Cycle</td1>
+    <td2>Revenue Center</td2>
+    <td3>Payment Type&lt;font color=red&gt;*&lt;/font&gt;</td3>
+    <td4>Bill Status</td4>
+    <td5>Billable Size</td5>
+    <td6>Bill To</td6>
+    <td7>Local Curr. Bill Amt</td7>
+    <td8>Trade Discount</td8>
+    <td9>Bill Amount</td9>
+    <td10>Bill Remark</td10>
+    <td11>Billable Size</td11>
+    
+    </table5>
+  
+  
+  <table6>
+    <td1>0</td1>
+  
+    <td2>1</td2>
+ 
+    <td3>2</td3>
+  
+    <td4>3</td4>
+    <td5>4</td5>
+    <td6>5</td6>
+  
+    <td7>6</td7>
+ 
+    <td8>7</td8>
+   
+
+    <td9>8</td9>
+   
+    <td10>9</td10>
+   
+    <td11>10</td11>
+ 
+    <td12>11</td12>
+   
+    <td13>12</td13>
+ 
+    <td14>13</td14>
+ 
+    <td15>14</td15>
+ 
+    <td16>15</td16>
+   
+    <td17>16</td17>
+    <td18>17</td18>
+   
+    <td19>18</td19>
+
+    <td20>19</td20>
+   
+    <td21>20</td21>
+    <td22>21</td22>
+    <td23>22</td23>
+    <td24>23</td24>
+    <td25>24</td25>
+    
+    
+    </table6>
+
+  <table7>
+    <td1>Below 20</td1>
+    <td2>b20</td2>
+    <td3>Between 20 and 30 </td3>
+      <td4>b23</td4>
+    <td5>Between 30 and 40 </td5>
+        <td6>b34</td6>
+    <td7>Between 40 and 50 </td7>
+          <td8>b45</td8>
+    <td9>Above 50</td9>
+    <td10>b5</td10>
+  </table7>
+  
+  
+  
+  <table8>
+    <td1> Science and Technology</td1>
+    <td2>ST</td2>
+    <td3> Entertainment</td3>
+    <td4>E</td4>
+    <td5> Healthcare and Medicine</td5>
+    <td6>HM</td6>
+    <td7>Industrial and Manufacturing</td7>
+    <td8>IM</td8>
+    
+  </table8>
+  
+  <table9>
+    <td1>Movies</td1>
+    <td2>Sports</td2>
+    <td3>Career</td3>
+    
+    </table9>
+  
+  
+  <table10>
+    <td1>Top</td1>
+    <td2>Bottom</td2>
+    <td3>Right</td3>
+    <td4>Middle1</td4>
+    <td5>Middle2</td5>
+    <td6>Middle3</td6>
+    <td7>Left</td7>
+    </table10>
+  
+
+  </newdatarow>
+

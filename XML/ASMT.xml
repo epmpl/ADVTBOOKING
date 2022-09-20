@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdata>
+  <table>
+    <td>btimages/new.jpg</td>
+    <td1>btimages/save.jpg</td1>
+    <td2>btimages/modify.jpg</td2>
+    <td3>btimages/query.jpg</td3>
+    <td4>btimages/execute.jpg</td4>
+    <td5>btimages/clear.jpg</td5>
+    <td6>btimages/first.jpg</td6>
+    <td7>btimages/previous.jpg</td7>
+    <td8>btimages/next.jpg</td8>
+    <td9>btimages/last.jpg</td9>
+    <td10>btimages/delete.jpg</td10>
+    <td11>btimages/exit.jpg</td11>
+    <td12></td12>
+    </table>
+    <table1>
+    <td>Agency&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td>
+    <td1>Security Amt.</td1>
+    <td2>Commision Shift</td2>
+    <td3>Status</td3>
+    <!--for execute and save and delete-->
+    <td4>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$SEC_RATE_TYPE$~$SEC_RATE$~$SEC_LIMIT_AMT$~$CREATED_BY$~$CREATED_DATE$~$UPDATED_BY$~$UPDATED_DATE$~$AGENCY_SECURITY_MAST$~$INSERT#UPDATE#DELETE#SELECT</td4>
+    <!--for modify-->
+    <td5>COMP_CODE$~$AG_MAIN_CODE$~$AG_SUB_CODE$~$SEC_RATE_TYPE$~$SEC_RATE$~$SEC_LIMIT_AMT$~$CREATED_BY$~$CREATED_DATE$~$UPDATED_BY$~$UPDATED_DATE$~$AGENCY_SECURITY_MAST$~$INSERT#UPDATE#DELETE#SELECT</td5>
+    <td6>AGENCY_SECURITY_MAST</td6>
+    <TD7>AG_MAIN_CODE$~$AGENCY_SECURITY_MAST</TD7>
+    <td8>AG_MAIN_CODE$~$AG_SUB_CODE</td8>
+    </table1>
+    </newdata>
+
+

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\HTCODE\webdir\webdir\", ".", "{8254CC75-0D9B-4093-938C-51B5D7AC1AB2}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/NewAdbooking"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\wwwroot\CassiniLight\Launcher\bin\Debug\webdir\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CassiniLight\Launcher\bin\Debug\webdir\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/NewAdbooking"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Inetpub\wwwroot\CassiniLight\Launcher\bin\Debug\webdir\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CassiniLight\Launcher\bin\Debug\webdir\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1289"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8254CC75-0D9B-4093-938C-51B5D7AC1AB2}.Debug|.NET.ActiveCfg = Debug|.NET
+		{8254CC75-0D9B-4093-938C-51B5D7AC1AB2}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

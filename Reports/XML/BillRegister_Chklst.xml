@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<newdataset>
+  <table>
+    <td> From Date &lt;font color=red&gt;*&lt;/font&gt;</td>
+    <td1>To Date&lt;font color=red &gt;*&lt;/font&gt;</td1>
+    <td2>Ad Type</td2>
+    <td3>Run</td3>
+    <td4>Edition</td4>
+    <td5>Agency Type </td5>
+    <td6>Publication</td6>
+    <td7>Agency</td7>
+    <td8>Client</td8>
+    <td9>Pub Center</td9>
+    <td10>Publication Center </td10>
+    <td11>Branch</td11>
+    <td12>Run</td12>
+    <td13>Bill Register (Check List)</td13>
+    <td14>Destination</td14>
+    <td15>Rate Code</td15>
+    <td16>UOM</td16>
+    <td17>Filter On</td17>
+    <td18>Summary</td18>
+    <td19>Ads Days</td19>
+    <td20>Daily Ads</td20>
+    <td21>Color</td21>
+
+  </table>
+  <HeaderTable>
+    <td>S.NO</td>
+    <td1>BOOKING ID</td1>
+    <td2>BILL (Y/N)</td2>
+    <td3>SIZE</td3>
+    <td4>Card/Agreed RATE</td4>
+    <td5>BILL AMT</td5>
+    <td6>AG T.DISCOUNT</td6>
+    <td7>INSERT NO</td7>
+    <td8>BILL NO</td8>
+    <td9>BOOKING TYPE</td9>
+    <td10>BILL AMOUNT:</td10>
+    <td11>TO BE BILLED:</td11>
+    <td12>NOT TO BE BILLED:</td12>
+    <td13>ALREADY BILLED:</td13>
+    <td14>TOTAL:</td14>
+    <td15>BILL ALLOTED FROM:</td15>
+    <td16>BILL ALLOTED TO:</td16>
+    <td17>TOTAL BILLS ALLOTED:</td17>
+    <td18>CLIENT</td18>
+    <td19>BOOKING STATUS</td19>
+    <td20>PUBLISH DATE</td20>
+    <td21>COLOR</td21>
+  </HeaderTable>
+</newdataset>

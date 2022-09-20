@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<dataset>
+	<table>
+	<td>Printing Center</td>
+	<td1>Branch</td1>
+	<td2>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+	<td3>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+	<td4>District</td4>
+	<td5>Taluka</td5>
+	<td6>Agency&lt;font color=red&gt;[F2]&lt;/Font&gt;</td6>
+	<td7>RO Doc. Status</td7>
+	<td8>Pay Mode</td8>
+	<td9>Destination</td9>
+	<td10>Detail</td10>
+	<td11>Summary</td11>
+	<td12>Executive&lt;font color=red&gt;[F2]&lt;/Font&gt;</td12>
+	<td13>Retainer&lt;font color=red&gt;[F2]&lt;/Font&gt;</td13>
+		<td14>Ad Type</td14>
+		<td15>Ad Category</td15>
+		<td16>Type</td16>
+    <td17>Date Based on</td17>
+
+  </table>
+	<table1>
+		<td>Xerox</td>
+		<td1>x</td1>
+		<td2>Original</td2>
+		<td3>o</td3>
+		<td4>Fax</td4>
+		<td5>f</td5>
+		</table1>
+	<table2>
+		<td>R.O. Form Agency Wise Detail</td>
+		<td1>R.O. Form Executive/Retainer Wise Detail</td1>
+		<td2>R.O. Form Agency Wise Summary</td2>
+		<td3>R.O. Form Executive/Retainer Wise Summary</td3>
+		<td4>From Date</td4>
+		<td5>To Date</td5>
+		<td6>Run Date</td6>
+		<td7>R.O. Form Executive Wise Detail</td7>
+		<td8>R.O. Form Retainer Wise Detail</td8>
+		<td9>R.O. Form Executive Wise Summary</td9>
+		<td10>R.O. Form Retainer Wise Summary</td10>
+		</table2>
+
+	<table3>
+		<td>Agency</td>
+		<td1>A</td1>
+		<td2>Executive</td2>
+		<td3>E</td3>
+		<td4>Retainer</td4>
+		<td5>R</td5>
+		
+	</table3>
+	
+	<table4>
+		<td>Unpaid</td>
+		<td1>U</td1>
+		<td2>Paid</td2>
+		<td3>P</td3>
+		</table4>
+</dataset>

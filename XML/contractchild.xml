@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<table>
+		<td>Channel&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td>
+		<td1>Location&lt;font color=red&gt;[F2]&lt;/Font&gt;</td1>
+		<td2>Package&lt;font color=red&gt;[F2]&lt;/Font&gt;</td2>
+		<td3>Adv Type&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td3>
+		<td5>Program Name&lt;font color=red&gt;[F2]&lt;/Font&gt;</td5>
+		<td6>BTB&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td6>
+		<td7>Time Band&lt;font color=red&gt;[F2]&lt;/Font&gt;</td7>
+		<td8>Day&lt;font color=red&gt;[F2]&lt;/Font&gt;</td8>
+		<td9>Rate Type&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td9>
+		<td10>FCT/NOI/Words&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+		<td11>Disc Type&lt;font color=red&gt;[F2]&lt;/Font&gt;</td11>
+		<td12>Disc Per.</td12>
+		<td13>Card Rate</td13>
+		<td14>Contract Rate</td14>
+		<td15>Deviation</td15>
+		<td16>Paid/Bonus&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td16>
+		<td17>Premium Type&lt;font color=red&gt;[F2]&lt;/Font&gt;</td17>
+		<td18>Contract Prem.</td18>
+		<td19>Card Prem</td19>
+		<td20>Source&lt;font color=red&gt;[F2]&lt;/Font&gt;</td20>
+		<td21>Category&lt;font color=red&gt;[F2]&lt;/Font&gt;</td21>
+		<td22>Currency&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td22>
+		<td23>Sponsorship From</td23>
+		<td24>Sponsorship To</td24>
+		<td25>Value From</td25>
+		<td26>Value To</td26>
+		<td27>Min Size</td27>
+		<td28>Max Size</td28>
+		<td29>Deal Start&lt;font color=red&gt;[F2]&lt;/Font&gt;</td29>
+		<td30>Program Type&lt;font color=red&gt;[F2]&lt;/Font&gt;</td30>
+		<td31>Rate Code&lt;font color=red&gt;[F2]&lt;/Font&gt;</td31>
+		<td32>Disc On&lt;font color=red&gt;[F2]&lt;/Font&gt;</td32>
+		<td33>Comm. Allow&lt;font color=red&gt;[F2]&lt;/Font&gt;</td33>
+		<td34>Total Value</td34>
+		<td35>Incentive</td35>
+		<td36>Approved&lt;font color=red&gt;[F2]&lt;/Font&gt;</td36>
+		<td37>Remarks&lt;font color=red&gt;*&lt;/Font&gt;</td37>
+		<td38>Section&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td38>
+		<td39>Resource No&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td39>
+		<td40>Local Total Value</td40>
+	</table>
+</database>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+
+<newdata>
+  <table>
+
+    <td>CompCode&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>QBC Code&lt;font color=red&gt;[F2]*&lt;/Font&gt;</td1>
+    <td2>Date&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Balance &lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>COMP_CODE$~$QBCCODE$~$DATETIME$~$BALANCE$~$AGENCY_CREDITAMOUNT$~$INSERT#UPDATE#DELETE#SELECT</td4>
+    <td5>COMP_CODE$~$QBCCODE$~$DATETIME</td5>
+    <td6>COMP_CODE$~$QBCCODE$~$DATETIME$~$AGENCY_CREDITAMOUNT$~$INSERT#UPDATE#DELETE#SELECT</td6>
+    
+
+
+
+  </table>
+
+</newdata>

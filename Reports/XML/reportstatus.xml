@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<reportstatus>
+  <table>
+    <all_ads_day>enable</all_ads_day>
+    <all_ads_agency>enable</all_ads_agency>
+    <all_ads_client>enable</all_ads_client>
+    <status_based>enable</status_based>
+    <deviation>enable</deviation>
+    <page_premium>enable</page_premium>
+    <issuewise_business>enable</issuewise_business>
+
+    <revenue_summary>enable</revenue_summary>
+    <top_agency_client>enable</top_agency_client>
+    <executive_wise>enable</executive_wise>
+    <available_premium>enable</available_premium>
+    <category_wise>enable</category_wise>
+    <status_daily_summarized>enable</status_daily_summarized>
+    <pi_reports>enable</pi_reports>
+    <picontractreport>denable</picontractreport>
+    <executive_retainer_wise>enable</executive_retainer_wise>
+    <schedule_register>enable</schedule_register>
+    <complete_report>enable</complete_report>
+    <net_amt>enable</net_amt>
+    <bill_register>enable</bill_register>
+    <booking_type_wise>enable</booking_type_wise>
+    <rebate_report>enable</rebate_report>
+    <retainer_commission>enable</retainer_commission>
+    <money_report>enable</money_report>
+	  <issueprint_report>enable</issueprint_report>
+	  <offline_report>denable</offline_report>
+	  <ro_report>enable</ro_report>
+	  <vts_report>denable</vts_report>
+	  <booking_report>enable</booking_report>
+	  <issue_edition_report>enable</issue_edition_report>
+	  <category_wise_report>enable</category_wise_report>
+    <Date_wise_report>enable</Date_wise_report>
+    <weekly_report>enable</weekly_report>
+	  <deal_report>enable</deal_report>
+	  <unregistered_client>enable</unregistered_client>
+    <boxregister>enable</boxregister>
+    <rpt_auditor_comment>enable</rpt_auditor_comment>
+    <AttendenceRegister>enable</AttendenceRegister>
+    <ad_rep_roapproval_detail>enable</ad_rep_roapproval_detail>
+    <ctrdatereport>enable</ctrdatereport>
+    <reotype>User List Report</reotype>
+    <case_register>enable</case_register>
+    <eyecater_report>enable</eyecater_report>
+    <CrditDebit>enable</CrditDebit>
+    <qbc_alleditions_rpt>enable</qbc_alleditions_rpt>
+    <rpt_local_combine>enable</rpt_local_combine>
+    <rpt_debit_credit>enable</rpt_debit_credit>
+    <ad_masterreport>enable</ad_masterreport>
+    <all_mast>enable</all_mast>
+    <invoice>enable</invoice>
+    <consolidate_sch_reg>enable</consolidate_sch_reg>
+    <monthly_bill>enable</monthly_bill>
+    <issuebillreport>enable</issuebillreport>
+    <bookingmaterialdata>enable</bookingmaterialdata>
+  </table>
+</reportstatus>

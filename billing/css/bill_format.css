@@ -1,0 +1,82 @@
+﻿
+.newhead
+{
+	font-family:Verdana;
+	font-size:10px ;
+	font-weight:normal ;
+	}
+	
+	.newhead1
+{
+	font-family:Verdana;
+	font-size:10px ;
+	font-weight:bold;
+	}
+	
+	.dataname
+{
+font-size:11px;
+font-family :Verdana;
+}
+	.insertiontxtclass1
+{
+	border-bottom :dashed 1px black;
+	font-weight:bold;
+	border-right:dashed 1px black;
+}
+.upkardnamicclass1
+{
+	
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	height:11px;
+	width:375px;
+}
+
+
+
+.upkardnamicclass2
+{
+	
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	height:11px;
+	width:375px;
+	
+	padding-left:20px;
+	
+}
+
+
+.upkardnamicclass3
+{
+	padding-left:20px;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 11px;
+	color: #000000;
+	height:11px;
+	width:375px;
+	font-weight: bold;
+	padding-top:10px;
+}
+.upkardnamicclass5
+{
+	
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 9px;
+	color: #000000;
+	height:11px;
+	width:375px;
+}
+
+.dataname21
+{
+font-size:9px;
+font-family :Verdana;
+}

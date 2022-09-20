@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>--Select Destination--</td>
+    <td1>--Select Ad Type--</td1>
+    <td2>--Select Ad Category--</td2>
+    <td3>--Select Edition Name--</td3>
+    <td4>--Select Publication Center--</td4>
+    <td5>--Select Publication--</td5>
+    <td6>--Select Pub Center--</td6>
+    <td7>--Select Agency Name--</td7>
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td8>--Select Status--</td8>
+    <t9>--Select Region--</t9>
+    <td10>--Select Product--</td10>
+    <td11>--Select published--</td11>
+    <td12>--Select Client Name--</td12>
+    <td13>--Select Page--</td13>
+    <td14>--Select Language--</td14>
+    <td15>--Select Position--</td15>
+    <td16>--Select Region--</td16>
+    
+    <!--//<td17>Publication</td17>-->
+    <!--<td7>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td7>-->
+    <td17>--Select Category--</td17>
+    <td18>--Select PayType--</td18>
+    <td19>--Select Package--</td19>
+    <td20>--Select Retainer--</td20>
+    <td21>--Select BillStatus--</td21>
+    <td22>--Select SortOrder--</td22>
+    <td23>--Select SortValue--</td23>
+    <td24>--Select Range--</td24>
+
+    <td25>--Select Supplement--</td25>
+    <td26>--Select State--</td26>
+    <td27>--Select District--</td27>
+
+    <td28>--Select Ins.Type--</td28>
+    <td29>--Select Representative--</td29>
+    <td30>--Select Team--</td30>
+    <td31>--Select Revenue Center--</td31>
+  </table>
+
+
+
+</database>
+

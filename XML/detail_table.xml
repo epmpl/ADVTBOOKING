@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<newdatatype>
+  <table>
+    <td>S.NO</td>
+    <td1>UserID</td1>
+    <td2>USERNAME</td2>
+    <td3>FIRST NAME</td3>
+    <td4>LAST NAME</td4>
+    <td5>MODULE ID</td5>
+    <td6>MODULE NAME</td6>
+    <td7>Status</td7>
+    <td8>Status Change Date&lt;font color=red&gt;&lt;/Font&gt;</td8>
+    <td9>User Creation Date&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Last Used Date&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+    
+ </table>
+</newdatatype>

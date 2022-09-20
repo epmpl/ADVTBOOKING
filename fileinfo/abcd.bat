@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\gs\gs9.15\bin\gswin32c" -q -o - -sDEVICE=inkcov "D:\wwwroot\Adbooking\Temppdf\00196572-1-The-CHE-NSE VLR CHENNAI-2_0.pdf" > "D:\wwwroot\Adbooking\fileinfo\17032019\100196572-1-The-CHE-NSE VLR CHENNAI-2_0.txt"

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+	<table0>
+		<td0>Date From&lt;font color=red&gt;*&lt;/Font&gt;</td0>
+		<td1>TO Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+		<td2>Publication&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+		<td3>Edition</td3>
+		<td4>Ad Type</td4>
+		<td5>Uom</td5>
+		<td6>Pay Mode</td6>
+		<td7>Based On&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+		<td8>Destination</td8>
+		<td9>Executive Wise</td9>
+		<td10>Agency Wise</td10>
+		<td11>Uom Wise</td11>
+		<td12>Suppliment Wise</td12>
+		<td13>Bussiness Target Analysis Report</td13>
+		<td14>Run</td14>
+		<td15>Agency  Type&lt;font color=red&gt;[F2]&lt;/Font&gt;</td15>
+		<td16>Clear</td16>
+
+
+	</table0>
+
+	<table1>
+		<td0>--Select Publication Center--</td0>
+		<td1>--Select Pay Mode--</td1>
+		<td2>--Select Uom Name--</td2>
+	</table1>
+
+	<table2>
+		<td0>0</td0>
+		<td1>--Select Based On--</td1>
+		<td2>V</td2>
+		<td3>Value</td3>
+		<td4>M</td4>
+		<td5>Volume</td5>
+	</table2>
+
+
+	<table3>
+		<td1>1</td1>
+		<td2>Onscreen</td2>
+		<td3>2</td3>
+		<td4>Excel</td4>
+		<td5>3</td5>
+		<td6>Pdf</td6>
+	</table3>
+
+</database>

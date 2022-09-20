@@ -1,0 +1,1675 @@
+var z=0;
+var hiddentext;
+var auto="";
+
+var advpostypeds;
+var hiddenmod;
+var glpostypcode;
+var glpostype;
+var glalias;
+var glamount;
+var glapremium;
+//var glpageno;
+//******************************************************************************************************************
+//*************************************Select Messages From XML****************************************************
+
+var browser=navigator.appName;
+
+var xmlDoc=null;
+var xmlObj=null;
+
+var req=null;
+
+function loadXML(xmlFile) 
+{
+    var  httpRequest =null;
+    
+    if(browser!="Microsoft Internet Explorer")
+    { 
+        
+        req = new XMLHttpRequest();
+        //alert(req);
+        req.onreadystatechange = getMessage;
+        req.open("GET",xmlFile, true);
+        req.send('');
+        
+    }
+    else
+    {
+        xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+        xmlDoc.async="false"; 
+        xmlDoc.onreadystatechange=verify; 
+        xmlDoc.load(xmlFile); 
+        xmlObj=xmlDoc.documentElement; 
+        // alert(xmlObj.childNodes(0).childNodes(0).text);
+    }
+
+}
+function getMessage()
+{
+    var response="";
+    if(req.readyState == 4)
+        {
+            if(req.status == 200)
+            {
+                response = req.responseText;
+                //alert(response);
+            }
+        }
+        
+        var parser=new DOMParser();
+        //alert(xmlFile + "  Test"); 
+        //xmlDoc.load(xmlFile);
+        xmlDoc=parser.parseFromString(response,"text/xml"); 
+        xmlObj=xmlDoc.documentElement;
+        //debugger;
+        //alert(xmlObj);  
+        //alert(xmlObj.childNodes[1].childNodes[5].childNodes[0].nodeValue);
+}
+
+function Cleartext()
+{
+   document.getElementById("txtamount").value="";
+}
+
+function verify() 
+{ 
+ // 0 Object is not initialized 
+ // 1 Loading object is loading data 
+ // 2 Loaded object has loaded data 
+ // 3 Data from object can be worked with 
+ // 4 Object completely initialized 
+ if (xmlDoc.readyState != 4) 
+ { 
+   return false; 
+ } 
+}
+
+
+function NewClick2()
+{
+
+//document.getElementById('drppageno').value="0";
+
+             
+             document.getElementById('txtPosTypCode').value="";
+            document.getElementById('txtPosType').value="";
+            document.getElementById('txtAlias').value="";
+            document.getElementById('txtamount').value="";
+            document.getElementById('drpremium').value = "0";
+            document.getElementById('txtvalid').value = "";
+            document.getElementById('txtvalidtill').value = "";
+            document.getElementById('dradvtyp').value = "0";
+
+            if(document.getElementById('hiddenauto').value==1)
+            {
+            document.getElementById('txtPosTypCode').disabled=true;
+            }
+            else
+            {
+            document.getElementById('txtPosTypCode').disabled=false;
+            }
+            document.getElementById('txtPosType').disabled=false;
+            document.getElementById('txtAlias').disabled=false;
+            document.getElementById('txtamount').disabled=false;
+            document.getElementById('drpremium').disabled = false;
+            document.getElementById('txtvalid').disabled = false;
+            document.getElementById('txtvalidtill').disabled = false;
+             document.getElementById('dradvtyp').disabled = false;
+
+            //document.getElementById('drppageno').disabled=false;
+
+
+            chkstatus(FlagStatus);
+
+		            hiddentext="new";
+			            document.getElementById('btnSave').disabled = false;	
+			            document.getElementById('btnNew').disabled = true;	
+			            document.getElementById('btnQuery').disabled=true;
+
+            if(document.getElementById('hiddenauto').value==1)
+            {
+            document.getElementById('txtPosType').focus();
+            }
+            else
+            {
+            document.getElementById('txtPosTypCode').focus();
+            }
+
+
+            //document.getElementById('drpremium').value=document.getElementById('hiddenprem').value;
+            //document.getElementById('drpremium').disabled=true;
+
+           flag=0;
+    setButtonImages();
+            return false;
+}
+
+function CancelClick2(formname)
+{
+
+//document.getElementById('drppageno').value="0";
+document.getElementById('txtPosTypCode').value="";
+document.getElementById('txtPosType').value="";
+document.getElementById('txtAlias').value="";
+document.getElementById('txtamount').value="";
+document.getElementById('drpremium').value = "0";
+document.getElementById('txtvalid').value = "";
+document.getElementById('txtvalidtill').value = "";
+document.getElementById('dradvtyp').value = "0";
+//document.getElementById('btnNew').disabled=false;
+//document.getElementById('btnSave').disabled=true;
+//document.getElementById('btnModify').disabled=true;
+//document.getElementById('btnDelete').disabled=true;
+//document.getElementById('btnQuery').disabled=false;
+//document.getElementById('btnExecute').disabled=true;
+//document.getElementById('btnCancel').disabled=false;
+//document.getElementById('btnfirst').disabled=true;
+//document.getElementById('btnnext').disabled=true;
+//document.getElementById('btnlast').disabled=true;
+//document.getElementById('btnExit').disabled=false;
+//document.getElementById('btnprevious').disabled=true;
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled = true;
+document.getElementById('txtvalid').disabled = true;
+document.getElementById('txtvalidtill').disabled = true;
+
+if(document.getElementById('btnNew').disabled==false)
+    document.getElementById('btnNew').focus();
+
+
+//document.getElementById('drppageno').disabled=true;
+
+givebuttonpermission('AdvPositionTypMst');
+setButtonImages();
+return false;
+}
+
+
+function ModifyClick2()
+{
+flag=1;
+document.getElementById('btnNew').disabled=true;
+document.getElementById('btnSave').disabled=false;
+document.getElementById('btnExit').disabled=true;
+document.getElementById('btnQuery').disabled=true;
+document.getElementById('btnNew').disabled=true;
+document.getElementById('btnModify').disabled=true;
+document.getElementById('btnExecute').disabled=true;
+document.getElementById('btnDelete').disabled=true;
+document.getElementById('btnCancel').disabled=false;
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnprevious').disabled=true;
+document.getElementById('btnnext').disabled=true;
+document.getElementById('btnlast').disabled=true;
+document.getElementById('btnExit').disabled=false;
+
+chkstatus(FlagStatus);
+		hiddentext="modify";
+			document.getElementById('btnSave').disabled = false;
+			document.getElementById('btnQuery').disabled = true;
+
+hiddenmod=document.getElementById('txtPosType').value;
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=false;
+document.getElementById('txtAlias').disabled=false;
+document.getElementById('txtamount').disabled=false;
+document.getElementById('drpremium').value=document.getElementById('hiddenprem').value
+document.getElementById('drpremium').disabled = false;
+document.getElementById('txtvalid').disabled = false;
+document.getElementById('txtvalidtill').disabled = false;
+document.getElementById('dradvtyp').disabled = false;
+document.getElementById('btnSave').focus();
+
+
+//document.getElementById('drppageno').disabled=false;
+
+setButtonImages();
+return false;
+}
+
+var flag="";
+
+
+function SaveClick2()
+{
+//if (document.getElementById('txtEditonCode').value!="1")
+document.getElementById('txtPosType').value=trim(document.getElementById('txtPosType').value);
+  document.getElementById('txtPosTypCode').value=trim(document.getElementById('txtPosTypCode').value);
+  document.getElementById('txtAlias').value=trim(document.getElementById('txtAlias').value);
+  document.getElementById('txtamount').value = trim(document.getElementById('txtamount').value);
+  document.getElementById('txtvalid').value = trim(document.getElementById('txtvalid').value);
+  document.getElementById('txtvalidtill').value = trim(document.getElementById('txtvalidtill').value);
+   
+   
+var compcode=document.getElementById('hiddencompcode').value;
+var userid=document.getElementById('hiddenuserid').value;
+
+var PosTypCode=document.getElementById('txtPosTypCode').value;
+var PosType=document.getElementById('txtPosType').value;
+var Alias=document.getElementById('txtAlias').value;
+var Amount=document.getElementById('txtamount').value;
+var premium=document.getElementById('drpremium').value;
+var adtype=document.getElementById('dradvtyp').value;
+//var pageno=document.getElementById('drppageno').value;
+/*if(PosType.indexOf("'")>=0)
+		  {
+		    PosType.replace("'","''");
+		  }
+		
+		
+		
+		if(Alias.indexOf("'")>=0)
+			{
+			Alias.replace("'","''");
+			}*/
+		
+
+if ((document.getElementById('dradvtyp').value=="")||(document.getElementById('dradvtyp').value=="0"))
+{
+alert("PleaseSelect AdType");
+document.getElementById('dradvtyp').focus();
+return false;
+}
+else
+{
+var adtype=document.getElementById('dradvtyp').value;
+}
+
+
+
+if ((document.getElementById('txtPosTypCode').value=="")&&(document.getElementById('hiddenauto').value!=1))
+{
+alert("Please Enter Position Type Code");
+document.getElementById('txtPosTypCode').focus();
+return false;
+}
+else
+{
+var PosTypCode=document.getElementById('txtPosTypCode').value;
+}
+
+if (document.getElementById('txtPosType').value=="")
+{
+alert("Please Enter Position Type");
+document.getElementById('txtPosType').focus();
+return false;
+}
+else
+{
+var PosType=document.getElementById('txtPosType').value;
+}
+
+if (document.getElementById('txtAlias').value=="")
+{
+alert("Please Enter Alias");
+document.getElementById('txtAlias').focus();
+return false;
+}
+else
+{
+var Alias=document.getElementById('txtAlias').value;
+}
+
+if (document.getElementById('txtvalid').value == "") {
+    alert("Please Enter Valid From");
+    document.getElementById('txtvalid').focus();
+    return false;
+}
+if (document.getElementById('txtvalidtill').value == "") {
+    alert("Please Enter Valid To");
+    document.getElementById('txtvalidtill').focus();
+    return false;
+}
+
+var fdate = document.getElementById('txtvalid').value;
+var tdate = document.getElementById('txtvalidtill').value;
+var dateformat = document.getElementById('hiddendateformat').value;
+
+//This is to chek dat tdate should be less then fdate
+var txtfdate = "";
+var txttdate = "";
+if(dateformat=="dd/mm/yyyy")
+{
+    if (document.getElementById('txtvalid').value != "")
+    {
+        var txt = document.getElementById('txtvalid').value;
+        var txt1=txt.split("/");
+        var dd=txt1[0];
+        var mm=txt1[1];
+        var yy=txt1[2];
+        txtfdate = mm + '/' + dd + '/' + yy;
+    }
+    else
+    {
+        txtfdate = document.getElementById('txtvalid').value;
+    }
+    if (document.getElementById('txtvalidtill').value != "") {
+        var txt = document.getElementById('txtvalidtill').value;
+        var txt1 = txt.split("/");
+        var dd = txt1[0];
+        var mm = txt1[1];
+        var yy = txt1[2];
+        txttdate = mm + '/' + dd + '/' + yy;
+    }
+    else {
+        txttdate = document.getElementById('txtvalidtill').value;
+    }
+
+}
+if(dateformat=="yyyy/mm/dd")
+{
+    if (document.getElementById('txtvalid').value != "")
+    {
+        var txt = document.getElementById('txtvalid').value;
+        var txt1=txt.split("/");
+        var yy=txt1[0];
+        var mm=txt1[1];
+        var dd=txt1[2];
+        txtfdate = mm + '/' + dd + '/' + yy;
+    }
+    else
+    {
+        txtfdate = document.getElementById('txtvalid').value;
+    }
+    if (document.getElementById('txtvalidtill').value != "") {
+        var txt = document.getElementById('txtvalidtill').value;
+        var txt1 = txt.split("/");
+        var yy = txt1[0];
+        var mm = txt1[1];
+        var dd = txt1[2];
+        txttdate = mm + '/' + dd + '/' + yy;
+    }
+    else {
+        txttdate = document.getElementById('txtvalidtill').value;
+    }
+}
+if (dateformat == "mm/dd/yyyy" || dateformat == null || dateformat == "" || dateformat == "undefined")
+{
+    txtfdate = document.getElementById('txtvalid').value;
+    txttdate = document.getElementById('txtvalidtill').value;
+}
+
+txtfdate = new Date(txtfdate);
+txttdate = new Date(txttdate);
+if (txttdate < txtfdate) {
+    alert("Valid To Date Must Be Greater Than Valid From Date");
+    return false;
+}
+/*change ankur*/
+
+var premium=document.getElementById('drpremium').value;
+
+
+
+
+
+
+
+var amount=document.getElementById('txtamount').value;
+
+////////////////////// to check Duplicacy of date and name/////////////////////////////////////
+
+var reschk=AdvPositionTypMst.chkpastypename(PosTypCode, PosType,compcode, userid, fdate, tdate, flag);
+var ds = reschk.value;
+if (ds.Tables[0].Rows.length > 0) {
+    alert("This Ad Position Type has already assigned !! ");
+    //document.getElementById('txtPosType').value = "";
+    document.getElementById('txtPosType').focus();
+    return false;
+}
+
+
+if (flag==1)
+{
+    AdvPositionTypMst.modify(PosTypCode, PosType, Alias, Amount, premium, compcode, userid, fdate, tdate,adtype);
+
+document.getElementById('btnNew').disabled=true;
+document.getElementById('btnSave').disabled=true;
+document.getElementById('btnModify').disabled=false;
+document.getElementById('btnDelete').disabled=false;
+document.getElementById('btnQuery').disabled=false;
+document.getElementById('btnExecute').disabled=true;
+document.getElementById('btnCancel').disabled=false;
+document.getElementById('btnfirst').disabled=false;
+document.getElementById('btnnext').disabled=false;
+document.getElementById('btnlast').disabled=false;
+document.getElementById('btnExit').disabled=false;
+document.getElementById('btnprevious').disabled=false;
+
+updateStatus();
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled = true;
+document.getElementById('txtvalid').disabled = true;
+document.getElementById('txtvalidtill').disabled = true;
+document.getElementById('dradvtyp').disabled = true;
+//document.getElementById('drppageno').disabled=true;
+
+/*document.getElementById('txtPosTypCode').value="";
+document.getElementById('txtPosType').value="";
+document.getElementById('txtAlias').value="";*/
+
+//alert("Update Successfully");
+if(browser!="Microsoft Internet Explorer")
+        {
+            alert(xmlObj.childNodes[1].childNodes[3].childNodes[0].nodeValue);
+        }
+        else
+        {
+            alert(xmlObj.childNodes(0).childNodes(1).text);
+        }
+//alert(xmlObj.childNodes(0).childNodes(1).text);
+
+advpostypeds.Tables[0].Rows[z].Pos_Type_Code=PosTypCode;
+advpostypeds.Tables[0].Rows[z].Pos_Type=PosType;
+advpostypeds.Tables[0].Rows[z].Pos_Type_Alias=Alias;
+advpostypeds.Tables[0].Rows[z].Amount=Amount;
+advpostypeds.Tables[0].Rows[z].premium = premium;
+advpostypeds.Tables[0].Rows[z].FROM_DATE = document.getElementById('txtvalid').value;
+advpostypeds.Tables[0].Rows[z].TO_DATE = document.getElementById('txtvalidtill').value;
+
+ var x=advpostypeds.Tables[0].Rows.length;
+	//y=z;	
+if (z==0)
+{
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnprevious').disabled=true;
+}
+
+if(z==(advpostypeds.Tables[0].Rows.length-1))
+{
+    document.getElementById('btnnext').disabled=true;
+	document.getElementById('btnlast').disabled=true;
+}
+        document.getElementById('btnModify').focus();
+
+//advpostypeds.Tables[0].Rows[z].Page_no=pageno;
+flag=0;
+return false;
+}
+else
+{
+AdvPositionTypMst.chksave(PosTypCode,compcode,userid,callsave);
+
+return false;
+}
+setButtonImages();
+}
+
+function callsave(res)
+{
+var ds= res.value;
+if(ds.Tables[0].Rows.length==0)
+{
+		var compcode=document.getElementById('hiddencompcode').value;
+		var userid=document.getElementById('hiddenuserid').value;
+
+		if ((document.getElementById('txtPosTypCode').value=="")&&(document.getElementById('hiddenauto').value!=1))
+		{
+		alert("Please Enter Position Type Code");
+		document.getElementById('txtPosTypCode').focus();
+		return false;
+		}
+		else
+		{
+		var PosTypCode=document.getElementById('txtPosTypCode').value;
+		}
+
+		if (document.getElementById('txtPosType').value=="")
+		{
+		alert("Please Enter Position Type");
+		document.getElementById('txtPosType').focus();
+		return false;
+		}
+		else
+		{
+		var PosType=document.getElementById('txtPosType').value;
+		}
+
+		if (document.getElementById('txtAlias').value=="")
+		{
+		alert("Please Enter Alias");
+		document.getElementById('txtAlias').focus();
+		return false;
+		}
+		else
+		{
+		var Alias=document.getElementById('txtAlias').value;
+		}
+		
+		if (document.getElementById('drpremium').value=="0")
+		{
+		alert("Please Enter Premium");
+		document.getElementById('drpremium').focus();
+		return false;
+		}
+		else
+		{
+		var Alias=document.getElementById('drpremium').value;
+		}
+
+		if (document.getElementById('txtamount').value == "") {
+		    alert("Please Enter Premium");
+		    document.getElementById('txtamount').focus();
+		    return false;
+		}
+		else {
+		    var Alias = document.getElementById('txtamount').value;
+		}
+		
+		
+		
+		
+		
+		
+/*change*/
+var amount=document.getElementById('txtamount').value;
+
+		
+		var PosTypCode=document.getElementById('txtPosTypCode').value;
+        var PosType=document.getElementById('txtPosType').value;
+        var Alias=document.getElementById('txtAlias').value;
+        var Amount=document.getElementById('txtamount').value;
+        var premium = document.getElementById('drpremium').value;
+        var fdate = document.getElementById('txtvalid').value;
+        var tdate = document.getElementById('txtvalidtill').value;
+        var adtype=document.getElementById('dradvtyp').value;
+        
+        //var pageno=document.getElementById('drppageno').value;
+       if(PosType.indexOf("'")>=0)
+		  {
+		    PosType.replace("'","''");
+		  }
+		
+		
+		
+		if(Alias.indexOf("'")>=0)
+			{
+			Alias.replace("'","''");
+			}
+
+
+
+
+
+
+
+
+			AdvPositionTypMst.insert(PosTypCode, PosType, Alias, Amount, premium, compcode, userid, fdate, tdate,adtype);
+
+document.getElementById('btnNew').disabled=false;
+document.getElementById('btnSave').disabled=true;
+document.getElementById('btnModify').disabled=true;
+document.getElementById('btnDelete').disabled=true;
+document.getElementById('btnQuery').disabled=false;
+document.getElementById('btnExecute').disabled=true;
+document.getElementById('btnCancel').disabled=false;
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnnext').disabled=true;
+document.getElementById('btnlast').disabled=true;
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled = true;
+document.getElementById('txtvalid').disabled = true;
+document.getElementById('txtvalidtill').disabled = true;
+document.getElementById('dradvtyp').disabled = true;
+//document.getElementById('drppageno').disabled=true;
+
+document.getElementById('hiddencompcode').disabled=true;
+document.getElementById('hiddenuserid').disabled=true;
+//alert('browser');
+if(browser!="Microsoft Internet Explorer")
+                {
+                    alert(xmlObj.childNodes[1].childNodes[1].childNodes[0].nodeValue);
+                }
+                else
+                {
+				    alert(xmlObj.childNodes(0).childNodes(0).text);
+				}
+//alert(xmlObj.childNodes(0).childNodes(0).text);
+//alert("Save Successfully");
+document.getElementById('txtvalid').value = "";
+document.getElementById('txtvalidtill').value = "";
+document.getElementById('txtPosTypCode').value="";
+document.getElementById('txtPosType').value="";
+document.getElementById('txtAlias').value="";
+document.getElementById('txtamount').value="";
+document.getElementById('drpremium').value="0";
+document.getElementById('dradvtyp').value="0";
+CancelClick2('AdvPositionTypMst');
+
+return false;
+}
+else
+{
+alert("This Position Type Code Already Exist");
+document.getElementById('txtPosTypCode').value="";
+document.getElementById('txtPosTypCode').focus();
+
+
+return false;
+}
+CancelClick2('AdvPositionTypMst');
+setButtonImages();
+return false;
+}
+
+function QueryClick2()
+{
+document.getElementById('btnNew').disabled=true;
+document.getElementById('btnSave').disabled=true;
+document.getElementById('btnModify').disabled=true;
+document.getElementById('btnDelete').disabled=true;
+document.getElementById('btnQuery').disabled=true;
+document.getElementById('btnExecute').disabled=false;
+document.getElementById('btnCancel').disabled=false;
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnnext').disabled=true;
+document.getElementById('btnlast').disabled=true;
+document.getElementById('btnExit').disabled=false;
+document.getElementById('btnprevious').disabled=true;
+hiddentext="query";
+chkstatus(FlagStatus);
+z=0;
+			document.getElementById('btnQuery').disabled=true;
+			document.getElementById('btnExecute').disabled=false;
+			document.getElementById('btnSave').disabled=true;
+
+var PosTypCode=document.getElementById('txtPosTypCode').value;
+var PosType=document.getElementById('txtPosType').value;
+var Alias=document.getElementById('txtAlias').value;
+var Amount=document.getElementById('txtamount').value;
+var premium=document.getElementById('drpremium').value;
+
+
+document.getElementById('txtPosTypCode').value="";
+document.getElementById('txtPosType').value="";
+document.getElementById('txtAlias').value="";
+document.getElementById('txtamount').value = "";
+document.getElementById('txtvalid').value = "";
+document.getElementById('txtvalidtill').value = "";
+//document.getElementById('drpremium').value=document.getElementById('hiddenprem').value;
+
+document.getElementById('hiddencompcode').disabled=false;
+document.getElementById('hiddenuserid').disabled=false;
+document.getElementById('txtPosTypCode').disabled=false;
+document.getElementById('txtPosType').disabled=false;
+document.getElementById('txtAlias').disabled=false;
+document.getElementById('txtamount').disabled=false;
+document.getElementById('drpremium').disabled = true;
+document.getElementById('txtvalid').disabled = true;
+document.getElementById('txtvalidtill').disabled = true;
+document.getElementById('dradvtyp').disabled = true;
+document.getElementById('btnExecute').focus();
+
+setButtonImages();
+
+return false;
+}
+
+function ExecuteClick2()
+{
+
+var compcode=document.getElementById('hiddencompcode').value;
+var userid=document.getElementById('hiddenuserid').value;
+var PosTypCode=document.getElementById('txtPosTypCode').value;
+var PosType=document.getElementById('txtPosType').value;
+var Alias=document.getElementById('txtAlias').value;
+var Amount=document.getElementById('txtamount').value;
+var premium=document.getElementById('drpremium').value;
+
+ glpostypcode=PosTypCode;
+ glpostype=PosType;
+ glalias=Alias;
+ glamount=Amount;
+ 
+ glpremium=premium;
+
+
+
+AdvPositionTypMst.Selectpage(PosTypCode,PosType,Alias,Amount,premium,compcode,userid,call_Execute);
+
+updateStatus();
+			document.getElementById('btnfirst').disabled=true;
+			document.getElementById('btnprevious').disabled=true;
+    setButtonImages();
+return false;
+}
+
+function call_Execute(response)
+
+{
+
+ advpostypeds=response.value;
+//var ds=response.value;
+
+if (advpostypeds.Tables[0].Rows.length>0)
+{
+document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Code;
+document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[0].Pos_Type;
+document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Alias;
+/*change ankur*/
+if(advpostypeds.Tables[0].Rows[0].Amount=="0" || advpostypeds.Tables[0].Rows[0].Amount==null)
+{
+    document.getElementById('txtamount').value="";
+}
+else
+{
+    document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[0].Amount;
+}
+if (advpostypeds.Tables[0].Rows[0].FROM_DATE == "" || advpostypeds.Tables[0].Rows[0].FROM_DATE == null) {
+    document.getElementById('txtvalid').value = "";
+}
+else {
+    document.getElementById('txtvalid').value = showDate(advpostypeds.Tables[0].Rows[0].FROM_DATE);
+}
+if (advpostypeds.Tables[0].Rows[0].TO_DATE == "" || advpostypeds.Tables[0].Rows[0].TO_DATE == null) {
+    document.getElementById('txtvalidtill').value = "";
+}
+else {
+    document.getElementById('txtvalidtill').value = showDate(advpostypeds.Tables[0].Rows[0].TO_DATE);
+}
+///////////////////////////////////////
+document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[0].premium;
+document.getElementById('hiddencompcode').value=advpostypeds.Tables[0].Rows[0].Comp_Code;
+document.getElementById('hiddenuserid').value=advpostypeds.Tables[0].Rows[0].UserId;
+document.getElementById('dradvtyp').value=advpostypeds.Tables[0].Rows[0].AD_TYPE;
+
+//document.getElementById('drppageno').value=advpostypeds.Tables[0].Rows[0].Page_no;
+
+
+//document.getElementById('btnNew').disabled=true;
+//document.getElementById('btnSave').disabled=true;
+//document.getElementById('btnModify').disabled=false;
+//document.getElementById('btnDelete').disabled=false;
+//document.getElementById('btnQuery').disabled=false;
+//document.getElementById('btnExecute').disabled=true;
+//document.getElementById('btnCancel').disabled=false;
+updateStatus();
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnnext').disabled=false;
+document.getElementById('btnlast').disabled=false;
+document.getElementById('btnExit').disabled=false;
+document.getElementById('btnprevious').disabled=true;
+
+if(document.getElementById('btnModify').disbled==false)
+    document.getElementById('btnModify').focus();
+
+
+if(advpostypeds.Tables[0].Rows.length==1)
+  {
+  
+   document.getElementById('btnfirst').disabled=true;
+   document.getElementById('btnnext').disabled=true;
+   document.getElementById('btnlast').disabled=true;
+   document.getElementById('btnprevious').disabled=true;
+  }
+
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled=true;
+//document.getElementById('drppageno').disabled=true;
+
+
+z=0;
+}
+		else
+		{
+		document.getElementById('txtPosTypCode').disabled=true;
+		document.getElementById('txtPosType').disabled=true;
+		document.getElementById('txtAlias').disabled=true;
+		document.getElementById('txtamount').disabled=true;
+		document.getElementById('drpremium').disabled=true;
+		CancelClick2('AdvPositionTypMst');
+		alert("Your Search Criteria Does Not Produce Any Result.");
+		return false;
+
+		}
+		setButtonImages();
+}
+
+
+
+
+function FirstClick2()
+{
+z=0;
+//var ds=response.value;
+document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Code;
+document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[0].Pos_Type;
+document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Alias;
+//document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[0].Amount;
+/*change ankur*/
+if(advpostypeds.Tables[0].Rows[0].Amount=="0" || advpostypeds.Tables[0].Rows[z].Amount==null)
+{
+    document.getElementById('txtamount').value="";
+}
+else
+{
+    document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[0].Amount;
+}
+
+if (advpostypeds.Tables[0].Rows[0].FROM_DATE == "" || advpostypeds.Tables[0].Rows[0].FROM_DATE == null) {
+    document.getElementById('txtvalid').value = "";
+}
+else {
+    document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[0].FROM_DATE;
+}
+if (advpostypeds.Tables[0].Rows[0].TO_DATE == "" || advpostypeds.Tables[0].Rows[0].TO_DATE == null) {
+    document.getElementById('txtvalidtill').value = "";
+}
+else {
+    document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[0].TO_DATE;
+}
+///////////////////////////////////////
+document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[0].premium;
+document.getElementById('dradvtyp').value=advpostypeds.Tables[0].Rows[0].AD_TYPE;
+document.getElementById('hiddencompcode').value=advpostypeds.Tables[0].Rows[0].Comp_Code;
+document.getElementById('hiddenuserid').value=advpostypeds.Tables[0].Rows[0].UserId;
+updateStatus();
+document.getElementById('btnfirst').disabled=true;
+document.getElementById('btnprevious').disabled=true;
+    
+    setButtonImages();
+	
+		return false;
+}
+
+
+
+
+function NextClick2()
+{
+
+//var ds=response.value;
+var y=advpostypeds.Tables[0].Rows.length;
+z++;
+var k=y-1;
+
+if(z !=-1 && z >= 0)
+	{
+	if(z <= y-1)
+		{
+		document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Code;
+document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[z].Pos_Type;
+document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Alias;
+//document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+
+/*change ankur*/
+if(advpostypeds.Tables[0].Rows[z].Amount=="0" || advpostypeds.Tables[0].Rows[z].Amount==null)
+{
+    document.getElementById('txtamount').value="";
+}
+else
+{
+    document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+}
+
+if (advpostypeds.Tables[0].Rows[z].FROM_DATE == "" || advpostypeds.Tables[0].Rows[z].FROM_DATE == null) {
+    document.getElementById('txtvalid').value = "";
+}
+else {
+    document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[z].FROM_DATE;
+}
+if (advpostypeds.Tables[0].Rows[z].TO_DATE == "" || advpostypeds.Tables[0].Rows[z].TO_DATE == null) {
+    document.getElementById('txtvalidtill').value = "";
+}
+else {
+    document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[z].TO_DATE;
+}
+///////////////////////////////////////
+
+document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[z].premium;
+document.getElementById('dradvtyp').value=advpostypeds.Tables[0].Rows[z].AD_TYPE;
+document.getElementById('hiddencompcode').value=advpostypeds.Tables[0].Rows[z].Comp_Code;
+document.getElementById('hiddenuserid').value=advpostypeds.Tables[0].Rows[z].UserId;
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled=true;
+updateStatus();
+document.getElementById('btnfirst').disabled=false;
+			document.getElementById('btnprevious').disabled=false;
+			
+			if(document.getElementById('btnModify').disabled==false)
+			    document.getElementById('btnModify').focus();
+		}
+		else
+		{
+		document.getElementById('btnnext').disabled=true;
+			document.getElementById('btnlast').disabled=true;
+			document.getElementById('btnfirst').disabled=false;
+			document.getElementById('btnprevious').disabled=false;
+		}	
+	}
+	else
+		{
+		document.getElementById('btnnext').disabled=true;
+			document.getElementById('btnlast').disabled=true;
+			document.getElementById('btnfirst').disabled=false;
+			document.getElementById('btnprevious').disabled=false;
+		}	
+		if(z==y-1)
+		{
+		document.getElementById('btnnext').disabled=true;
+			document.getElementById('btnlast').disabled=true;
+			document.getElementById('btnfirst').disabled=false;
+			document.getElementById('btnprevious').disabled=false;
+		}
+setButtonImages();
+return false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function PreviousClick2()
+{
+	//var ds=response.value;
+var y=advpostypeds.Tables[0].Rows.length;
+//var p=y-1;
+z--;
+
+if(document.getElementById('btnnext').disabled=true)
+{
+document.getElementById('btnnext').disabled=false;
+}
+if(document.getElementById('btnlast').disabled=true)
+{
+document.getElementById('btnlast').disabled=false;
+}
+
+if(z != -1 && z>=0 )
+		{
+if( advpostypeds.Tables[0].Rows.length!=z&&z<y )
+{
+
+
+
+document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Code;
+document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[z].Pos_Type;
+document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Alias;
+//document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+/*change ankur*/
+if(advpostypeds.Tables[0].Rows[z].Amount=="0" || advpostypeds.Tables[0].Rows[z].Amount==null)
+{
+    document.getElementById('txtamount').value="";
+}
+else
+{
+    document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+}
+
+if (advpostypeds.Tables[0].Rows[z].FROM_DATE == "" || advpostypeds.Tables[0].Rows[z].FROM_DATE == null) {
+    document.getElementById('txtvalid').value = "";
+}
+else {
+    document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[z].FROM_DATE;
+}
+if (advpostypeds.Tables[0].Rows[z].TO_DATE == "" || advpostypeds.Tables[0].Rows[z].TO_DATE == null) {
+    document.getElementById('txtvalidtill').value = "";
+}
+else {
+    document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[z].TO_DATE;
+}
+///////////////////////////////////////
+document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[z].premium;
+document.getElementById('dradvtyp').value=advpostypeds.Tables[0].Rows[z].AD_TYPE;
+document.getElementById('hiddencompcode').value=advpostypeds.Tables[0].Rows[z].Comp_Code;
+document.getElementById('hiddenuserid').value=advpostypeds.Tables[0].Rows[z].UserId;
+//updateStatus();
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled=true;
+
+
+        document.getElementById('btnfirst').disabled=false;				
+		document.getElementById('btnnext').disabled=false;				
+		document.getElementById('btnprevious').disabled=false;				
+		document.getElementById('btnlast').disabled=false;			
+		document.getElementById('btnExit').disabled=false;
+
+
+
+}
+else
+		{
+		document.getElementById('btnnext').disabled=false;
+			document.getElementById('btnlast').disabled=false;
+			document.getElementById('btnfirst').disabled=true;
+			document.getElementById('btnprevious').disabled=true;
+		}	
+}
+else
+		{
+		document.getElementById('btnnext').disabled=false;
+			document.getElementById('btnlast').disabled=false;
+			document.getElementById('btnfirst').disabled=true;
+			document.getElementById('btnprevious').disabled=true;
+		}	
+if(z<=0)
+		{
+			
+			document.getElementById('btnfirst').disabled=true;				
+			document.getElementById('btnnext').disabled=false;					
+			document.getElementById('btnprevious').disabled=true;			
+			document.getElementById('btnlast').disabled=false;	
+		}
+		setButtonImages();
+		return false;
+}
+
+
+
+function LastClick2()
+{
+//var advpostypeds=response.value;
+var y=advpostypeds.Tables[0].Rows.length;
+z=y-1;
+
+document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Code;
+document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[z].Pos_Type;
+document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Alias;
+//document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+/*change ankur*/
+if(advpostypeds.Tables[0].Rows[z].Amount=="0" || advpostypeds.Tables[0].Rows[z].Amount==null)
+{
+    document.getElementById('txtamount').value="";
+}
+else
+{
+    document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+}
+
+if (advpostypeds.Tables[0].Rows[z].FROM_DATE == "" || advpostypeds.Tables[0].Rows[z].FROM_DATE == null) {
+    document.getElementById('txtvalid').value = "";
+}
+else {
+    document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[z].FROM_DATE;
+}
+if (advpostypeds.Tables[0].Rows[z].TO_DATE == "" || advpostypeds.Tables[0].Rows[z].TO_DATE == null) {
+    document.getElementById('txtvalidtill').value = "";
+}
+else {
+    document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[z].TO_DATE;
+}
+///////////////////////////////////////
+
+document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[z].premium;
+document.getElementById('dradvtyp').value=advpostypeds.Tables[0].Rows[z].AD_TYPE;
+document.getElementById('hiddencompcode').value=advpostypeds.Tables[0].Rows[z].Comp_Code;
+document.getElementById('hiddenuserid').value=advpostypeds.Tables[0].Rows[z].UserId;
+
+
+document.getElementById('txtPosTypCode').disabled=true;
+document.getElementById('txtPosType').disabled=true;
+document.getElementById('txtAlias').disabled=true;
+document.getElementById('txtamount').disabled=true;
+document.getElementById('drpremium').disabled=true;
+
+
+//updateStatus();
+		document.getElementById('btnnext').disabled=true;
+		document.getElementById('btnlast').disabled=true;
+		document.getElementById('btnfirst').disabled=false;
+		document.getElementById('btnprevious').disabled=false;
+
+setButtonImages();
+return false;
+
+
+}
+
+function ExitClick2()
+{
+if(confirm("Do You Want To Skip This Page"))
+{
+//window.location.href='Default.aspx';
+window.close();
+return false;
+}
+setButtonImages();
+return false;
+}
+
+function DeleteClick2()
+{
+boolReturn = confirm("Are you sure you wish to delete this?");
+if(boolReturn==1)
+{
+		
+var compcode=document.getElementById('hiddencompcode').value;
+var userid=document.getElementById('hiddenuserid').value;
+var PosTypCode=document.getElementById('txtPosTypCode').value;
+var PosType=document.getElementById('txtPosType').value;
+var Alias=document.getElementById('txtAlias').value;
+var Amount=document.getElementById('txtamount').value;
+var premium=document.getElementById('drpremium').value;
+
+
+AdvPositionTypMst.delete1(PosTypCode,compcode,userid);
+if(browser!="Microsoft Internet Explorer")
+        {
+            alert(xmlObj.childNodes[1].childNodes[5].childNodes[0].nodeValue);
+        }
+        else
+        {
+		    alert(xmlObj.childNodes(0).childNodes(2).text);
+		}
+//alert(xmlObj.childNodes(0).childNodes(2).text);
+
+AdvPositionTypMst.Selectpage(glpostypcode,glpostype,glalias,glamount,glpremium,compcode,userid,call_delete);
+//AdvPositionTypMst.Selectfnpl(PosTypCode,PosType,Alias,pageno,compcode,userid,call_delete);
+
+
+				
+				}     
+				else
+				
+				{
+				 return false;
+	
+	setButtonImages();			}
+return false;
+}
+
+function call_delete(res)
+{
+    advpostypeds= res.value;
+	len=advpostypeds.Tables[0].Rows.length;
+	
+	if(advpostypeds.Tables[0].Rows.length==0)
+		{
+		alert("No More Data is here to be deleted");
+		document.getElementById('txtPosTypCode').value="";
+		document.getElementById('txtPosType').value="";
+		document.getElementById('txtAlias').value="";
+		document.getElementById('txtamount').value="";
+		document.getElementById('drpremium').value="0";
+document.getElementById('dradvtyp').value="0";
+		CancelClick2('AdvPositionTypMst');
+		return false;
+	
+	}
+	else if(z==-1 ||z>=len)
+	{
+		    document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Code;
+            document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[0].Pos_Type;
+            document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[0].Pos_Type_Alias;
+            //document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[0].Amount;
+            
+            /*change ankur*/
+            if(advpostypeds.Tables[0].Rows[0].Amount=="0" || advpostypeds.Tables[0].Rows[0].Amount==null )
+            {
+                document.getElementById('txtamount').value="";
+            }
+            else
+            {
+                document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[0].Amount;
+            }
+            if (advpostypeds.Tables[0].Rows[0].FROM_DATE == "" || advpostypeds.Tables[0].Rows[0].FROM_DATE == null) {
+                document.getElementById('txtvalid').value = "";
+            }
+            else {
+                document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[0].FROM_DATE;
+            }
+            if (advpostypeds.Tables[0].Rows[0].TO_DATE == "" || advpostypeds.Tables[0].Rows[0].TO_DATE == null) {
+                document.getElementById('txtvalidtill').value = "";
+            }
+            else {
+                document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[0].TO_DATE;
+            }
+///////////////////////////////////////
+            
+            document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[0].premium;
+	}
+	
+	else
+	{
+		 document.getElementById('txtPosTypCode').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Code;
+        document.getElementById('txtPosType').value=advpostypeds.Tables[0].Rows[z].Pos_Type;
+        document.getElementById('txtAlias').value=advpostypeds.Tables[0].Rows[z].Pos_Type_Alias;
+        //document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+        
+        
+        /*change ankur*/
+        if(advpostypeds.Tables[0].Rows[z].Amount=="0" || advpostypeds.Tables[0].Rows[0].Amount==null)
+        {
+            document.getElementById('txtamount').value="";
+        }
+        else
+        {
+            document.getElementById('txtamount').value=advpostypeds.Tables[0].Rows[z].Amount;
+        }
+
+        if (advpostypeds.Tables[0].Rows[z].FROM_DATE == "" || advpostypeds.Tables[0].Rows[z].FROM_DATE == null) {
+            document.getElementById('txtvalid').value = "";
+        }
+        else {
+            document.getElementById('txtvalid').value = advpostypeds.Tables[0].Rows[z].FROM_DATE;
+        }
+        if (advpostypeds.Tables[0].Rows[z].TO_DATE == "" || advpostypeds.Tables[0].Rows[z].TO_DATE == null) {
+            document.getElementById('txtvalidtill').value = "";
+        }
+        else {
+            document.getElementById('txtvalidtill').value = advpostypeds.Tables[0].Rows[z].TO_DATE;
+        }
+///////////////////////////////////////
+        
+        
+	    document.getElementById('drpremium').value=advpostypeds.Tables[0].Rows[z].premium;
+	}
+	//alert ("Data Deleted");	
+			
+	setButtonImages();			
+	
+	return false;
+
+}
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+
+function autoornot()
+ {
+  if(document.getElementById('hiddenauto').value==1)
+    {
+    changeoccured();
+    return false;
+    }
+else
+    {
+    userdefine();
+
+    return false;
+    }
+return false;
+}
+
+
+// Auto generated
+// This Function is for check that whether this is case for new or modify
+
+function changeoccured()
+{
+if(hiddentext=="new" )
+			{
+	
+            uppercase3();
+           
+           }
+            else
+            {
+            document.getElementById('txtPosType').value=document.getElementById('txtPosType').value.toUpperCase();
+            }
+return false;
+}
+
+
+//auto generated
+//this is used for increment in code
+
+function uppercase3()
+		{
+		document.getElementById('txtPosType').value=trim(document.getElementById('txtPosType').value);
+        lstr=document.getElementById('txtPosType').value;
+            cstr=lstr.substring(0,1);
+            var mstr="";
+            			   if(lstr.indexOf(" ")==1)
+			            {
+			            var leng=lstr.length;
+			           mstr= cstr + lstr.substring(2,leng);
+			            }
+			            else
+			            {
+			             var leng=lstr.length;
+			            mstr=cstr + lstr.substring(1,leng);
+			            }
+	
+        
+		
+		    if(document.getElementById('txtPosType').value!="")
+                {
+                 document.getElementById('txtPosType').value=document.getElementById('txtPosType').value.toUpperCase();
+	            document.getElementById('txtAlias').value=document.getElementById('txtPosType').value;
+		        if( document.getElementById('txtPosType').value.indexOf("'")>=0)
+		        {
+                  document.getElementById('txtPosType').value.replace("'","''");	        
+		        
+		        }
+		          if( document.getElementById('txtAlias').value.indexOf("'")>=0)
+		        {
+                  document.getElementById('txtAlias').value.replace("'","''");	        
+		        
+		        }
+		        
+		        //str=document.getElementById('txtPosType').value;
+		        str=mstr;
+		        AdvPositionTypMst.chkadvposition(str,fillcall);
+		        return false;
+                }
+		     return false;
+		
+}
+
+function fillcall(res)
+		{
+		var ds=res.value;
+		
+		var newstr;
+		
+//		    if(ds.Tables[0].Rows.length!=0)
+//		    {
+//		     document.getElementById('txtAlias').value="";
+//		    alert("This Ad Position Type has already assigned !! ");
+//		    document.getElementById('txtPosType').value="";
+//		    
+//		    document.getElementById('txtPosType').focus();
+//    		
+//		    return false;
+//		    }
+//		
+//		        else
+		        {
+		                    if(ds.Tables[1].Rows.length==0)
+		                        {
+		                        newstr=null;
+		                        }
+		                    else
+		                        {
+		                         newstr=ds.Tables[1].Rows[0].Pos_Type_Code;
+		                        }
+		                    if(newstr !=null )
+		                        {
+		                        var code=newstr;//.substr(2,4);
+		                        code++;
+		                        str=str.toUpperCase();
+		                        document.getElementById('txtPosTypCode').value=str.substr(0,2)+ code;
+		                         }
+		                    else
+		                         {
+		                         str=str.toUpperCase();
+		                          document.getElementById('txtPosTypCode').value=str.substr(0,2)+ "0";
+		                          }
+		     }
+	return false;
+		}
+		
+function userdefine()
+    {
+        if(hiddentext=="new")
+        {
+        var str=document.getElementById('txtPosType').value;
+//        var res1=AdvPositionTypMst.chkadvposition(str);
+//        var ds=res1.value;
+//        if(ds.Tables[0].Rows.length!=0)
+//		    {
+//		     document.getElementById('txtAlias').value="";
+//		    alert("This Ad Position Type has already assigned !! ");
+//		    document.getElementById('txtPosType').value="";
+//		    
+//		    document.getElementById('txtPosType').focus();
+//    		
+//		    return false;
+//		    }
+		    
+        document.getElementById('txtPosTypCode').disabled=false;
+        document.getElementById('txtPosType').value=document.getElementById('txtPosType').value.toUpperCase();
+        document.getElementById('txtAlias').value=document.getElementById('txtPosType').value;
+        auto=document.getElementById('hiddenauto').value;
+         return false;
+        }
+//        else if(hiddentext=="modify" && document.getElementById('txtPosType').value != hiddenmod)
+//        {
+//        var str=document.getElementById('txtPosType').value;
+//        var res1=AdvPositionTypMst.chkadvposition(str);
+//        var ds=res1.value;
+//        if(ds.Tables[0].Rows.length!=0)
+//		    {
+//		    alert("This Ad Position Type has already assigned !! ");
+//		    document.getElementById('txtPosType').value="";
+//		    
+//		    document.getElementById('txtPosType').focus();
+//    		
+//		    return false;
+//		    }
+//        }
+
+return false;
+}
+
+
+/////////////////////
+
+function showDate(datevalue) {
+    var dateformate = document.getElementById("hiddendateformat").value;
+    var datev = new Date(datevalue);
+    var dd = datev.getDate();
+    var mm = datev.getMonth() + 1;
+    var yy = datev.getFullYear();
+
+    if (dd < 10)
+    
+    
+        dd = "0" + dd;
+
+    if (mm < 10)
+        mm = "0" + mm;
+
+    var returndate = "";
+
+    if (dateformate == "dd/mm/yyyy") {
+        returndate = dd + "/" + mm + "/" + yy;
+    }
+    else if (dateformate == "mm/dd/yyyy") {
+        returndate = mm + "/" + dd + "/" + yy;
+    }
+    else if (dateformate == "yyyy/mm/dd") {
+        returndate = yy + "/" + mm + "/" + dd;
+    }
+    return returndate;
+}
+
+
+//////////////////////////////////////////////////////////////////
+	function eventcalling(event)
+{
+
+if(event.keyCode==97) 
+    event.keyCode= 65;
+if(event.keyCode==98) 
+    event.keyCode= 66;
+if(event.keyCode==99) 
+    event.keyCode= 67;
+if(event.keyCode==100) 
+    event.keyCode= 68;
+if(event.keyCode==101) 
+    event.keyCode= 69;
+if(event.keyCode==102) 
+    event.keyCode= 70;
+if(event.keyCode==103) 
+    event.keyCode= 71;
+if(event.keyCode==104) 
+    event.keyCode= 72;
+if(event.keyCode==105) 
+    event.keyCode= 73;
+if(event.keyCode==106) 
+    event.keyCode= 74;
+if(event.keyCode==107) 
+    event.keyCode= 75;
+if(event.keyCode==108) 
+    event.keyCode= 76;
+if(event.keyCode==109) 
+    event.keyCode= 77;
+if(event.keyCode==110) 
+    event.keyCode= 78;
+if(event.keyCode==111) 
+    event.keyCode= 79;
+if(event.keyCode==112) 
+    event.keyCode= 80;
+if(event.keyCode==113) 
+    event.keyCode= 81;
+if(event.keyCode==114) 
+    event.keyCode= 82;
+if(event.keyCode==115) 
+    event.keyCode= 83;
+if(event.keyCode==116) 
+    event.keyCode= 84;
+if(event.keyCode==117) 
+    event.keyCode= 85;
+if(event.keyCode==118) 
+    event.keyCode= 86;
+if(event.keyCode==119) 
+    event.keyCode= 87;
+if(event.keyCode==120) 
+    event.keyCode= 88;
+if(event.keyCode==121) 
+    event.keyCode= 89;
+if(event.keyCode==122) 
+    event.keyCode= 90;
+
+}
+
+function checkamunt()
+{
+var num=document.getElementById('txtamount').value;
+var tomatch=/^\d*(\.\d{1,2})?$/;
+if (tomatch.test(num))
+{
+return true;
+}
+else
+{
+alert("Input error");
+document.getElementById('txtamount').focus();
+document.getElementById('txtamount').value="";
+return false; 
+}
+}
+
+function checkamount()
+{
+var sau=parseFloat(document.getElementById('txtamount').value);
+document.getElementById('txtamount').value=sau;
+if(document.getElementById('drpremium').value=="per")
+{
+    if(sau>500 )
+    {
+    alert("Amount Percentage should not be greater than 500");
+    document.getElementById('txtamount').value="";
+    document.getElementById('txtamount').focus();
+    return false;
+    }
+
+}
+
+
+var num=document.getElementById('txtamount').value;
+var tomatch=/^\d*(\.\d{1,2})?$/;
+if (tomatch.test(num))
+{
+return true;
+}
+else
+{
+document.getElementById('txtamount').value="";
+alert("Input error");
+document.getElementById('txtamount').value="";
+document.getElementById('txtamount').focus();
+
+return false; 
+
+}
+}
+
+function setButtonImages()
+{
+    if(document.getElementById('btnNew').disabled==true)
+        document.getElementById('btnNew').src="btimages/new-off.jpg";
+    else
+        document.getElementById('btnNew').src="btimages/new.jpg";
+        
+    if(document.getElementById('btnSave').disabled==true)
+        document.getElementById('btnSave').src="btimages/save-off.jpg";
+    else
+        document.getElementById('btnSave').src="btimages/save.jpg";
+        
+    if(document.getElementById('btnModify').disabled==true)
+        document.getElementById('btnModify').src="btimages/modify-off.jpg";
+    else
+        document.getElementById('btnModify').src="btimages/modify.jpg";
+        
+    if(document.getElementById('btnQuery').disabled==true)
+        document.getElementById('btnQuery').src="btimages/query-off.jpg";
+    else
+        document.getElementById('btnQuery').src="btimages/query.jpg";
+    
+    if(document.getElementById('btnExecute').disabled==true)
+        document.getElementById('btnExecute').src="btimages/execute-off.jpg";
+    else
+        document.getElementById('btnExecute').src="btimages/execute.jpg";
+        
+    if(document.getElementById('btnCancel').disabled==true)
+        document.getElementById('btnCancel').src="btimages/clear-off.jpg";
+    else
+        document.getElementById('btnCancel').src="btimages/clear.jpg";
+        
+    if(document.getElementById('btnfirst').disabled==true)
+        document.getElementById('btnfirst').src="btimages/first-off.jpg";
+    else
+        document.getElementById('btnfirst').src="btimages/first.jpg";
+        
+    if(document.getElementById('btnprevious').disabled==true)
+        document.getElementById('btnprevious').src="btimages/previous-off.jpg";
+    else
+        document.getElementById('btnprevious').src="btimages/previous.jpg";
+        
+    if(document.getElementById('btnnext').disabled==true)
+        document.getElementById('btnnext').src="btimages/next-off.jpg";
+    else
+        document.getElementById('btnnext').src="btimages/next.jpg";
+        
+    if(document.getElementById('btnlast').disabled==true)
+        document.getElementById('btnlast').src="btimages/last-off.jpg";
+    else
+        document.getElementById('btnlast').src="btimages/last.jpg";   
+        
+    if(document.getElementById('btnDelete').disabled==true)
+        document.getElementById('btnDelete').src="btimages/delete-off.jpg";
+    else
+        document.getElementById('btnDelete').src="btimages/delete.jpg";
+        
+    if(document.getElementById('btnExit').disabled==true)
+        document.getElementById('btnExit').src="btimages/exit-off.jpg";
+    else
+        document.getElementById('btnExit').src="btimages/exit.jpg";
+}

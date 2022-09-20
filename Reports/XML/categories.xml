@@ -1,0 +1,42 @@
+﻿<newdataset>
+  <table>
+    <td>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Printing Center&lt;font color=red&gt;*&lt;/font&gt;</td2>
+    <td3>Branch</td3>
+    <td4>Report Type</td4>
+    <td5>Ad Type</td5>
+    <td6>Ad category</td6>
+    <td7>Ad Sub category</td7>
+    <td8>Ad Sub Sub category</td8>
+    <td9>Agency Type</td9>
+    <td10>Agency</td10>
+    <td11>Client</td11>
+    <td12>Executive</td12>
+    <td13>Retainer</td13>
+    <td14>Uom</td14>
+    <td15>Destination</td15>
+    <td16>Based ON</td16>
+
+  </table>
+  <table1>
+    <td>Sno.</td>
+    <td1>City Name</td1>
+    <td2>Agency Name</td2>
+    <td3>Excutive Name</td3>    
+    <td4>Client Name</td4>
+    <td5>Run</td5>
+    <td6>Retrainer Name</td6>
+    <td7>Category</td7>
+    <td8>Sub Category</td8>
+    <td9>Agencywise Monthwise Billing</td9>
+    <td10>Excutivewise Monthwise Billing</td10>
+    <td11>Clientwise Monthwise Billing</td11>
+    <td12>Retrainerwise Monthwise Billing</td12>
+    <td13>Categorywise Monthwise Billing</td13>
+
+  </table1>
+</newdataset>
+
+
+

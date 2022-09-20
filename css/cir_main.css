@@ -1,0 +1,993 @@
+﻿.LabelText   
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:right;
+	height:11px;
+	 font-size:small ;
+}
+
+.LabelText1   
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:left;
+	height:11px;
+	 font-size:small ;
+}
+
+.Textbox18
+{
+font-family:Verdana ;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+text-align:center;
+}
+
+.LblText  
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:center;
+	height:11px;
+	font-size:12px;
+}
+
+.LblText1 
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:left;
+	height:11px;
+	font-size:12px;
+}
+
+
+.LblText2 
+{ 
+background-color:#7daae3;
+cursor:hand;
+font-family:Trebuchet MS;
+color:Black;
+height:11px;
+font-size:12px;
+}
+
+.LblText21 
+{ 
+background-color:#7daae3;
+
+}
+
+.LblText3
+{
+font-family:Verdana ;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+text-align:center;
+cursor:hand;
+}
+
+.LblText4
+{
+font-family:4CAadita ;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+text-align:center;
+
+}
+
+.LblText5
+{
+font-family:Verdana ;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+text-align:center;
+
+}
+
+
+
+.LblText_nw  
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:left;
+	height:11px;
+	font-size:small;
+}
+.btnlink_selected
+{
+	font-family: verdana;
+	font-size:small;
+	color: yellow;
+	text-decoration:underline;
+	position:relative;
+    right:20px;
+    left:0px;
+    text-align:justify;
+    height:10px;
+    cursor:text;
+}
+.btext_con_grid
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50px;
+}
+
+.btext_other
+{
+
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: 4CAadita;
+	font-size: 15px;
+	color: #000000;
+	height:13px;
+	width:180px;
+}
+
+.rpttextboxlarge
+{
+	  border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:200px;
+}
+
+
+.dropdown1   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:275px;
+}
+
+
+
+
+
+
+.dropdown  
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:127px;
+	z-index:0px;
+}
+
+
+
+
+
+
+
+.dropdownav1   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:245px;
+	z-index:0px;
+}
+
+.dropdownav2   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:205px;
+	z-index:0px;
+}
+
+
+.Textfield
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:134px;
+	text-transform:uppercase;
+		
+	
+}
+
+.Textfield1
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:268px;
+	text-transform:uppercase;
+	
+}
+
+
+
+.OtherTextfield  
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family:4CAadita;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:138px;
+	/*text-transform:uppercase; */
+	
+}
+
+.TextfieldSec  
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:135px;
+	
+    
+}
+
+
+
+
+
+.hdntextfield  
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50px;
+ 
+}
+
+.Popupbar
+{
+	POSITION:relative;
+	WIDTH:692px;
+}
+
+.dtGrid
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border: 1px solid #999999;
+	border-collapse: collapse;
+}
+
+.Grid
+{
+	/*border: 1px solid #929292;
+*/
+	background-color: #7daae3;
+	font-family: verdana;
+	font-size: 12px;
+	color: #000000;
+	height:13px;
+	width:100px;
+
+}
+
+.Textfieldlarge
+{
+ border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:458px;	
+text-transform:uppercase;
+}
+
+.Grid
+{
+	/*border: 1px solid #929292;
+*/
+	background-color: #7daae3;
+	font-family: verdana;
+	font-size: 12px;
+	color: #000000;
+	height:13px;
+	width:100px;
+
+}
+.shrey
+{
+	 padding-right:50px;	
+}
+.dynamicgrid
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:138px;
+	text-align:right
+}
+
+.dynamicgrid_1
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:138px;
+	text-align:left;
+}
+
+
+.tabsHeader
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:center;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+
+.tabsHeadersr
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:center;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+}
+
+.tabsHeader1
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:left;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+.tabsHeader13
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:right;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+
+
+
+.gridview
+{
+font-family:Trebuchet MS;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+
+}
+.gridview1
+{
+font-family:Trebuchet MS;
+color:Black;
+font-size:11px;
+text-align:left;
+
+}
+
+.gridview2
+{
+font-family:Trebuchet MS;
+color:Black;
+font-size:11px;
+text-align:right;
+
+}
+.gridviewother
+{
+font-family: 4CAadita;
+color:Black;
+font-size:11px;
+vertical-align:middle;
+
+}
+
+
+.paggingColor
+{
+padding-left:7px;
+font-weight:bold;
+color:Gray;
+font-size:16px;
+cursor:hand;
+}
+
+.paggingColorChange
+{
+padding-left:7px;
+font-weight:bold;
+font-size:16px;
+color:Red;
+cursor:hand;
+}
+
+.rpttextbox
+{
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:137px;
+}
+
+.rpttextboxav1
+{
+	  border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:240px;
+}
+.rpttextboxav2
+{
+	  border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:200px;
+}
+
+
+.page_prebtn_withouthand{
+font-size:16px;
+font-weight:bold;
+color:Gray;
+text-align:right;
+padding-left:490px;
+display:none;
+}
+
+.page_nextbtn_withouthand{
+font-size:16px;
+font-weight:bold;
+color:Gray;
+text-align:right;
+display:none;
+}
+
+.Form_name   
+{ 
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:left;
+	height:11px;
+	font-size:x-small;
+	
+}
+
+.dropdownneha
+	{
+	
+	 border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 12px;
+	color: #000000;
+	/*height:200px;*/
+	width:144px;
+	display:none;
+		
+}
+.btext1
+{
+	text-transform:uppercase;
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:135px;
+	
+}
+
+
+.file
+{
+	text-transform:uppercase;
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:11px;
+	width:200px;
+	
+}
+
+.rahul1
+{
+	
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:140px;
+	
+}
+
+
+
+
+.text
+{
+	font:12px;
+	font-family:Arial;
+	background-color:#7daae3;
+}
+
+.text1
+{
+	font:12px;
+	font-family:Arial;
+	text-align:center;
+}
+
+.header_text
+{
+		
+	font-family: Arial;
+	font-size: 11px;
+	/*color:#336699;*/
+	widows:50px;
+	color:black;
+    text-align:center;
+}
+
+.Form_name123   
+{ 
+	
+	color:Black;
+	text-align:left;
+	height:5px;
+	font-size:x-small;
+	
+}
+
+
+
+.tabsHeader_suplement
+{
+font-family:Trebuchet MS;
+color:Black;
+
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+.tabsHeader12
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:right;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+
+
+.Grid_report
+{
+	font-family: Arial;	
+	font-size: 10px;
+	color:black;
+	text-decoration:none;
+	
+	margin-left: 0px;
+	text-align:center;
+   border-color  :#F8F8FF;
+}
+
+.Textfieldnew
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:180px;
+	text-transform:uppercase;
+	
+}
+
+	
+.text_c
+{
+	
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: arial;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:180px;
+	text-align:left;
+}
+
+
+.dropdown123   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:185px;
+	z-index:0px;
+}
+
+
+.lableprocess
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:220px;
+	text-transform:uppercase;
+	
+}
+
+
+.lableprocesstext
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:80px;
+	text-transform:uppercase;
+	
+}
+.lableprocesstext1
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:45px;
+	text-transform:uppercase;
+	
+}
+
+
+.rpttextbox123
+{
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:35px;
+}
+.rpttextboxnew
+{
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50px;
+}
+
+.dropdownlable   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:225px;
+	z-index:0px;
+}
+.dropdownlable123   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:264px;
+	z-index:0px;
+}
+
+.Textfieldnew123
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:260px;
+	text-transform:uppercase;
+	
+}
+
+.Textfieldextralable
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:120px;
+	text-transform:uppercase;
+	
+}
+
+.Textfieldextralable1
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50px;
+	text-transform:uppercase;
+	
+}
+
+.dropdownlbl   
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:17px;
+	width:134px;
+	z-index:0px;
+	
+}
+.Textfieldlblgen
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:130px;
+	text-transform:uppercase;
+		
+	
+}
+
+.Textfieldnew123new
+{
+	
+    border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:115px;
+	text-transform:uppercase;
+	
+}
+
+.tabsHeader1
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:left;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+	margin-bottom: 0px;
+}
+.tabsHeader13
+{
+font-family:Trebuchet MS;
+color:Black;
+text-align:right;
+height:11px;
+/*font-size:10px;*/
+font-size:small;
+cursor:hand;
+/*border:1px solid red;*/
+}
+
+
+.btext_agency
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	text-align: left;
+	height:13px;
+	width:180px;
+
+
+}
+
+
+
+.lable_font
+{
+	
+	font-family:Trebuchet MS;
+	color:Black;
+	text-align:left;
+	height:11px;
+	font-size:small ;
+}
+
+
+
+.btext_other
+{
+
+	
+	
+	font-family: 4CAadita;
+	font-size: 15px;
+
+	color: #000000;
+	height:13px;
+	width:180px;
+
+
+}
+
+
+.btextbox_n
+{
+	/*font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-family: verdana;
+    width:438px;*/
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	text-align: left;
+	height:13px;
+	width:180px;
+
+
+}
+
+.dropdown_ln_new
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	text-align: left;
+	height:13px;
+	width:180px;
+}
+
+
+.dropdown_bank
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: verdana;
+	font-size: 10px;
+	color: #000000;
+	text-align: left;
+	height:13px;
+	width:180px;
+}
+
+.row1
+{
+	border: 1px solid #929292;
+	background-color: #ffffff;
+	font-family: arial;
+	font-size: 10px;
+	color: #000000;
+	height:13px;
+	width:50px;
+	text-align:left;
+		}

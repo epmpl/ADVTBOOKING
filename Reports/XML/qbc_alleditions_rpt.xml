@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Comp Name</td>
+    <td1>Comp Code</td1>
+    <td2>Unit Name&lt;font color=red&gt;f[2]&lt;/Font&gt;</td2>
+    <td3>Unit Code</td3>
+    <td4>Branch Name&lt;font color=red&gt;f[2]&lt;/Font&gt;</td4>
+    <td5>Branch Code</td5>
+    <td6>From Date&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>To Date&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>Date Basedon&lt;font color=red&gt;*&lt;/Font&gt;</td8>
+    <td9>Year Basedon&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    <td10>Destination&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+    <td11>Run</td11>
+    <td12>Clear</td12>
+    <td13>Exit</td13>
+    <td14>Yearly/Monthly</td14>
+
+
+  </table>
+  <table1>
+    <td1>1</td1>
+    <td2>Onscreen</td2>
+    <td3>2</td3>
+    <td4>Excel</td4>
+    
+  </table1>
+  
+  <table2>
+    <td1>F</td1>
+    <td2>Financial year</td2>
+    <td3>C</td3>
+    <td4>Calendar year</td4>
+
+  </table2>
+  
+  <table3>
+    <td1>B</td1>
+    <td2>Bill Date</td2>
+    <td3>R</td3>
+    <td4>Booking Date</td4>
+
+  </table3>
+
+  <table4>
+    <td1>Y</td1>
+    <td2>Year</td2>
+    <td3>M</td3>
+    <td4>Month</td4>
+  </table4>
+  
+</database>

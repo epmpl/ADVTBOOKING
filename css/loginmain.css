@@ -1,0 +1,179 @@
+﻿
+@media  (min-width:321px) and (max-width:600px){
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;  width:100%;
+}
+
+.key
+{
+ valign:top;
+ padding:13px;
+ padding-bottom:35px;
+ padding-top:16px;
+ background-image:url(images/mid_black_corner.jpg);
+ background-repeat:repeat;
+ float:left;
+
+ margin-top:-100px;
+ 
+ 
+}
+.lcorner
+{
+
+width:12px;
+background-repeat:no-repeat;
+background-image:none  !important;
+}
+.rcorner
+{
+width:12px;
+background-repeat:no-repeat;
+background-image:none !important;
+}
+
+.ldetail
+{
+	margin-left:70px;
+	margin-top:20px;
+valign:top;
+padding:13px;
+padding-bottom:35px;
+padding-top:16px;
+ float:left;
+background-repeat:repeat;
+height:286px;
+}
+.designlogo
+{
+text-align:right ;
+padding-right:00px;
+}
+
+	.n_topbar div.n_top
+	{
+		float:right;
+		height: 68px;
+		margin: -73px 53px auto;
+		padding: 0;
+		width: 736px;
+	}
+
+	.n_topbar div.n_t_inside2
+	{
+		
+    font-family: Verdana;
+    font-size: 11px;
+    height: 20px;
+    margin: 35px 120px 0 -70px;
+    padding: 0;
+    width: 700px;
+	}
+
+	.n_t_inside2 ul
+	{
+		 margin: 0 auto;
+		padding: 0;
+		width: 595px;
+	}
+
+	.n_top div.n_t_inside
+	{
+		margin-left:-137px;
+		text-align:left;
+	}
+	.TextField
+	{
+		font-size:11px !important;
+	}
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+@media  (min-width:10px) and (max-width:320px){
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;margin: 0;	padding: 0;	color: #000; 
+	 width:100%;
+}
+.TextField {
+    font-size: 11px !important;
+}
+	.key
+	{
+		valign: top;
+		padding: 13px;
+		padding-bottom: 35px;
+		padding-top: 16px;
+		margin-top: -100px;
+		background-repeat: repeat;
+		float: left;
+		width: 90%;
+	} 
+ .imgkey
+{
+	width: 100%;
+}
+
+.lcorner
+{
+
+width:12px;
+background-repeat:no-repeat;
+background-image:none !important;
+}
+.rcorner
+{
+width:12px;
+background-repeat:no-repeat;
+background-image:none !important;
+}
+.ldetail
+{
+	margin-top:20px;
+	valign:top;
+	height:285px;
+padding-bottom:35px;
+padding-top:16px;
+ float:left;
+background-repeat:repeat;
+}
+.designlogo
+{
+text-align:right ;
+padding-right:00px;
+}
+.lsection
+{
+	cellpadding:0px;
+	cellspacing:0px;
+	padding-top:70px;
+	width:270px;
+
+}
+
+.louter
+{
+ cellpadding:0px;
+ cellspacing:0px;
+ height:302px;
+ width:270px;
+ background-repeat:no-repeat;
+
+}
+}
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Team Code&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Team Name&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Executive Name&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Branch&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>City&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>State&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>District&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>Status&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>Address</td8>
+    <td9>Street</td9>
+    <td10>Country&lt;font color=red&gt;*&lt;/Font&gt;</td10>
+    <td11>Pin Code</td11>
+    <td12>Phone No.</td12>
+    <td13>Reporting To&lt;font color=red&gt;*&lt;/Font&gt;</td13>
+    <td14>Designation&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>--Select Executive--</td15>
+    
+
+
+  </table>
+
+
+
+</database>

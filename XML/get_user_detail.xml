@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<database>
+  <table>
+    <td>Module&lt;font color=red&gt;F2&lt;/Font&gt;</td>
+    <td1>Status&lt;font color=red&gt;&lt;/Font&gt;</td1>
+    <td2>Userid&lt;font color=red&gt;F2&lt;/Font&gt;</td2>
+    <td3>Creation Date From&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Creation To Date&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Last Used Date From&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Last Used To Date&lt;font color=red&gt;*&lt;/Font&gt;</td6>
+    <td7>Summary</td7>
+    <td8>Get User Detail</td8>
+    <td9>clear</td9>
+    <td10>Exit</td10>
+    <td11>Destination</td11>
+
+  </table>
+
+  <table1>
+    <td>Active</td>
+    <td1>A</td1>
+    <td2>Inactive</td2>
+    <td3>I</td3>
+  </table1>
+
+  <table2>
+    <td>Onscreen</td>
+    <td1>ons</td1>
+    <td2>Excel</td2>
+    <td3>exc</td3>
+    <td4>PDF</td4>
+    <td5>pdf</td5>
+
+  </table2>
+</database>

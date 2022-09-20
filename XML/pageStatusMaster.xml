@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<NewDataSet>
+  <Table>
+    <td>Publication&lt;font color=red&gt;*&lt;/Font&gt;</td>
+    <td1>Printing Center&lt;font color=red&gt;*&lt;/Font&gt;</td1>
+    <td2>Edition&lt;font color=red&gt;*&lt;/Font&gt;</td2>
+    <td3>Supplement&lt;font color=red&gt;*&lt;/Font&gt;</td3>
+    <td4>Page No.&lt;font color=red&gt;*&lt;/Font&gt;</td4>
+    <td5>Page Heading&lt;font color=red&gt;*&lt;/Font&gt;</td5>
+    <td6>Allowed Ad Volume</td6>
+    <td7>Page Color&lt;font color=red&gt;*&lt;/Font&gt;</td7>
+    <td8>No. of Pages&lt;font color=red&gt;*&lt;/Font&gt;</td8>
+    <td9>Ad Filling&lt;font color=red&gt;*&lt;/Font&gt;</td9>
+    
+    <td10>Category</td10>
+    <td11>Sub Category</td11>
+    <td12>Premium Required</td12>
+    <td13>Max Ad Allowed</td13>
+
+    <td14>Page Height&lt;font color=red&gt;*&lt;/Font&gt;</td14>
+    <td15>Page Width&lt;font color=red&gt;*&lt;/Font&gt;</td15>
+    <td16>Starting Row&lt;font color=red&gt;*&lt;/Font&gt;</td16>
+    <td17>Starting Col&lt;font color=red&gt;*&lt;/Font&gt;</td17>
+    <td18>Share Page Status</td18>
+    <td19>Share Page No.</td19>
+    <td20>Pagination Code</td20>
+
+    <td21>Validate Date From&lt;font color=red&gt;*&lt;/Font&gt;</td21>
+    <td22>Validate Date To&lt;font color=red&gt;*&lt;/Font&gt;</td22>
+    <td23>House Ad Required</td23>
+    <td24>Max Ad Size</td24>    
+  </Table>
+
+  
+    <Table1>
+      <td>S.No</td>
+      <td1>CIOID</td1>
+      <td2>AdType</td2>
+      <td3>AdCat</td3>
+      <td4>Color</td4>
+      <td5>Agency</td5>
+      <td6>Client</td6>      
+      <td7>Package</td7>
+      <td8>Height</td8>
+      <td9>Width</td9>
+      <td10>Page</td10>
+      
+      
+      <!--td53>_____________________________________________________________________________________________________________________________________________________</td53>-->
+      
+  </Table1>
+
+  <table2>
+    <td>Select House Ad Required</td>
+    <td1>YES</td1>
+    <td2>NO</td2>
+  </table2>
+    
+
+</NewDataSet>

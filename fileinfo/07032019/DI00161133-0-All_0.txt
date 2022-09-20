@@ -1,0 +1,652 @@
+Image: D:\wwwroot\Adbooking\Temppdf\DI00161133-0-All_0.tif
+  Format: TIFF (Tagged Image File Format)
+  Class: PseudoClass
+  Geometry: 762x984+0+0
+  Type: Bilevel
+  Endianess: MSB
+  Colorspace: Gray
+  Channel depth:
+    Gray: 1-bit
+  Channel statistics:
+    Gray:
+      Min: 0 (0)
+      Max: 1 (1)
+      Mean: 0.747795 (0.747795)
+      Standard deviation: 0.434278 (0.434278)
+  Colors: 2
+  Histogram:
+    189105: #000000 black
+    560703: #FFFFFF white
+  Colormap: 2
+         0: #FFFFFF white
+         1: #000000 black
+  Rendering intent: Undefined
+  Resolution: 500x500
+  Units: PixelsPerInch
+  Filesize: 107.938kb
+  Interlace: None
+  Background color: white
+  Border color: rgb(223,223,223)
+  Matte color: grey74
+  Transparent color: black
+  Page geometry: 762x984+0+0
+  Dispose: Undefined
+  Iterations: 0
+  Compression: None
+  Orientation: TopLeft
+  Signature: bbf649efba061791267b3f1dd4b96079e2614c09d2479253381e3077b620cc3a
+  Software: Adobe Photoshop 7.0
+  Timestamp: 2019:03:06 20:14:18
+  Profile-8bim: 11084 bytes
+0x00000000: 42494d04 25000000 00001000 00000000 00000000  8BIM-%--------------
+0x00000190: 00000000 00000038 42494d03 ed000000 00001001  --------8BIM--------
+0x00000320: f4000000 01000101 f4000000 01000138 42494d04  ----------------8BIM
+0x000004b0: 26000000 00000e00 00000000 00000000 003f8000  -&----------------?-
+0x00000640: 00384249 4d040d00 00000000 04000000 1e384249  --8BIM------------8B
+0x000007d0: 4d041900 00000000 04000000 1e384249 4d03f300  IM------------8BIM--
+0x00000960: 00000000 09000000 00000000 00010038 42494d04  ----------------8BIM
+0x00000af0: 0a000000 00000100 00384249 4d271000 00000000  ----------8BIM'-----
+0x00000c80: 0a000100 00000000 00000138 42494d04 08000000  ------------8BIM----
+0x00000e10: 00001000 00000100 00024000 00024000 00000038  -----------@---@----
+0x00000fa0: 42494d04 1e000000 00000400 00000038 42494d04  8BIM------------8BIM
+0x00001130: 1a000000 00034900 00000600 00000000 00000000  -------I------------
+0x000012c0: 0003d800 0002fa00 00000a00 30003700 2d004c00  -------------0-7---L
+0x00001450: 4f005300 54003100 58003500 00000100 00000000  -O-S-T-1-X-5--------
+0x000015e0: 00000000 00000000 00000000 00000100 00000000  --------------------
+0x00001770: 00000000 0002fa00 0003d800 00000000 00000000  --------------------
+0x00001900: 00000000 00000001 00000000 00000000 00000000  --------------------
+0x00001a90: 00000000 00000010 00000001 00000000 00006e75  -------------------n
+0x00001c20: 6c6c0000 00020000 0006626f 756e6473 4f626a63  ull--------boundsObj
+0x00001db0: 00000001 00000000 00005263 74310000 00040000  c----------Rct1-----
+0x00001f40: 0000546f 70206c6f 6e670000 00000000 00004c65  ---Top long--------L
+0x000020d0: 66746c6f 6e670000 00000000 00004274 6f6d6c6f  eftlong--------Btoml
+0x00002260: 6e670000 03d80000 00005267 68746c6f 6e670000  ong--------Rghtlong-
+0x000023f0: 02fa0000 0006736c 69636573 566c4c73 00000001  -------slicesVlLs---
+0x00002580: 4f626a63 00000001 00000000 0005736c 69636500  -Objc----------slice
+0x00002710: 00001200 00000773 6c696365 49446c6f 6e670000  --------sliceIDlong-
+0x000028a0: 00000000 00076772 6f757049 446c6f6e 67000000  -------groupIDlong--
+0x00002a30: 00000000 066f7269 67696e65 6e756d00 00000c45  ------originenum----
+0x00002bc0: 536c6963 654f7269 67696e00 00000d61 75746f47  ESliceOrigin----auto
+0x00002d50: 656e6572 61746564 00000000 54797065 656e756d  Generated----Typeenu
+0x00002ee0: 0000000a 45536c69 63655479 70650000 0000496d  m----ESliceType----I
+0x00003070: 67200000 0006626f 756e6473 4f626a63 00000001  mg ----boundsObjc---
+0x00003200: 00000000 00005263 74310000 00040000 0000546f  -------Rct1--------T
+0x00003390: 70206c6f 6e670000 00000000 00004c65 66746c6f  op long--------Leftl
+0x00003520: 6e670000 00000000 00004274 6f6d6c6f 6e670000  ong--------Btomlong-
+0x000036b0: 03d80000 00005267 68746c6f 6e670000 02fa0000  -------Rghtlong-----
+0x00003840: 00037572 6c544558 54000000 01000000 0000006e  ---urlTEXT----------
+0x000039d0: 756c6c54 45585400 00000100 00000000 004d7367  nullTEXT----------Ms
+0x00003b60: 65544558 54000000 01000000 00000661 6c745461  geTEXT----------altT
+0x00003cf0: 67544558 54000000 01000000 00000e63 656c6c54  agTEXT----------cell
+0x00003e80: 65787449 7348544d 4c626f6f 6c010000 00086365  TextIsHTMLbool-----c
+0x00004010: 6c6c5465 78745445 58540000 00010000 00000009  ellTextTEXT---------
+0x000041a0: 686f727a 416c6967 6e656e75 6d000000 0f45536c  -horzAlignenum----ES
+0x00004330: 69636548 6f727a41 6c69676e 00000007 64656661  liceHorzAlign----def
+0x000044c0: 756c7400 00000976 65727441 6c69676e 656e756d  ault----vertAlignenu
+0x00004650: 0000000f 45536c69 63655665 7274416c 69676e00  m----ESliceVertAlign
+0x000047e0: 00000764 65666175 6c740000 000b6267 436f6c6f  ----default----bgCol
+0x00004970: 72547970 65656e75 6d000000 1145536c 69636542  orTypeenum----ESlice
+0x00004b00: 47436f6c 6f725479 70650000 00004e6f 6e650000  BGColorType----None-
+0x00004c90: 0009746f 704f7574 7365746c 6f6e6700 00000000  ---topOutsetlong----
+0x00004e20: 00000a6c 6566744f 75747365 746c6f6e 67000000  ----leftOutsetlong--
+0x00004fb0: 00000000 0c626f74 746f6d4f 75747365 746c6f6e  ------bottomOutsetlo
+0x00005140: 67000000 00000000 0b726967 68744f75 74736574  ng--------rightOutse
+0x000052d0: 6c6f6e67 00000000 00384249 4d041100 00000000  tlong-----8BIM------
+0x00005460: 01010038 42494d04 14000000 00000400 00000238  ----8BIM------------
+0x000055f0: 42494d04 0c000000 00269100 00000100 00006300  8BIM------&--------c
+0x00005780: 00008000 00012c00 00960000 00267500 180001ff  -------,------&u----
+0x00005910: d8ffe000 104a4649 46000102 01004800 480000ff  ------JFIF-----H-H--
+0x00005aa0: ed000c41 646f6265 5f434d00 01ffee00 0e41646f  ----Adobe_CM------Ad
+0x00005c30: 62650064 80000000 01ffdb00 84000c08 08080908  obe-d---------------
+0x00005dc0: 0c09090c 110b0a0b 11150f0c 0c0f1518 13131513  --------------------
+0x00005f50: 1318110c 0c0c0c0c 0c110c0c 0c0c0c0c 0c0c0c0c  --------------------
+0x000060e0: 0c0c0c0c 0c0c0c0c 0c0c0c0c 0c0c0c0c 0c0c010d  --------------------
+0x00006270: 0b0b0d0e 0d100e0e 10140e0e 0e14140e 0e0e0e14  --------------------
+0x00006400: 110c0c0c 0c0c1111 0c0c0c0c 0c0c110c 0c0c0c0c  --------------------
+0x00006590: 0c0c0c0c 0c0c0c0c 0c0c0c0c 0c0c0c0c 0c0c0c0c  --------------------
+0x00006720: 0c0c0cff c0001108 00800063 03012200 02110103  ------------c--"----
+0x000068b0: 1101ffdd 00040007 ffc4013f 00000105 01010101  ------------?-------
+0x00006a40: 01010000 00000000 00030001 02040506 0708090a  --------------------
+0x00006bd0: 0b010001 05010101 01010100 00000000 00000100  --------------------
+0x00006d60: 02030405 06070809 0a0b1000 01040103 02040205  --------------------
+0x00006ef0: 07060805 030c3301 00021103 04211231 05415161  -------3------!-1-AQ
+0x00007080: 13227181 32061491 a1b14223 241552c1 62333472  a-"q-2-----B#$-R-b34
+0x00007210: 82d14307 259253f0 e1f16373 3516a2b2 83264493  r--C-%-S---cs5----&D
+0x000073a0: 546445c2 a3743617 d255e265 f2b384c3 d375e3f3  -TdE--t6--U-e-----u-
+0x00007530: 462794a4 85b495c4 d4e4f4a5 b5c5d5e5 f5566676  -F'---------------Vf
+0x000076c0: 8696a6b6 c6d6e6f6 37475767 778797a7 b7c7d7e7  v--------7GWgw------
+0x00007850: f7110002 02010204 04030405 06070706 05350100  ------------------5-
+0x000079e0: 02110321 31120441 51617122 13053281 9114a1b1  ----!1--AQaq"--2----
+0x00007b70: 4223c152 d1f03324 62e17282 92435315 637334f1  -B#-R--3$b-r--CS-cs4
+0x00007d00: 250616a2 b2830726 35c2d244 9354a317 64455536  -%------&5--D-T--dEU
+0x00007e90: 7465e2f2 b384c3d3 75e3f346 94a485b4 95c4d4e4  6te------u--F-------
+0x00008020: f4a5b5c5 d5e5f556 66768696 a6b6c6d6 e6f62737  --------Vfv--------'
+0x000081b0: 47576777 8797a7b7 c7ffda00 0c030100 02110311  7GWgw---------------
+0x00008340: 003f00f2 b739cf71 7bc9739c 49738992 49e49299  --?---9-q{-s-Is--I--
+0x000084d0: 7abff8a4 e93d233f a2dbf6fe 9b8d98e3 937feb17  -z----=#?-----------
+0x00008660: d22d7345 75e0fa74 87be8b2a d8efb45a fd8fc8a9  ---sEu--t---*---Z---
+0x000087f0: ff00e868 bff58b31 fadeabd0 fa1e16d3 8bf56f03  ----h---1----------o
+0x00008980: 307a7659 6018ed6b 9a19b1ac d82ac2c9 65befb77  -0zvY`--k-----*--e--
+0x00008b10: 5957a9f6 cf42bb7e c189d46e afecc929 f9ed25ee  wYW---B-~---n---)--%
+0x00008ca0: 59383d2c e5d98b89 f57fa76e 7b98715d 674f2e2d  -Y8=,-------n{-q]gO.
+0x00008e30: af2319ce e9d767d3 555eae26 3bfaae3e 751997d9  --#----g-U^-&;-->u--
+0x00008fc0: fa6c3663 5355b85f adfdbe8b 1d1ba7f4 0eac6ab9  --l6cSU-_----------j
+0x00009150: bf57b131 f1726722 83660573 f6614e2b ab65f7b4  --W-1-rg"-f-s-aN+-e-
+0x000092e0: 9c7665e4 e466fda3 1dd8ff00 6aa7ec74 5d8d6fa3  --ve--f------j--t]-o
+0x00009470: 9d4e47a0 94f917d5 4e8edeac 7ab54315 d9993474  --NG-----N---z-C---4
+0x00009600: eb6fc4a9 81ce77aa db31eb0f 6575dd8b ea3db55b  t-o----w--1--eu---=-
+0x00009790: 6fb37dbf f85731ff 00ab5bbb d07ead61 dd8dd1eb  [o-}--W1---[--~-a---
+0x00009920: 1d1ff696 45d9669e beeb2cb3 d4c30ebd d8d555f6  -----E-f---,-------U
+0x00009ab0: 4c1cac7c 8c3d98f8 b91916dd 9f89e96f 7ff3ff00  -L--|-=---------o---
+0x00009c40: e06bf45f ac7d1fa0 74ac2665 63742c0b 49b0d6f6  --k-_-}--t-&ect,-I--
+0x00009dd0: 0c1aed79 dd5da28f 42b1f66a df6fdb3e cdfa2bb2  ----y-]--B--j-o->--+
+0x00009f60: 68fb57f4 3c5fd7f2 30eab2ae 6b3a43d9 6b31feaf  -h-W-<_--0---k:C-k1-
+0x0000a0f0: 63e48c7a cdbd3c37 0b12f16e 196dcff5 fa7b5b9f  -c--z--<7---n-m---{[
+0x0000a280: 57daeaaf 3dcccbba ba3d1c8f 4ba86351 f62f5b33  -W---=----=--K-cQ-/[
+0x0000a410: eda929f3 cc8e87d3 9bf55ddd 5b13a4ba dab11deb  3--)-------]-[------
+0x0000a5a0: 3ba95b75 82ab99f6 db70aac7 66d754fc c65f46c6  -;-[u-----p--f-T--_F
+0x0000a730: 5cd6e174 1cac4fb2 fda7d4fd 728a167f d6daba6e  -\--t--O-----r------
+0x0000a8c0: 3d5d31b8 3d329c21 9b85466b ae6bf28d 8e73c595  n=]1-=2-!--Fk-k---s-
+0x0000aa50: decf4b3a c732ac7f 5eb7fa1b 597fab4d 74e45799  ---K:-2--^---Y--Mt-W
+0x0000abe0: e95fe9af 5dcbe89d 1317aaf4 fc1fd8bd 22e6e77d  --_--]-----------"--
+0x0000ad70: a249a71e 878f4df4 d957a755 86dbf23d 2c1764fa  }-I----M--W-U---=,-d
+0x0000af00: df67a2ef 5729947a 9fb3f1ae fd14e9e8 ff00562e  --g--W)-z----------V
+0x0000b090: fab6ceae ce91d383 acc2196d 7bf0e863 65d57ae1  .-----------m{--ce-z
+0x0000b220: cfa6db59 556cff00 83b3a8ec 67fdcdff 000e929f  ----YUl------g------
+0x0000b3b0: 9f525ef4 dc3fab4e aecbb1fa 174ccfc7 1656da32  --R^--?-N-----L---V-
+0x0000b540: a9ab1aba ad6dafb5 81b4dd67 a98d65b5 babafa75  2-----m-----g--e----
+0x0000b6d0: 6cfb57af 93d57f9f c5e99837 5396aef5 5fabff00  ul-W--------7S---_--
+0x0000b860: 57b0aaa6 fa7a0e15 d58b9adc 96b30996 b854e0e6  -W----z-----------T-
+0x0000b9f0: bec6578d 55991bd8 ff004ff9 9c5caff4 76fd9e87  ---W-U-----O--\--v--
+0x0000bb80: db9f8694 fcf092f7 5a707a51 6f4eaeef ab580326  ---------ZpzQoN---X-
+0x0000bd10: d966753f 63654e37 558f7e46 5e3e0fdb 2bc7c4b7  &-fu?ceN7U-~F^>--+--
+0x0000bea0: f5b6e233 0edaf3b2 abcba3ed b6b3f57c 1bf3149f  ----3-----------|---
+0x0000c030: d1f0abc5 a6c1f573 a7645afa 705d6329 c0db0fb5  --------s-dZ-p]c)---
+0x0000c1c0: f6fed181 975e3ed6 7a55d74e 1d6ffd36 1645deb7  ------^>-zU-N-o-6-E-
+0x0000c350: 59fb2e07 eb15a53e 1092f75f 4bea9fec efb57ec8  -Y-.---->---_K-----~
+0x0000c4e0: c0dff688 dffb2eef 4fd1fb77 ecdfb3ed fb1fabfb  -------.-O--w-------
+0x0000c670: 57d2fd0f d8ff009c fb77e93d 1fb17e91 2494ff00  -W--------w-=--~-$--
+0x0000c800: ffd0b5fe 28f2df4f d55be8a1 963b2b27 3ed6d0e6  -----(--O-[---;+'>--
+0x0000c990: d2eb6b61 14e24dd9 4f6ba8a6 baa9dfea fa76e563  ---ka--M-Ok-------v-
+0x0000cb20: db92cadf 5627a991 fa35d5ba cfac5631 afb06457  c----V'---5----V1--d
+0x0000ccb0: 995d62bb b1310e38 a1d2db5b 667557e7 e35bfa5f  W-]b--1-8---[fuW--[-
+0x0000ce40: 5aab7ec1 87f6db7f ef2ff6ad 785565e6 7a1c7ff8  _Z-~------/--xUe-z--
+0x0000cfd0: a6a7acd9 f57dcee9 f7d74e3b 73dff696 3c025dee  ------}----N;s---<-]
+0x0000d160: e9363b67 e8edff00 b415752a 3e933f4b 914ffc75  --6;g------u*>-?K-O-
+0x0000d2f0: 1d6d2cfa dceb286b 6c70c773 ab739d97 f6765ec6  u-m,---(klp-s-s---v^
+0x0000d480: 36f63f3e bccfb0b7 271b2322 ec667a5d 33ec3f64  -6-?>----'-#"-fz]3-?
+0x0000d610: a7ecf919 5f6ffd73 1f12cb92 99e03feb 01ea18ef  d----_o-s------?----
+0x0000d7a0: c87d8ee9 cfb1c2b7 3f6b6c7b 0e3b4d2e c9c6674e  --}------?kl{-;M.--g
+0x0000d930: f52bfd25 2fc8b5d7 e4746f43 3f26fc0f 43228a30  N-+-%/----toC?&--C"-
+0x0000dac0: 7ed9a19d 95d49b9b 4636153b 9afdaeb2 db193506  0~-------F6-;------5
+0x0000dc50: 0b19f693 f6865cd7 556d58cd b6baa87e 3bfed393  -------\-UmX----~;--
+0x0000dde0: 9789655f ab62752f 45748fda 55b2ca3a 9dbeb64b  ---e_-bu/Et--U--:---
+0x0000df70: 763c3da3 d9b1cd0c 0c16b71f 12a7dadb 69bbd7d9  Kv<=-------------i--
+0x0000e100: ff0086bd 1c0c7cbc 6e9f8b0e af57587d b8afe9d6  -------|-n----WX}---
+0x0000e290: baba9ae2 ccaad86a 0e736d2c c716b3ed 345cd6bf  --------j-sm,----4\-
+0x0000e420: 05b65bd4 3f9cfd27 d97ec7f6 5cafb5ef c54a72a9  ---[-?--'-~--\----Jr
+0x0000e5b0: eb9f5ad9 8ac75fd3 a9bf2994 8b322863 72a9e5fe  ---Z---_---)--2(cr--
+0x0000e740: 964ecb7e cd9b46fc 07b6c6fd 971efea1 91d5f1ff  --N-~--F------------
+0x0000e8d0: 00ca183e 97e83172 ec752ccf ac9464dd 071eac36  ---->--1r-u,---d----
+0x0000ea60: 57f68adf b4801b55 f47a8cc9 ea17d9f6 6aaab707  6W------U-z------j--
+0x0000ebf0: d7b739cf c3a2fc3a afff0026 7ed8b70f 2142b1f5  ---9----:---&~---!B-
+0x0000ed80: aed73b26 c75d4fa4 ec6b5d84 d6e2865c d6b6efb6  ---;&-]O--k]----\---
+0x0000ef10: 63e1dfbf 26da1f91 bb1acba9 cc77e872 a9b3130f  -c---&--------w-r---
+0x0000f0a0: ac7d92ff 00da540a 9b7eba3b 0a8b2b0d b2c38d5d  --}----T--~-;--+----
+0x0000f230: ce7dcd63 5c722bd9 8f998eec 28c27fd9 f3e873ba  ]-}-c\r+-----(-----s
+0x0000f3c0: 974e6d99 18193466 d7f66ea5 66163d9f 64a129da  --Nm---4f--n-f-=-d-)
+0x0000f550: a72f3727 a5b32998 eec7c9c8 68355360 dcea8586  --/7'--)-----h5S`---
+0x0000f6e0: 297e5d36 3f0fdf45 4f65d9d8 acbb7b36 5d8f8f6d  -)~]6?--EOe----{6]--
+0x0000f870: eff4df6e 6e3756fa c97307ab d3fd1b1f 5e4c3030  m---nn7V--s------^L0
+0x0000fa00: bcb6cadb 4598fbbd 5bb131dd 55591665 74d77eb5  0----E---[-1-UY-et-~
+0x0000fb90: 4bfaa5b4 d1d4b07d 0e9975f7 62740b9c 8fadd753  -K------}--u-bt-----
+0x0000fd20: 4b69b5d8 f6ee6b77 64d18f01 86da9fea 677d9737  SKi----kwd-------g}-
+0x0000feb0: 23d6c8af 130b2aab 3ec1f65a 725fd5f1 7d2fb0fd  7#-----*->--Zr_--}/-
+0x00010040: 9afb30d2 9837ab75 f66167df 15934fdb 72715d97  ---0--7-u-ag---O-rq]
+0x000101d0: 4d98e4d2 caebbfa7 e3e4bac3 461d3fa4 caf7e4db  -M-----------F-?----
+0x00010360: 97559f63 c6f4b231 aacffda5 fb3362dc dc81d206  --U-c---1-----3b----
+0x000104f0: 636a736f 7d2d7fa6 dadf6963 9e06e77d 9acfb0e5  -cjso}-----ic---}---
+0x00010680: e4331f77 a9663fa7 8f9b732b f4aaa3ed 5fa158f9  --3-w-f?---s+----_-X
+0x00010810: 7ff3ded1 61a3d3c6 c87e3df4 b5acf4ad c665c6ec  -----a----~=------e-
+0x000109a0: 63d3f2eb 75de866b f6615f95 5e5bed67 a7eb61d9  -c---u--k-a_-^[-g--a
+0x00010b30: 755d2eef d5e8cde8 316e7dd4 36cb19e9 dbab6c67  -u].-----1n}-6-----l
+0x00010cc0: ba03da4d 768add75 78f65b57 a8d77a37 fa35fda2  g---Mv--ux-[W--z7-5-
+0x00010e50: afd3d7fa 3b125395 81775dca e8391919 1ea63f51  -----;-S--w]--9----?
+0x00010fe0: c9c76d98 f58aab06 9b1f8b41 7574537d dfa5f4b3  Q--m--------AutS}---
+0x00011170: fed1ecea 3663bfd5 fd05bfab 575df657 7bbeb19f  -----6c------W]-W{--
+0x00011300: 5722cc8b 9956364b ebbe9c7a 181eec73 8b5d3f69  -W"---V6K---z---s-]?
+0x00011490: c4aaeab3 3d67d5d4 7fca78d5 539597fa ad96e1dd  i----=g----x-S------
+0x00011620: f6acfabf 66d7a7d4 6eea7ea0 a30a8b3d 2f4defbb  -----f---n-~----=/M-
+0x000117b0: 29869dd1 b2d6d746 0b6fb36f ed0fb4fd 9ac67db3  -)------F-o-o------}
+0x00011940: 1ff677a1 eafab77a 9ec593ff 0066efc0 ab08fa6c  ---w----z-----f-----
+0x00011ad0: ea34cb2d ea6df4bd 0bb7e1e4 1aef143b d5beafb3  l-4---m---------;---
+0x00011c60: 757fb2d7 7feabfa6 d9f68a69 fb35d762 63a522fb  -u----------i-5-bc-"
+0x00011df0: 7fd64fb3 6efd63d6 fb06fdbe 89fa7ebf a7ebecfd  ---O-n-c-------~----
+0x00011f80: 9fb7ed7f 62fd27f3 ff006aff 000dff00 33bd5ff2  -----b-'---j-----3-_
+0x00012110: 6a4ba5f5 acf4f7fa 166ef536 7a72cddb 77fa5ebf  -jK-------n-6zr--w-^
+0x000122a0: f39e9fa5 e9feb5f4 fd7f43fc 0fda7f57 49253fff  -----------C----WI%?
+0x00012430: d1b1fe28 b1ba83fe afbb2b0e f6b06366 e57a98af  ----(------+---cf-z-
+0x000125c0: dc1b7efc 6c514d4f b5ae7b31 98cbdb5d bf68fb16  ---~-lQMO--{1---]-h-
+0x00012750: 5647f83a 7d3aacc9 af23b2a3 a77d6568 d97755dd  -VG-:}:---#---}eh-wU
+0x000128e0: b77965be 9d44cb2e c8762b72 6b6e3d2d beac9c2b  --ye--D-.-v+rkn=----
+0x00012a70: f16bce6e 33fa7db4 db81faa5 ff00addb 757c3ff8  +-k-n3-}---------u|?
+0x00012c00: a8c5c8b7 a10b6acf 6e2019b9 35371dfb cb6eb5d4  -------j-n --57---n-
+0x00012d90: e0e5e33c 0a7270dc f7e2bb05 efb29fd2 7da30bed  ----<-rp---------}--
+0x00012f20: b8ff00a3 aadb2c5e a6929e73 1fa57d69 6399936e  -------,^---s--}ic--
+0x000130b0: 734deea7 2db9157a 8e733d47 b7169e98 715c71d9  nsM-----z-s=G----q\q
+0x00013240: 8f4bea66 1fda32b2 1fd36ea7 ed5939df 67e9de8e  --K-f--2---n--Y9-g--
+0x000133d0: 5eca36f0 2acda715 accec86e 5e4ee7b9 f732bf45  -^-6-*------n^N---2-
+0x00013560: b0e7b9f5 d6ca77dd b194d4e6 53eeb6c7 bfd3df67  E------w-----S------
+0x000136f0: bd54ebdd 1ddd5f1e 9a1b7369 14dc2e76 fa9b6b5e  g-T----_---si--.v--k
+0x00013880: 032dafec f635e58e fb3dceb7 66636a7d 6fcac2fb  ^-----5---=--fcj}o--
+0x00013a10: 4e0fa95d 59762a4f e89d5dec ccbbd7d9 94eb328e  -N--]Yv*O--]-------2
+0x00013ba0: 2d5f6acb 750596b6 e6633ecd 96e3dd89 6fe9317d  --_j-u----c>-----o-1
+0x00013d30: 6aeb7e5e 2e27d97d 5e935616 4657a95a 5377a662  }j-~^.'-}^-V-FW-ZSw-
+0x00013ec0: 757a7a86 7df9d90d b71b29cd 763d0d24 8a8b5d75  buzz-}-----)-v=-$--]
+0x00014050: 3fa3dec6 bab65d82 ce9d65d5 fab633ed ff006eb2  u?-----]---e---3---n
+0x000141e0: af4d9629 e553d5ac cab4e265 7d9d8dae 9348b296  --M-)-S-----e}----H-
+0x00014370: 5b497ce4 b725b606 dd4e659b eb7e33b6 fa989e95  -[I|--%---Ne--~3----
+0x00014500: 94e3fa57 dfea6663 2a36743e a76e258f 7e75cecf  ----W--fc*6t>-n%-~u-
+0x00014690: 73996300 bedaeb03 d1c5c7cc c373f17e cf539997  -s-c----------s-~-S-
+0x00014820: f65c8d99 ace9f53f 06ecdb33 70b0e9c9 ad571f56  --\-----?---3p----W-
+0x000149b0: fac0b05c 73f7e5ba cc737e7b 9d6b6cb0 633322ca  V---\s----s~{-kl-c3"
+0x00014b40: f761e359 8f84cc47 e6e43287 f4aaebf4 acc1fb56  --a-Y---G--2--------
+0x00014cd0: 45d9b6f5 1c8aaec4 4a6f63f4 ff00ac0c 762b727a  VE-------Joc-----v+r
+0x00014e60: 93af1539 aec8baa6 d348b406 96bab762 3f1331cc  z---9-----H-----b?-1
+0x00014ff0: 66ea28fe 673e97d8 fcdcfb3f 56ab1f0b 15070b13  -f-(-g>-----?V------
+0x00015180: eb6b1d49 cdcda6e6 b5b58b85 7b584b83 7a67ace6  --k-I--------{XK-zg-
+0x00015310: b8e23bd8 eb68eb8f d9fa3dec ccc7afd4 c6f65b82  ---;--h----=-------[
+0x000154a0: 2c7fab99 78f8b5d0 d736cab1 71b05b8b 8b75f73e  -,---x----6--q-[--u-
+0x00015630: b19188f6 5b717beb 6e3b7658 dc2e9cca 321b8dfa  >----[q{-n;vX-.--2--
+0x000157c0: 1b999393 fb3bf59c cc7cde8d 253838dd 3feb535d  ------;---|--%88-?-S
+0x00015950: 4b323a93 5d56d1f6 87b5b5fa a0b9bd47 7fa47ec8  ]K2:-]V---------G--~
+0x00015ae0: ca2c7d2f c8e8fe9d de852cbf ec175afc 5a7d6b31  --,}/------,---Z-Z}k
+0x00015c70: efd8ca6d efa1ccc7 76cb5f0d 16486960 710db2ea  1---m----v-_--Hi`q--
+0x00015e00: f7d5935b ada6bdd6 d35d94fa 56dbfa3b 7f4685d5  ----[-----]--V--;-F-
+0x00015f90: 3a7b3a9e 05b84fb6 ca05bb62 ea76fa8c 2d736d65  -:{:---O----b-v---sm
+0x00016120: 94bae65c caed63d9 fa3bb67a b4bff4b4 7a577a76  e---\--c--;-z----zWz
+0x000162b0: 2c7cbe87 97665bcd fd45bb2d babbba75 373ae757  v,|---f[--E-----u7:-
+0x00016440: f68aeebb 3fd37e23 72687e4b 31a8afd5 a2b6e67b  W----?-~#rh~K1------
+0x000165d0: eefb4db7 e3fd8703 a4e1f4f4 a674f4bf acedca7f  {--M----------t-----
+0x00016760: daf3ebca c53f6587 b0bf1ee9 c638765a fdb58b70  ------?e------8vZ---
+0x000168f0: db566583 aabf2719 98feadd5 d98f89f6 efb3ff00  p-Ve---'------------
+0x00016a80: 40937a7f d6a61adc dea4db26 9daf65ad acedb7d4  -@-z--------&--e----
+0x00016c10: c6b458eb 29c4a3ed 8c655fb4 69b3633a 6fda31fe  ---X-)----e_-i-c:o-1
+0x00016da0: c74d7f63 cbf5ba9a 8d5f573a 8b1f8963 7a9e456c  --M-c-----_W:---cz-E
+0x00016f30: a2ca6db7 16cbaec8 0763b36e c8c6fb5f ad8775f5  l--m------c-n---_--u
+0x000170c0: 3ff68515 54fc8aff 009ae9b8 9f6ca72f f9a552cf  -?---T--------l-/--R
+0x00017250: aa7d50e1 d38272eb c8c7fb23 b0f26b2e c9c7a5e1  --}P---r----#--k.---
+0x000173e0: d67a9ea3 70b1728d 6cd959f6 d58d6e25 5f67a6fe  --z--p-r-l-Y---n%_g-
+0x00017570: 95fd073f 1ff62a53 a1fb33eb 17d8b67e d6b3ed7e  ----?--*S--3----~---
+0x00017700: a6cf5366 3edf43ed 5eafaffd 0bfe50fd 93faafd0  ~--Sf>-C-^-----P----
+0x00017890: fb17affe 07fed424 b577657a 73e9d7ea fa91b7d4  --------$-wezs------
+0x00017a20: 3b7d3dfb 7d4dfe96 ef57ecdf a5f47d3d 9ebfeafe  -;}=-}M---W----}=---
+0x00017bb0: bfa7fad2 4929ffd2 97f8ab6f 4ccafab8 7a5e5ded  -----I)-----oL---z^]
+0x00017d40: ab232b37 2dd8d5b9 953cd81b 898f8b93 e98cba72  --#+7-----<---------
+0x00017ed0: 29df5d39 bea7a7f4 ec67fa5c 3fb654bb 0c8fa8fd  r)-]9-----g-\?-T----
+0x00018060: 2ef76537 d4ba9a72 69763b5b 53cb5f5d 163436dc  -.-e7---riv;[S-_]-46
+0x000181f0: 0a6e71b3 674c6db4 e3e562e0 b2b6578d 77da6af7  --nq-gLm---b---W-w-j
+0x00018380: f4fcdbf0 1725fe2a f168bfea 95cec96e 45b8eccf  ------%-*-h-----nE--
+0x00018510: bfed14d2 4b98fabe cf8d6beb cac569f5 32ea7d94  -----K-----k---i-2-}
+0x000186a0: 54cf471e abb26dfe 8bfd072b 3eab7aab 717eac7a  -T-G---m----+>-z-q~-
+0x00018830: 189d47d0 f529cbc8 6f55fb5d 58ec617b 81764603  z--G--)--oU-]X-a{-vF
+0x000189c0: f21f5d14 e43edfb4 66d14616 3d3fe56c db6cf47f  ---]-->--f-F-=?-l-l-
+0x00018b50: 5aa9fd4d 25362de8 7d1724d5 99916d37 e0dae163  -Z--M%6--}-$---m7---
+0x00018ce0: 2456c6d9 65f65e71 b6e461fd 99b938f9 0dead978  c$V--e-^q--a---8----
+0x00018e70: afc5cafb 5d39ff00 69affc3d d99f6f8d 9f533a73  x----]9--i--=--o--S:
+0x00019000: ac0e6be6 a7639c6b e8b2aa6c adc0b31a a1955e3b  s--k--c-k---l------^
+0x00019190: a918d4e5 b1dd33a6 6cfd059d 398cc4fd 1f4e6597  ;------3-l---9----Ne
+0x00019320: 7acabdf8 5f53b068 6b6c2e18 59d4b31f 1dacf55f  -z---_S-hkl.-Y------
+0x000194b0: 5dadb719 f88da717 2a80eb72 9f9bd3fa 7d35fd91  _]-------*--r----}5-
+0x00019640: b9377ab7 6274dbaa a3f685d8 d7642c3b 3ea974cc  --7z-bt-------d,;>-t
+0x000197d0: 8c0fb354 e3977343 5b982a75 6f2d2f6f 4cf4b32d  ----T--sC[-*uo-/oL--
+0x00019960: 6331dbb2 9cebb170 5fd2767f 92ee7e1f f93b0b1b  -c1-----p_-v---~--;-
+0x00019af0: 0eb7e225 363fe6ef d5fcec0a fa31757d 43171b22  ----%6?-------1u}C--
+0x00019c80: fc8baabe c75f6037 bb3a9b3f 4acb596b 2daf2aec  "-----_`7-:-?J-Yk--*
+0x00019e10: aaabc8c8 f5eddf8d 6ffdaeaf ed5416ae 87450f67  ---------o----T---E-
+0x00019fa0: af97e85d 764576d5 f652718d 96b1d7f5 2c9a9dbe  g---]vEv--Rq-----,--
+0x0001a130: dc8c8cba b2f2323a 8dd6e15d 7dd8d4e1 bff57a2a  -------2:---]}-----z
+0x0001a2c0: b69b732d 5d4a9fab 780f6d99 f995e03f 23219940  *--s-]J--x-m----?#!-
+0x0001a450: df901a2d b2877a9b 8d598f7d 376cf519 57f37bf1  @------z--Y-}7l--W-{
+0x0001a5e0: ea660fd9 fd0fd9fd 37ecb49f d23ea463 8bd990fa  --f------7---->-c---
+0x0001a770: 6babd16d 6e7596fa 55b69a2b bba07a3f 6a6ba96d  -k--mnu--U--+--z?jk-
+0x0001a900: efc66e56 462643ae bf23331e ecba2bbe caff00c9  m--nVF&C--#3---+----
+0x0001aa90: ccad292d 7f5331f1 ebc96626 4b98ebe9 b2a63ada  ---)--S1---f&K-----:
+0x0001ac20: d96869ba 8ab0b219 663d83ec 96613bec 3d3afab0  --hi-----f=---a;-=:-
+0x0001adb0: 6ac7c666 3bf17ecd 4d9fb3ae fb0d7377 d56e956e  -j--f;-~-M-----sw-n-
+0x0001af40: 7e43fd6d b93fa770 655b37b7 1b39b60b f1732bb8  n~C-m-?-pe[7--9---s+
+0x0001b0d0: 64333b12 eea5f6de a58ff6ca 5f4d795f a1a99f67  -d3;---------_My_---
+0x0001b260: a6caac2d f89f55f2 3a71fb45 35dd84ec b7d27d46  g------U-:q-E5-----}
+0x0001b3f0: bdd3916e 737d7a7d c3d4f4ae eb55d7ea d7fd12cd  F---ns}z}-----U-----
+0x0001b580: 9ff71157 c7ff0099 fd3ee6e7 0ea74b4e 3bb754eb  ----W----->----KN;-T
+0x0001b710: 3346cac6 65553fd3 74dc1b73 3a8b70ff 00697eb9  -3F--eU?-t--s:-p--i~
+0x0001b8a0: f687e4e5 7da3a87f 3bfa4494 d5bfeadf d53bb11b  -----}---;-D------;-
+0x0001ba30: 81916d36 5af6b30d cdc76d6e 7170a5fd 2696b297  ---m6Z-----mnqp--&--
+0x0001bbc0: 3333237e 13f0f2ef c6cacab3 2b37a6fd 9b3ff5ef  -33#~--------+7---?-
+0x0001bd50: b0579f4a d2cdfaab 85999f93 9763a066 d7b721a2  --W-J---------c-f--!
+0x0001bee0: baf76f63 594e1dcc b0b3fed3 d2ecfa6c af22bc9f  ---ocYN---------l-"-
+0x0001c070: b751d42d c3ccf5b0 2aa70d57 c5e8ff00 53e9c8a7  --Q------*--W----S--
+0x0001c200: 09829bb2 b752ea4c 82f0ee9e fb9b815f ab56d6fd  ------R-L-------_-V-
+0x0001c390: a305b5e5 6253eafe bb958b83 954e47da fec799b2  -----bS-------NG----
+0x0001c520: bb713ea6 d0fcf6b6 9f471f17 13371332 bda6a155  --q>------G---7-2---
+0x0001c6b0: 01d5e7f5 2aabaa2a cfbaabff 0068537d 2fc66e46  U----*--*-----hS}/-n
+0x0001c840: 163d5fd0 7ec9f69f d6d299d9 f543a7e3 55815bdf  F-=_-~--------C--U-[
+0x0001c9d0: 4b3158ec 8a33eb21 b4d56d79 c325ada3 198d6bac  -K1X--3-!--my-%----k
+0x0001cb60: c77d59f9 ff0067e9 8caf2597 63626666 62faf77d  --}Y---g---%-cbffb--
+0x0001ccf0: a6cf5e43 ea6f47d8 fe9edbfd 569c7c6a 32b16d6d  }--^C-oG-----V-|j2-m
+0x0001ce80: 443f1aa6 fd96afb5 371abc5c 9b2db1b8 bea61e75  mD?------7--\-------
+0x0001d010: d77ad839 98ff00a8 7a58df6b c2c89e43 7ea65246  u-z-9----zX-k---C~-R
+0x0001d1a0: 55d918d8 22ecdb6f 7bac7b28 f57231ac aaaca139  FU---"--o{-{(-r1----
+0x0001d330: 1b2cd8cc fe9f877e 47d97d2f b4e46251 6ddeb557  9-,-----~G-}/--bQm--
+0x0001d4c0: 5beb968f ab9f5631 f069ab0e 97368c67 1c7a5f8b  W[-----V1-i---6-g-z_
+0x0001d650: 6de6c638 dcf6bdbf 68c5b3ed 2d7d1937 e554fb7d  -m--8----h----}-7-T-
+0x0001d7e0: 4fd4a9c8 ea14efa3 16fcd494 defda55f d8bed3f6  }O--------------_---
+0x0001d970: 9af6fdaf ecbeafa4 fdbbbed5 fb3fecde 96ff0053  --------------?-----
+0x0001db00: d5f53f53 fb4eff00 43d7fd73 d2fb37e8 52589ff3  S--?S-N--C--s--7-RX-
+0x0001dc90: a7ea27ec efe95fa9 7fcadfcd e47fdcef e95fcdfa  ---'---_----------_-
+0x0001de20: 9ff2d7f8 1ffc0bec 8924a7ff d35fe2b4 f4d3d01b  ----------$---_-----
+0x0001dfb0: 5e559637 23edf7fa 15d6ff00 4e5b6d7d 3fa65d67  -^U-7#-------N[m}?-]
+0x0001e140: aaf754ca 6da9fd47 1fd2bb1e ea7a9fbf d0c0f53d  g--T-m--G-----z-----
+0x0001e2d0: 7c9c6c8e b4750faa 2f2ec571 baecd6d2 d1934d78  =|-l--u--/.-q------M
+0x0001e460: d90ccb21 f63f25b9 79383838 f4df4e43 7318fcda  x---!-?%-y888--NCs--
+0x0001e5f0: b2fecb4b f0afccfb 4e3fd9bf 69d3f69e 73fc4f36  ----K----N?--i---s-O
+0x0001e780: 8bfa03b1 afa2cb40 cfbb2996 41f45afa 2bc16d6d  6-------@--)-A-Z-+-m
+0x0001e910: be1db1d6 efc8f5f1 2ab1967e 931bed3f cf62d4ba  m--------*--~---?-b-
+0x0001eaa0: 3c6ea9f5 3ce260de dc56fa6e 754ea05b 507ba97f  -<n--<-`--V-nuN-[P{-
+0x0001ec30: a3fb5707 1ea367a9 bb22aaba 9359d330 3a73b22e  ---W---g--"---Y-0:s-
+0x0001edc0: 67da5f4f 4ec7f431 f2bece94 9733abf4 7b2db2dc  .g-_ON--1-----3--{--
+0x0001ef50: b666d575 58d67da7 a7dd55ad a2da1a5b 464d3637  --f-uX-}---U----[FM6
+0x0001f0e0: 29bfb1ae 6557e5d3 ebe7d191 e9b2bfd2 5dd43f65  7)---eW----------]-?
+0x0001f270: 7aea7919 3f568d7d 3f26c165 b56463d5 7d5905d6  ez-y-?V-}?&-e-dc-}Y-
+0x0001f400: e98d8cfc 7ccc7cdc fb2c7b6d b2ac4cab 711feb65  -----|-|--,{m--L-q--
+0x0001f590: 7ab763fd af22ebbd 3c37f54b 949d93f5 7f130705  ez-c--"--<7-K-------
+0x0001f720: ecc0a5b5 5948b706 8a9b8c60 d9761ba9 a31db55b  -----YH-----`-v-----
+0x0001f8b0: e96fc8ea 19184ffb 463bfec0 cc865591 91994fea  [-o----O-F;----U---O
+0x0001fa40: f6bef62d fd372bed 3d1d98fb 2ac5adb5 3b16cab6  ------7+-=---*---;--
+0x0001fbd0: 56ea1fea 6333d3a5 c367d91e fc6cac66 31ccf7b2  -V---c3---g---l-f1--
+0x0001fd60: 8f5195fd 8eec5bef 4a727a87 5dfab195 e9d9d42c  --Q----[-Jrz-]------
+0x0001fef0: d9662d77 39f8793b 195b8bfe d3d36fc1 badccff2  ,-f-w9-y;-[----o----
+0x00020080: 57dadf76 36663d5b 32fd57b2 8caf4327 f665d99e  -W--v6f=[2-W---C'-e-
+0x00020210: b9ba38fa b5d4332d b7a71b1f 934d745c ebbd6b4b  ---8---3------Mt\--k
+0x000203a0: dd564d78 76e35b63 8dceb7f5 8aba4e23 2ea72fd3  K-VMxv-[c------N#.-/
+0x00020530: c9b3ecdf ac51f67c df533038 dd7fa1b7 a91c77e3  ------Q-|-S08------w
+0x000206c0: fecfcd39 0daaaac9 6e3bedb5 db1d938f 7ef76355  ----9----n;------~-c
+0x00020850: 936e2dbd 65f99e83 2ccdc6cc fb57dbfa 5db9d97e  U-n--e---,----W--]--
+0x000209e0: afd9f432 fa8f46e8 7635b6d3 f65a863e dfb45749  ~---2--F-v5---Z->--W
+0x00020b70: 15b6bc76 64655589 bea6ee77 a58d467d f5514b6c  I---vdeU----w--F}-QK
+0x00020d00: 663b2bff 0003665e 27da9298 e0e674be adea74c6  lf;+---f^'-----t---t
+0x00020e90: d7739bd3 dd5bc9b9 c492ec6c ac9c6a1f eb7ab65f  --s---[-----l--j--z-
+0x00021020: 73db99d1 5f77e99d fa567a5e b7f39756 a88c3fab  _s---_w---Vz^---V--?
+0x000211b0: f8745758 ab231b1b 2321986c c8c57b98 5afc62de  --tWX-#--#!-l--{-Z-b
+0x00021340: 8f838793 9bd22d19 afa9ee0f f47f685d 7fa16fe8  ---------------h]--o
+0x000214d0: 332dc4c8 fb362ab7 5f57e958 a2eb9985 65173b6b  -3----6*-_W-X----e-;
+0x00021660: 4fa75308 b6cb2ef4 bec9f6dc 675981f6 bfdad9b9  kO-S---.-----gY-----
+0x000217f0: 18d6d17e 656faf33 ed79367e abfae593 c2b7eacf  ----~eo-3-y6~-------
+0x00021980: 53cbc8a7 08536e4e 05c1d96c ada59b6d 6dd97e9f  -S----SnN---l---mm-~
+0x00021b10: da400c6d cfaf39b9 b9555777 a9fac7f9 459efb31  --@-m--9--UWw----E--
+0x00021ca0: f2525353 1f37eaa6 375177a3 4dc335ce 2e9762e5  1-RSS-7--7Qw-M-5-.-b
+0x00021e30: 388b5d5e 575a7555 baca5eca b37ecfd4 f3effb35  -8-]^WZuU--^--~-----
+0x00021fc0: 7fadecc9 fb2fa5fe 0117a83b eae60f56 ab7e3bab  5-----/-----;---V-~;
+0x00022150: eab652f3 8e6863e9 f55aebeb ca7e39cc 67d9f077  ---R--hc--Z---~9-g--
+0x000222e0: e4752f43 f459794c f572337d 1b3fe52f d6283afe  w-u/C-YyL-r3}-?-/-(:
+0x00022470: 9953af3f b1a9658c a6a76662 dd5d5532 bc6637a9  --S-?--e---fb-]U2-f7
+0x00022600: e1b5ff00 68fb37a7 f68fb061 df89faee 4d1d17d1  -----h-7----a----M--
+0x00022790: b2ac7c3e a9f67c8f 5f2f6baa 8c2ab0ac eabd5719  ---|>--|-_/k--*----W
+0x00022920: b70e94db b2abada7 d5005537 57915577 0a69fb6f  -----------U7W-Uw-i-
+0x00022ab0: a34b7d3b 36efc57d 9751464f a565b6dc 94d2c46f  o-K};6--}-QFO-e-----
+0x00022c40: d5ac2e8c 3eb074da 2cab0713 1efcaadb 48b68df4  o--.->-t-,-------H--
+0x00022dd0: cdf96f6f d92d7633 2fab7dd9 16e05595 5fd9e8f5  ---oo--v3/-}---U-_--
+0x00022f60: fd4c2f46 bb506eea 5f57fa67 47b3a2e6 3723674a  --L/F-Pn-_W-gG---7#g
+0x000230f0: c76d628b 18e173d9 8f564656 2e463e4d 3e9e3fab  J-mb---s--VFV.F>M>-?
+0x00023280: 663f49bf 2b1b268c 8a7ecf91 4ffda3cd fd0d66c5  -f?I-+-&--~--O-----f
+0x00023410: ea1f56e8 6e660bb1 becbbf23 1b133709 cc163459  ---V-nf-----#--7---4
+0x000235a0: 958f8b46 1d56d38a 72b1e8c4 7e3fa1d3 f7fe8b07  Y---F-V--r---~?-----
+0x00023730: d7a2cabf e12d80eb 9f565e6f 664534d7 5371afbd  ----------V^ofE4-Sq-
+0x000238c0: f5baa2fb 7d07d995 fb51f938 d5d367a1 8f75bd3f  -----}----Q-8--g--u-
+0x00023a50: 7e532db3 ed1f6b7b 313a962e 2e7fa14d e94ec7ec  ?~S----k{1:-..--M-N-
+0x00023be0: bc0fb37d 97d2fd0f da3ed7b3 73bf9ef5 ff00697a  ----}----->--s-----i
+0x00023d70: bbb76efe 9bfa6d9f cdff0083 fe6bf469 2cff00db  z--n---m------k-i,--
+0x00023f00: 18bf62f5 7ecf97f6 7f5277fa 8377db3e d5f65fd9  ---b-~----Rw--w->--_
+0x00024090: 5bbed5eb 7abfb47f 57ff00ca 6f43f45f 6bfb0a49  -[---z---W---oC-_k--
+0x00024220: 29ffd40f f8b3ebb9 5d27a006 51457955 5b97956e  I)-------]'--QEyU[--
+0x000243b0: 4545e6ab 1b5d35f4 df572abc 8b19fb3a bab169ba  nEE---]5--W*----:--i
+0x00024540: d75dfb43 2b0596bf d065393e a7e8dfdc 3feb9e3c  --]-C+----e9>----?--
+0x000246d0: 64db8f8c ec9c6c4b 8b1d6576 31a5f4b6 bc2b5d9b  <d-----lK--ev1----+]
+0x00024860: 4d79271f 7e3b6dea 94eec9df fb3d9815 d9d45f9f  -My'-~;m------=----_
+0x000249f0: b1f8b4e4 f1ff00e2 a6eea757 416fd85c d159ea2f  ------------WAo-\-Y-
+0x00024b80: fb4b2caa db5ae63b f65d2fda 71aa77a3 90caaeb5  /-K,--Z-;-]/-q-w----
+0x00024d10: f4dd6e47 a3fcefaf 8b7d1eae 674decdd d77ac5ac  ---nG-----}--gM---z-
+0x00024ea0: 6bb17a7d 85cfac6d 6fa56c97 d8db76bd 9f6f6f48  -k-z}---mo-l---v--oo
+0x00025030: 6b7ec793 8791f69c 6ccfb0fd a70efc1c 9a33aac9  Hk~------l--------3-
+0x000251c0: c8a7a7de 94acdfad 4fc3bafa 1f83658f abd31596  ---------O-----e----
+0x00025350: 176d9bad ea18d43a ff00569a aeaea7fe ccafdd8f  --m-----:--V--------
+0x000254e0: 4665b937 e6538fd3 a8cffd5b ed65e99f 5999d4ba  -Fe-7-S-----[-e--Y--
+0x00025670: ab7069a3 d3a9d883 31b65963 458417b6 963abc7a  --pi-----1-YcE----:-
+0x00025800: fd465f88 f7facc66 6d1936d5 bf1f7ff4 3cbe9b99  z-F_----fm-6-----<--
+0x00025990: 9c2b7eb1 751c6fb0 3b3b0bd0 66664535 97542ebd  --+~-u-o-;;--ffE5-T.
+0x00025b20: 86bc8fd5 ea9b6cc6 c176065d 59b7627a f5751a28  -------l--v-]Y-bz-u-
+0x00025cb0: 67d97d4f b2fda737 f56a74ba 85bd46ab b15d898e  (g-}O---7-jt---F--]-
+0x00025e40: ec8a03ac 7650aeca d8f86d56 ba8adb56 4b365ccb  -----vP----mV---VK6\
+0x00025fd0: afd95fb7 2f0df55d f67ffb4b f694948b ad7563d3  ---_-/--]---K-----uc
+0x00026160: 195dae7d 34505d59 bb2723d4 15b1a723 1319ed73  --]-}4P]Y-'#----#---
+0x000262f0: eaa9d4b1 f653956f a4fbf229 d976cb3d 3b317ed7  s-----S-o---)-v-=;1~
+0x00026480: 6e367b3e bbf4c6d4 1d94c763 d81a7d41 63eaaab0  -n6{>-------c--}Ac--
+0x00026610: f02efd0b 6fceb30b defb71bd 1a597b31 aef5bd5a  --.--o-----q--Y{1---
+0x000267a0: 6da28bfa 6f5ba7a5 89df58fa e1c1c7be bc177ace  Zm---o[----X-------z
+0x00026930: a5965b55 98b98dff 000de95d eb36ba2e 7e23fd0a  ---[U-------]-6-.~#-
+0x00026ac0: b6b7171f f6be47da 332bbff4 9d2b06ce a1990caf  -------G-3+---+-----
+0x00026c50: ac1d71d8 16e4b3a4 e5d807a3 66363b69 7537ef6b  ---q---------f6;iu7-
+0x00026de0: b27a85b4 6536bcbf 6d5f60c7 c0a3d6a9 f7efcdcb  k-z--e6--m_`--------
+0x00026f70: 7e359859 377afd1e a4a4a3eb 2e05198f b598963b  -~5-Y7z------.------
+0x00027100: 2337eccf 1634baf2 ea1f5faa dd9f656e 5becfb3b  ;#7---4----_---en[--
+0x00027290: 3ed5f67c 6e98dccc 2cab7ed5 958f91fa 3ebf91d3  ;>--|n---,-~----->--
+0x00027420: 36ce65c3 a6d995e8 feb1556f 2ea22d83 657b9afa  -6-e-------Uo.---e{-
+0x000275b0: eb3f67fb 55b53ad6 7e86eab0 9efc8abf 4d8f45be  --?g-U-:-~-------M-E
+0x00027740: a56b32ce a9d76cbf d0c3c56b 9dbac693 7d5755b5  --k2---l----k----}WU
+0x000278d0: 9f69b30d b961feec 3b998945 75e57d93 edf56575  --i---a--;--Eu-}---e
+0x00027a60: 7c7b7ed3 4fecdf4e aa724d95 90ea3a2e 1bab6bba  u|{~-O--N-rM---:.--k
+0x00027bf0: 6e33db53 722ec70d 6fd8aaf4 cbfd46d3 9b8bfd1e  -n3-Sr.--o-----F----
+0x00027d80: bb594e25 bebe0d1f 65c7b9f9 57fd9598 d6fa494d  --YN%----e---W-----I
+0x00027f10: 8e89d49f d4b0df75 8dd96d79 17d2f66c 73434d76  M-------u--my---lsCM
+0x000280a0: 3eb6d5ba cfd1dd6d 35eca72a ec5b2fc3 fb65791f  v>------m5--*-[/--ey
+0x00028230: 66becad6 4e1fd6ee 9ada315a 598f8976 7e45228c  -f---N-----1ZY--v~E"
+0x000283c0: 6f57697b 32cb2dfd a15d4fa6 9c8beac9 c8bedf45  -oWi{2----]O--------
+0x00028550: f4635bea 5aff00f2 8feceb7f 69fecc35 bd5beb25  E-c[-Z-------i--5-[-
+0x000286e0: 47271c74 fdefaab7 b9998e61 6d20b29b 765c7171  %G'-t-------am --v\q
+0x00028870: aecfc9ca ab273a86 7a18d896 7ed1af1e ff00d6f1  q-----':-z---~------
+0x00028a00: 71fd1c5b baa2a7ad 7d621493 91d2eb16 8af2ec25  -q--[----}b---------
+0x00028b90: afbc301c 6c9fb357 47b30b22 fb3ed382 f6e561dd  %--0-l--WG--"->----a
+0x00028d20: 5d3eae7f a76fa585 4d692985 3f5dfa66 43aaae86  -]>---o--Mi)-?]-fC--
+0x00028eb0: 385b7bb0 054db9f5 30387516 bb22b6ef aecbfd2c  -8[{--M--08u--"-----
+0x00029040: 8a3129c8 bbecd91e 8bf21f5d 54e2fabf 6bc6f505  ,-1)--------]T---k--
+0x000291d0: 8ff5eb1e f65160c7 6edb29a2 cc802f60 754fbb0b  ------Q`-n-)---/`uO-
+0x00029360: 2fad3a97 0bfececd 95e3e251 b32aeb31 f16dfb55  -/-:--------Q-*-1-m-
+0x000294f0: 9fa5afec 592c45a3 eb075ab3 29dbfa5d d4e2d773  U----Y,E---Z-)--]---
+0x00029680: d969b6ab 04318c65 dfa07e37 db2fcbc8 ad8cc8fa  s-i---1-e--~7-/-----
+0x00029810: 1d3eae9b 9790ff00 b161755b bd0a2eea ba78999d  -->-------au[--.--x-
+0x000299a0: 4ace8d4e 5d98bbb3 8d6d75b8 c0fa3b88 23d638ed  -J--N]----mu---;-#-8
+0x00029b30: c8f7d5ea b37db874 66fd9edf e668cffb 0d9ebfa0  ------}-tf----h-----
+0x00029cc0: 94e27db3 eaff00ec ef5bd1c8 f47f99d9 1d43d38f  ---}------[-------C-
+0x00029e50: b77d97d6 fe8fbbfe 707db7f4 ff00ccfe d8fb77fd  --}------p}--------w
+0x00029fe0: acf4bf5f 495bfb67 d70fb37a de8e06ff 00b3fa3b  ----_I[-g---z-------
+0x0002a170: 232ffa7f aff65f5b fa3fabfb 2bd2fd3f f33ffa19  ;#/----_[-?--+--?-?-
+0x0002a300: f62fd7d2 494fffd5 2ff8a7fd b2cfab19 591d37d3  --/--IO--/-------Y-7
+0x0002a490: b594e465 17623e01 baed9d36 cc6ad961 d9e8efa6  ----e-b>----6-j-a---
+0x0002a620: bcdc7f59 d6fa74db 914df651 93e96c5e 858cfeaf  ----Y--t--M-Q--l^---
+0x0002a7b0: 19e322ba 5eeaee77 ece89a9b 6546baac abed0edd  ---"-^--w----eF-----
+0x0002a940: 98fadedc 87dd8d6d de97f82f 5d98ab80 ff0014a7  --------m---/]------
+0x0002aad0: aa0fab36 1c26b5f4 7ed122f0 1c1b6ea7 a5fb98eb  ----6-&--~-"---n----
+0x0002ac60: 99651f67 661fdbdf 94cfe916 7e8abc4b 2abbf4ab  --e-gf-------~--K*--
+0x0002adf0: aa65ff00 5d0e0873 28a5993b 4d85b7b5 963a5b75  --e--]--s(--;M----:[
+0x0002af80: cdba8f4f 1b331e8a 9f7e1bf1 2ee975fd ab2595fa  u---O-3---~--.-u--%-
+0x0002b110: 39189d4f a8eff4f3 d25256f5 1facd918 edc9a301  -9--O-----RV--------
+0x0002b2a0: b50b6ea9 d4d37407 8a1ecf51 edccdd7d 0ec47d6e  ---n---t----Q---}--}
+0x0002b430: f4bd7beb af2f231a efb46357 d233aac5 ab3b3ec6  n--{--/#---cW-3---;>
+0x0002b5c0: 63bad5b4 62b315b6 51936d86 c7da0502 aa580ee6  -c---b---Q-m------X-
+0x0002b750: e3750aec b72edbff 0044ff00 4dff00b3 1ffad64d  --u---.---D--M------
+0x0002b8e0: 1fd37a66 3ddeb574 ae3f5a1f 88fc8c6f b4d560cd  M--zf=--t-?Z----o--`
+0x0002ba70: 368c5b99 84ebbecc 69dacc4a fd1bfec9 7e3b73dc  -6-[-----i--J----~;s
+0x0002bc00: cb6c75b9 b839df63 f5e9fb4f afe8dd79 6e1d7b34  --lu--9-c---O---yn-{
+0x0002bd90: eae76354 e76c0dc5 6eac2db3 01afb5f7 66bf02e7  4--cT-l--n-------f--
+0x0002bf20: be8babea bf66d98b 6e067607 a776462e 57e8f033  ------f--n-v--vF.W--
+0x0002c0b0: 9298d6df aca37e7b 68adb90e c7787e35 a2a3617b  3------~{h----x~5--a
+0x0002c240: becb938b 40c8c775 6ccdaba5 beeeb18f 47ab774b  {----@--ul-------G-w
+0x0002c3d0: fb43fd3a edfe73f6 bae8173e ec7fad79 9d373b1f  K-C-:--s---->---y-7;
+0x0002c560: 29d5e3e4 db5d4ca9 f8d7fa40 59f4739f 87967132  -)----]L----@Y-s---q
+0x0002c6f0: ada311f5 7a7e87da 30edcfa7 33edd5fa df67fb0e  2----z~--0---3----g-
+0x0002c880: 5a9635ff 005b6cea 392e7e35 356135b5 1c765ef6  -Z-5--[l-9.~55a5--v^
+0x0002ca10: b0bf7579 975ad9c5 766be8c8 a722ce99 8592fb3e  ---uy-Z--vk---"-----
+0x0002cba0: d18f6331 b2b2f0eb fd37a292 9133a87d 7466158e  >--c1-----7---3-}tf-
+0x0002cd30: b7a6d376 57d8b7d6 2a731806 71daefb3 baab32de  ----vW---*s--q-----2
+0x0002cec0: d7e135b9 2cafd7fb 5d56efe9 d9ff00a3 fd67015b  ---5-,---]V-------g-
+0x0002d050: bb3faf50 dbf21f82 d7514bac b5b5547d 4b5f454e  [-?-P-----QK---T}K_E
+0x0002d1e0: 7d5e831a c7ff004d caabd3ea 183b2b7d 767e93a5  N}^-----M-----;+}v~-
+0x0002d370: 65fd8aef 4fa85f45 b9bf5b68 cab03ba7 6465e251  -e---O-_E--[h--;-de-
+0x0002d500: 656dacfa f86db6e0 0db8d75d c5157d92 cc5651d4  Qem---m-----]--}--VQ
+0x0002d690: bd3fd4b3 2bea967d 8ffe4efe 886e9cdf adecc6c7  --?--+--}--N--n-----
+0x0002d820: 767bab7d a6cc475a 1a6b2f0c 751551d5 29ba96d5  -v{-}--GZ-k/-u-Q-)--
+0x0002d9b0: 4d1fa3ce f5b2abb3 1f3bfc27 a95fad5e 2fecbcf4  -M--------;-'-_-^/--
+0x0002db40: a6d0bbae dfd16bb7 d0fb3754 f519ba89 ae1cd65e  -------k---7T-------
+0x0002dcd0: d6bfd43e a65558f5 65e2b37d de95d9d7 e0d577ea  ^--->-UX-e--}------w
+0x0002de60: ff006eca a2bf58dd 22ceace6 58cea54f a7e96c65  ---n---X-"---X--O--l
+0x0002dff0: 7639cc73 ec2d686d f69fb3c5 4fa9f68f 568bfd1c  ev9-s--hm----O---V--
+0x0002e180: 0b6cf53d 3b3a5e1f a1face48 3f596bb2 df470f22  --l-=;:^----H?Yk--G-
+0x0002e310: b65d65ae 7817d574 17319eb3 f1adcfbe ef4f65cc  "-]e-x--t-1-------Oe
+0x0002e4a0: dfd17f57 a30edf52 ec4ea7d1 ba67e8fa 9a9eff00  ----W---R-N---g-----
+0x0002e630: adde8f53 67a6e17f a39bfb39 ff00abb9 85e2dbbf  ----Sg------9-------
+0x0002e7c0: 646bbaa7 d391e83e bf5a9c8a 32b16ca6 ac5b5f95  -dk----->-Z--2-l--[_
+0x0002e950: 8d95f6dc 7b5299d2 dfacc7d7 b2cb321c efb38655  -----{R--------2----
+0x0002eae0: 41af1296 1baff4df ebd7732d ea3655fb 2ec764d5  UA---------s--6U-.-d
+0x0002ec70: 77af5e4d 7f65f43d 1a7aae4e 3d993d45 5967d66a  -w-^M-e-=-z-N=-=EYg-
+0x0002ee00: ecb6aa59 90f6b21d 8d916331 2d6bbd26 3e9b5997  j---Y------c1-k-&>-Y
+0x0002ef90: 55795d32 cfd7ecaf ed18b563 fa5e85f6 d36e4e75  -Uy]2-------c-^---nN
+0x0002f120: 58d6dfd2 b015577d 6caf3dd8 9e86fc71 91486e6d  uX-----W}l-=----q-Hn
+0x0002f2b0: e69b2b76 335ad195 66fc6b3a 7e4d1979 0df7d74f  m--+v3Z--f-k:~M-y---
+0x0002f440: ecac9a68 cef57f4f 660e453f 604eccfa dcdc2bf3  O---h---Of-E?`N----+
+0x0002f5d0: 5f8f8f58 a2b2f663 7a6eb326 cdb5b45b fa0c6cab  -_--X---czn-&---[--l
+0x0002f760: b1ebb599 0cbb2317 1aacdcbf b7536e3e 0d991d3a  -------#------Sn>---
+0x0002f8f0: ef573125 2bfec9be cdff006a 3ed3f67f fba9e9ed  :-W1%+------j>------
+0x0002fa80: f5ff00cf ff009c1f b37ffa9d fb77fdd7 4917ed3d  --------------w--I--
+0x0002fc10: 67f64fab 167daff6 9fa51e98 ddf64fda 3f679f4f  =g-O--}--------O-?g-
+0x0002fda0: 67f35fb2 7fc3edfe 63f5af53 fc2a4929 ffd6b1fe  Og-_-----c--S-*I)---
+0x0002ff30: 2871322e e84dc8a7 d1231fa8 ddbfd60f 71607d38  -(q2.-M---#------q`}
+0x000300c0: 7baec763 2c6d3f68 f45b7623 5f6337d4 cccb2dae  8{--c,m?h-[v#_c7----
+0x00030250: ff004bed 183d43ad c4e95f58 8518945d 995d148a  ---K--=C---_X---]-]-
+0x000303e0: c373a965 97e41710 6f6e40c6 cfc97d5d 499f6c66  --s-e----on@---}]I-l
+0x00030570: 5556d57b b2bd5e95 6e051553 f6caaeb5 79e7f8bb  fUV-{--^-n--S----y--
+0x00030700: eb3d1313 eafd98fd 43ac3ba5 d94e6db9 06a61735  --=------C-;--Nm----
+0x00030890: cf6bb198 68b99e9f f3afa6dc 3b3f4177 daf0affe  5-k--h-------;?Aw---
+0x00030a20: 8b95817d f95d3d7a 2b3ebd7d 4f7da2a1 d5f1838b  ----}-]=z+>-}O}-----
+0x00030bb0: 8b64bc35 b20dcdfe 75d156cf d56dfd26 fd9fd1bf  --d-5----u-V--m-&---
+0x00030d40: ee661fae 94ac7e95 d6bed5d3 df977536 d5d3f272  --f----~-------u6---
+0x00030ed0: 9eedceb2 cb2d65ac b59879be a6da5b46 6d4dbedc  r------e---y---[FmM-
+0x00031060: 7bf098d7 f4df4726 efb2fa1e 86163e3d 8eb9d2af  -{-----G&------>=---
+0x000311f0: cd7e264e 27a632f0 ec0fa9f6 10c20075 57d8caef  --~&N'-2--------uW--
+0x00031380: 6d17e4d7 f6b6e37e cebfd2b2 babec79b 936df4e6  -m------~---------m-
+0x00031510: 7a34e32a aefaff00 f535ac6b cf56c787 562d0012  -z4-*-----5-k-V--V--
+0x000316a0: 4ed736db 80731add edb7663d 9ba877e9 d96fa147  -N-6--s----f=--w--o-
+0x00031830: a7eb64e3 576f355e 7fd53c3b 89a3eb3d 74d15d62  G--d-Wo5^--<;---=t-]
+0x000319c0: 875751bb 79a71edc 9fb3e332 e6643bf4 58dd269c  b-WQ-y------2-d;-X-&
+0x00031b50: de9d8df6 6afd4bb2 b2a8eb3e a5fd472b a524a777  -----j-K---->--G+-$-
+0x00031ce0: 23a1fd60 c6e9d77d 8b25d7e4 86e4b2b6 3f2325cf  w#--`---}-%------?#%
+0x00031e70: 349b3372 f0e8175d 91e97da2 cdfd2f06 ccad9466  -4-3r---]--}---/----
+0x00032000: 6362fdb7 d0ea7bfe cb6e3cb3 3a1fd627 5f959546  fcb----{--n<-:--'_--
+0x00032190: 5e3df71f 58619b0d f49f4b28 3ebbf06f b28b6ef4  F^=--Xa----K(>--o--n
+0x00032320: 2ac6f43a 4e463e4f 4eaf1726 eb70aefe 8f6e6646  -*--:NF>ON--&-p---nf
+0x000324b0: 6d99b775 ff00abf7 3eba87d6 5a4d2cba ff00b538  Fm--u---->---ZM,----
+0x00032640: df7565cc c9cd0fc7 c7c7fb35 d8d6efc5 f43ecf57  8-ue--------5----->-
+0x000327d0: 506667a3 8781fa6b 30ade9fd 47d4a6ef 4afae7f5  WPfg----k0---G---J--
+0x00032960: 53170a32 7eb0579d 91e99bf2 326d3b0b cb6ba1ef  -S--2~-W-----2m;--k-
+0x00032af0: f4715ad6 d747e8ed a9b560e3 d7eafabf 68fe7f3a  --qZ--G----`-----h--
+0x00032c80: 9cf7a4a7 63a651d6 d99b9afe a37b5f8a 6e7bb018  :----c-Q------{_-n{-
+0x00032e10: c735c454 ff004f6d 7901b878 8e63f1dd 53fd0db7  --5-T--Omy--x-c--S--
+0x00032fa0: dfeccbb2 ac8fb47d 9e9c850e a785d56e ca7598d6  --------}-------n-u-
+0x00033130: cd2ec72c ada2f7e3 ba9b985d 7b2f67a7 4655597f  --.-,-------]{/g-FUY
+0x000332c0: 69b5b895 59f6bafd 3c5a28b7 f4399566 e5e25b5d  -i---Y---<Z(--9-f--[
+0x00033450: ff005ebe a7b2d351 eaf8c5c1 c1b21e1c d92696ff  ]--^----Q---------&-
+0x000335e0: 003ad9ab 67eb557e 937ecfe9 3ff70f33 d08bbebf  --:--g-U~-~--?--3---
+0x00033770: fd4d6b1a f3d5b1e1 d58b4004 93b5cdb6 e01cc6b7  --Mk-------@--------
+0x00033900: 7b6dd98f 66ea1dfa 765be851 e9fad938 d5da94ed  -{m--f---v[-Q---8---
+0x00033a90: 65fdabec b77d8bd3 fb5fa6ef b3fad3e9 fa907d2f  -e----}---_--------}
+0x00033c20: 5bd3fd27 a5ea7f39 b3dfb167 dbd33359 8b935625  /[--'---9---g--3Y--V
+0x00033db0: f635ff00 68c7bb17 d5becb25 98e31376 2bee733d  %-5--h------%---v+-s
+0x00033f40: 6c7ab33e c96d393f d3bfa4df 9967afeb bf155767  =lz->-m9?-----g----W
+0x000340d0: d7afa9ef b4543abe 3071716c 9786b641 b9bfceba  g-----T:-0qql---A---
+0x00034260: 2ad9faad bfa4dfb3 fa37fdcc c3f5e3ff 003ffea6  -*--------7-------?-
+0x000343f0: fa3eb7ed 6c7d9e12 77ff0035 f6cfe676 fabfcd7b  -->--l}--w--5---v---
+0x00034580: 3e87f4af d47fa6fe ae9294fe 95d54e05 d8aec4c0  {>-------------N----
+0x00034710: caa9fe93 6ac3c87b ce3369ad d45df63f b3b317ec  -----j--{-3i--]-?---
+0x000348a0: dfa1759d 469c5cca f0ebb3d1 c6e93f6a a32acf53  ---u-F-\-------?j-*-
+0x00034a30: d1955f56 a9af0b37 1cd4d7d7 92db41c7 f5ad60b9  S--_V---7------A---`
+0x00034bc0: cffb5d5b f3b2a8d9 eb3f2313 269aaebe cc2bf377  ---][-----?#-&----+-
+0x00034d50: d3eb64e6 754c8c7c 5c8ad1fa f5f53c16 83d5f1bd  w--d-uL-|\-----<----
+0x00034ee0: ee73443c 1d5b6331 5dbbf719 ead9b996 3fd9663f  --sD<-[c1]-------?-f
+0x00035070: a9995fea 955b7a8b febffd4d 66e9ead8 e766e9da  ?--_--[z----Mf----f-
+0x00035200: 4bbe87af bb6ec6bb 7ff44b76 6cfe77f5 5f4ffa6e  -K----n----Kvl-w-_O-
+0x00035390: 17da1292 ff00cdfc dfb17d9b f6a59bbd 4f537fd9  n----------}-----OS-
+0x00035520: f176eefb 57ed1fb4 fa3f66f4 ff00687a 7fa0fb4f  --v--W----?f---hz---
+0x000356b0: f31ebff9 43ec7f69 490bfe7f fd4dff00 cb6c7fe9  O----C--iI----M---l-
+0x00035840: 1f65e4ff 0039fbff 0047fa27 fddffe83 ff007612  --e---9---G-'------v
+0x000359d0: 494fffd9 00384249 4d042100 00000000 55000000  -IO---8BIM-!-----U--
+0x00035b60: 01010000 000f0041 0064006f 00620065 00200050  --------A-d-o-b-e- -
+0x00035cf0: 0068006f 0074006f 00730068 006f0070 00000013  P-h-o-t-o-s-h-o-p---
+0x00035e80: 00410064 006f0062 00650020 00500068 006f0074  --A-d-o-b-e- -P-h-o-
+0x00036010: 006f0073 0068006f 00700020 0037002e 00300000  t-o-s-h-o-p- -7-.-0-
+0x000361a0: 00010000                                      ----
+  Profile-xmp: 4649 bytes
+<?xpacket begin='Ôªø' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<?adobe-xap-filters esc="CR"?>
+<x:xapmeta xmlns:x='adobe:ns:meta/' x:xaptk='XMP toolkit 2.8.2-33, framework 1.5'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description about='uuid:22f88de8-401e-11e9-b40f-fcba95d80d45'
+  xmlns:xapMM='http://ns.adobe.com/xap/1.0/mm/'>
+  <xapMM:DocumentID>adobe:docid:photoshop:22f88de1-401e-11e9-b40f-fcba95d80d45</xapMM:DocumentID>
+ </rdf:Description>
+
+</rdf:RDF>
+</x:xapmeta>
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                                                                    
+                                                       
+<?xpacket end='w'?>ﬁ§€&ùØe≠¨Ì∑‘∆¥XÎ)ƒ£Ìåe_¥i≥c:o⁄1˛«McÀı∫öç_W:ãâczûEl¢ m∑ÀÆ»c≥n»∆˚_≠áuı?ˆÖT¸äˇ
+  Tainted: False
+  Version: ImageMagick 6.3.2 02/19/07 Q8 http://www.imagemagick.org
